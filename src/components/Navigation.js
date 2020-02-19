@@ -2,7 +2,13 @@ import React, { Component } from 'react'
 
 class Navigation extends Component {
     render() {
-        return <div>Navigation</div>
+        return (
+            <div>
+                <p>Lorraine Shemesh</p>
+                <p>Nav Menu</p>
+
+            </div>
+        )
     }
 }
 
