@@ -9,7 +9,6 @@ import SpaceBetweenUs from './components/pages/SpaceBetweenUs';
 const routes = (
   <Router>
     <div>
-      <Navigation />
       <Route path="/" component={Home} />
       <Route path="/spaceBetweenUs" component={SpaceBetweenUs} />
     </div>
