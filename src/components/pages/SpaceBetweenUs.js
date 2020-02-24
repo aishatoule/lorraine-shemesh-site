@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class SpaceBetweenUs extends Component {
     render() {
-        return <div>SpaceBetweenUs</div>
+        return <div>The Space Between Us</div>
     }
 }
 
