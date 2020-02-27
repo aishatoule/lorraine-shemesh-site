@@ -8,6 +8,14 @@ const NavigationMenuItems = ({ open, setOpen }) => {
     const [openPaperSubMenu, setPaperOpenSubMenu] = useState(false);
     const [openClaySubMenu, setClayOpenSubMenu] = useState(false);
 
+
+    const handleClick = () => {
+        const isMobile = window.innerWidth < 768;
+        if (isMobile) {
+            setOpen(!open)
+        }
+    }
+
     if (!open) {
         var revealMenuClass ='';
         revealMenuClass= 'hide-on-mobile';
@@ -58,35 +66,35 @@ const NavigationMenuItems = ({ open, setOpen }) => {
             <ul>
                 <li className="nav-menu-item"><button onClick={() => togglePaintSubMenu()}>Paint</button></li>
                     <ul className={`section-sub-menu ${revealPaintSubMenuItems}`}>
-                    <Link to="/spaceBetweenUs"><li className="sub-nav-menu-item">The Space Between Us</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Inside Out</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Breaking The Surface</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Liquid States</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Water-Works</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Painted Pools</li></Link>
+                    <Link to="/spaceBetweenUs" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Inside Out</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Breaking The Surface</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Liquid States</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Water-Works</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Painted Pools</li></Link>
                     </ul>
 
                 <li className="nav-menu-item"><button onClick={() => togglePaperSubMenu()}>Paper</button></li>
                     <ul className={`section-sub-menu ${revealPaperSubMenuItems}`}>
-                    <Link to="/"><li className="sub-nav-menu-item">Pools</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">The Space Between Us</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Intersections</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Objects & Food</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Pools</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Intersections</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Objects & Food</li></Link>
                     </ul>
 
                 <li className="nav-menu-item"><button onClick={() => toggleClaySubMenu()}>Clay</button></li>
                     <ul className={`section-sub-menu ${revealClaySubMenuItems}`}>
-                    <Link to="/"><li className="sub-nav-menu-item">Liquid States</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Water-Works</li></Link>
-                    <Link to="/"><li className="sub-nav-menu-item">Painted Pools</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Liquid States</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Water-Works</li></Link>
+                    <Link to="/" onClick={handleClick}><li className="sub-nav-menu-item">Painted Pools</li></Link>
                     </ul>
 
-                <Link to="/video"><li className="nav-menu-item">Video</li></Link>
-                <Link to="/news"><li className="nav-menu-item">News</li></Link>
-                <Link to="/exhibition"><li className="nav-menu-item">Exhibitions</li></Link>
-                <Link to="/biography"><li className="nav-menu-item">Biography</li></Link>
-                <Link to="/words"><li className="nav-menu-item">Words</li></Link>
-                <Link to="/contact"><li className="nav-menu-item">Contact</li></Link>
+                <Link to="/video" onClick={handleClick}><li className="nav-menu-item">Video</li></Link>
+                <Link to="/news" onClick={handleClick}><li className="nav-menu-item">News</li></Link>
+                <Link to="/exhibition" onClick={handleClick}><li className="nav-menu-item">Exhibitions</li></Link>
+                <Link to="/biography" onClick={handleClick}><li className="nav-menu-item">Biography</li></Link>
+                <Link to="/words" onClick={handleClick}><li className="nav-menu-item">Words</li></Link>
+                <Link to="/contact" onClick={handleClick}><li className="nav-menu-item">Contact</li></Link>
             </ul>
         </div>
     )
