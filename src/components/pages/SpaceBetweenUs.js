@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HomeImage from '../../images/01a. Accordion painting.jpg';
+import tsbu1 from '../../images/01a. Accordion painting.jpg';
 import tsbu2 from '../../images/01b. Accordion detail (head).jpeg';
 import tsbu3 from '../../images/01c. Accordion detail (hand).jpeg';
 import tsbu4 from '../../images/02a. Attached painting.jpg';
@@ -24,39 +24,224 @@ import tsbu21 from '../../images/10. Puzzle painting.jpg';
 class SpaceBetweenUs extends Component {
 
     render() {
+        const isMobile = window.innerWidth < 600;
+
+        const allImagesDesktopOrder = [
+            [{
+                name: tsbu1,
+                details: "image details"
+            }, 
+            {
+                name: tsbu5,
+                details: "image details"
+            },
+            {
+                name: tsbu9,
+                details: "image details"
+            },
+            {
+                name: tsbu13,
+                details: "image details"
+            },
+            {
+                name: tsbu17,
+                details: "image details"
+            },
+            {
+                name: tsbu21,
+                details: "image details"
+            }],
+            [{
+                name: tsbu2,
+                details: "image details"
+            }, 
+            {
+                name: tsbu6,
+                details: "image details"
+            },
+            {
+                name: tsbu10,
+                details: "image details"
+            },
+            {
+                name: tsbu14,
+                details: "image details"
+            },
+            {
+                name: tsbu18,
+                details: "image details"
+            }],
+            [{
+                name: tsbu3,
+                details: "image details"
+            }, 
+            {
+                name: tsbu7,
+                details: "image details"
+            },
+            {
+                name: tsbu11,
+                details: "image details"
+            },
+            {
+                name: tsbu15,
+                details: "image details"
+            },
+            {
+                name: tsbu19,
+                details: "image details"
+            }],
+            [{
+                name: tsbu4,
+                details: "image details"
+            }, 
+            {
+                name: tsbu8,
+                details: "image details"
+            },
+            {
+                name: tsbu12,
+                details: "image details"
+            },
+            {
+                name: tsbu18,
+                details: "image details"
+            },
+            {
+                name: tsbu20,
+                details: "image details"
+            }]      
+        ]
+
+        const allImagesMobileOrder = [
+            [{
+                name: tsbu1,
+                details: "image details"
+            }, 
+            {
+                name: tsbu2,
+                details: "image details"
+            },
+            {
+                name: tsbu3,
+                details: "image details"
+            },
+            {
+                name: tsbu4,
+                details: "image details"
+            },
+            {
+                name: tsbu5,
+                details: "image details"
+            },
+            {
+                name: tsbu6,
+                details: "image details"
+            }],
+            [{
+                name: tsbu7,
+                details: "image details"
+            }, 
+            {
+                name: tsbu8,
+                details: "image details"
+            },
+            {
+                name: tsbu9,
+                details: "image details"
+            },
+            {
+                name: tsbu10,
+                details: "image details"
+            },
+            {
+                name: tsbu11,
+                details: "image details"
+            }],
+            [{
+                name: tsbu12,
+                details: "image details"
+            }, 
+            {
+                name: tsbu13,
+                details: "image details"
+            },
+            {
+                name: tsbu14,
+                details: "image details"
+            },
+            {
+                name: tsbu15,
+                details: "image details"
+            },
+            {
+                name: tsbu16,
+                details: "image details"
+            }],
+            [{
+                name: tsbu17,
+                details: "image details"
+            }, 
+            {
+                name: tsbu18,
+                details: "image details"
+            },
+            {
+                name: tsbu19,
+                details: "image details"
+            },
+            {
+                name: tsbu20,
+                details: "image details"
+            },
+            {
+                name: tsbu21,
+                details: "image details"
+            }]      
+        ]
+        
+        let mappedDesktopImages = allImagesDesktopOrder.map((imageColumn, i) => {
+            return(
+                <div key={i} className="column">
+                {imageColumn.map((image, index) => {
+                    return (
+                    <div key={index}>
+                        <img src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
+                    </div>
+                    )
+                    
+                })}
+                </div>
+            )
+        })
+
+        let mappedMobileImages = allImagesMobileOrder.map((imageColumn, i) => {
+            return(
+                <div key={i} className="column">
+                {imageColumn.map((image, index) => {
+                    return (
+                    <div key={index}>
+                        <img src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
+                    </div>
+                    )
+                    
+                })}
+                </div>
+            )
+        })
+
+        // order not quite changing on mobile
+        const mappedImages = (isMobile) 
+        ? 
+        mappedMobileImages
+        :
+        mappedDesktopImages
+
         return (
             <div>
                 {/* <h3 className="page-content-title">The Space Between Us</h3> */}
                 <div className="image-grid-container">
-                    <div className="column">
-                        <img src={HomeImage} className="grid-image top-row" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu5} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu9} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu13} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu17} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu21} className="grid-image" alt="The Space Between Us exhibition"/>
-                    </div>
-                    <div className="column">
-                        <img src={tsbu2} className="grid-image top-row" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu6} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu10} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu14} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu18} className="grid-image" alt="The Space Between Us exhibition"/>
-                    </div>
-                    <div className="column">
-                        <img src={tsbu3} className="grid-image top-row" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu7} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu11} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu15} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu19} className="grid-image" alt="The Space Between Us exhibition"/>
-                    </div>
-                    <div className="column">
-                        <img src={tsbu4} className="grid-image top-row" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu8} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu12} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu16} className="grid-image" alt="The Space Between Us exhibition"/>
-                        <img src={tsbu20} className="grid-image" alt="The Space Between Us exhibition"/>
-                    </div>
+                {mappedImages}
                 </div>
             </div>
         )
