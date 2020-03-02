@@ -32,31 +32,11 @@ class SpaceBetweenUs extends Component {
                 details: "image details"
             }, 
             {
-                name: tsbu5,
+                name: tsbu4,
                 details: "image details"
             },
             {
-                name: tsbu9,
-                details: "image details"
-            },
-            {
-                name: tsbu13,
-                details: "image details"
-            },
-            {
-                name: tsbu17,
-                details: "image details"
-            },
-            {
-                name: tsbu21,
-                details: "image details"
-            }],
-            [{
-                name: tsbu2,
-                details: "image details"
-            }, 
-            {
-                name: tsbu6,
+                name: tsbu7,
                 details: "image details"
             },
             {
@@ -64,27 +44,11 @@ class SpaceBetweenUs extends Component {
                 details: "image details"
             },
             {
-                name: tsbu14,
+                name: tsbu13,
                 details: "image details"
             },
             {
-                name: tsbu18,
-                details: "image details"
-            }],
-            [{
-                name: tsbu3,
-                details: "image details"
-            }, 
-            {
-                name: tsbu7,
-                details: "image details"
-            },
-            {
-                name: tsbu11,
-                details: "image details"
-            },
-            {
-                name: tsbu15,
+                name: tsbu16,
                 details: "image details"
             },
             {
@@ -92,11 +56,43 @@ class SpaceBetweenUs extends Component {
                 details: "image details"
             }],
             [{
-                name: tsbu4,
+                name: tsbu2,
                 details: "image details"
             }, 
             {
+                name: tsbu5,
+                details: "image details"
+            },
+            {
                 name: tsbu8,
+                details: "image details"
+            },
+            {
+                name: tsbu11,
+                details: "image details"
+            },
+            {
+                name: tsbu14,
+                details: "image details"
+            },
+            {
+                name: tsbu17,
+                details: "image details"
+            },
+            {
+                name: tsbu20,
+                details: "image details"
+            }],
+            [{
+                name: tsbu3,
+                details: "image details"
+            }, 
+            {
+                name: tsbu6,
+                details: "image details"
+            },
+            {
+                name: tsbu9,
                 details: "image details"
             },
             {
@@ -104,13 +100,17 @@ class SpaceBetweenUs extends Component {
                 details: "image details"
             },
             {
+                name: tsbu15,
+                details: "image details"
+            },
+            {
                 name: tsbu18,
                 details: "image details"
             },
             {
-                name: tsbu20,
+                name: tsbu21,
                 details: "image details"
-            }]      
+            }]     
         ]
 
         const allImagesMobileOrder = [
@@ -205,11 +205,8 @@ class SpaceBetweenUs extends Component {
                 <div key={i} className="column">
                 {imageColumn.map((image, index) => {
                     return (
-                    <div key={index}>
-                        <img src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
-                    </div>
-                    )
-                    
+                        <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
+                    )                    
                 })}
                 </div>
             )
@@ -220,17 +217,13 @@ class SpaceBetweenUs extends Component {
                 <div key={i} className="column">
                 {imageColumn.map((image, index) => {
                     return (
-                    <div key={index}>
-                        <img src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
-                    </div>
-                    )
-                    
+                        <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
+                    )                   
                 })}
                 </div>
             )
         })
 
-        // order not quite changing on mobile
         const mappedImages = (isMobile) 
         ? 
         mappedMobileImages
@@ -239,9 +232,8 @@ class SpaceBetweenUs extends Component {
 
         return (
             <div>
-                {/* <h3 className="page-content-title">The Space Between Us</h3> */}
                 <div className="image-grid-container">
-                {mappedImages}
+                    {mappedImages}
                 </div>
             </div>
         )
