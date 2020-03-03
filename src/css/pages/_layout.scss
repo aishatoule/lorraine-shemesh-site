@@ -97,3 +97,16 @@ html {
 .menu-icon {
     cursor: pointer;
 }
+
+.sub-nav-menu-item .first-sub {
+    padding-top: 8px;
+}
+
+.sub-nav-menu-item .last-sub {
+    padding-bottom: 12px;
+}
+
+.section-sub-menu {
+    margin-top: -8px;
+    padding-bottom: 10px;
+}
