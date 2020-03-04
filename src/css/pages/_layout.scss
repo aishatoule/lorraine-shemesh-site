@@ -11,6 +11,28 @@ html {
     display: none;
 }
 
+.nav-menu-list{
+    padding-top: 40px;
+
+}
+
+.nav-menu-item {
+    padding: 10px 0; 
+    font-family: Trebuchet;
+    text-transform: uppercase;
+}
+
+.nav-menu-item button {
+    font-family: Trebuchet;
+    text-transform: uppercase;
+}
+
+.sub-nav-menu-item {
+    padding: 7px 10px 7px 20px;
+    font-family: Trebuchet;
+    text-transform: uppercase;
+}
+
 // mobile only
 @media screen and (max-width: 768px) {
     .navigation-header {
@@ -41,15 +63,18 @@ html {
         padding: 15px 0; 
         text-align: center;
         font-weight: 700;
+        font-size: 1.1em;
     }
 
     .nav-menu-item button {
         font-weight: 700;   
+        font-family: Trebuchet;
+        text-transform: uppercase;
     }
     
     .sub-nav-menu-item {
-        padding: 10px 10px;
         text-align: center;
+        font-size: 1em;
     }
     
 }
@@ -64,7 +89,7 @@ html {
     .site-content {
         display: flex;
         flex-direction: row;
-        padding: 80px;
+        padding: 50px;
     }
 
     .navigation-menu {
@@ -76,22 +101,15 @@ html {
         // padding-top: 98px;
         width: 100%;
     }
+
+    .nav-menu-item, 
+    .sub-nav-menu-item {
+        font-size: .9em;
+    }
 }
 
 .openHide {
     display: none;
-}
-
-.nav-menu-list{
-    padding-top: 40px;
-
-}
-.nav-menu-item {
-    padding: 15px 0; 
-}
-
-.sub-nav-menu-item {
-    padding: 10px 10px;
 }
 
 .menu-icon {
