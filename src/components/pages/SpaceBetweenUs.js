@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import tsbu1 from '../../images/01a. Accordion painting.jpg';
-import tsbu2 from '../../images/01b. Accordion detail (head).jpeg';
-import tsbu3 from '../../images/01c. Accordion detail (hand).jpeg';
-import tsbu4 from '../../images/02a. Attached painting.jpg';
-import tsbu5 from '../../images/02b. Attached detail (heads _ hands).jpg';
-import tsbu6 from '../../images/02c. Attached detail (foot).jpg';
-import tsbu7 from '../../images/03. Sway painting.jpg';
-import tsbu8 from '../../images/04a. Hinge painting.jpg';
-import tsbu9 from '../../images/04b Hinge detail (head).jpeg';
-import tsbu10 from '../../images/04c. Hinge detail (feet).jpg';
-import tsbu11 from '../../images/04d. Hinge detail (hand).jpeg';
-import tsbu12 from '../../images/05a. The Space Between Us.jpg';
-import tsbu13 from '../../images/05b. The Space Between Us detail (female head).jpg';
-import tsbu14 from '../../images/06a. Inseparable painting.jpg';
-import tsbu15 from '../../images/06b. Inseparable detail (male head).jpg';
-import tsbu16 from '../../images/06c. Inseparable detail (female hands).jpg';
-import tsbu17 from '../../images/07a. Riddle painting.jpg';
-import tsbu18 from '../../images/07b. Riddle detail (center calf _ arm).jpg';
-import tsbu19 from '../../images/08. Interlock painting.jpg';
-import tsbu20 from '../../images/09. Enclosure painting.jpg';
-import tsbu21 from '../../images/10. Puzzle painting.jpg';
+import tsbu1 from '../../images/paint-sbu/01a. Accordion painting.jpg';
+import tsbu2 from '../../images/paint-sbu/01b. Accordion detail (head).jpeg';
+import tsbu3 from '../../images/paint-sbu/01c. Accordion detail (hand).jpeg';
+import tsbu4 from '../../images/paint-sbu/02a. Attached painting.jpg';
+import tsbu5 from '../../images/paint-sbu/02b. Attached detail (heads _ hands).jpg';
+import tsbu6 from '../../images/paint-sbu/02c. Attached detail (foot).jpg';
+import tsbu7 from '../../images/paint-sbu/03. Sway painting.jpg';
+import tsbu8 from '../../images/paint-sbu/04a. Hinge painting.jpg';
+import tsbu9 from '../../images/paint-sbu/04b Hinge detail (head).jpeg';
+import tsbu10 from '../../images/paint-sbu/04c. Hinge detail (feet).jpg';
+import tsbu11 from '../../images/paint-sbu/04d. Hinge detail (hand).jpeg';
+import tsbu12 from '../../images/paint-sbu/05a. The Space Between Us.jpg';
+import tsbu13 from '../../images/paint-sbu/05b. The Space Between Us detail (female head).jpg';
+import tsbu14 from '../../images/paint-sbu/06a. Inseparable painting.jpg';
+import tsbu15 from '../../images/paint-sbu/06b. Inseparable detail (male head).jpg';
+import tsbu16 from '../../images/paint-sbu/06c. Inseparable detail (female hands).jpg';
+import tsbu17 from '../../images/paint-sbu/07a. Riddle painting.jpg';
+import tsbu18 from '../../images/paint-sbu/07b. Riddle detail (center calf _ arm).jpg';
+import tsbu19 from '../../images/paint-sbu/08. Interlock painting.jpg';
+import tsbu20 from '../../images/paint-sbu/09. Enclosure painting.jpg';
+import tsbu21 from '../../images/paint-sbu/10. Puzzle painting.jpg';
 
 class SpaceBetweenUs extends Component {
 
