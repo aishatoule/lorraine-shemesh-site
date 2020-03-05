@@ -32,7 +32,7 @@
 }
 
 
-/* Responsive layout - makes a 3 column-layout instead of four columns */
+// Responsive layout - makes a 3 column-layout instead of four columns
 @media screen and (max-width: 1350px) {
 .column {
     flex: 26%;
@@ -42,7 +42,7 @@
 
 }
 
-// Responsive layout - makes a column layout
+// Responsive layout - 1 column on mobile layout
 @media screen and (max-width: 1000px) {
 .column {
     flex: 52% 1;
@@ -63,13 +63,6 @@
     margin-top: 0px;
     }
 }
-
-// @media screen and (max-width: 768px) {
-//     .column {
-//         flex: 52% 1;
-//     padding: 0;
-//     }
-// }
 
 // Responsive layout - mobile layout 
 @media screen and (max-width: 600px) {
