@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router, useParams } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './components/pages/Home';
 import SpaceBetweenUs from './components/pages/SpaceBetweenUs';
@@ -12,6 +12,7 @@ import Biography from './components/pages/Biography';
 import Video from './components/pages/Video';
 import Words from './components/pages/Words';
 import Exhibition from './components/pages/Exhibitions';
+import IndividualImage from './components/pages/IndividualImage';
 
 const routes = (
   <Router>
@@ -27,6 +28,7 @@ const routes = (
           <Route path="/video" component={Video} />
           <Route path="/words" component={Words} />
           <Route path="/exhibition" component={Exhibition} />
+          <Route path="/:id" component={IndividualImage} />
           <Route component={NotFound} />
         </Switch> 
       </div>
@@ -35,5 +37,3 @@ const routes = (
 )
 
 export default routes;
-
-ReactDOM.render(routes, document.getElementById('root'))
