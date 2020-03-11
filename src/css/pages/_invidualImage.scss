@@ -1,3 +1,13 @@
 .individual-image-main {
-    height: 500px;
+    height: 11%;
+}
+
+.invidual-image-details {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .individual-image-main {
+        width: 100%;
+    }
 }
