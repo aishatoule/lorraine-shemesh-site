@@ -37,7 +37,6 @@ const Navigation = () => {
             <div className="hide-on-mobile">
                 <NavigationMenuItems/>
             </div>
-            
         </div>
     )
     
