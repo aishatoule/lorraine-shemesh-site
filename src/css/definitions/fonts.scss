@@ -5,26 +5,43 @@
 
 h1 {
     font-size: 31px;
+    line-height: inherit;
 }
 
 h2 {
     font-size: 22px;
+    line-height: inherit;
 }
 
 h3 {
     font-size: 18px;
+    line-height: inherit;
+}
+
+h4 {
+    font-size: 16px;
 }
 
 p {
     font-size: 16px;
+    line-height: inherit;
+    padding: 2px 0;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        padding: 1px 0;
+    }
 }
 
 h5 {
     font-size: 31px;
+    line-height: inherit;
 }
 
 b {
     font-weight: 700;
+    line-height: inherit;
 }
 
 .uppercase {
