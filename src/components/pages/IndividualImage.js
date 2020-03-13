@@ -18,19 +18,13 @@ class IndividualImage extends Component {
     }
     render() {
     const { id } = this.props.match.params;
+    console.log(this.props.location.state)
     const { imageInformation } = this.props.location.state;
     const { width } = this.state; 
     const isMobile = width <= 1000;
 
-    // const imageDetails if (isMobile) {
-    //     return (
-    //     <p></p>
-    //     )
-    // }
-
-
     return(
-        <> 
+        <div className="individual-image-content-container"> 
             <img key={imageInformation.link} src={imageInformation.name} className="individual-image-main" alt="The Space Between Us exhibition"/>
             <div className="invidual-image-details">
                 <p>{imageInformation.artistName}</p>
@@ -38,7 +32,7 @@ class IndividualImage extends Component {
                 <p>{imageInformation.dimensions}</p>
                 <p>{imageInformation.privateCollection}</p>
             </div>
-        </>
+        </div>
         
     )
 }
