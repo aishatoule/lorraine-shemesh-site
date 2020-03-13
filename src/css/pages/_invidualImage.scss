@@ -1,13 +1,20 @@
-.individual-image-main {
-    height: 11%;
+.individual-image-content-container {
+    margin: 0 auto;
 }
 
 .invidual-image-details {
     padding-top: 15px;
+    margin-bottom: 32px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .individual-image-main {
         width: 100%;
     }
+} 
+
+@media screen and (min-width: 768px) {
+    .individual-image-main {
+        height: 80vh;
+    }    
 }

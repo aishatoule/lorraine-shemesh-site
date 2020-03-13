@@ -238,7 +238,7 @@ class Home extends Component {
     render() {
         return( 
             <div className="image-container">
-                <img className="home-image" src={HomeImage} alt="home page"/>  
+                <img className="individual-image-main" src={HomeImage} alt="home page"/>  
             </div>
         )
     }
