@@ -73,10 +73,11 @@ html {
     }
     
     .sub-nav-menu-item {
+        padding: 7px 0px;
         text-align: center;
         font-size: 1em;
     }
-    
+
 }
 
 // desktop only
@@ -127,4 +128,8 @@ html {
 .section-sub-menu {
     margin-top: -8px;
     padding-bottom: 10px;
+}
+
+.active {
+    color: gray;
 }

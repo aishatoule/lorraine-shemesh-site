@@ -18,6 +18,10 @@ class IndividualImage extends Component {
     }
     render() {
     const { id } = this.props.match.params;
+    console.log(id)
+    // if(this.props.location.state == null) {
+    //     return null;
+    // }
     console.log(this.props.location.state)
     const { imageInformation } = this.props.location.state;
     const { width } = this.state; 
@@ -25,7 +29,7 @@ class IndividualImage extends Component {
 
     return(
         <div className="individual-image-content-container"> 
-            <img key={imageInformation.link} src={imageInformation.name} className="individual-image-main" alt="The Space Between Us exhibition"/>
+            <img key={id} src={imageInformation.name} className="individual-image-main" alt="The Space Between Us exhibition"/>
             <div className="invidual-image-details">
                 <p>{imageInformation.artistName}</p>
                 <p>{imageInformation.title}</p>

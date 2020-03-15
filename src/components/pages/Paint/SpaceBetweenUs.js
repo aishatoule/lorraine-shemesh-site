@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import tsbu1 from '../../images/paint-sbu/tsbu1.jpg';
-import tsbu2 from '../../images/paint-sbu/tsbu2.jpeg';
-import tsbu3 from '../../images/paint-sbu/tsbu3.jpeg';
-import tsbu4 from '../../images/paint-sbu/tsbu4.jpg';
-import tsbu5 from '../../images/paint-sbu/tsbu5.jpg';
-import tsbu6 from '../../images/paint-sbu/tsbu6.jpg';
-import tsbu7 from '../../images/paint-sbu/tsbu7.jpg';
-import tsbu8 from '../../images/paint-sbu/tsbu8.jpg';
-import tsbu9 from '../../images/paint-sbu/tsbu9.jpeg';
-import tsbu10 from '../../images/paint-sbu/tsbu10.jpg';
-import tsbu11 from '../../images/paint-sbu/tsbu11.jpeg';
-import tsbu12 from '../../images/paint-sbu/tsbu12.jpg';
-import tsbu13 from '../../images/paint-sbu/tsbu13.jpg';
-import tsbu14 from '../../images/paint-sbu/tsbu14.jpg';
-import tsbu15 from '../../images/paint-sbu/tsbu15.jpg';
-import tsbu16 from '../../images/paint-sbu/tsbu16.jpg';
-import tsbu17 from '../../images/paint-sbu/tsbu17.jpg';
-import tsbu18 from '../../images/paint-sbu/tsbu18.jpg';
-import tsbu19 from '../../images/paint-sbu/tsbu19.jpg';
-import tsbu20 from '../../images/paint-sbu/tsbu20.jpg';
-import tsbu21 from '../../images/paint-sbu/tsbu21.jpg';
+import tsbu1 from '../../../images/paint-sbu/tsbu1.jpg';
+import tsbu2 from '../../../images/paint-sbu/tsbu2.jpeg';
+import tsbu3 from '../../../images/paint-sbu/tsbu3.jpeg';
+import tsbu4 from '../../../images/paint-sbu/tsbu4.jpg';
+import tsbu5 from '../../../images/paint-sbu/tsbu5.jpg';
+import tsbu6 from '../../../images/paint-sbu/tsbu6.jpg';
+import tsbu7 from '../../../images/paint-sbu/tsbu7.jpg';
+import tsbu8 from '../../../images/paint-sbu/tsbu8.jpg';
+import tsbu9 from '../../../images/paint-sbu/tsbu9.jpeg';
+import tsbu10 from '../../../images/paint-sbu/tsbu10.jpg';
+import tsbu11 from '../../../images/paint-sbu/tsbu11.jpeg';
+import tsbu12 from '../../../images/paint-sbu/tsbu12.jpg';
+import tsbu13 from '../../../images/paint-sbu/tsbu13.jpg';
+import tsbu14 from '../../../images/paint-sbu/tsbu14.jpg';
+import tsbu15 from '../../../images/paint-sbu/tsbu15.jpg';
+import tsbu16 from '../../../images/paint-sbu/tsbu16.jpg';
+import tsbu17 from '../../../images/paint-sbu/tsbu17.jpg';
+import tsbu18 from '../../../images/paint-sbu/tsbu18.jpg';
+import tsbu19 from '../../../images/paint-sbu/tsbu19.jpg';
+import tsbu20 from '../../../images/paint-sbu/tsbu20.jpg';
+import tsbu21 from '../../../images/paint-sbu/tsbu21.jpg';
 
 class SpaceBetweenUs extends Component {
 
@@ -434,7 +434,6 @@ class SpaceBetweenUs extends Component {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
-                console.log(image)
                 return (
                     // sends to individual image 
                     <Link to={{
@@ -456,21 +455,21 @@ class SpaceBetweenUs extends Component {
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
                 return (
-                    <div>
-                    <Link to={{
-                        pathname:"/" + image.link, 
-                        state: {
-                            imageInformation: image
-                        }}
-                    }>
-                    <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
-                    </Link>
-                    <div className="invidual-image-details">
-                    <p>{image.artistName}</p>
-                    <p>{image.title}</p>
-                    <p>{image.dimensions}</p>
-                    <p>{image.privateCollection}</p>
-                </div>
+                    <div className="image-and-details-on-grid">
+                        <Link to={{
+                            pathname:"/" + image.link, 
+                            state: {
+                                imageInformation: image
+                            }}
+                        }>
+                        <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
+                        </Link>
+                        <div className="invidual-image-details">
+                        <p>{image.artistName}</p>
+                        <p>{image.title}</p>
+                        <p>{image.dimensions}</p>
+                        <p>{image.privateCollection}</p>
+                    </div>
                 </div>
                 )                   
             })}
