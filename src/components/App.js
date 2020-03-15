@@ -6,7 +6,7 @@ import '../index.scss';
 import { Route, Switch, BrowserRouter as Router, useParams } from 'react-router-dom';
 import Navigation from './Navigation'
 import Home from './pages/Home';
-import SpaceBetweenUs from './pages/SpaceBetweenUs';
+import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
 import NotFound from './pages/PageNotFound';
 import Contact from './pages/Contact';
 import News from './pages/News';
@@ -15,6 +15,11 @@ import Video from './pages/Video';
 import Words from './/pages/Words';
 import Exhibition from './pages/Exhibitions';
 import IndividualImage from './pages/IndividualImage';
+import InsideOut from './pages/Paint/InsideOut';
+import BreakingTheSurface from './pages/Paint/BreakingTheSurface';
+import liquidStates from './pages/Paint/LiquidStates';
+import WaterWorks from './pages/Paint/WaterWorks';
+import PaintedPools from './pages/Paint/PaintedPools';
 
 function App() {
   return (
@@ -25,6 +30,12 @@ function App() {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/spaceBetweenUs" component={SpaceBetweenUs} />
+                <Route path="/insideOut" component={InsideOut} />
+                <Route path="/breakingTheSurface" component={BreakingTheSurface} />
+                <Route path="/liquidStates" component={liquidStates} />
+                <Route path="/waterWorks" component={WaterWorks} />
+                <Route path="/paintedPools" component={PaintedPools} />
+                
                 <Route path="/contact" component={Contact} />
                 <Route path="/news" component={News} />
                 <Route path="/biography" component={Biography} />
