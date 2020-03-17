@@ -89,12 +89,12 @@ const NavigationMenuItems = ({ open, setOpen }) => {
                     <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Painted Pools</li></NavLink>
                     </ul>
 
-                <NavLink to="/video" activeClassName="active" onClick={handleClick}><li className="nav-menu-item">Video</li></NavLink>
-                <NavLink to="/news" activeClassName="active" onClick={handleClick}><li className="nav-menu-item">News</li></NavLink>
-                <NavLink to="/exhibition" activeClassName="active" onClick={handleClick}><li className="nav-menu-item">Exhibitions</li></NavLink>
-                <NavLink to="/biography" activeClassName="active" onClick={handleClick}><li className="nav-menu-item">Biography</li></NavLink>
-                <NavLink to="/words" activeClassName="active" onClick={handleClick}><li className="nav-menu-item">Words</li></NavLink>
-                <NavLink to="/contact" activeClassName="active" onClick={handleClick}><li className="nav-menu-item">Contact</li></NavLink>
+                <NavLink to="/video" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Video</button></li></NavLink>
+                <NavLink to="/news" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>News</button></li></NavLink>
+                <NavLink to="/exhibition" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Exhibitions</button></li></NavLink>
+                <NavLink to="/biography" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Biography</button></li></NavLink>
+                <NavLink to="/words" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Words</button></li></NavLink>
+                <NavLink to="/contact" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Contact</button></li></NavLink>
             </ul>
         </div>
     )
