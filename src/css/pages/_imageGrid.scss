@@ -33,7 +33,6 @@
     .column img {
         margin-bottom: 32px;
         vertical-align: middle;
-        width: 100%;
     }
 }
 
@@ -64,7 +63,7 @@
 
     .column img {
         vertical-align: middle;
-        width: 100%;
+        width: 87%;
     }
     .top-row {
         margin-top: 0px;
@@ -83,8 +82,25 @@
         max-width: 100%;        
     }
 
+    .column img {
+        width: 100%;
+    }
+
     .page-content-title {
         padding-left: 0px;
     }
     
+}
+
+@media screen and (min-width: 574px) {
+    .column img {
+        width: 72%;
+    }    
+}
+
+
+@media screen and (min-width: 768px) {
+    .column img {
+        width: 100%;
+    }
 }

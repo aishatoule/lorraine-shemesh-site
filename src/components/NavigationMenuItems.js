@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { bool } from 'prop-types';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavigationMenuItems = ({ open, setOpen }) => {
 
@@ -12,52 +12,52 @@ const NavigationMenuItems = ({ open, setOpen }) => {
     const handleClick = () => {
         const isMobile = window.innerWidth < 768;
         if (isMobile) {
-            setOpen(!open)
+            setOpen(!open);
         }
     }
 
     if (!open) {
-        var revealMenuClass ='';
-        revealMenuClass= 'hide-on-mobile';
+        var revealMenuClass = '';
+        revealMenuClass = 'hide-on-mobile';
     }
 
     const togglePaintSubMenu = () => {
-        setPaintOpenSubMenu(!openPaintSubMenu)
+        setPaintOpenSubMenu(!openPaintSubMenu);
         openPaperSubMenu === true && 
-            setPaperOpenSubMenu(!openPaperSubMenu)
+            setPaperOpenSubMenu(!openPaperSubMenu);
         openClaySubMenu === true &&
-            setClayOpenSubMenu(!openClaySubMenu)        
+            setClayOpenSubMenu(!openClaySubMenu);     
     }
 
     var revealPaintSubMenuItems = '';
     if(!openPaintSubMenu) {
-        revealPaintSubMenuItems = 'hide'
+        revealPaintSubMenuItems = 'hide';
     }
 
     const togglePaperSubMenu = () => {
-        setPaperOpenSubMenu(!openPaperSubMenu)
+        setPaperOpenSubMenu(!openPaperSubMenu);
         openPaintSubMenu === true &&
-            setPaintOpenSubMenu(!openPaintSubMenu)
+            setPaintOpenSubMenu(!openPaintSubMenu);
         openClaySubMenu === true &&
-            setClayOpenSubMenu(!openClaySubMenu)
+            setClayOpenSubMenu(!openClaySubMenu);
     }
 
     var revealPaperSubMenuItems = '';
     if(!openPaperSubMenu) {
-        revealPaperSubMenuItems = 'hide'
+        revealPaperSubMenuItems = 'hide';
     }
 
     const toggleClaySubMenu = () => {
-        setClayOpenSubMenu(!openClaySubMenu)
+        setClayOpenSubMenu(!openClaySubMenu);
         openPaperSubMenu === true &&
-            setPaperOpenSubMenu(!openPaperSubMenu)
+            setPaperOpenSubMenu(!openPaperSubMenu);
         openClaySubMenu === true &&
-            setPaintOpenSubMenu(!openPaintSubMenu)
+            setPaintOpenSubMenu(!openPaintSubMenu);
     }
 
     var revealClaySubMenuItems = '';
     if(!openClaySubMenu) {
-        revealClaySubMenuItems = 'hide'
+        revealClaySubMenuItems = 'hide';
     }
     
 
