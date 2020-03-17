@@ -7,10 +7,17 @@ const Navigation = () => {
     const [open, setOpen] = useState(false); 
     const isMobile = window.innerWidth < 768;
 
+    const handleLogoClick = () => {
+        const isMobile = window.innerWidth < 768;
+        if (isMobile === true && open === true) {
+            setOpen(!open);
+        }
+    }
+
     var lorraineNameLogo = isMobile 
     ? 
     <div className="lorraine-shemesh-logo">
-        <Link to="/">
+        <Link to="/" onClick={handleLogoClick}>
             <h2 className="uppercase"><b>Lorraine</b></h2>
             <h2 className="uppercase"><b>Shemesh</b></h2> 
         </Link>
@@ -22,7 +29,7 @@ const Navigation = () => {
             <h2 className="uppercase"><b>Shemesh</b></h2> 
         </Link>
     </div>
-
+    console.log(open)
     return (
         <div className="navigation-menu">
             <div className="navigation-header">

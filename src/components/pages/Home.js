@@ -140,7 +140,6 @@ class Home extends Component {
             }]     
         ]
 
-        console.log(desktopImages)
         const allImagesMobileOrder = [
             [{
                 name: tsbu1,
