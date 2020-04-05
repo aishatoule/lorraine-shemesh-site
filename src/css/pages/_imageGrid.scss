@@ -63,7 +63,7 @@
 
     .column img {
         vertical-align: middle;
-        width: 87%;
+        width: 100%;
     }
     .top-row {
         margin-top: 0px;
@@ -82,9 +82,9 @@
         max-width: 100%;        
     }
 
-    // .column img {
-    //     width: 100%;
-    // }
+    .column img {
+        width: 87%;
+    }
 
     .page-content-title {
         padding-left: 0px;
