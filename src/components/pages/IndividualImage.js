@@ -18,11 +18,6 @@ class IndividualImage extends Component {
     }
     render() {
     const { id } = this.props.match.params;
-    console.log(id)
-    // if(this.props.location.state == null) {
-    //     return null;
-    // }
-    console.log(this.props.location.state)
     const { imageInformation } = this.props.location.state;
     const { width } = this.state; 
     const isMobile = width <= 1000;

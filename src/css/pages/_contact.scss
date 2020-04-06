@@ -1,0 +1,25 @@
+.gallery-name {
+    padding-bottom: 25px;
+}
+
+.contact-container {
+    padding-top: 50px;
+}
+
+.gallery-website {
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.contact-first-row, .contact-second-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-information-container-right {
+    padding-left: 60px;
+}
+
+.gallery-information-container-left, .gallery-information-container-right {
+    padding-bottom: 60px;
+}
