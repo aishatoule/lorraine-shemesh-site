@@ -22,9 +22,14 @@ h4 {
     font-size: 16px;
 }
 
+h5 {
+    font-size: 15px;
+    line-height: inherit;
+}
+
 p {
     font-size: 16px;
-    line-height: inherit;
+    line-height: 1.4;
     padding: 2px 0;
 }
 
@@ -32,11 +37,6 @@ p {
     p {
         padding: 1px 0;
     }
-}
-
-h5 {
-    font-size: 31px;
-    line-height: inherit;
 }
 
 b {

@@ -29,7 +29,6 @@ const Navigation = () => {
             <h2 className="uppercase"><b>Shemesh</b></h2> 
         </Link>
     </div>
-    console.log(open)
     return (
         <div className="navigation-menu">
             <div className="navigation-header">
