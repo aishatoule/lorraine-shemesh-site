@@ -9,6 +9,7 @@ class IndividualImage extends Component {
     }
     componentDidMount() {
         window.addEventListener('resize', this.handleWindowSizeChange);
+        window.scrollTo(0, 0);
     }
 
     handleWindowSizeChange = () => {
