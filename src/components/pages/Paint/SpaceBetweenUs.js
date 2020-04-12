@@ -436,11 +436,13 @@ class SpaceBetweenUs extends Component {
             {imageColumn.map((image, index) => {
                 return (
                     // sends to individual image 
-                    <Link to={{
+                    <Link location={this.props.location} to={{
                         pathname:"/" + image.link, 
                         state: {
-                            imageInformation: image
+                            imageInformation: image,
+                            from: this.props.location
                         }}
+                        
                     }>
                         <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
                     </Link>
