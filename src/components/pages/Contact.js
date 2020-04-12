@@ -30,11 +30,11 @@ const Contact = () => {
             <div className="contact-address-section">
                 <div className="contact-address-container">
                     <img src={emailIcon} className="contact-type-icon" alt="email icon"/>
-                    <p className="contact-address-text">lorraine@lorraineshemesh.com</p>
+                    <p className="contact-address-text"><a href="mailto:lorraine@lorraineshemesh.com">lorraine@lorraineshemesh.com</a></p>
                 </div>
                 <div className="contact-address-container">
                     <img src={instagramIcon} className="contact-type-icon" alt="instagram icon"/>
-                    <p className="contact-address-text">@lorraine.shemesh</p>
+                    <p className="contact-address-text"><a href="https://www.instagram.com/lorraine.shemesh/" target="_blank" rel="noopener noreferrer">@lorraine.shemesh</a></p>
                 </div>
             </div>
             <div className="legal-text">
