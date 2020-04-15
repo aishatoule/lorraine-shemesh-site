@@ -1,0 +1,139 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.desktop-only {
+    display: none;
+}
+
+.lorraine-shemesh-logo {
+    cursor: pointer;
+}
+
+.nav-menu-list{
+    padding-top: 40px;
+
+}
+
+.nav-menu-item {
+    padding: 10px 0; 
+    font-family: Trebuchet;
+    text-transform: uppercase;
+}
+
+.nav-menu-item button {
+    font-family: Trebuchet;
+    text-transform: uppercase;
+}
+
+.sub-nav-menu-item {
+    padding: 7px 10px 7px 20px;
+    font-family: Trebuchet;
+    text-transform: uppercase;
+}
+
+// mobile only
+@media screen and (max-width: 768px) {
+    .navigation-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .site-content {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .page-content {
+        padding-top: 20px;
+    }
+
+    .nav-menu-list {
+        height: 100vh;
+    }
+
+    .nav-menu-item {
+        padding: 15px 0; 
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.1em;
+    }
+
+    .nav-menu-item button {
+        font-weight: 700;   
+        font-family: Trebuchet;
+        text-transform: uppercase;
+    }
+    
+    .sub-nav-menu-item {
+        padding: 7px 0px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+}
+
+// desktop only
+@media screen and (min-width: 768px) {
+    
+    .hide-on-desktop {
+        display: none;
+    }
+
+    .site-content {
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+
+    .navigation-menu {
+        min-width: 260px;
+        height: 100vh;
+    }
+
+    .page-content {
+        // padding-top: 98px;
+        width: 100%;
+    }
+
+    .nav-menu-item, 
+    .sub-nav-menu-item {
+        font-size: .9em;
+    }
+}
+
+.openHide {
+    display: none;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+.sub-nav-menu-item .first-sub {
+    padding-top: 8px;
+}
+
+.sub-nav-menu-item .last-sub {
+    padding-bottom: 12px;
+}
+
+.section-sub-menu {
+    margin-top: -8px;
+    padding-bottom: 10px;
+}
+
+.active {
+    color: gray;
+}

@@ -1,0 +1,106 @@
+.page-content-title {
+    padding-left: 16px;
+}
+
+.image-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+}
+
+/* Create 3 equal columns that sit next to each other */
+.column {
+    flex: 23%;
+    padding: 0 17px;
+    margin-bottom: 32px;
+}
+
+.image-and-details-on-grid {
+    margin-bottom: 32px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.image-and-details-on-grid {
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .column img {
+        margin-bottom: 32px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .top-row {
+        margin-top: 0px;
+    }
+}
+
+// Responsive layout - makes a 3 column-layout instead of four columns
+@media screen and (max-width: 1350px) {
+    .column {
+        flex: 26%;
+        padding: 0 16px;  
+    }
+}
+
+// Responsive layout - 1 column on mobile layout
+@media screen and (max-width: 1000px) {
+    .column {
+        flex: 52% 1;
+        padding: 0;
+    }
+
+    .page-content-title {
+        padding-left: 8px;
+    }
+
+    .column img {
+        vertical-align: middle;
+        width: 100%;
+    }
+    .top-row {
+        margin-top: 0px;
+    }
+}
+
+// Responsive layout - mobile layout 
+@media screen and (max-width: 768px) {
+    .image-grid-container {
+        padding: 0px;
+        align-items: stretch;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;        
+    }
+
+    .column img {
+        width: 87%;
+    }
+
+    .page-content-title {
+        padding-left: 0px;
+    }
+    
+}
+
+@media screen and (min-width: 574px) {
+    .column img {
+        width: 72%;
+    }    
+}
+
+
+@media screen and (min-width: 768px) {
+    .column img {
+        width: 100%;
+    }
+}
