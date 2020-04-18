@@ -18,15 +18,13 @@ const Navigation = () => {
     ? 
     <div className="lorraine-shemesh-logo">
         <Link to="/" onClick={handleLogoClick}>
-            <h2 className="uppercase"><b>Lorraine</b></h2>
-            <h2 className="uppercase"><b>Shemesh</b></h2> 
+            <h2 className="uppercase"><b>Lorraine<br />Shemesh</b></h2> 
         </Link>
     </div>
     :
     <div className="lorraine-shemesh-logo">
         <Link to="/" onClick={() => setOpen(!open)}>
-            <h2 className="uppercase"><b>Lorraine</b></h2>
-            <h2 className="uppercase"><b>Shemesh</b></h2> 
+            <h2 className="uppercase"><b>Lorraine<br />Shemesh</b></h2> 
         </Link>
     </div>
     return (
