@@ -94,7 +94,7 @@ const NavigationMenuItems = ({ open, setOpen }) => {
                 <NavLink to="/exhibition" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Exhibitions</button></li></NavLink>
                 <NavLink to="/biography" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Biography</button></li></NavLink>
                 <NavLink to="/words" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Words</button></li></NavLink>
-                <NavLink to="/contact" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Contact</button></li></NavLink>
+                <NavLink to="/contact" activeClassName="active" onClick={handleClick}><li className="nav-menu-item" style={{color: "#FFF"}}><button>Contact</button></li></NavLink>
             </ul>
         </div>
     )

@@ -28,7 +28,7 @@ class IndividualImage extends Component {
             <img key={id} src={imageInformation.name} className="individual-image-main" alt="The Space Between Us exhibition"/>
             <div className="invidual-image-details">
                 <p>{imageInformation.artistName}</p>
-                <p>{imageInformation.title}</p>
+                <p><span class="italics">{imageInformation.title}</span>, {imageInformation.year}</p>
                 <p>{imageInformation.dimensions}</p>
                 <p>{imageInformation.privateCollection}</p>
             </div>
