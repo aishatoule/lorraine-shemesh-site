@@ -84,9 +84,9 @@ const NavigationMenuItems = ({ open, setOpen }) => {
 
                 <li className="nav-menu-item"><button onClick={() => toggleClaySubMenu()}>Clay</button></li>
                     <ul className={`section-sub-menu ${revealClaySubMenuItems}`}>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Liquid States</li></NavLink>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Water-Works</li></NavLink>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Painted Pools</li></NavLink>
+                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Hand Built</li></NavLink>
+                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Wheel Thrown</li></NavLink>
+                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Slipcast</li></NavLink>
                     </ul>
 
                 <NavLink to="/video" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Video</button></li></NavLink>

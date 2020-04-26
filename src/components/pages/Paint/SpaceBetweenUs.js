@@ -77,7 +77,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu10,
                 artistName: "Lorraine Shemesh",
-                title: "Hinge – detail (feet)",
+                title: "Hinge – detail",
                 yesr: "2017",
                 dimensions: "63 1/2 x 47 1/2 in., o/c",
                 details: "04c. Hinge detail (feet).jpg",
@@ -88,7 +88,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu13,
                 artistName: "Lorraine Shemesh",
-                title: "The Space Between Us - detail (female head)",
+                title: "The Space Between Us - detail",
                 year: "2015",
                 dimensions: "64 x 64 1/2 in., o/c",
                 details: "05b. The Space Between Us detail (female head).jpg",
@@ -98,7 +98,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu16,
                 artistName: "Lorraine Shemesh",
-                title: "Inseparable - detail (female hands)",
+                title: "Inseparable - detail",
                 year: "2016",
                 dimensions: "63 x 49 1⁄2 in., o/c",
                 details: "06c. Inseparable detail (female hands).jpg",
@@ -118,7 +118,7 @@ class SpaceBetweenUs extends Component {
             [{
                 name: tsbu2,
                 artistName: "Lorraine Shemesh",
-                title: "Accordion – detail (head)",
+                title: "Accordion – detail",
                 year: "2018",
                 dimensions: "65 x 55 in., o/c",
                 details: "01b. Accordion detail (head).jpeg",
@@ -128,7 +128,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu5,
                 artistName: "Lorraine Shemesh",
-                title: "Attached - detail (heads & hands)",
+                title: "Attached - detail",
                 year: "2018",
                 dimensions: "64 x 61 1/2 in., o/c",
                 details: "02b. Attached detail (heads _ hands).jpg",
@@ -147,7 +147,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu11,
                 artistName: "Lorraine Shemesh",
-                title: "Hinge – detail (hand)",
+                title: "Hinge – detail",
                 year: "2017",
                 dimensions: "63 1/2 x 47 1/2 in., o/c",
                 details: "04d. Hinge detail (hand).jpeg",
@@ -187,7 +187,7 @@ class SpaceBetweenUs extends Component {
             [{
                 name: tsbu3,
                 artistName: "Lorraine Shemesh",
-                title: "Accordion – detail (hand)",
+                title: "Accordion – detail",
                 year: "2018",
                 dimensions: "65 x 55 in., o/c",
                 details: "01c. Accordion detail (hand).jpeg",
@@ -197,7 +197,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu6,
                 artistName: "Lorraine Shemesh",
-                title: "Attached - detail - (foot)",
+                title: "Attached - detail",
                 year: "2018",
                 dimensions: "64 x 61 1/2 in., o/c",
                 details: "02c. Attached detail (foot).jpg",
@@ -207,7 +207,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu9,
                 artistName: "Lorraine Shemesh",
-                title: "Hinge - detail (head)",
+                title: "Hinge - detail",
                 year: "2017",
                 dimensions: "63 1/2 x 47 1/2 in., o/c",
                 details: "04b Hinge detail (head).jpeg",
@@ -227,7 +227,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu15,
                 artistName: "Lorraine Shemesh",
-                title: "Inseparable - detail (male head)",
+                title: "Inseparable - detail",
                 year: "2016",
                 dimensions: "63 x 49 1⁄2 in., o/c",
                 details: "06b. Inseparable detail (male head).jpg",
@@ -237,7 +237,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu18,
                 artistName: "Lorraine Shemesh",
-                title: "Riddle - detail, (center calf and arm)",
+                title: "Riddle - detail",
                 year: "2018",
                 dimensions: "60 1⁄2 x 62 in., o/c",
                 details: "07b. Riddle detail (center calf _ arm).jpg",
@@ -272,7 +272,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu2,
                 artistName: "Lorraine Shemesh",
-                title: "Accordion – detail (head)",
+                title: "Accordion – detail",
                 year: "2018",
                 dimensions: "65 x 55 in., o/c",
                 details: "01b. Accordion detail (head).jpeg",
@@ -282,7 +282,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu3,
                 artistName: "Lorraine Shemesh",
-                title: "Accordion – detail (hand)", 
+                title: "Accordion – detail", 
                 year: "2018",
                 dimensions: "65 x 55 in., o/c",
                 details: "01c. Accordion detail (hand).jpeg",
@@ -303,7 +303,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu5,
                 artistName: "Lorraine Shemesh",
-                title: "Attached - detail (heads & hands)",
+                title: "Attached - detail",
                 year: "2018",
                 dimensions: "64 x 61 1/2 in., o/c",
                 details: "02b. Attached detail (heads _ hands).jpg",
@@ -313,7 +313,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu6,
                 artistName: "Lorraine Shemesh",
-                title: "Attached - detail - (foot)",
+                title: "Attached - detail",
                 year: "2018",
                 dimensions: "64 x 61 1/2 in., o/c",
                 details: "02c. Attached detail (foot).jpg",
@@ -342,7 +342,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu9,
                 artistName: "Lorraine Shemesh",
-                title: "Hinge - detail (head)", 
+                title: "Hinge - detail", 
                 year: "2017",
                 dimensions: "63 1/2 x 47 1/2 in., o/c",
                 details: "04b Hinge detail (head).jpeg",
@@ -352,7 +352,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu10,
                 artistName: "Lorraine Shemesh",
-                title: "Hinge – detail (feet)", 
+                title: "Hinge – detail", 
                 year: "2017",
                 dimensions: "63 1/2 x 47 1/2 in., o/c",
                 details: "04c. Hinge detail (feet).jpg",
@@ -362,7 +362,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu11,
                 artistName: "Lorraine Shemesh",
-                title: "Hinge – detail (hand)", 
+                title: "Hinge – detail", 
                 year: "2017",
                 dimensions: "63 1/2 x 47 1/2 in., o/c",
                 details: "04d. Hinge detail (hand).jpeg",
@@ -382,7 +382,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu13,
                 artistName: "Lorraine Shemesh",
-                title: "The Space Between Us - detail (female head)", 
+                title: "The Space Between Us - detail", 
                 year: "2015",
                 dimensions: "64 x 64 1/2 in., o/c",
                 details: "05b. The Space Between Us detail (female head).jpg",
@@ -402,7 +402,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu15,
                 artistName: "Lorraine Shemesh",
-                title: "Inseparable - detail (male head)", 
+                title: "Inseparable - detail", 
                 year: "2016",
                 dimensions: "63 x 49 1⁄2 in., o/c",
                 details: "06b. Inseparable detail (male head).jpg",
@@ -412,7 +412,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu16,
                 artistName: "Lorraine Shemesh",
-                title: "Inseparable - detail (female hands)", 
+                title: "Inseparable - detail", 
                 year: "2016",
                 dimensions: "63 x 49 1⁄2 in., o/c",
                 details: "06c. Inseparable detail (female hands).jpg",
@@ -432,7 +432,7 @@ class SpaceBetweenUs extends Component {
             {
                 name: tsbu18,
                 artistName: "Lorraine Shemesh",
-                title: "Riddle - detail, (center calf and arm)", 
+                title: "Riddle - detail", 
                 year: "2018",
                 dimensions: "60 1⁄2 x 62 in., o/c",
                 details: "07b. Riddle detail (center calf _ arm).jpg",
