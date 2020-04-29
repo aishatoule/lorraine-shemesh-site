@@ -49,9 +49,9 @@ const NavigationMenuItems = ({ open, setOpen }) => {
 
     const toggleClaySubMenu = () => {
         setClayOpenSubMenu(!openClaySubMenu);
-        openPaperSubMenu === true &&
+        openPaperSubMenu === true && 
             setPaperOpenSubMenu(!openPaperSubMenu);
-        openClaySubMenu === true &&
+        openPaintSubMenu === true &&
             setPaintOpenSubMenu(!openPaintSubMenu);
     }
 
@@ -76,17 +76,17 @@ const NavigationMenuItems = ({ open, setOpen }) => {
 
                 <li className="nav-menu-item"><button onClick={() => togglePaperSubMenu()}>Paper</button></li>
                     <ul className={`section-sub-menu ${revealPaperSubMenuItems}`}>
-                    <NavLink to="/" onClick={handleClick}><li className="sub-nav-menu-item">Pools</li></NavLink>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></NavLink>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Intersections</li></NavLink>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Objects & Food</li></NavLink>
+                    <NavLink to="/paperPools" onClick={handleClick}><li className="sub-nav-menu-item">Pools</li></NavLink>
+                    <NavLink to="/paperSpaceBetweenUs" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></NavLink>
+                    <NavLink to="/paperIntersections" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Intersections</li></NavLink>
+                    <NavLink to="/paperObjectsFood" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Objects & Food</li></NavLink>
                     </ul>
 
                 <li className="nav-menu-item"><button onClick={() => toggleClaySubMenu()}>Clay</button></li>
                     <ul className={`section-sub-menu ${revealClaySubMenuItems}`}>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Hand Built</li></NavLink>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Wheel Thrown</li></NavLink>
-                    <NavLink to="/" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Slipcast</li></NavLink>
+                    <NavLink to="/clayHandBuilt" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Hand Built</li></NavLink>
+                    <NavLink to="/clayWheelThrown" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Wheel Thrown</li></NavLink>
+                    <NavLink to="/claySlipcast" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Slipcast</li></NavLink>
                     </ul>
 
                 <NavLink to="/video" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Video</button></li></NavLink>

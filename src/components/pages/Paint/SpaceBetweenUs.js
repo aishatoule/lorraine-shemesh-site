@@ -119,7 +119,7 @@ class SpaceBetweenUs extends Component {
                     artistName: "Lorraine Shemesh",
                     title: "The Space Between Us",
                     year: "2015",
-                    dimensions: "64 x 64 1/2 in., o/c",
+                    dimensions: "64 x 64 1/4 in., o/c",
                     details: "05a. The Space Between Us.jpg",
                     link: "tsbu12",
                     privateCollection: ""
@@ -194,7 +194,7 @@ class SpaceBetweenUs extends Component {
                     artistName: "Lorraine Shemesh",
                     title: "Interlock",
                     year: "2017",
-                    dimensions: "53 x 45 in., 0/c",
+                    dimensions: "52 x 45 in., 0/c",
                     details: "08. Interlock painting.jpg",
                     link: "tsbu19",
                     privateCollection: ""
@@ -381,7 +381,7 @@ class SpaceBetweenUs extends Component {
                 artistName: "Lorraine Shemesh",
                 title: "The Space Between Us", 
                 year: "2015",
-                dimensions: "64 x 64 1/2 in., o/c",
+                dimensions: "64 x 64 1/4 in., o/c",
                 details: "05a. The Space Between Us.jpg",
                 link: "tsbu12",
                 privateCollection: ""
@@ -391,7 +391,7 @@ class SpaceBetweenUs extends Component {
                 artistName: "Lorraine Shemesh",
                 title: "The Space Between Us - detail", 
                 year: "2015",
-                dimensions: "64 x 64 1/2 in., o/c",
+                dimensions: "64 x 64 1/4 in., o/c",
                 details: "05b. The Space Between Us detail (female head).jpg",
                 link: "tsbu13",
                 privateCollection: ""
@@ -451,7 +451,7 @@ class SpaceBetweenUs extends Component {
                 artistName: "Lorraine Shemesh",
                 title: "Interlock", 
                 year: "2017",
-                dimensions: "53 x 45 in., 0/c",
+                dimensions: "52 x 45 in., 0/c",
                 details: "08. Interlock painting.jpg",
                 link: "tsbu19",
                 privateCollection: ""
