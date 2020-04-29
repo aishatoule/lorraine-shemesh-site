@@ -7,18 +7,24 @@
     padding-bottom: 25px;
 }
 
+.exhibition-year-group {
+    display: flex;
+    flex-direction: row;
+}
+
 .exhibition-container {
     padding-bottom: 25px;
 }
 
 .exhibition-year {
     padding-bottom: 15px;
+    padding-right: 25px;
     font-size: 18px;
 }
 
 .exhibition-name {
     font-size: 16px;
-    text-decoration: underline;
+    font-weight: 600;
 }
 
 .exhibition-gallery-name {
@@ -27,5 +33,4 @@
 
 .exhibition-dates {
     font-size: 16px;
-    font-style: italic;
 }

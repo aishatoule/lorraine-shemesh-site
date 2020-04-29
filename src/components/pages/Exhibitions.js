@@ -5,40 +5,52 @@ const Exhibitions = () => {
         <div>
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Solo Exhibitions</b></p>
-                <div className="exhibition-container">
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2019</b></p>
-                    <p className="exhibition-name">The Space Between Us</p>
-                    <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
-                    <p className="exhibition-dates">September 12 — October 16, 2019</p>
+                    <div className="exhibition-content-right">
+                        <div className="exhibition-container">
+                            <p className="exhibition-name"><b>The Space Between Us</b></p>
+                            <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
+                            <p className="exhibition-dates">September 12 - October 16, 2019</p>
+                        </div>
+                        <div className="exhibition-container">
+                        <p className="exhibition-name"><b>The Space Between Us</b></p>
+                            <p className="exhibition-gallery-name"><b>Gerald Peters Projects</b>, Santa Fe, New Mexico</p>
+                            <p className="exhibition-dates">May 7 - June 10, 2016</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="exhibition-container">
-                    <p className="exhibition-name">The Space Between Us</p>
-                    <p className="exhibition-gallery-name"><b>Gerald Peters Projects</b>, Santa Fe, New Mexico</p>
-                    <p className="exhibition-dates">May 7 - June 10, 2016</p>
-                </div>
-                <div className="exhibition-container">
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2016</b></p>
-                    <p className="exhibition-name">Inside Out</p>
-                    <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
-                    <p className="exhibition-dates">May 7 — June 10, 2016</p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Inside Out</p>
+                        <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
+                        <p className="exhibition-dates">May 7 - June 10, 2016</p>
+                    </div>
                 </div>
-                <div className="exhibition-container">
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2009</b></p>
-                    <p className="exhibition-name">INTERSECTIONS</p>
-                    <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
-                    <p className="exhibition-dates">February 28 - April 18, 2009</p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">INTERSECTIONS</p>
+                        <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
+                        <p className="exhibition-dates">February 28 - April 18, 2009</p>
+                    </div>
                 </div>
-                <div className="exhibition-container">
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2006</b></p>
-                    <p className="exhibition-name">Breaking the Surface</p>
-                    <p className="exhibition-gallery-name"><b>Butler Institute of American Art</b>, Youngstown, Ohio</p>
-                    <p className="exhibition-dates">February 26 — April 9, 2006</p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Breaking the Surface</p>
+                        <p className="exhibition-gallery-name"><b>Butler Institute of American Art</b>, Youngstown, Ohio</p>
+                        <p className="exhibition-dates">February 26 - April 9, 2006</p>
+                    </div>
                 </div>
-                <div className="exhibition-container">
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2004</b></p>
-                    <p className="exhibition-name">Liquid States – Paintings and Drawings</p>
-                    <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
-                    <p className="exhibition-dates">May 1 - June 11, 2004</p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Liquid States – Paintings and Drawings</p>
+                        <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
+                        <p className="exhibition-dates">May 1 - June 11, 2004</p>
+                    </div>
                 </div>
                 <div className="exhibition-container">
                     <p className="exhibition-year"><b>2000</b></p>
@@ -294,7 +306,7 @@ const Exhibitions = () => {
                 <div className="exhibition-container">
                     <p className="exhibition-name">Fire and Form</p>
                     <p className="exhibition-gallery-name"><b>Artspace</b>, Burgstein, Austria</p>
-                    <p className="exhibition-dates">July 21- August 14,1999</p>
+                    <p className="exhibition-dates">July 21 - August 14,1999</p>
                 </div>
                 <div className="exhibition-container">
                     <p className="exhibition-year"><b>1995</b></p>
