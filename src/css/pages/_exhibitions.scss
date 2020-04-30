@@ -14,12 +14,13 @@
 
 .exhibition-container {
     padding-bottom: 25px;
+    padding-left: 15px;
 }
 
 .exhibition-year {
     padding-bottom: 15px;
-    padding-right: 25px;
     font-size: 18px;
+    width:90px;
 }
 
 .exhibition-name {
@@ -29,6 +30,7 @@
 
 .exhibition-gallery-name {
     font-size: 16px;
+    max-width: 400px;
 }
 
 .exhibition-dates {
