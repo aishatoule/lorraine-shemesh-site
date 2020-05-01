@@ -21,12 +21,13 @@ import tsbu18 from '../../images/paint-sbu/tsbu18.jpg';
 import tsbu19 from '../../images/paint-sbu/tsbu19.jpg';
 import tsbu20 from '../../images/paint-sbu/tsbu20.jpg';
 import tsbu21 from '../../images/paint-sbu/tsbu21.jpg';
+import jigsaw from '../../images/paint-sbu/5 Jigsaw painting.jpeg';
 import { bindActionCreators } from 'redux';
 import * as imageActions from '../../redux/actions/imageActions';
 import HomeImage from '../../images/paint-sbu/tsbu1.jpg';
 
 
-class Home extends Component {
+class HomeAlternate extends Component {
     componentDidMount() {
 
         const { actions } = this.props;
@@ -148,7 +149,7 @@ class Home extends Component {
     render() {
         return( 
             <div className="image-container">
-                <img className="individual-image-main" src={HomeImage} alt="home page"/>  
+                <img className="individual-image-main" src={jigsaw} alt="home page"/>  
             </div>
         )
     }
@@ -163,4 +164,4 @@ function mapDispatchToProps(dispatch) {
     };
 }
 
-export default connect(mapDispatchToProps)(Home);
+export default connect(mapDispatchToProps)(HomeAlternate);

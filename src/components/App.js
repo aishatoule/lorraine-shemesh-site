@@ -20,6 +20,7 @@ import BreakingTheSurface from './pages/Paint/BreakingTheSurface';
 import liquidStates from './pages/Paint/LiquidStates';
 import WaterWorks from './pages/Paint/WaterWorks';
 import PaintedPools from './pages/Paint/PaintedPools';
+import HomeAlternate from './pages/HomeTest2';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <div className="page-content">
               <Switch>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/homeAlternate" component={HomeAlternate} />
                 <Route path="/spaceBetweenUs" component={SpaceBetweenUs} />
                 <Route path="/insideOut" component={InsideOut} />
                 <Route path="/breakingTheSurface" component={BreakingTheSurface} />
