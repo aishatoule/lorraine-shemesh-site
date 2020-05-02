@@ -9,14 +9,14 @@ const Exhibitions = () => {
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name"><b>The Space Between Us</b></p>
+                            <p className="exhibition-name">The Space Between Us</p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
                             <p className="exhibition-dates">September 12 - October 16, 2019</p>
                         </div>
                         <div className="exhibition-container">
-                        <p className="exhibition-name"><b>The Space Between Us</b></p>
+                        <p className="exhibition-name">The Space Between Us</p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Projects</b>, Santa Fe, New Mexico</p>
-                            <p className="exhibition-dates">May 7 - June 10, 2016</p>
+                            <p className="exhibition-dates">June 21 - August 17, 2019</p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Exhibitions = () => {
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2009</b></p>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">INTERSECTIONS</p>
+                        <p className="exhibition-name">Intersections - Paintings</p>
                         <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
                         <p className="exhibition-dates">February 28 - April 18, 2009</p>
                     </div>
@@ -56,6 +56,14 @@ const Exhibitions = () => {
                     <p className="exhibition-year"><b>2000</b></p>
                     <div className="exhibition-container">
                         <p className="exhibition-name">Water-Works</p>
+                        <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
+                        <p className="exhibition-dates">April 29 - June 9, 2000</p>
+                    </div>
+                </div>
+                <div className="exhibition-year-group">
+                    <p className="exhibition-year"><b>1995</b></p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Painted Pools</p>
                         <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
                         <p className="exhibition-dates">April 29 - May 27, 1995</p>
                     </div>
@@ -157,7 +165,7 @@ const Exhibitions = () => {
                     
                         <div className="exhibition-container">
                             <p className="exhibition-name">Art Market San Francisco</p>
-                            <p className="exhibition-gallery-name"><b>Gerald Peters Gallery & Spanierman Modern</b>, Fort Mason Center for Arts & Culture, San Francisco, California</p>
+                            <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, Fort Mason Center for Arts & Culture, San Francisco, California</p>
                             <p className="exhibition-dates">April 27 - 30, 2017</p>
                         </div>
                         <div className="exhibition-container">
@@ -170,10 +178,17 @@ const Exhibitions = () => {
 
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2015</b></p>
-                    <div className="exhibition-container">
-                        <p className="exhibition-name">The Depth of The Surface</p>
-                        <p className="exhibition-gallery-name"><b>National Academy of Design Museum</b>, New York, New York</p>
-                        <p className="exhibition-dates">June 4 - August 23, 2015</p>
+                    <div className="exhibition-content-right">
+                        <div className="exhibition-container">
+                            <p className="exhibition-name">The Depth of The Surface</p>
+                            <p className="exhibition-gallery-name"><b>National Academy of Design Museum</b>, New York, New York</p>
+                            <p className="exhibition-dates">June 4 - August 23, 2015</p>
+                        </div>
+                        <div className="exhibition-container">
+                            <p className="exhibition-name">The Armory Show</p>
+                            <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
+                            <p className="exhibition-dates">March 5 - 8, 2015</p>
+                        </div>
                     </div>
                 </div>
 
@@ -323,7 +338,7 @@ const Exhibitions = () => {
                         </div>
                         <div className="exhibition-container">
                             <p className="exhibition-name">The Art Show</p>
-                            <p className="exhibition-gallery-name"><b>Seventh Regiment Armor</b>, New York, New York</p>
+                            <p className="exhibition-gallery-name"><b>Seventh Regiment Armory</b>, New York, New York</p>
                             <p className="exhibition-dates">February 20 - 24, 2003</p>
                         </div>
                         <div className="exhibition-container">
@@ -440,7 +455,7 @@ const Exhibitions = () => {
                     <p className="exhibition-year"><b>1984</b></p>
                     <div className="exhibition-container">
                         <p className="exhibition-name">Painting New York- Invitational</p>
-                        <p className="exhibition-gallery-name"><b>Arnot Art Museum</b>, New York, New York</p>
+                        <p className="exhibition-gallery-name"><b>Museum of the City of New York</b>, New York, New York</p>
                         <p className="exhibition-dates">October 4, 1983 - April 1, 1984</p>
                     </div>
                 </div>
@@ -526,7 +541,7 @@ const Exhibitions = () => {
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
                             <p className="exhibition-name">Collectors Collect Contemporary</p>
-                            <p className="exhibition-gallery-name"><b>Institute of Contemporary Art</b> Boston, Massachusetts</p>
+                            <p className="exhibition-gallery-name"><b>Institute of Contemporary Art</b>, Boston, Massachusetts</p>
                             <p className="exhibition-dates">June 1 - July 9, 1977</p>
                         </div>
                         <div className="exhibition-container">
@@ -553,11 +568,6 @@ const Exhibitions = () => {
                             <p className="exhibition-name">RISD Faculty</p>
                             <p className="exhibition-gallery-name"><b>Bell Gallery</b>, Brown University, Providence, Rhode Island</p>
                             <p className="exhibition-dates">March 12 - 28, 1976</p>
-                        </div>
-                        <div className="exhibition-container">
-                            <p className="exhibition-name">RISD Faculty Exhibition</p>
-                            <p className="exhibition-gallery-name"><b>Museum of the Rhode Island School of Design</b>, Providence, Rhode Island</p>
-                            <p className="exhibition-dates">February 3 - March 2, 1977</p>
                         </div>
                     </div>
                 </div>
@@ -622,8 +632,8 @@ const Exhibitions = () => {
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>1970</b></p>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Tanglewood Gallery</p>
-                        <p className="exhibition-gallery-name"><b>Hera Gallery</b>, Lenox, Massachusetts</p>
+                        <p className="exhibition-name">Group Exhibit</p>
+                        <p className="exhibition-gallery-name"><b>Tanglewood Gallery</b>, Lenox, Massachusetts</p>
                         <p className="exhibition-dates">July 5 - 28, 1970</p>
                     </div>
                 </div>
