@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-address-container">
                     <img src={instagramIcon} className="contact-type-icon" alt="instagram icon"/>
-                    <p className="contact-address-text"><a href="https://www.instagram.com/lorraine.shemesh/" target="_blank" rel="noopener noreferrer">@lorraine.shemesh</a></p>
+                    <p className="contact-address-text"><a href="https://www.instagram.com/lorraine.shemesh/" target="_blank" rel="noopener noreferrer">Instagram: @lorraine.shemesh</a></p>
                 </div>
             </div>
             <div className="legal-text">
