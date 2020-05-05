@@ -9,7 +9,6 @@ import Home from './pages/Home';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
 import NotFound from './pages/PageNotFound';
 import Contact from './pages/Contact';
-import News from './pages/News';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
 import Words from './/pages/Words';
@@ -39,7 +38,6 @@ function App() {
                 <Route path="/paintedPools" component={PaintedPools} />
                 
                 <Route path="/contact" component={Contact} />
-                <Route path="/news" component={News} />
                 <Route path="/biography" component={Biography} />
                 <Route path="/video" component={Video} />
                 <Route path="/words" component={Words} />
