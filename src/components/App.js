@@ -7,9 +7,9 @@ import { Route, Switch, BrowserRouter as Router, useParams } from 'react-router-
 import Navigation from './Navigation'
 import Home from './pages/Home';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
+import Intersections from './pages/Paint/Intersections';
 import NotFound from './pages/PageNotFound';
 import Contact from './pages/Contact';
-import News from './pages/News';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
 import Words from './/pages/Words';
@@ -32,6 +32,7 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/homeAlternate" component={HomeAlternate} />
                 <Route path="/spaceBetweenUs" component={SpaceBetweenUs} />
+                <Route path="/intersections" component={Intersections} />
                 <Route path="/insideOut" component={InsideOut} />
                 <Route path="/breakingTheSurface" component={BreakingTheSurface} />
                 <Route path="/liquidStates" component={liquidStates} />
@@ -39,7 +40,6 @@ function App() {
                 <Route path="/paintedPools" component={PaintedPools} />
                 
                 <Route path="/contact" component={Contact} />
-                <Route path="/news" component={News} />
                 <Route path="/biography" component={Biography} />
                 <Route path="/video" component={Video} />
                 <Route path="/words" component={Words} />

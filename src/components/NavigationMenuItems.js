@@ -67,6 +67,7 @@ const NavigationMenuItems = ({ open, setOpen }) => {
                 <li className="nav-menu-item"><button onClick={() => togglePaintSubMenu()}>Paint</button></li>
                     <ul className={`section-sub-menu ${revealPaintSubMenuItems}`}>
                     <NavLink to="/spaceBetweenUs" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></NavLink>
+                    <NavLink to="/intersections" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Intersections</li></NavLink>
                     <NavLink to="/insideOut" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Inside Out</li></NavLink>
                     <NavLink to="/breakingTheSurface" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Breaking The Surface</li></NavLink>
                     <NavLink to="/liquidStates" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Liquid States</li></NavLink>
@@ -90,7 +91,6 @@ const NavigationMenuItems = ({ open, setOpen }) => {
                     </ul>
 
                 <NavLink to="/video" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Video</button></li></NavLink>
-                <NavLink to="/news" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>News</button></li></NavLink>
                 <NavLink to="/exhibition" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Exhibitions</button></li></NavLink>
                 <NavLink to="/biography" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Biography</button></li></NavLink>
                 <NavLink to="/words" activeClassName="active" onClick={handleClick}><li className="nav-menu-item"><button>Words</button></li></NavLink>

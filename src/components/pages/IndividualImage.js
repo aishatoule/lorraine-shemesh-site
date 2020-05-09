@@ -25,10 +25,10 @@ class IndividualImage extends Component {
 
     return(
         <div className="individual-image-content-container"> 
-            <img key={id} src={imageInformation.name} className="individual-image-main" alt="The Space Between Us exhibition"/>
+            <img key={id} src={imageInformation.name} className="individual-image-main" alt={imageInformation.title}/>
             <div className="invidual-image-details">
                 <p>{imageInformation.artistName}</p>
-                <p><span class="italics">{imageInformation.title}</span>, {imageInformation.year}</p>
+                <p><span class="italics">{imageInformation.title}</span>{imageInformation.year !== undefined && ", " + imageInformation.year}</p>
                 <p>{imageInformation.dimensions}</p>
                 <p>{imageInformation.privateCollection}</p>
             </div>
