@@ -7,6 +7,7 @@ import { Route, Switch, BrowserRouter as Router, useParams } from 'react-router-
 import Navigation from './Navigation'
 import Home from './pages/Home';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
+import Intersections from './pages/Paint/Intersections';
 import NotFound from './pages/PageNotFound';
 import Contact from './pages/Contact';
 import Biography from './pages/Biography';
@@ -31,6 +32,7 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/homeAlternate" component={HomeAlternate} />
                 <Route path="/spaceBetweenUs" component={SpaceBetweenUs} />
+                <Route path="/intersections" component={Intersections} />
                 <Route path="/insideOut" component={InsideOut} />
                 <Route path="/breakingTheSurface" component={BreakingTheSurface} />
                 <Route path="/liquidStates" component={liquidStates} />
