@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import exhibitionTopImage from '../../images/exhibitions/IMG_20190926_162143 2.jpg';
 
 const Exhibitions = () => {
     return (
         <div>
+            <div className="image-section">
+                <img className="exhibition-image" src={exhibitionTopImage} alt="exhibition"/>
+            </div>
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Solo Exhibitions</b></p>
                 <div className="exhibition-year-group">
