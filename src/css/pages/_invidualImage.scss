@@ -15,7 +15,8 @@
 
 @media screen and (min-width: 574px) {
     .individual-image-main {
-        height: 80vh; 
-        width: auto;   
+        max-height: 80vh; 
+        max-width: 100%;
+        width: auto;
     }    
 }
