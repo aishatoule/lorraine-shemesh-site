@@ -1,7 +1,5 @@
 // import '../components/App';
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import './index.scss';
 import '../index.scss';
 import { Route, Switch, BrowserRouter as Router, useParams } from 'react-router-dom';
 import Navigation from './Navigation'
@@ -44,6 +42,8 @@ function App() {
                 <Route path="/video" component={Video} />
                 <Route path="/words" component={Words} />
                 <Route path="/exhibition" component={Exhibition} />
+                {/* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} /> */}
+
                 <Route path="/:id" component={IndividualImage} />
                 <Route component={NotFound} />
               </Switch> 
