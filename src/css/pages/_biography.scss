@@ -1,0 +1,46 @@
+.biography-image {
+    height: 600px;
+    padding-bottom: 50px;
+}
+
+.biography-section-type {
+    padding-bottom: 40px;
+}
+
+.biography-type-title {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.biography-year-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.biography-container {
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+.biography-year {
+    padding-bottom: 15px;
+    font-size: 16px;
+    width: 85px;
+}
+
+.biography-container p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+    .biography-container {
+        max-width: 241px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .biography-image {
+        width: 89vw;
+        height: auto;
+    }
+}
