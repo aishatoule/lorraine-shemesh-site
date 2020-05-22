@@ -20,17 +20,17 @@ class IndividualImage extends Component {
     }
 
     getNewIndex = (index) => {
-        const { imageInformation } = this.props.location.state;
-        console.log("index before", this.state.currentImageIndex)
-        var currIndex = index;
-        if (index === imageInformation.length-1) {
-            currIndex=0;
-        } else {
-            currIndex++;
-        }
-        console.log("index after", currIndex)
+        // const { imageInformation } = this.props.location.state;
+        // console.log("index before", this.state.currentImageIndex)
+        // var currIndex = index;
+        // if (index === imageInformation.length-1) {
+        //     currIndex=0;
+        // } else {
+        //     currIndex++;
+        // }
+        // console.log("index after", currIndex)
         this.setState({
-            currentImageIndex: currIndex
+            currentImageIndex: index
         })
     }
 
@@ -52,15 +52,15 @@ class IndividualImage extends Component {
         const isMobile = width <= 1000;
 
         console.log(imageInformation.length)
-        var thumbnailImageList =  imageInformation.slice(1);
+        // var thumbnailImageList =  imageInformation.slice(1);
 
-        var thumbnailImages = thumbnailImageList.map((image, i) => {
+        var thumbnailImages = imageInformation.map((image, i) => {
             // each thumbnail is a button that onClick, the image index increases (getNewIndex gets called)
             var copiedArray =[...imageInformation];
             console.log("starting length", copiedArray.length);
 
             // removes 1 element at index 0
-            var testSlice = copiedArray.splice(i, 1)
+            // var testSlice = copiedArray.splice(i, 1)
 
             // copied array returns one less element
             console.log("copiedArray", copiedArray);
