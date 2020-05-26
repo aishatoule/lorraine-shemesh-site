@@ -273,7 +273,7 @@ class Intersections extends Component {
                 privateCollection: ""
             },
             {
-                name: checkmateDetail1,
+                name: lockDetail1,
                 artistName: "Lorraine Shemesh",
                 title: "Lock - detail",
                 /*year: "2009",*/
