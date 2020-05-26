@@ -3,15 +3,15 @@
     display: inline-block;
 }
 
-.invidual-image-details {
+.individual-image-details {
     padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.image-detail-text {
+    padding-top: 10px;
 }
 .thumbnail-section {
     display: flex;
-    
 }
 
 @media screen and (max-width: 768px) {
@@ -22,13 +22,14 @@
 
 @media screen and (min-width: 574px) {
     .individual-image-main {
-        max-height: 80vh; 
+        max-height: 75vh; 
         max-width: 100%;
         width: auto;
     }    
 }
 
-.thumnail-image {
-    height: 100px;
-    margin: 0 0 0 10px
+.thumbnail-image {
+    height: 82px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
 }

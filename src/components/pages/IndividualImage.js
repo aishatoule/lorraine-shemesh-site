@@ -51,38 +51,36 @@ class IndividualImage extends Component {
         const { width } = this.state; 
         const isMobile = width <= 1000;
 
-        console.log(imageInformation.length)
+        // console.log(imageInformation.length)
         // var thumbnailImageList =  imageInformation.slice(1);
 
         var thumbnailImages = imageInformation.map((image, i) => {
             // each thumbnail is a button that onClick, the image index increases (getNewIndex gets called)
             var copiedArray =[...imageInformation];
-            console.log("starting length", copiedArray.length);
 
             // removes 1 element at index 0
             // var testSlice = copiedArray.splice(i, 1)
 
             // copied array returns one less element
-            console.log("copiedArray", copiedArray);
-            console.log("imageInformation", imageInformation);            
+        
             return (
                 <div key={i} onClick={() => this.getNewIndex(i)}>
-                    <img className="thumnail-image" src={image.name} alt="painting"/>
+                    <img className="thumbnail-image" src={image.name} alt="painting"/>
                 </div>
             )
         })
         return(
             <div className="individual-image-content-container"> 
                 <img key={id} src={imageInformation[this.state.currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
-                <div className="invidual-image-details">
+                <div className="individual-image-details">
+                    <div className="thumbnail-section">
+                        {thumbnailImages}
+                    </div>
                     <div className="image-detail-text">
                         <p>{imageInformation[0].artistName}</p>
                         <p><span className="italics">{imageInformation[0].title}</span>{imageInformation[0].year !== undefined && ", " + imageInformation[0].year}</p>
                         <p>{imageInformation[0].dimensions}</p>
                         <p>{imageInformation[0].privateCollection}</p>
-                    </div>
-                    <div className="thumbnail-section">
-                    {thumbnailImages}
                     </div>
                 </div>
             </div>
