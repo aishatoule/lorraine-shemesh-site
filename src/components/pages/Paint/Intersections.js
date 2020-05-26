@@ -38,127 +38,139 @@ class Intersections extends Component {
     render() {
         const allImagesDesktopOrder = [
             [/*COLUMN 1*/
-                {
-                    name: zipper,
-                    artistName: "Lorraine Shemesh",
-                    title: "Zipper",
-                    /*year: "2008",*/
-                    dimensions: "78 1/4 x 48 1/4 in., o/c",
-                    link: "int9",
-                    privateCollection: ""
-                },/*
-                {
-                    name: zipperDetail1,
-                    artistName: "Lorraine Shemesh",
-                    title: "Zipper - detail",
-                    year: "2008",
-                    dimensions: "78 1/4 x 48 1/4 in., o/c",
-                    link: "int10",
-                    privateCollection: ""
-                },
-                {
-                    name: zipperDetail2,
-                    artistName: "Lorraine Shemesh",
-                    title: "Zipper - detail",
-                    year: "2008",
-                    dimensions: "78 1/4 x 48 1/4 in., o/c",
-                    link: "int11",
-                    privateCollection: ""
-                },*/
-                {
-                    name: checkmate,
-                    artistName: "Lorraine Shemesh",
-                    title: "Checkmate",
-                    /*year: "2008",*/
-                    dimensions: "35 1/4 x 79 3/4 in., o/c",
-                    link: "int12",
-                    privateCollection: ""
-                },/*
-                {
-                    name: checkmateDetail1,
-                    artistName: "Lorraine Shemesh",
-                    title: "Checkmate - detail",
-                    year: "2008",
-                    dimensions: "35 1/4 x 79 3/4 in., o/c",
-                    link: "int13",
-                    privateCollection: ""
-                },*/
-                {
-                    name: lock,
-                    artistName: "Lorraine Shemesh",
-                    title: "Lock",
-                    /*year: "2009",*/
-                    dimensions: "46 3/4 x 78 1/4 in., o/c",
-                    link: "int14",
-                    privateCollection: ""
-                }/*
-                {
-                    name: checkmateDetail1,
-                    artistName: "Lorraine Shemesh",
-                    title: "Lock - detail",
-                    year: "2009",
-                    dimensions: "46 3/4 x 78 1/4 in., o/c",
-                    link: "int15",
-                    privateCollection: ""
-                },*/
+                [
+                    {
+                        name: zipper,
+                        artistName: "Lorraine Shemesh",
+                        title: "Zipper",
+                        /*year: "2008",*/
+                        dimensions: "78 1/4 x 48 1/4 in., o/c",
+                        link: "int9",
+                        privateCollection: ""
+                    },
+                    {
+                        name: zipperDetail1,
+                        artistName: "Lorraine Shemesh",
+                        title: "Zipper - detail",
+                        year: "2008",
+                        dimensions: "78 1/4 x 48 1/4 in., o/c",
+                        link: "int10",
+                        privateCollection: ""
+                    },
+                    {
+                        name: zipperDetail2,
+                        artistName: "Lorraine Shemesh",
+                        title: "Zipper - detail",
+                        year: "2008",
+                        dimensions: "78 1/4 x 48 1/4 in., o/c",
+                        link: "int11",
+                        privateCollection: ""
+                    }
+                ],
+                [
+                    {
+                        name: checkmate,
+                        artistName: "Lorraine Shemesh",
+                        title: "Checkmate",
+                        /*year: "2008",*/
+                        dimensions: "35 1/4 x 79 3/4 in., o/c",
+                        link: "int12",
+                        privateCollection: ""
+                    },
+                    {
+                        name: checkmateDetail1,
+                        artistName: "Lorraine Shemesh",
+                        title: "Checkmate - detail",
+                        year: "2008",
+                        dimensions: "35 1/4 x 79 3/4 in., o/c",
+                        link: "int13",
+                        privateCollection: ""
+                    }
+                ],
+                [
+                    {
+                        name: lock,
+                        artistName: "Lorraine Shemesh",
+                        title: "Lock",
+                        /*year: "2009",*/
+                        dimensions: "46 3/4 x 78 1/4 in., o/c",
+                        link: "int14",
+                        privateCollection: ""
+                    },
+                    {
+                        name: checkmateDetail1,
+                        artistName: "Lorraine Shemesh",
+                        title: "Lock - detail",
+                        year: "2009",
+                        dimensions: "46 3/4 x 78 1/4 in., o/c",
+                        link: "int15",
+                        privateCollection: ""
+                    }
+                ]
             ],
             [/*COLUMN 2*/
-                {
-                    name: hook,
-                    artistName: "Lorraine Shemesh",
-                    title: "Hook",
-                    /*year: "2008",*/
-                    dimensions: "80 1/4 x 42 1/2 in., o/c",
-                    link: "int8",
-                    privateCollection: "Private Collection"
-                },
-                {
-                    name: intersection,
-                    artistName: "Lorraine Shemesh",
-                    title: "Intersection",
-                    /*year: "2009",*/
-                    dimensions: "72 1⁄4 x 52 1/4 in., o/c",
-                    link: "int3",
-                    privateCollection: ""
-                }/*
-                {
-                    name: intersectionDetail1,
-                    artistName: "Lorraine Shemesh",
-                    title: "Intersection - detail",
-                    year: "2009",
-                    dimensions: "72 1⁄4 x 52 1/4 in., o/c",
-                    link: "int4",
-                    privateCollection: ""
-                },*/
+                [
+                    {
+                        name: hook,
+                        artistName: "Lorraine Shemesh",
+                        title: "Hook",
+                        /*year: "2008",*/
+                        dimensions: "80 1/4 x 42 1/2 in., o/c",
+                        link: "int8",
+                        privateCollection: "Private Collection"
+                    }
+                ],
+                [
+                    {
+                        name: intersection,
+                        artistName: "Lorraine Shemesh",
+                        title: "Intersection",
+                        /*year: "2009",*/
+                        dimensions: "72 1⁄4 x 52 1/4 in., o/c",
+                        link: "int3",
+                        privateCollection: ""
+                    },
+                    {
+                        name: intersectionDetail1,
+                        artistName: "Lorraine Shemesh",
+                        title: "Intersection - detail",
+                        year: "2009",
+                        dimensions: "72 1⁄4 x 52 1/4 in., o/c",
+                        link: "int4",
+                        privateCollection: ""
+                    }
+                ],
             ],
             [/*COLUMN 3*/
-                {
-                    name: crossing,
-                    artistName: "Lorraine Shemesh",
-                    title: "Crossing",
-                    /*year: "2008",*/
-                    dimensions: "73 x 54 1/4 in., o/c",
-                    link: "int5",
-                    privateCollection: ""
-                }/*
-                {
-                    name: crossingDetail1,
-                    artistName: "Lorraine Shemesh",
-                    title: "Crossing",
-                    year: "2008",
-                    dimensions: "73 x 54 1/4 in., o/c",
-                    link: "int6",
-                    privateCollection: ""
-                },
-                {
-                    name: crossingDetail2,
-                    artistName: "Lorraine Shemesh",
-                    title: "Crossing",
-                    year: "2008",
-                    dimensions: "73 x 54 1/4 in., o/c",
-                    link: "int7",
-                    privateCollection: ""
-                },*/
+                [
+                    {
+                        name: crossing,
+                        artistName: "Lorraine Shemesh",
+                        title: "Crossing",
+                        /*year: "2008",*/
+                        dimensions: "73 x 54 1/4 in., o/c",
+                        link: "int5",
+                        privateCollection: ""
+                    },
+                    {
+                        name: crossingDetail1,
+                        artistName: "Lorraine Shemesh",
+                        title: "Crossing",
+                        year: "2008",
+                        dimensions: "73 x 54 1/4 in., o/c",
+                        link: "int6",
+                        privateCollection: ""
+                    },
+                    {
+                        name: crossingDetail2,
+                        artistName: "Lorraine Shemesh",
+                        title: "Crossing",
+                        year: "2008",
+                        dimensions: "73 x 54 1/4 in., o/c",
+                        link: "int7",
+                        privateCollection: ""
+                    }
+                ]
             ]          
         ]
 
@@ -290,15 +302,15 @@ class Intersections extends Component {
             {imageColumn.map((image, index) => {
                 return (
                     // sends to individual image 
-                    <Link location={this.props.location} to={{
-                        pathname:"/" + image.link, 
+                    <Link key={index} location={this.props.location} to={{
+                        pathname:"/" + image[0].link, 
                         state: {
                             imageInformation: image,
                             from: this.props.location
                         }}
                         
                     }>
-                        <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
+                        <img key={index} src={image[0].name} className="grid-image" alt="The Space Between Us exhibition"/>
                     </Link>
                 )                    
             })}
