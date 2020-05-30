@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import biographyTopImage from '../../images/studio/IMG_2134_1.jpg';
+import biographyTopImage from '../../images/exhibitions/sbu_exhibition_with_lorraine.jpg';
 
 const Biography = () => {
     return (
@@ -162,7 +162,7 @@ const Biography = () => {
 	                        <p className="biography-listing"><b>Marie Josée Kravis</b>, President, Museum of Modern Art (MOMA), New York, New York.</p>
 	                    </div>
 	                    <div className="biography-container">
-	                        <p className="biography-listing"><b>Gerald Peters Collection</b>.</p>
+	                        <p className="biography-listing"><b>Gerald Peters Collection</b>, Santa Fe, New Mexico.</p>
 	                    </div>
 	                    <div className="biography-container">
 	                        <p className="biography-listing"><b>Hall Collection</b>, Southport, Connecticut.</p>
