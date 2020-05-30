@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import biographyTopImage from '../../images/exhibitions/IMG_20190926_162143 2.jpg';
+import biographyTopImage from '../../images/studio/IMG_2134_1.jpg';
 
 const Biography = () => {
     return (
         <div>
+            <div className="image-section">
+                <img className="biography-image" src={biographyTopImage} alt="biography"/>
+            </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>Education</b></p>
                 <div className="biography-year-group">
