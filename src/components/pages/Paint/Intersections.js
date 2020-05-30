@@ -8,7 +8,7 @@ import crossing from '../../../images/paint-int/crossing_6_colorCorrected_b.jpg'
 import crossingDetail1 from '../../../images/paint-int/crossing_detail_6A_colorCorrected.jpg';
 import crossingDetail2 from '../../../images/paint-int/crossing_detail_6B_colorCorrected.jpg';
 import hook from '../../../images/paint-int/hook_8_colorCorrected_b.jpg';
-import zipper from '../../../images/paint-int/zipper_4_colorCorrected_b.jpg';
+import zipper from '../../../images/paint-int/zipper_4_colorCorrected_c.jpg';
 import zipperDetail1 from '../../../images/paint-int/zipper_detail_4A_colorCorrected.jpg';
 import zipperDetail2 from '../../../images/paint-int/zipper_detail_4C_colorCorrected.jpg';
 import checkmate from '../../../images/paint-int/checkmate_05_colorCorrected.jpg';
@@ -310,7 +310,7 @@ class Intersections extends Component {
                         }}
                         
                     }>
-                        <img key={index} src={image[0].name} className="grid-image" alt="The Space Between Us exhibition"/>
+                        <img key={index} src={image[0].name} className="grid-image" alt="Intersections seriesr"/>
                     </Link>
                 )                    
             })}
@@ -330,7 +330,7 @@ class Intersections extends Component {
                                 imageInformation: image
                             }}
                         }>
-                        <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
+                        <img key={index} src={image.name} className="grid-image" alt="Intersections series"/>
                         </Link>
                         <div className="invidual-image-details">
                         <p>{image.artistName}</p>
