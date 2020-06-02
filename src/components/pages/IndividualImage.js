@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { allImagesDesktopOrder2 } from '../../imageData';
 
 class IndividualImage extends Component {
     constructor(props) {
@@ -23,10 +24,6 @@ class IndividualImage extends Component {
         this.setState({
             currentImageIndex: index
         })
-    }
-
-    getNewThumbnailList = (index) => {
-
     }
 
     render() {

@@ -310,7 +310,7 @@ class Intersections extends Component {
                         }}
                         
                     }>
-                        <img key={index} src={image[0].name} className="grid-image" alt="Intersections seriesr"/>
+                        <img key={index} src={image[0].name} className="grid-image" alt="Intersections series"/>
                     </Link>
                 )                    
             })}
@@ -324,15 +324,15 @@ class Intersections extends Component {
             {imageColumn.map((image, index) => {
                 return (
                     <div className="image-and-details-on-grid">
-                        <Link to={{
+                        {/* <Link to={{
                             pathname:"/" + image.link, 
                             state: {
                                 imageInformation: image
                             }}
-                        }>
+                        }> */}
                         <img key={index} src={image.name} className="grid-image" alt="Intersections series"/>
-                        </Link>
-                        <div className="invidual-image-details">
+                        {/* </Link> */}
+                        <div className="individual-image-details">
                         <p>{image.artistName}</p>
                         <p><span class="italics">{image.title}</span>{image.year !== undefined && ", " + image.year}</p>
                         <p>{image.dimensions}</p>

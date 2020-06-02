@@ -5,8 +5,6 @@
 
 .individual-image-details {
     padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .image-detail-text {
@@ -28,6 +26,13 @@
         max-width: 100%;
         width: auto;
     }    
+}
+
+@media screen and (min-width: 769px) {
+    .individual-image-details {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .thumbnail-image {

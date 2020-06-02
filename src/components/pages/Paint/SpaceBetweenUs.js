@@ -22,6 +22,8 @@ import tsbu19 from '../../../images/paint-sbu/tsbu19.jpg';
 import tsbu20 from '../../../images/paint-sbu/tsbu20.jpg';
 import tsbu21 from '../../../images/paint-sbu/tsbu21.jpg';
 
+import { allImagesDesktopOrder2 } from '../../../imageData';
+
 class SpaceBetweenUs extends Component {
 
     constructor() {
@@ -498,7 +500,7 @@ class SpaceBetweenUs extends Component {
         ]
 
 
-    let mappedDesktopImages = allImagesDesktopOrder.map((imageColumn, i) => {
+    let mappedDesktopImages = allImagesDesktopOrder2.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
@@ -525,15 +527,15 @@ class SpaceBetweenUs extends Component {
             {imageColumn.map((image, index) => {
                 return (
                     <div className="image-and-details-on-grid">
-                        <Link to={{
+                        {/* <Link to={{
                             pathname:"/" + image.link, 
                             state: {
                                 imageInformation: image
                             }}
-                        }>
+                        }> */}
                         <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
-                        </Link>
-                        <div className="invidual-image-details">
+                        {/* </Link> */}
+                        <div className="individual-image-details">
                         <p>{image.artistName}</p>
                         <p><span class="italics">{image.title}</span>, {image.year}</p>
                         <p>{image.dimensions}</p>
