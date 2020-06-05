@@ -29,10 +29,18 @@
     }
 }
 
+.gallery-individual-image-details {
+    padding-top: 10px;
+}
+
 @media screen and (min-width: 1000px) {
     .column img {
         margin-bottom: 50px;
         vertical-align: middle;
+    }
+    .column {
+        flex: 26%;
+        padding: 0 25px;  
     }
 }
 
@@ -44,10 +52,7 @@
 
 // Responsive layout - makes a 3 column-layout instead of four columns
 @media screen and (max-width: 1350px) {
-    .column {
-        flex: 26%;
-        padding: 0 25px;  
-    }
+
 }
 
 // Responsive layout - 1 column on mobile layout
