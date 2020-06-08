@@ -7,9 +7,6 @@
     padding-top: 10px;
 }
 
-.image-detail-text {
-    padding-top: 10px;
-}
 .thumbnail-section {
     display: flex;
 }
@@ -28,8 +25,25 @@
     }    
 }
 
+@media screen and (min-width: 769px) {
+    .individual-image-details {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .thumbnail-image {
     height: 82px;
-    margin: 0 10px 0 0;
+    margin: 0 0 0 7px;
     cursor: pointer;
+}
+
+.current-image-border {
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.non-current-image-border {
+    border: 0;
 }
