@@ -7,9 +7,6 @@
     padding-top: 10px;
 }
 
-.image-detail-text {
-    padding-top: 10px;
-}
 .thumbnail-section {
     display: flex;
 }
@@ -42,7 +39,9 @@
 }
 
 .current-image-border {
-    border: 3px solid white;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: #fff;
 }
 
 .non-current-image-border {

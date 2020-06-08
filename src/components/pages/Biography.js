@@ -168,7 +168,7 @@ const Biography = () => {
 	                        <p className="biography-listing"><b>Hall Collection</b>, Southport, Connecticut.</p>
 	                    </div>
 	                    <div className="biography-container">
-	                        <p className="biography-listing"><b>Allan Stone</b>, Purchase, New York.</p>
+	                        <p className="biography-listing"><b>Allan Stone Collection</b>, Purchase, New York.</p>
 	                    </div>
 	                    <div className="biography-container">
 	                        <p className="biography-listing"><b>The Butler Institute of American Art</b>, Youngstown, Ohio.</p>
