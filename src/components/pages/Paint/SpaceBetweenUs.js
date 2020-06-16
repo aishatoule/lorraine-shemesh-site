@@ -500,10 +500,11 @@ class SpaceBetweenUs extends Component {
         ]
 
 
-    let mappedDesktopImages = allImagesDesktopOrder2.map((imageColumn, i) => {
+    let mappedDesktopImages = allImagesDesktopOrder.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
+                console.log(image[0])
                 return (
                     // sends to individual image 
                     <Link key={index} location={this.props.location} to={{
@@ -527,17 +528,17 @@ class SpaceBetweenUs extends Component {
             {imageColumn.map((image, index) => {
                 return (
                     <div className="image-and-details-on-grid">
-                        {/* <Link to={{
+                        <Link to={{
                             pathname:"/" + image.link, 
                             state: {
                                 imageInformation: image
                             }}
-                        }> */}
+                        }>
                         <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
-                        {/* </Link> */}
+                        </Link>
                         <div className="gallery-individual-image-details">
                             <p>{image.artistName}</p>
-                            <p><span class="italics">{image.title}</span>, {image.year}</p>
+                            <p><span className="italics">{image.title}</span>, {image.year}</p>
                             <p>{image.dimensions}</p>
                             <p>{image.privateCollection}</p>
                         </div>
