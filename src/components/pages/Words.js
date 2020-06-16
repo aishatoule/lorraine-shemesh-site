@@ -8,7 +8,6 @@ const Words = () => {
                 <img className="exhibition-image" src={wordsTopImage} alt="exhibition"/>
             </div>
 
-            <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Words</b></p>
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2020</b></p>
@@ -83,16 +82,122 @@ const Words = () => {
                         </div>   
                     </div>   
                 </div>
-                <div className="exhibition-year-group">
-                    <p className="exhibition-year"><b>2010</b></p>
-                    <div className="exhibition-content-right">
-                        <div className="exhibition-container">
-                            <p className="exhibition-name">Brendan, Davis.<b><a href="">"Lorraine Shemesh."</a></b></p>
-                            <p className="exhibition-name"><b>Art Interview ONLINE Magazine.</b> (October, 2010)</p>
-                        </div>   
-                       
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2010</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Brendan, Davis.<b><a href="">"Lorraine Shemesh."</a></b></p>
+                        <p className="exhibition-name"><b>Art Interview ONLINE Magazine.</b> (October, 2010)</p>
                     </div>   
-                </div>
+                </div>   
+            </div>
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2009</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">McCarthy, Gerard. "<b><a href="">Lorraine Shemesh - Allan Stone."</a></b></p>
+                        <p className="exhibition-name"><b>Art in America. (November 2009): illus. 197-198.</b>November 2009): illus. 197-198.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Little, Carl. "Elegant Darkness."</p>
+                        <p className="exhibition-name"><b>Art New England. </b>(August/September 2009): 35.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">McCormack, Ed. <b><a href="">"Lorraine Shemesh: The Weight of the Body Poised Against the Dance of Paint."</a></b>- Review</p>
+                        <p className="exhibition-name"><b>Gallery & Studio</b>. (April/May 2009): illus. 5.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">"Allan Stone Gallery Presents Work of Lorraine Shemesh."</p>
+                        <p className="exhibition-name"><b>Antiques and The Arts Weekly</b>. (March 6, 2009): 117.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Cunningham, Bill, "Cures for Cabin Fever."</p>
+                        <p className="exhibition-name"><b>The New York Times</b>. (February 22, 2009): illus. 12.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Kuspit, Donald, "Lorraine Shemesh's Dancers: The Figure as Grand Abstract Gesture."</p>
+                        <p className="exhibition-name">Catalogue Essay, Allan Stone Gallery. (February 28, 2009): 7-14.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Cheng, Scarlet, Shemesh, Lorraine,<b><a href="">"Intersections - Questions and Answers."</a></b></p>
+                    </div>
+                </div>   
+            </div>
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2008</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Shemesh, Lorraine,<b><a href="">"The Artist's Voice."</a></b></p>
+                        <p className="exhibition-name"><b>Bulletin - National Academy Museum and School of Fine Arts.</b> Vol 26, Number 1, (Spring 2008): illus., 11.</p>
+                    </div>   
+                </div>   
+            </div>
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2007</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                    <p className="exhibition-name">"Figures."<b><a href=""></a></b></p>
+                        <p className="exhibition-name"><b>The Reading Room/7</b>. New York City, NY. Great Marsh Press. (Fall 2007): 293, illus. 294-295.</p>
+                    </div>  
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b><a href="">The Collector</a></b>. Directed by Olympia Stone. 2007.</p>
+                    </div>  
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Shattuck, Kathryn, "In a Daughter’s Film Tribute, a Celebration of a Life Lived Through Art." <b><a href=""></a></b></p>
+                        <p className="exhibition-name"><b>The New York Times. </b>(February 10, 2007): B9.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">"Art World."</p>
+                        <p className="exhibition-name"><b>Art in America.</b>(February 2007): 166.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Verel, Patrick, "Departed Collector Opens Film Celebration of Art and Artists."</p>
+                        <p className="exhibition-name"><b>The New York Times. </b>. (January 21, 2007): 10.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Kuspit, Donald, "Lorraine Shemesh's Dancers: The Figure as Grand Abstract Gesture."</p>
+                        <p className="exhibition-name">Catalogue Essay, Allan Stone Gallery. (February 28, 2009): 7-14.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Cheng, Scarlet, Shemesh, Lorraine,<b><a href="">"Intersections - Questions and Answers."</a></b></p>
+                    </div>
+                </div>   
+            </div>
+            
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2006</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b><a href="">Pool</a></b>- A Journal of Poetry. Los Angeles, CA. Literary Pool, Inc. Scarecrow Press. (Fall 2006): Volume 6, cover.</p>
+                        <p className="exhibition-name"><b>The Reading Room/7</b>. New York City, NY. Great Marsh Press. (Fall 2007): 293, illus. 294-295.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Kennedy, Patrick, <b><a href="">"Seeing the Extraordinary in the Ordinary."</a></b></p>
+                        <p className="exhibition-name"><b>Esprit</b>. Boston University Press. (Summer 2006): illus., 4-5.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Tribune Chronicle. 
+ <b><a href=""></a>"Butler Trumbull Offering Works of New York Artist."</b></p>
+                        <p className="exhibition-name"><b></b>(February 23, 2006): illus., 4D.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Crow, L., "Butler Exhibit - Breaking the Surface."
+</p>
+                        <p className="exhibition-name"><b>The Vindicator. </b>(February 23, 2006): illus., D8-9.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>The Review Newspapers</b>, "Butler Art Museum to host Lorraine Shemesh Paintings."</p>
+                        <p className="exhibition-name"><b></b>(February 16, 2006): 6.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Zona, Louis A., <a href=""><b>“Introduction.”</b></a></p>
+                        <p className="exhibition-name"><b>Museum Catalogue, Butler Institute of American Art.</b> (February 26, 2006): 3.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Rose, Daniel Asa, "Breaking the Surface."<b><a href=""></a></b></p>
+                        <p className="exhibition-name"><b>Museum Catalogue, Butler Institute of American Art. </b>(February 26, 2006): 5-7.</p>
+                    </div>
+                </div> 
             </div>
         </div>
     );
