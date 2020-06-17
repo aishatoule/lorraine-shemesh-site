@@ -14,7 +14,7 @@
     "react-dom": "^16.12.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.1",
+    "react-scripts": "3.4.0",
     "redux": "^4.0.5",
     "redux-immutable-state-invariant": "^2.1.0",
     "use-react-router": "^1.0.7"
@@ -26,7 +26,7 @@
     "build": "CI = npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },  
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -41,6 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "http://aishatoule.github.io/lorraine-shemesh-site"
+  }
 }
