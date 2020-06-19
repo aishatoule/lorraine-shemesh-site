@@ -20,7 +20,7 @@ class BreakingTheSurface extends Component {
     }
 
     componentDidMount() {
-        window.addEventListener('resize', this.handleWindowSizeChange);
+        window.addEventListener('resize', this.handleWindowSizeChange);   
     }
 
     handleWindowSizeChange = () => {
