@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import amoeba from '../../../images/paint-bts/amoeba_CD8_1.jpg';
-import ghost from '../../../images/paint-bts/ghost_CD20_01.jpg';
-import echo from '../../../images/paint-bts/echo_CD10_1.jpg';
-import wings from '../../../images/paint-bts/wings_CD15_DSCF0002.jpg';
-import precipice from '../../../images/paint-bts/precipice_CD14_02_B4.jpg';
+import link from '../../../images/paint-bts/link.jpg';
+import ghost from '../../../images/paint-bts/ghost.jpg';
+import ghostDetail1 from '../../../images/paint-bts/ghost_detail.jpg';
+import ring from '../../../images/paint-bts/ring.jpg';
+import amoeba from '../../../images/paint-bts/amoeba.jpg';
+import amoebaDetail1 from '../../../images/paint-bts/amoeba_detail.jpg';
+import backfloat from '../../../images/paint-bts/backfloat.jpg';
+import backfloatDetail1 from '../../../images/paint-bts/backfloat_detail.jpg';
+import exhale from '../../../images/paint-bts/exhale.jpg';
 
 class BreakingTheSurface extends Component {
 
@@ -30,11 +34,11 @@ class BreakingTheSurface extends Component {
             [/*COLUMN 1*/
                 [
                     {
-                        name: amoeba,
+                        name: link,
 						artistName: "Lorraine Shemesh",
-                        title: "Amoeba",
-                        year: "2005",
-                        dimensions: "73 &frac12; x 64 in., o/c",
+                        title: "Link",
+                        year: "1999",
+                        dimensions: "67 x 66 &frac34; in., o/c",
                         link: "bts1",
                         privateCollection: "Private Collection"
                     }
@@ -44,9 +48,18 @@ class BreakingTheSurface extends Component {
                         name: ghost,
 						artistName: "Lorraine Shemesh",
                         title: "Ghost",
-                        year: "2006-2009",
+                        year: "2006",
                         dimensions: "72 x 64 in., o/c",
                         link: "bts2",
+                        privateCollection: "Private Collection"
+                    },
+                    {
+                        name: ghostDetail1,
+						artistName: "Lorraine Shemesh",
+                        title: "Ghost - Detail",
+                        year: "2006",
+                        dimensions: "72 x 64 in., o/c",
+                        link: "bts3",
                         privateCollection: "Private Collection"
                     }
                 ]
@@ -54,23 +67,32 @@ class BreakingTheSurface extends Component {
             [/*COLUMN 2*/
                 [
                     {
-                        name: echo,
+                        name: ring,
 						artistName: "Lorraine Shemesh",
-                        title: "Echo",
-                        year: "2005",
-                        dimensions: "64 x 66 in.,o/c",
-                        link: "bts3",
+                        title: "Ring",
+                        year: "1997",
+                        dimensions: "73 &frac58; x 56 in.,o/c",
+                        link: "bts4",
                         privateCollection: "Private Collection"
                     }
                 ],
                 [
                     {
-                        name: wings,
+                        name: amoeba,
 						artistName: "Lorraine Shemesh",
-                        title: "Wings",
-                        year: "2008",
-                        dimensions: "64 x 63 &frac14; in., o/c",
-                        link: "bts4",
+                        title: "Amoeba",
+                        year: "2005",
+                        dimensions: "73 &frac12; x 64 in., o/c",
+                        link: "bts5",
+                        privateCollection: "Private Collection"
+                    },
+                    {
+                        name: amoebaDetail1,
+						artistName: "Lorraine Shemesh",
+                        title: "Amoeba",
+                        year: "2005",
+                        dimensions: "73 &frac12; x 64 in., o/c",
+                        link: "bts6",
                         privateCollection: "Private Collection"
                     }
                 ]
@@ -78,12 +100,32 @@ class BreakingTheSurface extends Component {
             [/*COLUMN 3*/
                 [
                     {
-                        name: precipice,
+                        name: backfloat,
                         artistName: "Lorraine Shemesh",
-                        title: "Precipice",
-                        year: "2007",
-                        dimensions: "78 &frac18; x 56 &frac78; in., o/c",
-                        link: "bts5",
+                        title: "Back Float",
+                        year: "1991",
+                        dimensions: "72 x 78 in., o/c",
+                        link: "bts7",
+                        privateCollection: "Private Collection"
+                    },
+                    {
+                        name: backfloatDetail1,
+                        artistName: "Lorraine Shemesh",
+                        title: "Back Float - Detail",
+                        year: "1991",
+                        dimensions: "72 x 78 in., o/c",
+                        link: "bts8",
+                        privateCollection: "Private Collection"
+                    }
+                ],
+                [
+                    {
+                        name: exhale,
+                        artistName: "Lorraine Shemesh",
+                        title: "Exhale",
+                        year: "1995",
+                        dimensions: "69 x 80 in., o/c",
+                        link: "bts9",
                         privateCollection: "Private Collection"
                     }
                 ]
@@ -93,11 +135,11 @@ class BreakingTheSurface extends Component {
 
         const allImagesMobileOrder = [
             [{
-                name: amoeba,
+                name: link,
 				artistName: "Lorraine Shemesh",
-                title: "Amoeba",
-                year: "2005",
-                dimensions: "73 &frac12; x 64 in., o/c",
+                title: "Link",
+                year: "1999",
+                dimensions: "67 x 66 &frac34; in., o/c",
                 link: "bts1",
                 privateCollection: "Private Collection"
             },
@@ -105,36 +147,72 @@ class BreakingTheSurface extends Component {
                 name: ghost,
 				artistName: "Lorraine Shemesh",
                 title: "Ghost",
-                year: "2006-2009",
+                year: "2006",
                 dimensions: "72 x 64 in., o/c",
                 link: "bts2",
                 privateCollection: "Private Collection"
             },
             {
-                name: echo,
+                name: ghostDetail1,
 				artistName: "Lorraine Shemesh",
-                title: "Echo",
-                year: "2005",
-                dimensions: "64 x 66 in.,o/c",
+                title: "Ghost - Detail",
+                year: "2006",
+                dimensions: "72 x 64 in., o/c",
                 link: "bts3",
                 privateCollection: "Private Collection"
             },
             {
-                name: wings,
+                name: ring,
 				artistName: "Lorraine Shemesh",
-                title: "Wings",
-                year: "2008",
-                dimensions: "64 x 63 &frac14; in., o/c",
+                title: "Ring",
+                year: "1997",
+                dimensions: "73 &frac58; x 56 in.,o/c",
                 link: "bts4",
                 privateCollection: "Private Collection"
             },
             {
-                name: precipice,
-                artistName: "Lorraine Shemesh",
-                title: "Precipice",
-                year: "2007",
-                dimensions: "78 &frac18; x 56 &frac78; in., o/c",
+                name: amoeba,
+				artistName: "Lorraine Shemesh",
+                title: "Amoeba",
+                year: "2005",
+                dimensions: "73 &frac12; x 64 in., o/c",
                 link: "bts5",
+                privateCollection: "Private Collection"
+            },
+            {
+                name: amoebaDetail1,
+				artistName: "Lorraine Shemesh",
+                title: "Amoeba",
+                year: "2005",
+                dimensions: "73 &frac12; x 64 in., o/c",
+                link: "bts6",
+                privateCollection: "Private Collection"
+            },
+            {
+                name: backfloat,
+                artistName: "Lorraine Shemesh",
+                title: "Back Float",
+                year: "1991",
+                dimensions: "72 x 78 in., o/c",
+                link: "bts7",
+                privateCollection: "Private Collection"
+            },
+            {
+                name: backfloatDetail1,
+                artistName: "Lorraine Shemesh",
+                title: "Back Float - Detail",
+                year: "1991",
+                dimensions: "72 x 78 in., o/c",
+                link: "bts8",
+                privateCollection: "Private Collection"
+            },
+            {
+                name: exhale,
+                artistName: "Lorraine Shemesh",
+                title: "Exhale",
+                year: "1995",
+                dimensions: "69 x 80 in., o/c",
+                link: "bts9",
                 privateCollection: "Private Collection"
             }]      
         ]
