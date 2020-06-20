@@ -56,14 +56,14 @@ class SpaceBetweenUs extends Component {
                 console.log("mobile image", image)
                 return (
                     <div className="image-and-details-on-grid" key={image.link}>
-                        <Link to={{
+                        {/* <Link to={{
                             pathname:"/" + image.link, 
                             state: {
                                 imageInformation: image
                             }}
                         }>
                         <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition"/>
-                        </Link>
+                        </Link> */}
                         <div className="gallery-individual-image-details">
                             <p>{image.artistName}</p>
                             <p><span className="italics">{image.title}</span>, {image.year}</p>

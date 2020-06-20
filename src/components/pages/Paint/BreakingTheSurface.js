@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { allImagesDesktopOrderBts, allImagesMobileOrderBts } from '../../../imageDataFiles/imageDataBTS';
-import link from '../../../images/paint-bts/link.jpg';
-import ghost from '../../../images/paint-bts/ghost.jpg';
-import ghostDetail1 from '../../../images/paint-bts/ghost_detail.jpg';
-import ring from '../../../images/paint-bts/ring.jpg';
-import amoeba from '../../../images/paint-bts/amoeba.jpg';
-import amoebaDetail1 from '../../../images/paint-bts/amoeba_detail.jpg';
-import backfloat from '../../../images/paint-bts/backfloat.jpg';
-import backfloatDetail1 from '../../../images/paint-bts/backfloat_detail.jpg';
-import exhale from '../../../images/paint-bts/exhale.jpg';
 
 class BreakingTheSurface extends Component {
 

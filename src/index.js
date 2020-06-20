@@ -2,10 +2,9 @@ import React from 'react';
 import { render } from "react-dom";
 import configureStore from "./redux/configureStore";
 import { Provider as ReduxProvider } from "react-redux";
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './css/styles.scss';
 import App from './components/App';
-import * as serviceWorker from './serviceWorker';
 
 const store = configureStore();
 
