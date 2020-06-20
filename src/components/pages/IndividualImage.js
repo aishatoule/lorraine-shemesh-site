@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { allImagesDesktopOrder2 } from '../../imageData';
+import { allImagesDesktopOrderTsbu } from '../../imageDataFiles/imageDataTsbu';
 
 class IndividualImage extends Component {
     constructor(props) {

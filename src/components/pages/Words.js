@@ -1,11 +1,10 @@
 import React, {  } from 'react';
-import wordsTopImage from '../../images/studio/words-page-lorraine.jpg'
 
 const Words = () => {
     return (
         <div>
              <div className="image-section">
-                <img className="exhibition-image" src={wordsTopImage} alt="exhibition"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/words-page-lorraine.jpg'} alt="exhibition"/>
             </div>
 
                 <p className="exhibition-type-title"><b>Words</b></p>

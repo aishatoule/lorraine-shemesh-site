@@ -1,10 +1,9 @@
 import React from 'react';
-import jigsaw from '../../images/paint-sbu/5 Jigsaw painting.jpeg';
 
 const HomeAlternate = () => {
     return( 
         <div className="image-container">
-            <img className="individual-image-main" src={jigsaw} alt="home page"/>  
+            <img className="individual-image-main" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/5+Jigsaw+painting.jpeg'} alt="home page"/>  
         </div>
     )
 }

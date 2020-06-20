@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import biographyTopImage from '../../images/exhibitions/sbu_exhibition_with_lorraine.jpg';
+import React from 'react';
+// import biographyTopImage from '../../images/exhibitions/sbu_exhibition_with_lorraine.jpg';
 
 const Biography = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="biography-image" src={biographyTopImage} alt="biography"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/sbu_exhibition_with_lorraine.jpg'} alt="biography"/>
             </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>Education</b></p>

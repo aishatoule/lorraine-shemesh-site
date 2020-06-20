@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { allImagesDesktopOrderBts, allImagesMobileOrderBts } from '../../../imageDataFiles/imageDataBTS';
 import link from '../../../images/paint-bts/link.jpg';
 import ghost from '../../../images/paint-bts/ghost.jpg';
 import ghostDetail1 from '../../../images/paint-bts/ghost_detail.jpg';
@@ -30,195 +31,8 @@ class BreakingTheSurface extends Component {
     }
 
     render() {
-        const allImagesDesktopOrder = [
-            [/*COLUMN 1*/
-                [
-                    {
-                        name: link,
-						artistName: "Lorraine Shemesh",
-                        title: "Link",
-                        year: "1999",
-                        dimensions: "67 x 66 &frac34; in., o/c",
-                        link: "bts1",
-                        privateCollection: "Private Collection"
-                    }
-                ],
-                [
-                    {
-                        name: ghost,
-						artistName: "Lorraine Shemesh",
-                        title: "Ghost",
-                        year: "2006",
-                        dimensions: "72 x 64 in., o/c",
-                        link: "bts2",
-                        privateCollection: "Private Collection"
-                    },
-                    {
-                        name: ghostDetail1,
-						artistName: "Lorraine Shemesh",
-                        title: "Ghost - Detail",
-                        year: "2006",
-                        dimensions: "72 x 64 in., o/c",
-                        link: "bts3",
-                        privateCollection: "Private Collection"
-                    }
-                ]
-            ],
-            [/*COLUMN 2*/
-                [
-                    {
-                        name: ring,
-						artistName: "Lorraine Shemesh",
-                        title: "Ring",
-                        year: "1997",
-                        dimensions: "73 &frac58; x 56 in.,o/c",
-                        link: "bts4",
-                        privateCollection: "Private Collection"
-                    }
-                ],
-                [
-                    {
-                        name: amoeba,
-						artistName: "Lorraine Shemesh",
-                        title: "Amoeba",
-                        year: "2005",
-                        dimensions: "73 &frac12; x 64 in., o/c",
-                        link: "bts5",
-                        privateCollection: "Private Collection"
-                    },
-                    {
-                        name: amoebaDetail1,
-						artistName: "Lorraine Shemesh",
-                        title: "Amoeba",
-                        year: "2005",
-                        dimensions: "73 &frac12; x 64 in., o/c",
-                        link: "bts6",
-                        privateCollection: "Private Collection"
-                    }
-                ]
-            ],
-            [/*COLUMN 3*/
-                [
-                    {
-                        name: backfloat,
-                        artistName: "Lorraine Shemesh",
-                        title: "Back Float",
-                        year: "1991",
-                        dimensions: "72 x 78 in., o/c",
-                        link: "bts7",
-                        privateCollection: "Private Collection"
-                    },
-                    {
-                        name: backfloatDetail1,
-                        artistName: "Lorraine Shemesh",
-                        title: "Back Float - Detail",
-                        year: "1991",
-                        dimensions: "72 x 78 in., o/c",
-                        link: "bts8",
-                        privateCollection: "Private Collection"
-                    }
-                ],
-                [
-                    {
-                        name: exhale,
-                        artistName: "Lorraine Shemesh",
-                        title: "Exhale",
-                        year: "1995",
-                        dimensions: "69 x 80 in., o/c",
-                        link: "bts9",
-                        privateCollection: "Private Collection"
-                    }
-                ]
-            ]          
-        ]
 
-
-        const allImagesMobileOrder = [
-            [{
-                name: link,
-				artistName: "Lorraine Shemesh",
-                title: "Link",
-                year: "1999",
-                dimensions: "67 x 66 &frac34; in., o/c",
-                link: "bts1",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: ghost,
-				artistName: "Lorraine Shemesh",
-                title: "Ghost",
-                year: "2006",
-                dimensions: "72 x 64 in., o/c",
-                link: "bts2",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: ghostDetail1,
-				artistName: "Lorraine Shemesh",
-                title: "Ghost - Detail",
-                year: "2006",
-                dimensions: "72 x 64 in., o/c",
-                link: "bts3",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: ring,
-				artistName: "Lorraine Shemesh",
-                title: "Ring",
-                year: "1997",
-                dimensions: "73 &frac58; x 56 in.,o/c",
-                link: "bts4",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: amoeba,
-				artistName: "Lorraine Shemesh",
-                title: "Amoeba",
-                year: "2005",
-                dimensions: "73 &frac12; x 64 in., o/c",
-                link: "bts5",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: amoebaDetail1,
-				artistName: "Lorraine Shemesh",
-                title: "Amoeba",
-                year: "2005",
-                dimensions: "73 &frac12; x 64 in., o/c",
-                link: "bts6",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: backfloat,
-                artistName: "Lorraine Shemesh",
-                title: "Back Float",
-                year: "1991",
-                dimensions: "72 x 78 in., o/c",
-                link: "bts7",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: backfloatDetail1,
-                artistName: "Lorraine Shemesh",
-                title: "Back Float - Detail",
-                year: "1991",
-                dimensions: "72 x 78 in., o/c",
-                link: "bts8",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: exhale,
-                artistName: "Lorraine Shemesh",
-                title: "Exhale",
-                year: "1995",
-                dimensions: "69 x 80 in., o/c",
-                link: "bts9",
-                privateCollection: "Private Collection"
-            }]      
-        ]
-
-
-    let mappedDesktopImages = allImagesDesktopOrder.map((imageColumn, i) => {
+    let mappedDesktopImages = allImagesDesktopOrderBts.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
@@ -240,7 +54,7 @@ class BreakingTheSurface extends Component {
         )
     })
 
-    let mappedMobileImages = allImagesMobileOrder.map((imageColumn, i) => {
+    let mappedMobileImages = allImagesMobileOrderBts.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
