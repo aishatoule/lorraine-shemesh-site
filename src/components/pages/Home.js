@@ -1,10 +1,9 @@
 import React from 'react';
-import studioShot from '../../images/studio/DSC_1326-cropped-adjusted.jpg';
 
 const Home = () => {
     return( 
         <div className="image-container">
-            <img className="individual-image-main" src={studioShot} alt="home page"/>  
+            <img className="individual-image-main" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/DSC_1326-cropped-adjusted.jpg'} alt="home page"/>  
         </div>
     )
 }

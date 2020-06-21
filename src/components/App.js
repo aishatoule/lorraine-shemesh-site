@@ -1,7 +1,7 @@
 // import '../components/App';
 import React from 'react';
 import '../index.scss';
-import { Route, Switch, BrowserRouter as Router, useParams } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Navigation from './Navigation'
 import Home from './pages/Home';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
