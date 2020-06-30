@@ -35,15 +35,13 @@ class IndividualImage extends Component {
 
         var thumbnailImages = imageInformation.map((image, i) => {
             // each thumbnail is a button that onClick, the image index increases (getNewIndex gets called)     
-            var imageStyle = (i === this.state.currentImageIndex) ?
-            'current-image-border'
-            :
-            'non-current-image-border';
-            return (
-                <div key={i} onClick={() => this.getNewIndex(i)}>
-                    <img className={'thumbnail-image ' + imageStyle} src={image.name} alt="painting"/>
-                </div>
-            )
+            if (i != this.state.currentImageIndex) {
+                return (
+                        <div key={i} onClick={() => this.getNewIndex(i)}>
+                            <img className='thumbnail-image' src={image.name} alt="painting"/>
+                        </div>
+                )
+            }
         })
 
         return(
