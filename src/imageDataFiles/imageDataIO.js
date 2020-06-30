@@ -37,7 +37,7 @@ export const allImagesDesktopOrderIO = [
                 artistName: "Lorraine Shemesh",
                 title: "Bridge",
                 year: "2012",
-                dimensions: "47 &frac12; x 79 in., o/c",
+                dimensions: "47 1/2 x 79 in., o/c",
                 link: "io3",
                 privateCollection: "Private Collection"
             }
@@ -50,7 +50,7 @@ export const allImagesDesktopOrderIO = [
                 artistName: "Lorraine Shemesh",
                 title: "Lunge",
                 year: "2013",
-                dimensions: "67 &frac12; x 53 &frac12; in., o/c",
+                dimensions: "67 1/2 x 53 1/2 in., o/c",
                 link: "io4",
                 privateCollection: ""
             }
@@ -61,7 +61,7 @@ export const allImagesDesktopOrderIO = [
                 artistName: "Lorraine Shemesh",
                 title: "Tethered",
                 year: "2014",
-                dimensions: "58 x 64 &frac12; in., o/c",
+                dimensions: "58 x 64 1/2 in., o/c",
                 link: "io5",
                 privateCollection: ""
             }
@@ -72,7 +72,7 @@ export const allImagesDesktopOrderIO = [
                 artistName: "Lorraine Shemesh",
                 title: "Suspension",
                 year: "2013",
-                dimensions: "70 &frac14; x 56 &frac14; in., o/c",
+                dimensions: "70 1/4 x 56 1/4 in., o/c",
                 link: "int8",
                 privateCollection: ""
             }
@@ -85,7 +85,7 @@ export const allImagesDesktopOrderIO = [
                 artistName: "Lorraine Shemesh",
                 title: "Tilt",
                 year: "2015",
-                dimensions: "59 &frac14; 63 &frac14; in., o/c",
+                dimensions: "59 1/4 63 1/4 in., o/c",
                 link: "io6",
                 privateCollection: ""
             }
@@ -96,7 +96,7 @@ export const allImagesDesktopOrderIO = [
                 artistName: "Lorraine Shemesh",
                 title: "Crescent",
                 year: "2013",
-                dimensions: "75 x 48 &frac34; in., o/c",
+                dimensions: "75 x 48 3/4 in., o/c",
                 link: "int15",
                 privateCollection: ""
             }
@@ -128,7 +128,7 @@ export const allImagesMobileOrderIO = [
         artistName: "Lorraine Shemesh",
         title: "Bridge",
         year: "2012",
-        dimensions: "47 &frac12; x 79 in., o/c",
+        dimensions: "47 1/2 x 79 in., o/c",
         link: "io3",
         privateCollection: "Private Collection"
     },
@@ -137,7 +137,7 @@ export const allImagesMobileOrderIO = [
         artistName: "Lorraine Shemesh",
         title: "Lunge",
         year: "2013",
-        dimensions: "67 &frac12; x 53 &frac12; in., o/c",
+        dimensions: "67 1/2 x 53 1/2 in., o/c",
         link: "io4",
         privateCollection: ""
     },
@@ -146,7 +146,7 @@ export const allImagesMobileOrderIO = [
         artistName: "Lorraine Shemesh",
         title: "Tethered",
         year: "2014",
-        dimensions: "58 x 64 &frac12; in., o/c",
+        dimensions: "58 x 64 1/2 in., o/c",
         link: "io5",
         privateCollection: ""
     },
@@ -155,7 +155,7 @@ export const allImagesMobileOrderIO = [
         artistName: "Lorraine Shemesh",
         title: "Suspension",
         year: "2013",
-        dimensions: "70 &frac14; x 56 &frac14; in., o/c",
+        dimensions: "70 1/4 x 56 1/4 in., o/c",
         link: "int8",
         privateCollection: ""
     },
@@ -164,7 +164,7 @@ export const allImagesMobileOrderIO = [
         artistName: "Lorraine Shemesh",
         title: "Tilt",
         year: "2015",
-        dimensions: "59 &frac14; 63 &frac14; in., o/c",
+        dimensions: "59 1/4 63 1/4 in., o/c",
         link: "io6",
         privateCollection: ""
     },
@@ -173,7 +173,7 @@ export const allImagesMobileOrderIO = [
         artistName: "Lorraine Shemesh",
         title: "Crescent",
         year: "2013",
-        dimensions: "75 x 48 &frac34; in., o/c",
+        dimensions: "75 x 48 3/4 in., o/c",
         link: "int15",
         privateCollection: ""
     }]      

@@ -16,7 +16,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Link",
                 year: "1999",
-                dimensions: "67 x 66 &frac34; in., o/c",
+                dimensions: "67 x 66 3/4 in., o/c",
                 link: "bts1",
                 privateCollection: "Private Collection"
             }
@@ -49,7 +49,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Ring",
                 year: "1997",
-                dimensions: "73 &frac58; x 56 in.,o/c",
+                dimensions: "73 5/8 x 56 in.,o/c",
                 link: "bts4",
                 privateCollection: "Private Collection"
             }
@@ -60,7 +60,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Amoeba",
                 year: "2005",
-                dimensions: "73 &frac12; x 64 in., o/c",
+                dimensions: "73 1/2 x 64 in., o/c",
                 link: "bts5",
                 privateCollection: "Private Collection"
             },
@@ -69,7 +69,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Amoeba",
                 year: "2005",
-                dimensions: "73 &frac12; x 64 in., o/c",
+                dimensions: "73 1/2 x 64 in., o/c",
                 link: "bts6",
                 privateCollection: "Private Collection"
             }
@@ -116,7 +116,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Link",
         year: "1999",
-        dimensions: "67 x 66 &frac34; in., o/c",
+        dimensions: "67 x 66 3/4 in., o/c",
         link: "bts1",
         privateCollection: "Private Collection"
     },
@@ -143,7 +143,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Ring",
         year: "1997",
-        dimensions: "73 &frac58; x 56 in.,o/c",
+        dimensions: "73 5/8 x 56 in.,o/c",
         link: "bts4",
         privateCollection: "Private Collection"
     },
@@ -152,7 +152,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Amoeba",
         year: "2005",
-        dimensions: "73 &frac12; x 64 in., o/c",
+        dimensions: "73 1/2 x 64 in., o/c",
         link: "bts5",
         privateCollection: "Private Collection"
     },
@@ -161,7 +161,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Amoeba",
         year: "2005",
-        dimensions: "73 &frac12; x 64 in., o/c",
+        dimensions: "73 1/2 x 64 in., o/c",
         link: "bts6",
         privateCollection: "Private Collection"
     },

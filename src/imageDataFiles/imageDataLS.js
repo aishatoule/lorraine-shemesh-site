@@ -19,7 +19,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Zig Zag",
                 year: "2003",
-                dimensions: "83 &frac12; x 52 &frac34; in., o/c",
+                dimensions: "83 1/2 x 52 3/4 in., o/c",
                 link: "ls1",
                 privateCollection: "Private Collection"
             },
@@ -28,7 +28,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Zig Zag - Detail",
                 year: "2003",
-                dimensions: "83 &frac12; x 52 &frac34; in., o/c",
+                dimensions: "83 1/2 x 52 3/4 in., o/c",
                 link: "ls2",
                 privateCollection: "Private Collection"
 
@@ -40,7 +40,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Hand Stand",
                 year: "2003",
-                dimensions: "83 &frac14; x 39 &frac14; in., o/c",
+                dimensions: "83 1/4 x 39 1/4 in., o/c",
                 link: "ls3",
                 privateCollection: "Private Collection"
             },
@@ -49,7 +49,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Hand Stand - Detail",
                 year: "2003",
-                dimensions: "83 &frac14; x 39 &frac14; in., o/c",
+                dimensions: "83 1/4 x 39 1/4 in., o/c",
                 link: "ls4",
                 privateCollection: "Private Collection"
             }
@@ -62,7 +62,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Archway",
                 year: "2001",
-                dimensions: "81 &frac38; x 51 &frac58; in., o/c",
+                dimensions: "81 3/8 x 51 5/8 in., o/c",
                 link: "ls5",
                 privateCollection: ""
             },
@@ -71,7 +71,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Archway - Detail",
                 year: "2001",
-                dimensions: "81 &frac38; x 51 &frac58; in., o/c",
+                dimensions: "81 3/8 x 51 5/8 in., o/c",
                 link: "ls6",
                 privateCollection: ""                            
             }
@@ -82,7 +82,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Propeller",
                 year: "2002",
-                dimensions: "67 &frac12; x 71 &frac12; in., o/c",
+                dimensions: "67 1/2 x 71 1/2 in., o/c",
                 link: "ls11",
                 privateCollection: "Private Collection"
             },
@@ -91,7 +91,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Propeller - Detail",
                 year: "2002",
-                dimensions: "67 &frac12; x 71 &frac12; in., o/c",
+                dimensions: "67 1/2 x 71 1/2 in., o/c",
                 link: "ls12",
                 privateCollection: "Private Collection"
             }
@@ -102,7 +102,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Arc",
                 year: "2001",
-                dimensions: "76 &frac78; x 62 &frac34; in. o/c",
+                dimensions: "76 7/8 x 62 3/4 in. o/c",
                 link: "ls9",
                 privateCollection: ""
             }
@@ -115,7 +115,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Eddy",
                 year: "2003",
-                dimensions: "66 &frac12; x 66 in.,",
+                dimensions: "66 1/2 x 66 in.,",
                 link: "ls10",
                 privateCollection: "Private Collection"
             }
@@ -126,7 +126,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Arch",
                 year: "2001",
-                dimensions: "80 x 57 &frac34; in., o/c",
+                dimensions: "80 x 57 3/4 in., o/c",
                 link: "ls7",
                 privateCollection: "Collection Novartis Corporation, Basel, Switzerland"
             },
@@ -135,7 +135,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Arch - Detail",
                 year: "2001",
-                dimensions: "80 x 57 &frac34; in., o/c",
+                dimensions: "80 x 57 3/4 in., o/c",
                 link: "ls8",
                 privateCollection: "Collection Novartis Corporation, Basel, Switzerland"
 
@@ -150,7 +150,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Zig Zag",
         year: "2003",
-        dimensions: "83 &frac12; x 52 &frac34; in., o/c",
+        dimensions: "83 1/2 x 52 3/4 in., o/c",
         link: "ls1",
         privateCollection: "Private Collection"
     },
@@ -159,7 +159,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Zig Zag - Detail",
         year: "2003",
-        dimensions: "83 &frac12; x 52 &frac34; in., o/c",
+        dimensions: "83 1/2 x 52 3/4 in., o/c",
         link: "ls2",
         privateCollection: "Private Collection"
     },
@@ -168,7 +168,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Hand Stand",
         year: "2003",
-        dimensions: "83 &frac14; x 39 &frac14; in., o/c",
+        dimensions: "83 1/4 x 39 1/4 in., o/c",
         link: "ls3",
         privateCollection: "Private Collection"
     },
@@ -177,7 +177,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Hand Stand - Detail",
         year: "2003",
-        dimensions: "83 &frac14; x 39 &frac14; in., o/c",
+        dimensions: "83 1/4 x 39 1/4 in., o/c",
         link: "ls4",
         privateCollection: "Private Collection"
     },
@@ -186,7 +186,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Archway",
         year: "2001",
-        dimensions: "81 &frac38; x 51 &frac58; in., o/c",
+        dimensions: "81 3/8 x 51 5/8 in., o/c",
         link: "ls5",
         privateCollection: ""
     },
@@ -195,7 +195,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Archway - Detail",
         year: "2001",
-        dimensions: "81 &frac38; x 51 &frac58; in., o/c",
+        dimensions: "81 3/8 x 51 5/8 in., o/c",
         link: "ls6",
         privateCollection: ""                            
     },
@@ -204,7 +204,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Arch",
         year: "2001",
-        dimensions: "80 x 57 &frac34; in., o/c",
+        dimensions: "80 x 57 3/4 in., o/c",
         link: "ls7",
         privateCollection: "Collection Novartis Corporation, Basel, Switzerland"
     },
@@ -213,7 +213,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Arch - Detail",
         year: "2001",
-        dimensions: "80 x 57 &frac34; in., o/c",
+        dimensions: "80 x 57 3/4 in., o/c",
         link: "ls8",
         privateCollection: "Collection Novartis Corporation, Basel, Switzerland"
     },
@@ -222,7 +222,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Arc",
         year: "2001",
-        dimensions: "76 &frac78; x 62 &frac34; in. o/c",
+        dimensions: "76 7/8 x 62 3/4 in. o/c",
         link: "ls9",
         privateCollection: ""
     },
@@ -231,7 +231,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Eddy",
         year: "2003",
-        dimensions: "66 &frac12; x 66 in.,",
+        dimensions: "66 1/2 x 66 in.,",
         link: "ls10",
         privateCollection: "Private Collection"
     },
@@ -240,7 +240,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Propeller",
         year: "2002",
-        dimensions: "67 &frac12; x 71 &frac12; in., o/c",
+        dimensions: "67 1/2 x 71 1/2 in., o/c",
         link: "ls11",
         privateCollection: "Private Collection"
     },
@@ -249,7 +249,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Propeller - Detail",
         year: "2002",
-        dimensions: "67 &frac12; x 71 &frac12; in., o/c",
+        dimensions: "67 1/2 x 71 1/2 in., o/c",
         link: "ls12",
         privateCollection: "Private Collection"
     }]      
