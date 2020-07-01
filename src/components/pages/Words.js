@@ -196,6 +196,318 @@ const Words = () => {
                     </div>
                 </div> 
             </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2005</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Yarnell, Kolby, “National Academy Names New Members.”</p>
+                        <p className="exhibition-name"><b>The New York Sun</b>, (April 14, 2005): 15.</p>
+                    </div>   
+                </div>   
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2004</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Brown, Clint, McLean, Cheryl, "Composition and Expression."</p>
+                        <p className="exhibition-name"><b>Drawing From Life</b>. Wadsworth, Thomson Learning, Inc., (2004): illus., 140.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>Tyler Gestures</b>. Tyler School of Art, Temple University, Number 39, (Winter 2004), cover.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Wolberg-Weiss, Marion, "Honoring the Artist."</p>
+                        <p className="exhibition-name"><b>Dan's Papers</b>. Issue #18, (July 23, 2004): cover, 74.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>The New York Sun.</b></p>
+                        <p className="exhibition-name">Arts & Letters, (April 29, 2004): illus., 14.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>TThe New York Times, Sunday</b>.</p>
+                        <p className="exhibition-name"><b></b>Arts & Leisure Guide, (April 25, 2004): illus., 35.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Stone, Allan, <a href="https://unruffled-knuth-c3e5aa.netlify.app/"><b>"Liquid States."</b></a></p>
+                        <p className="exhibition-name"><b>Allan Stone Gallery Catalogue</b> . (May 1, 2004).</p>
+                    </div>
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2003</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Enstice, Wayne, Peters, Melody.</p>
+                        <p className="exhibition-name"><b>Drawing, Space, Form, & Expression</b>, Third Edition. Prentice Hall, (2003): illus., 261.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>Medicine and Health Rhode Island</b>. Rhode Island Medical Society, Volume 86, No. 7, (July, 2003): cover.</p>
+                    </div>   
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2002</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Lundin, Norman, “The Perception of Appearance - A Decade of Contemporary American Figure Drawing.”</p>
+                        <p className="exhibition-name"><b>Frye Art Museum Catalogue</b>. University of Washington Press, (June 29, 2002): illus.,107.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Blaugrund, Annette, “The 177th Annual: An Invitational Exhibition.”</p>
+                        <p className="exhibition-name"><b>National Academy of Design Catalogue</b>. (May 1 - June 9, 2002): illus., 84.</p>
+                    </div> 
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">“National Academy of Design Opens 177th Annual Exhibition on May 1.”</p>
+                        <p className="exhibition-name"><b>Antiques and The Arts Weekly</b>. (April 19, 2002): illus., 47.</p>
+                    </div>    
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>2000</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Robertson, Jean, McDaniel, Craig, "Form and Light."</p>
+                        <p className="exhibition-name"><b>Painting as a Language</b>, Wadsworth, Thomson Learning, Inc., (2000): illus., 140.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Goodman, Jonathan, "<a href="https://unruffled-knuth-c3e5aa.netlify.app/">Lorraine Shemesh at Allan Stone.</a>”</p>
+                        <p className="exhibition-name"><b>Art in America</b>. (December 2000): illus., 122.</p>
+                    </div> 
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">McCormack, Ed. “Sharp Contrast In Solo Shows.”</p>
+                        <p className="exhibition-name"><b>Gallery & Studio</b>. (September/October 2000): 11.</p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Campbell, Robin. “Keeping It Real.”</p>
+                        <p className="exhibition-name"><b>Art & Auction</b>. (Summer 2000): illus., 98-99.  </p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>The New Yorker</b>. (May 29, 2000): illus., 26.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Johnson, “Lorraine Shemesh at Allan Stone.”</p>
+                        <p className="exhibition-name"><b>The New York Times</b>. (May 26, 2000): 34.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Dobyns, Stephen, McCormack, Ed, "<a href="https://unruffled-knuth-c3e5aa.netlify.app/">Water-Works.</a>"</p>
+                        <p className="exhibition-name"><b>Allan Stone Gallery Catalogue</b>. (April 29, 2000): illus., 2-3.</p>
+                    </div>
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1997</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Polsky, Richard, “Contemporary American Art.”</p>
+                        <p className="exhibition-name"><b>The Art Market Guide</b>. (May 16, 1997): 2.</p>
+                    </div>      
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1996</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Burgin, Richard.</p>
+                        <p className="exhibition-name"><b>Boulevard</b>. (1996): Volume 11, cover.</p>
+                    </div>      
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1995</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">O’Hern, John D., “Re-presenting Representation II.”</p>
+                        <p className="exhibition-name"><b>Arnot Art Museum Exhibition Catalog</b>. (October 1995): illus., 24-25.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Upshaw, Regan. “Lorraine Shemesh at Allan Stone.”</p>
+                        <p className="exhibition-name"><b>Art in America</b>. (December 1995): illus., 122.</p>
+                    </div> 
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Karmel, Pepe. “Marginal Areas of New York City’s Landscape.”</p>
+                        <p className="exhibition-name"><b>The New York Times</b>. (August 1,1995): 21.</p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Parks, John A., “Capturing Moments of Danger.”</p>
+                        <p className="exhibition-name"><b>American Artist</b>. (August 1995): illus., 44-50.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>Harpers Magazine</b>. (July 1995): illus., 26.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>Art Now Gallery Guide</b>. (May 1995): cover.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">McCormack, Ed, “Dynamic Contrasts in the Art of Lorraine Shemesh.”</p>
+                        <p className="exhibition-name"><b>Artspeak</b>. (May 1995): illus., 4.</p>
+                    </div>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>The New Yorker</b>, (May 18, 1995): illus., 18.</p>
+                    </div>
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1994</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Gilbert, Sidney, “Allan Stone Mounts a Sensational Group Show.”</p>
+                        <p className="exhibition-name"><b>Artspeak</b>. (October 1994): 7.</p>
+                    </div>      
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1991</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Ilein, Abraham, “The Problems of Content in Realism and Abstraction.”</p>
+                        <p className="exhibition-name"><b>Artspeak</b>. (April 1991): 22.</p>
+                    </div>      
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1988</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Freeman, Dan, “Lorraine Shemesh at Allan Stone Gallery.”</p>
+                        <p className="exhibition-name"><b>Cover Arts New York</b>. (June 4, 1988): 15.  </p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Little, Carl, "<a href="https://unruffled-knuth-c3e5aa.netlify.app/">Lorraine Shemesh at Allan Stone.</a>"</p>
+                        <p className="exhibition-name"><b>Art in America</b>. (September 1988): 189.</p>
+                    </div> 
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Knight, Dustan, “Works That Emphasize Beauty.”</p>
+                        <p className="exhibition-name"><b>Artspeak</b>. (March 1988): 7.</p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Mendelowitz, Daniel M., Wakeham, Duane A.</p>
+                        <p className="exhibition-name"><b>A Guide to Drawing - Fourth Edition</b>. Holt, Rinehart, & Winston, (1988): 135.</p>
+                    </div>
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1986</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Martin, Alvin.</p>
+                        <p className="exhibition-name"><b>American Realism Twentieth - Century Drawings and Watercolors</b>. Harry Abrams, (1986): plate 187, 224.</p>
+                    </div>      
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1985</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Colford, Paul D., “Painting New York.”</p>
+                        <p className="exhibition-name"><b>New York Newsday</b>. (November 5, 1985): illus.,11.</p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Teplow, Joshua, “The Figure As Symbol.”</p>
+                        <p className="exhibition-name"><b>Artspeak</b>. (June 1985): illus., 1.</p>
+                    </div>   
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1980</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Hopkins, Lorraine. “Local Art Gets An Influential Patron.”</p>
+                        <p className="exhibition-name"><b>The Providence Journal Sunday Magazine</b>. cover painting. (March 16, 1980): 8.</p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Nutt, Richard. “Art Is On The Rocks.”</p>
+                        <p className="exhibition-name"><b>RISCA Review</b>. (Winter 1980): 3.</p>
+                    </div>   
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1979</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Taylor, Robert. “The Fault Is Our Times Not The Competition.”</p>
+                        <p className="exhibition-name"><b>Boston Sunday Globe</b>. (October 28, 1979): 6.</p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Sozanski, Edward. “Still Lifes Are Worth Reliving At Art Association Of Newport.”</p>
+                        <p className="exhibition-name"><b>The Providence Journal</b>. (February 14, 1979): 14.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Hopkins, Lorraine. “Providence Joins New York in Praising RISD Fellows.’”</p>
+                        <p className="exhibition-name"><b>The Providence Journal</b>. (January, 1979): 9.</p>
+                    </div>   
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1978</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Sozanski, Edward. “Feldman’s New Tack Heavy with Emotion, Religious in Tone.”</p>
+                        <p className="exhibition-name"><b>The Boston Globe</b>. (December 12, 1978): 12.</p>
+                    </div>      
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1977</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Lioce, Tony. “Rhode Island Artists Will Finally Get Space to Offer Exhibits.”</p>
+                        <p className="exhibition-name"><b>The Providence Journal Bulletin</b>. (March 31, 1977): B4.</p>
+                    </div>      
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1976</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Graboys, Lois.“RISD Faculty Exhibit at Bell Gallery.”</p>
+                        <p className="exhibition-name"><b>Anyart Journal</b>. (February 1976): 28.  </p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Wiley, Aubrey. “Art Show Opens Today.”</p>
+                        <p className="exhibition-name"><b>The News</b>. Lynchburg, VA, (March 21, 1976): C-10.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Gray, Channing. “Artist Goes For The Real Thing.”</p>
+                        <p className="exhibition-name"><b>The Providence Journal Bulletin</b>. (January16, 1976): 10.</p>
+                    </div>   
+                </div> 
+            </div>
+
+            <div className="exhibition-year-group">
+                <p className="exhibition-year"><b>1975</b></p>
+                <div className="exhibition-content-right">
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Gray, Channing. “Cooperative Show Some Fine Results.”</p>
+                        <p className="exhibition-name"><b>Providence Journal Bulletin</b>. (November1975): 11.</p>
+                    </div>    
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Robb, Christina. “The Plight of Artists in Boston.”</p>
+                        <p className="exhibition-name"><b>The Boston Globe</b>. (January 30, 1975): cover.</p>
+                    </div>   
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Graboys, Lois. “RISD Faculty Show.”</p>
+                        <p className="exhibition-name"><b>East Bay Window</b>. (May 1-2, 1974): 15.</p>
+                    </div>   
+                </div> 
+            </div>
         </div>
     );
 }
