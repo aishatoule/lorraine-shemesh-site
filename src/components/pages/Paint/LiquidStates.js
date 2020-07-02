@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { allImagesDesktopOrderBts, allImagesMobileOrderBts } from '../../../imageDataFiles/imageDataLS';
+import { allImagesDesktopOrderLs, allImagesMobileOrderLs } from '../../../imageDataFiles/imageDataLS';
 
 class LiquidStates extends Component {
 
@@ -23,7 +23,7 @@ class LiquidStates extends Component {
 
     render() {
 
-    let mappedDesktopImages = allImagesDesktopOrderBts.map((imageColumn, i) => {
+    let mappedDesktopImages = allImagesDesktopOrderLs.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
@@ -45,7 +45,7 @@ class LiquidStates extends Component {
         )
     })
 
-    let mappedMobileImages = allImagesMobileOrderBts.map((imageColumn, i) => {
+    let mappedMobileImages = allImagesMobileOrderLs.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
