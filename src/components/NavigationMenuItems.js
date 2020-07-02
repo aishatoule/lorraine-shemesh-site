@@ -80,7 +80,7 @@ const NavigationMenuItems = ({ open, setOpen }) => {
                     <NavLink to="/paperPools" onClick={handleClick}><li className="sub-nav-menu-item">Pools</li></NavLink>
                     <NavLink to="/paperSpaceBetweenUs" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></NavLink>
                     <NavLink to="/paperIntersections" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Intersections</li></NavLink>
-                    <NavLink to="/paperObjectsFood" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Objects & Food</li></NavLink>
+                    <NavLink to="/paperObjects" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Objects</li></NavLink>
                     </ul>
 
                 <li className="nav-menu-item"><button onClick={() => toggleClaySubMenu()}>Clay</button></li>
