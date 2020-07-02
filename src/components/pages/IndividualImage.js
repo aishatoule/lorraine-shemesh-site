@@ -1,5 +1,12 @@
 import React, {Component} from 'react';
 import { allImagesDesktopOrderTsbu } from '../../imageDataFiles/imageDataTsbu';
+import { allImagesDesktopOrderIntersections } from '../../imageDataFiles/imageDataIntersections';
+import { allImagesDesktopOrderIO } from '../../imageDataFiles/imageDataIO';
+import { allImagesDesktopOrderBts } from '../../imageDataFiles/imageDataBTS';
+import { allImagesDesktopOrderLs } from '../../imageDataFiles/imageDataLS';
+import { allImagesDesktopOrderWw } from '../../imageDataFiles/imageDataWW';
+import { allImagesDesktopOrderPp } from '../../imageDataFiles/imageDataPP';
+
 
 class IndividualImage extends Component {
     constructor(props) {
@@ -28,14 +35,40 @@ class IndividualImage extends Component {
 
     render() {
         const { id } = this.props.match.params;
-        const { imageInformation } = this.props.location.state;
-        const {from} = this.props.location.state;
+        console.log(id);
+        var currentGroup;
+        if(id.includes('tsbu') === true) {
+            currentGroup = allImagesDesktopOrderTsbu;
+        } else if (id.includes('int') === true) {
+            currentGroup = allImagesDesktopOrderIntersections;
+        } else if (id.includes('io') === true) {
+            currentGroup = allImagesDesktopOrderIO;
+        } else if( id.includes('bts') === true) {
+            currentGroup = allImagesDesktopOrderBts;
+        } else if (id.includes('ls') === true) {
+            currentGroup = allImagesDesktopOrderLs;
+        } else if (id.includes('ww') === true) {
+            currentGroup = allImagesDesktopOrderWw;
+        } else {
+            currentGroup = allImagesDesktopOrderPp;
+        }
+        for(let i = 0; i < currentGroup.length; i++) {
+            for(let j = 0; j < currentGroup[i].length; j++) {
+                for(let k = 0; k < currentGroup[i][j].length; k++) {                    
+                    if(currentGroup[i][j][0].link === id) {
+                       var imageInformation = currentGroup[i][j];
+                        console.log(imageInformation);
+                    }   
+                }
+            }
+        }
+
         const { width } = this.state; 
         const isMobile = width <= 1000;
 
         var thumbnailImages = imageInformation.map((image, i) => {
             // each thumbnail is a button that onClick, the image index increases (getNewIndex gets called)     
-            if (i != this.state.currentImageIndex) {
+            if (i !== this.state.currentImageIndex) {
                 return (
                         <div key={i} onClick={() => this.getNewIndex(i)}>
                             <img className='thumbnail-image' src={image.name} alt="painting"/>

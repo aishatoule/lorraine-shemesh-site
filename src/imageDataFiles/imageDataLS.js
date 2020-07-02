@@ -11,7 +11,7 @@ var eddy = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/
 var propeller = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/propeller.jpg';
 var propellerDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/propellerDetail1.jpg';
 
-export const allImagesDesktopOrderBts = [
+export const allImagesDesktopOrderLs = [
     [/*COLUMN 1*/
         [
             {
@@ -144,7 +144,7 @@ export const allImagesDesktopOrderBts = [
     ]          
 ]
 
-export const allImagesMobileOrderBts = [
+export const allImagesMobileOrderLs = [
     [{
         name: zigzag,
         artistName: "Lorraine Shemesh",

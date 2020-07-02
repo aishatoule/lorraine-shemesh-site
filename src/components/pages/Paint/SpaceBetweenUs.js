@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
 import { allImagesDesktopOrderTsbu, allImagesMobileOrderTsbu } from '../../../imageDataFiles/imageDataTsbu';
 
 class SpaceBetweenUs extends Component {
@@ -52,8 +51,6 @@ class SpaceBetweenUs extends Component {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
-                console.log("mobile")
-                console.log("mobile image", image)
                 return (
                     <div className="image-and-details-on-grid" key={image.link}>
                          {/* <Link to={{
