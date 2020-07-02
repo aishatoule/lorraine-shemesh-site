@@ -2,7 +2,7 @@ var loop = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/
 var loopDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/loopDetail1.jpg';
 var echo = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/echo.jpg';
 var echoDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/echoDetail1.jpg';
-var ellipse = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/ellipse.jpg';
+var ellipse = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/ellipse_v2.jpg';
 var crawl = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/crawl.jpg';
 var lasso = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/lasso.jpg';
 var lassoDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/lassoDetail1.jpg';
@@ -50,6 +50,17 @@ export const allImagesDesktopOrderWw = [
                 link: "ww4",
                 privateCollection: "Private Collection"
             }
+        ],
+        [
+            {
+                name: crawl,
+                artistName: "Lorraine Shemesh",
+                title: "Crawl",
+                year: "1998",
+                dimensions: "77 x 52 1/4 in., o/c",
+                link: "ww6",
+                privateCollection: "Private Collection"
+            }
         ]
     ],
     [/*COLUMN 2*/
@@ -66,12 +77,21 @@ export const allImagesDesktopOrderWw = [
         ],
         [
             {
-                name: crawl,
+                name: wings,
                 artistName: "Lorraine Shemesh",
-                title: "Crawl",
-                year: "1998",
-                dimensions: "77 x 52 1/4 in., o/c",
-                link: "ww6",
+                title: "Wings",
+                year: "2008",
+                dimensions: "64 x 63 1/4 in., o/c",
+                link: "ww9",
+                privateCollection: "Private Collection"
+            },
+            {
+                name: wingsDetail1,
+                artistName: "Lorraine Shemesh",
+                title: "Wings - detail",
+                year: "2008",
+                dimensions: "64 x 63 1/4 in., o/c",
+                link: "ww10",
                 privateCollection: "Private Collection"
             }
         ]
@@ -94,26 +114,6 @@ export const allImagesDesktopOrderWw = [
                 year: "2000",
                 dimensions: "78 3/4 x 52 1/2 in., o/c",
                 link: "ww8",
-                privateCollection: "Private Collection"
-            }
-        ],
-        [
-            {
-                name: wings,
-                artistName: "Lorraine Shemesh",
-                title: "Wings",
-                year: "2008",
-                dimensions: "64 x 63 1/4 in., o/c",
-                link: "ww9",
-                privateCollection: "Private Collection"
-            },
-            {
-                name: wingsDetail1,
-                artistName: "Lorraine Shemesh",
-                title: "Wings - detail",
-                year: "2008",
-                dimensions: "64 x 63 1/4 in., o/c",
-                link: "ww10",
                 privateCollection: "Private Collection"
             }
         ]
