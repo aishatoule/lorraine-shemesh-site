@@ -7,6 +7,7 @@ import { allImagesDesktopOrderLs } from '../../imageDataFiles/imageDataLS';
 import { allImagesDesktopOrderWw } from '../../imageDataFiles/imageDataWW';
 import { allImagesDesktopOrderPp } from '../../imageDataFiles/imageDataPP';
 import { allImagesDesktopOrderPaperPools } from '../../imageDataFiles/imageDataPaperPools';
+import { allImagesDesktopOrderPaperSBU } from '../../imageDataFiles/imageDataPaperSBU';
 
 
 class IndividualImage extends Component {
