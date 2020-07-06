@@ -6,6 +6,7 @@ import { allImagesDesktopOrderBts } from '../../imageDataFiles/imageDataBTS';
 import { allImagesDesktopOrderLs } from '../../imageDataFiles/imageDataLS';
 import { allImagesDesktopOrderWw } from '../../imageDataFiles/imageDataWW';
 import { allImagesDesktopOrderPp } from '../../imageDataFiles/imageDataPP';
+import { allImagesDesktopOrderPaperPools } from '../../imageDataFiles/imageDataPaperPools';
 
 
 class IndividualImage extends Component {
@@ -49,8 +50,12 @@ class IndividualImage extends Component {
             currentGroup = allImagesDesktopOrderLs;
         } else if (id.includes('ww') === true) {
             currentGroup = allImagesDesktopOrderWw;
-        } else {
+        } else if (id.includes('pp') === true) {
             currentGroup = allImagesDesktopOrderPp;
+        } else if (id.includes('paperpool') === true) {
+            currentGroup = allImagesDesktopOrderPaperPools;
+        } else {
+            currentGroup = null;
         }
         for(let i = 0; i < currentGroup.length; i++) {
             for(let j = 0; j < currentGroup[i].length; j++) {
