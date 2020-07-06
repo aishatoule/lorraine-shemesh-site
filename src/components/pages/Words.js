@@ -38,7 +38,7 @@ const Words = () => {
                     <p className="exhibition-year"><b>2017</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">BPurcell, Janet, <b><a href="https://unruffled-knuth-c3e5aa.netlify.app/">"Fine Arts: Must See Exhibition in Princeton."</a></b></p>
+                            <p className="exhibition-name">Purcell, Janet, <b><a href="https://unruffled-knuth-c3e5aa.netlify.app/">"Fine Arts: Must See Exhibition in Princeton."</a></b></p>
                             <p className="exhibition-name"><b>The Times of Trenton.</b> (January 18,2017).</p>
                         </div>   
                     </div>   
