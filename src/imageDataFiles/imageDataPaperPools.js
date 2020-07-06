@@ -18,6 +18,7 @@ var suspension = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/pap
 var tethered = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/tethered_gwd.jpg';
 var tetheredCpd = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/tethered_cpd.jpg';
 var tetheredLd = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/tethered_ld.jpg';
+var tetheredLith = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/tethered_lith.jpg';
 var tilt = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/tilt_gwd.jpg';
 var tiltLd = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/tilt_ld.jpg';
 var totem = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/totem_gwd.jpg';
@@ -101,30 +102,12 @@ export const allImagesDesktopOrderPaperPools = [
         ],
         [
             {
-                name: tethered,
+                name: tetheredLith,
                 artistName: "Lorraine Shemesh",
                 title: "Tethered",
-                year: "2014",
-                dimensions: "23 x 25 3/4 in., graphite wash on mylar",
+                year: "2016",
+                dimensions: "20 x 22 1/2 in., 2 color lithograph",
                 link: "paperpool8",
-                privateCollection: ""
-            },
-            {
-                name: tetheredLd,
-                artistName: "Lorraine Shemesh", 
-                title: "Tethered",
-                year: "2014",
-                dimensions: "7 1/2 x 10 in., graphite on mylar",
-                link: "paperpool9",
-                privateCollection: ""
-            },
-            {
-                name: tetheredCpd,
-                artistName: "Lorraine Shemesh", 
-                title: "Tethered",
-                year: "2014",
-                dimensions: "7 1/2 x 8 1/2 in., colored pencil on mylar",
-                link: "paperpool10",
                 privateCollection: ""
             }
         ]
@@ -163,22 +146,13 @@ export const allImagesDesktopOrderPaperPools = [
         ],
         [
             {
-                name: amoeba,
+                name: wings,
                 artistName: "Lorraine Shemesh",
-                title: "Amoeba",
-                year: "2005",
-                dimensions: "31 1/2 x 26 1/2 in., graphite wash on mylar",
-                link: "paperpool14",
-                privateCollection: "Collection of Marie-Josee Kravis, President Emeritus, MOMA"
-            },
-            {
-                name: amoebaDetail1,
-                artistName: "Lorraine Shemesh",
-                title: "Amoeba- detail",
-                year: "2005",
-                dimensions: "31 1/2 x 26 1/2 in., graphite wash on mylar",
-                link: "paperpool15",
-                privateCollection: "Collection of Marie-Josee Kravis, President Emeritus, MOMA"
+                title: "Wings",
+                year: "2008",
+                dimensions: "26 3/4 x 25 1/2 in., graphite wash on mylar",
+                link: "paperpool20",
+                privateCollection: ""
             }
         ],
         [
@@ -223,13 +197,22 @@ export const allImagesDesktopOrderPaperPools = [
         ],
         [
             {
-                name: wings,
+                name: amoeba,
                 artistName: "Lorraine Shemesh",
-                title: "Wings",
-                year: "2008",
-                dimensions: "26 3/4 x 25 1/2 in., graphite wash on mylar",
-                link: "paperpool20",
-                privateCollection: ""
+                title: "Amoeba",
+                year: "2005",
+                dimensions: "31 1/2 x 26 1/2 in., graphite wash on mylar",
+                link: "paperpool14",
+                privateCollection: "Collection of Marie-Josee Kravis, President Emeritus, MOMA"
+            },
+            {
+                name: amoebaDetail1,
+                artistName: "Lorraine Shemesh",
+                title: "Amoeba- detail",
+                year: "2005",
+                dimensions: "31 1/2 x 26 1/2 in., graphite wash on mylar",
+                link: "paperpool15",
+                privateCollection: "Collection of Marie-Josee Kravis, President Emeritus, MOMA"
             }
         ]
     ],
@@ -357,30 +340,12 @@ export const allImagesMobileOrderPaperPools = [
         privateCollection: "Private Collection"
     },
     {
-        name: tethered,
+        name: tetheredLith,
         artistName: "Lorraine Shemesh",
         title: "Tethered",
-        year: "2014",
-        dimensions: "23 x 25 3/4 in., graphite wash on mylar",
+        year: "2016",
+        dimensions: "20 x 22 1/2 in., 2 color lithograph",
         link: "paperpool8",
-        privateCollection: ""
-    },
-    {
-        name: tetheredLd,
-        artistName: "Lorraine Shemesh", 
-        title: "Tethered",
-        year: "2014",
-        dimensions: "7 1/2 x 10 in., graphite on mylar",
-        link: "paperpool9",
-        privateCollection: ""
-    },
-    {
-        name: tetheredCpd,
-        artistName: "Lorraine Shemesh", 
-        title: "Tethered",
-        year: "2014",
-        dimensions: "7 1/2 x 8 1/2 in., colored pencil on mylar",
-        link: "paperpool10",
         privateCollection: ""
     },
     {    

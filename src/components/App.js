@@ -19,6 +19,7 @@ import liquidStates from './pages/Paint/LiquidStates';
 import WaterWorks from './pages/Paint/WaterWorks';
 import PaintedPools from './pages/Paint/PaintedPools';
 import paperPools from './pages/Paper/PaperPools';
+import paperSBU from './pages/Paper/PaperSBU';
 import HomeAlternate from './pages/HomeTest2';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
               <Route path="/paintedPools" component={PaintedPools} />
 
               <Route path="/paperPools" component={paperPools} />
+              <Route path="/paperSpaceBetweenUs" component={paperSBU} />
               
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
