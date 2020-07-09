@@ -19,6 +19,7 @@ import liquidStates from './pages/Paint/LiquidStates';
 import WaterWorks from './pages/Paint/WaterWorks';
 import PaintedPools from './pages/Paint/PaintedPools';
 import paperPools from './pages/Paper/PaperPools';
+import paperSBU from './pages/Paper/PaperSBU';
 import HomeAlternate from './pages/HomeTest2';
 import Biblio_balakian from './pages/IndividualWordsPages/Biblio_balakian';
 
