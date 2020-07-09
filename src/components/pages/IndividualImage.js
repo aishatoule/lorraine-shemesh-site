@@ -58,6 +58,7 @@ class IndividualImage extends Component {
         } else {
             currentGroup = null;
         }
+        
         for(let i = 0; i < currentGroup.length; i++) {
             for(let j = 0; j < currentGroup[i].length; j++) {
                 for(let k = 0; k < currentGroup[i][j].length; k++) {                    

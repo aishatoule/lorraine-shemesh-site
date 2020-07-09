@@ -21,6 +21,7 @@ import PaintedPools from './pages/Paint/PaintedPools';
 import paperPools from './pages/Paper/PaperPools';
 import paperSBU from './pages/Paper/PaperSBU';
 import HomeAlternate from './pages/HomeTest2';
+import Biblio_balakian from './pages/IndividualWordsPages/Biblio_balakian';
 
 function App() {
   return (
@@ -39,14 +40,12 @@ function App() {
               <Route path="/liquidStates" component={liquidStates} />
               <Route path="/waterWorks" component={WaterWorks} />
               <Route path="/paintedPools" component={PaintedPools} />
-
               <Route path="/paperPools" component={paperPools} />
-              <Route path="/paperSpaceBetweenUs" component={paperSBU} />
-              
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
               <Route path="/words" component={Words} />
+              <Route path="/biblio_balakian" component={Biblio_balakian} />
               <Route path="/exhibition" component={Exhibition} />
               {/* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} /> */}
 
