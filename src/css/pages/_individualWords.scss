@@ -1,3 +1,22 @@
 .individual-words-title {
     text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+.individual-words-paragraph-container {
+    max-width: 700px;
+}
+
+.individual-words-paragraph {
+    line-height: 1.5;
+    margin: 15px 0;
+}    
+
+.individual-words-text-container {
+    padding-top: 15px;
+}
+
+.individual-words-closing-text {
+    font-style: italic;
+    font-size: 16px;
 }

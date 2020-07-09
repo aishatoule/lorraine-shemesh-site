@@ -45,7 +45,7 @@ function App() {
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
               <Route path="/words" component={Words} />
-              <Route path="/words/biblio_balakian" component={Biblio_balakian} />
+              <Route path="/biblio_balakian" component={Biblio_balakian} />
               <Route path="/exhibition" component={Exhibition} />
               {/* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} /> */}
 
