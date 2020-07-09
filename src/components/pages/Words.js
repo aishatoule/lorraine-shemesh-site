@@ -1,4 +1,5 @@
-import React, {  } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Words = () => {
     return (
@@ -21,7 +22,7 @@ const Words = () => {
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Balakian, Peter. <b><a href="http://www.lorraineshemesh.com/bibliography/biblio_balakian.html" >"Lorraine Shemesh: Body, Light, Space."</a></b></p>
+                        <Link to="/Biblio_balakian"><p className="exhibition-name">Balakian, Peter.<b></b></p></Link>
                             <p className="exhibition-name">Catalogue Essay, Gerald Peters Gallery, New York, (Sept. 12, 2019): 7-8.</p>
                         </div>   
                         <div className="exhibition-container">
