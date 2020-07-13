@@ -41,6 +41,7 @@ function App() {
               <Route path="/waterWorks" component={WaterWorks} />
               <Route path="/paintedPools" component={PaintedPools} />
               <Route path="/paperPools" component={paperPools} />
+              <Route path="/paperSpaceBetweenUs" component={paperSBU} />
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
