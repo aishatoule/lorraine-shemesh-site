@@ -69,23 +69,23 @@ export const allImagesDesktopOrderPaperSBU = [
         ],
         [
             {
-                name: yellowblack,
-                artistName: "Lorraine Shemesh",
-                title: "Yellow & Black",
-                year: "2014",
-                dimensions: "9 x 9 1/2 in., woven construction paper",
-                link: "papersbu7",
-                privateCollection: ""
-            }
-        ],
-        [
-            {
                 name: blueblack,
                 artistName: "Lorraine Shemesh",
                 title: "Blue & Black",
                 year: "2014",
                 dimensions: "9 x 9 in., woven construction paper",
                 link: "papersbu5",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: yellowblack,
+                artistName: "Lorraine Shemesh",
+                title: "Yellow & Black",
+                year: "2014",
+                dimensions: "9 x 9 1/2 in., woven construction paper",
+                link: "papersbu7",
                 privateCollection: ""
             }
         ]
@@ -139,21 +139,21 @@ export const allImagesMobileOrderPaperSBU = [
         privateCollection: ""
     },
     {
-        name: blueblack,
-        artistName: "Lorraine Shemesh",
-        title: "Blue & Black",
-        year: "2014",
-        dimensions: "9 x 9 in., woven construction paper",
-        link: "papersbu5",
-        privateCollection: ""
-    },
-    {
         name: yellowblack,
         artistName: "Lorraine Shemesh",
         title: "Yellow & Black",
         year: "2014",
         dimensions: "9 x 9 1/2 in., woven construction paper",
         link: "papersbu7",
+        privateCollection: ""
+    },
+    {
+        name: blueblack,
+        artistName: "Lorraine Shemesh",
+        title: "Blue & Black",
+        year: "2014",
+        dimensions: "9 x 9 in., woven construction paper",
+        link: "papersbu5",
         privateCollection: ""
     }]      
 ]

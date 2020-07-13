@@ -55,6 +55,8 @@ class IndividualImage extends Component {
             currentGroup = allImagesDesktopOrderPp;
         } else if (id.includes('paperpool') === true) {
             currentGroup = allImagesDesktopOrderPaperPools;
+        } else if (id.includes('papersbu') === true) {
+            currentGroup = allImagesDesktopOrderPaperSBU;
         } else {
             currentGroup = null;
         }
