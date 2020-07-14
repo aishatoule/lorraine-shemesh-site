@@ -8,6 +8,8 @@ import { allImagesDesktopOrderWw } from '../../imageDataFiles/imageDataWW';
 import { allImagesDesktopOrderPp } from '../../imageDataFiles/imageDataPP';
 import { allImagesDesktopOrderPaperPools } from '../../imageDataFiles/imageDataPaperPools';
 import { allImagesDesktopOrderPaperSBU } from '../../imageDataFiles/imageDataPaperSBU';
+import { allImagesDesktopOrderPaperInt } from '../../imageDataFiles/imageDataPaperInt';
+import { allImagesDesktopOrderPaperObj } from '../../imageDataFiles/imageDataPaperObj';
 
 
 class IndividualImage extends Component {
@@ -57,6 +59,10 @@ class IndividualImage extends Component {
             currentGroup = allImagesDesktopOrderPaperPools;
         } else if (id.includes('papersbu') === true) {
             currentGroup = allImagesDesktopOrderPaperSBU;
+        } else if (id.includes('paperint') === true) {
+            currentGroup = allImagesDesktopOrderPaperInt;
+        } else if (id.includes('paperobj') === true) {
+            currentGroup = allImagesDesktopOrderPaperObj;
         } else {
             currentGroup = null;
         }
