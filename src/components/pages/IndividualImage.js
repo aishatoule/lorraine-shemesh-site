@@ -42,7 +42,7 @@ class IndividualImage extends Component {
         var currentGroup;
         var idWithoutDigits = id.replace(/[0-9]/g, '');
 
-        if(id.includes('tsbu') === true) {
+        if(idWithoutDigits === 'tsbu') {
             currentGroup = allImagesDesktopOrderTsbu;
         } else if (idWithoutDigits === 'int') {
             currentGroup = allImagesDesktopOrderIntersections;
