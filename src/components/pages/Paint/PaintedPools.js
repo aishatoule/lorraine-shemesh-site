@@ -50,7 +50,7 @@ class PaintedPools extends Component {
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
                 return (
-                    <div className="image-and-details-on-grid">
+                    <div key={index} className="image-and-details-on-grid">
                         {/* <Link to={{
                             pathname:"/" + image.link, 
                             state: {

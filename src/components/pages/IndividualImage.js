@@ -39,29 +39,30 @@ class IndividualImage extends Component {
 
     render() {
         const { id } = this.props.match.params;
-        console.log(id);
         var currentGroup;
+        var idWithoutDigits = id.replace(/[0-9]/g, '');
+
         if(id.includes('tsbu') === true) {
             currentGroup = allImagesDesktopOrderTsbu;
-        } else if (id.includes('int') === true) {
+        } else if (idWithoutDigits === 'int') {
             currentGroup = allImagesDesktopOrderIntersections;
-        } else if (id.includes('io') === true) {
+        } else if (idWithoutDigits === 'io') {
             currentGroup = allImagesDesktopOrderIO;
-        } else if( id.includes('bts') === true) {
+        } else if( idWithoutDigits === 'bts') {
             currentGroup = allImagesDesktopOrderBts;
-        } else if (id.includes('ls') === true) {
+        } else if (idWithoutDigits === 'ls') {
             currentGroup = allImagesDesktopOrderLs;
-        } else if (id.includes('ww') === true) {
+        } else if (idWithoutDigits ==='ww') {
             currentGroup = allImagesDesktopOrderWw;
-        } else if (id.includes('pp') === true) {
+        } else if (idWithoutDigits ==='pp') {
             currentGroup = allImagesDesktopOrderPp;
-        } else if (id.includes('paperpool') === true) {
+        } else if (idWithoutDigits ==='paperpool') {
             currentGroup = allImagesDesktopOrderPaperPools;
-        } else if (id.includes('papersbu') === true) {
+        } else if (idWithoutDigits === 'papersbu') {
             currentGroup = allImagesDesktopOrderPaperSBU;
-        } else if (id.includes('paperint') === true) {
+        } else if (idWithoutDigits === 'paperint') {
             currentGroup = allImagesDesktopOrderPaperInt;
-        } else if (id.includes('paperobj') === true) {
+        } else if (idWithoutDigits === 'paperobj') {
             currentGroup = allImagesDesktopOrderPaperObj;
         } else {
             currentGroup = null;
@@ -71,8 +72,7 @@ class IndividualImage extends Component {
             for(let j = 0; j < currentGroup[i].length; j++) {
                 for(let k = 0; k < currentGroup[i][j].length; k++) {                    
                     if(currentGroup[i][j][0].link === id) {
-                       var imageInformation = currentGroup[i][j];
-                        console.log(imageInformation);
+                        var imageInformation = currentGroup[i][j];
                     }   
                 }
             }
