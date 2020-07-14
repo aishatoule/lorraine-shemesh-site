@@ -8,6 +8,8 @@ import { allImagesDesktopOrderWw } from '../../imageDataFiles/imageDataWW';
 import { allImagesDesktopOrderPp } from '../../imageDataFiles/imageDataPP';
 import { allImagesDesktopOrderPaperPools } from '../../imageDataFiles/imageDataPaperPools';
 import { allImagesDesktopOrderPaperSBU } from '../../imageDataFiles/imageDataPaperSBU';
+import { allImagesDesktopOrderPaperInt } from '../../imageDataFiles/imageDataPaperInt';
+import { allImagesDesktopOrderPaperObj } from '../../imageDataFiles/imageDataPaperObj';
 
 
 class IndividualImage extends Component {
@@ -37,26 +39,31 @@ class IndividualImage extends Component {
 
     render() {
         const { id } = this.props.match.params;
-        console.log(id);
         var currentGroup;
-        if(id.includes('tsbu') === true) {
+        var idWithoutDigits = id.replace(/[0-9]/g, '');
+
+        if(idWithoutDigits === 'tsbu') {
             currentGroup = allImagesDesktopOrderTsbu;
-        } else if (id.includes('int') === true) {
+        } else if (idWithoutDigits === 'int') {
             currentGroup = allImagesDesktopOrderIntersections;
-        } else if (id.includes('io') === true) {
+        } else if (idWithoutDigits === 'io') {
             currentGroup = allImagesDesktopOrderIO;
-        } else if( id.includes('bts') === true) {
+        } else if( idWithoutDigits === 'bts') {
             currentGroup = allImagesDesktopOrderBts;
-        } else if (id.includes('ls') === true) {
+        } else if (idWithoutDigits === 'ls') {
             currentGroup = allImagesDesktopOrderLs;
-        } else if (id.includes('ww') === true) {
+        } else if (idWithoutDigits ==='ww') {
             currentGroup = allImagesDesktopOrderWw;
-        } else if (id.includes('pp') === true) {
+        } else if (idWithoutDigits ==='pp') {
             currentGroup = allImagesDesktopOrderPp;
-        } else if (id.includes('paperpool') === true) {
+        } else if (idWithoutDigits ==='paperpool') {
             currentGroup = allImagesDesktopOrderPaperPools;
-        } else if (id.includes('papersbu') === true) {
+        } else if (idWithoutDigits === 'papersbu') {
             currentGroup = allImagesDesktopOrderPaperSBU;
+        } else if (idWithoutDigits === 'paperint') {
+            currentGroup = allImagesDesktopOrderPaperInt;
+        } else if (idWithoutDigits === 'paperobj') {
+            currentGroup = allImagesDesktopOrderPaperObj;
         } else {
             currentGroup = null;
         }
@@ -65,8 +72,7 @@ class IndividualImage extends Component {
             for(let j = 0; j < currentGroup[i].length; j++) {
                 for(let k = 0; k < currentGroup[i][j].length; k++) {                    
                     if(currentGroup[i][j][0].link === id) {
-                       var imageInformation = currentGroup[i][j];
-                        console.log(imageInformation);
+                        var imageInformation = currentGroup[i][j];
                     }   
                 }
             }

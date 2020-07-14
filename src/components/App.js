@@ -20,6 +20,8 @@ import WaterWorks from './pages/Paint/WaterWorks';
 import PaintedPools from './pages/Paint/PaintedPools';
 import paperPools from './pages/Paper/PaperPools';
 import paperSBU from './pages/Paper/PaperSBU';
+import paperInt from './pages/Paper/PaperInt';
+import paperObj from './pages/Paper/PaperObj';
 import HomeAlternate from './pages/HomeTest2';
 import Biblio_balakian from './pages/IndividualWordsPages/Biblio_balakian';
 
@@ -42,6 +44,8 @@ function App() {
               <Route path="/paintedPools" component={PaintedPools} />
               <Route path="/paperPools" component={paperPools} />
               <Route path="/paperSpaceBetweenUs" component={paperSBU} />
+              <Route path="/paperIntersections" component={paperInt} />
+              <Route path="/paperObjects" component={paperObj} />
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />

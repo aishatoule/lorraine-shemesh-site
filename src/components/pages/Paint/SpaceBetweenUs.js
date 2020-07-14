@@ -29,7 +29,6 @@ class SpaceBetweenUs extends Component {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
-                console.log(image[0])
                 return (
                     // sends to individual image 
                     <Link key={index} location={this.props.location} to={{
@@ -52,7 +51,7 @@ class SpaceBetweenUs extends Component {
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
                 return (
-                    <div className="image-and-details-on-grid" key={image.link}>
+                    <div key={index} className="image-and-details-on-grid">
                          {/* <Link to={{
                             pathname:"/" + image.link, 
                             state: {

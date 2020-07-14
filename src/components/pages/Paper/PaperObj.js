@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { allImagesDesktopOrderPaperSBU, allImagesMobileOrderPaperSBU } from '../../../imageDataFiles/imageDataPaperSBU';
+import { allImagesDesktopOrderPaperObj, allImagesMobileOrderPaperObj } from '../../../imageDataFiles/imageDataPaperObj';
 
-class PaperSBU extends Component {
+class PaperObj extends Component {
 
     constructor() {
         super();
@@ -23,7 +23,7 @@ class PaperSBU extends Component {
 
     render() {
 
-    let mappedDesktopImages = allImagesDesktopOrderPaperSBU.map((imageColumn, i) => {
+    let mappedDesktopImages = allImagesDesktopOrderPaperObj.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
@@ -37,7 +37,7 @@ class PaperSBU extends Component {
                         }}
                         
                     }>
-                        <img key={index} src={image[0].name} className="grid-image" alt="Intersections series"/>
+                        <img key={index} src={image[0].name} className="grid-image" alt="Objersections series"/>
                     </Link>
                 )                    
             })}
@@ -45,7 +45,7 @@ class PaperSBU extends Component {
         )
     })
 
-    let mappedMobileImages = allImagesMobileOrderPaperSBU.map((imageColumn, i) => {
+    let mappedMobileImages = allImagesMobileOrderPaperObj.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
@@ -57,7 +57,7 @@ class PaperSBU extends Component {
                                 imageInformation: image
                             }}
                         }> */}
-                        <img key={index} src={image.name} className="grid-image" alt="Intersections series"/>
+                        <img key={index} src={image.name} className="grid-image" alt="Objersections series"/>
                         {/* </Link> */}
                         <div className="gallery-individual-image-details">
                             <p>{image.artistName}</p>
@@ -89,4 +89,4 @@ class PaperSBU extends Component {
     }
 }
 
-export default PaperSBU;
+export default PaperObj;

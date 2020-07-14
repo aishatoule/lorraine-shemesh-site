@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { allImagesDesktopOrderPaperSBU, allImagesMobileOrderPaperSBU } from '../../../imageDataFiles/imageDataPaperSBU';
+import { allImagesDesktopOrderPaperInt, allImagesMobileOrderPaperInt } from '../../../imageDataFiles/imageDataPaperInt';
 
-class PaperSBU extends Component {
+class PaperInt extends Component {
 
     constructor() {
         super();
@@ -23,7 +23,7 @@ class PaperSBU extends Component {
 
     render() {
 
-    let mappedDesktopImages = allImagesDesktopOrderPaperSBU.map((imageColumn, i) => {
+    let mappedDesktopImages = allImagesDesktopOrderPaperInt.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
@@ -45,7 +45,7 @@ class PaperSBU extends Component {
         )
     })
 
-    let mappedMobileImages = allImagesMobileOrderPaperSBU.map((imageColumn, i) => {
+    let mappedMobileImages = allImagesMobileOrderPaperInt.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
@@ -89,4 +89,4 @@ class PaperSBU extends Component {
     }
 }
 
-export default PaperSBU;
+export default PaperInt;
