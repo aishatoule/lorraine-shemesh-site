@@ -10,6 +10,7 @@ import { allImagesDesktopOrderPaperPools } from '../../imageDataFiles/imageDataP
 import { allImagesDesktopOrderPaperSBU } from '../../imageDataFiles/imageDataPaperSBU';
 import { allImagesDesktopOrderPaperInt } from '../../imageDataFiles/imageDataPaperInt';
 import { allImagesDesktopOrderPaperObj } from '../../imageDataFiles/imageDataPaperObj';
+import { allImagesDesktopOrderClayHB } from '../../imageDataFiles/imageDataClayHB';
 
 
 class IndividualImage extends Component {
@@ -64,6 +65,8 @@ class IndividualImage extends Component {
             currentGroup = allImagesDesktopOrderPaperInt;
         } else if (idWithoutDigits === 'paperobj') {
             currentGroup = allImagesDesktopOrderPaperObj;
+        } else if (idWithoutDigits === 'clayhb') {
+            currentGroup = allImagesDesktopOrderClayHB;
         } else {
             currentGroup = null;
         }
