@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { bool } from 'prop-types';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const NavigationMenuItems = ({ open, setOpen }) => {
 
     const [openPaintSubMenu, setPaintOpenSubMenu] = useState(false);
     const [openPaperSubMenu, setPaperOpenSubMenu] = useState(false);
     const [openClaySubMenu, setClayOpenSubMenu] = useState(false);
-
+    const location = useLocation();
 
     const handleClick = () => {
         const isMobile = window.innerWidth < 768;
@@ -59,7 +59,18 @@ const NavigationMenuItems = ({ open, setOpen }) => {
     if(!openClaySubMenu) {
         revealClaySubMenuItems = 'hide';
     }
-    
+
+    if(location.pathname === '/spaceBetweenUs' || location.pathname === '/intersections' || location.pathname === '/insideOut' || location.pathname === '/breakingTheSurface' || location.pathname === '/liquidStates' || location.pathname === '/waterWorks' || location.pathname === '/paintedPools') {
+        revealPaintSubMenuItems = '';  
+    }
+
+    if(location.pathname === '/paperPools' || location.pathname === '/paperSpaceBetweenUs' || location.pathname === '/paperIntersections' || location.pathname === '/paperObjects') {
+        revealPaperSubMenuItems = '';  
+    }
+
+    if(location.pathname === '/clayHandBuilt' || location.pathname === '/clayWheelThrown' || location.pathname === '/claySlipcast') {
+        revealClaySubMenuItems = '';  
+    }
 
     return (
         <div className={`nav-menu-list ${revealMenuClass}`} open={open}>
