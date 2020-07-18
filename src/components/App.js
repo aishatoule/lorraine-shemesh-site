@@ -23,8 +23,8 @@ import paperSBU from './pages/Paper/PaperSBU';
 import paperInt from './pages/Paper/PaperInt';
 import paperObj from './pages/Paper/PaperObj';
 import clayHB from './pages/Clay/ClayHB';
-/*import clayWT from './pages/Clay/ClayWT';
-import claySC from './pages/Clay/ClaySC';*/
+import clayWT from './pages/Clay/ClayWT';
+import claySC from './pages/Clay/ClaySC';
 import Words from './/pages/Words';
 import biblio_balakian from './pages/IndividualWordsPages/biblio_balakian';
 import biblio_zona_2016 from './pages/IndividualWordsPages/biblio_zona_2016';
@@ -63,6 +63,8 @@ function App() {
               <Route path="/paperIntersections" component={paperInt} />
               <Route path="/paperObjects" component={paperObj} />
               <Route path="/clayHandBuilt" component={clayHB} />
+              <Route path="/clayWheelThrown" component={clayWT} />
+              <Route path="/claySlipcast" component={claySC} />
               <Route path="/contact" component={Contact} />
               <Route path="/video" component={Video} />
               <Route path="/words" component={Words} />
