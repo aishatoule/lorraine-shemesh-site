@@ -1,6 +1,6 @@
 import React from 'react'
 
-const biblio_balakian = () => {
+const biblio_zona = () => {
     return (
         <div>
             <div className="image-section">
@@ -8,7 +8,7 @@ const biblio_balakian = () => {
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH: BODY, LIGHT, SPACE</b></h4>
-                <h4 className="individual-words-paragraph">Lorraine Shemesh's work will always be, in part, defined by her paintings of the body in water moving in refracted light. They are unique in contemporary painting and they comprise, over the years, a series that evolves from the early 1990s through 2015. In these paintings she explores human anatomy, color, light, and the materiality of paint in ways that are sensuously compelling and conceptually rich. She probes the relationship between abstraction and form, and the dazzling complexity of her color and brush strokes evoke elements of Jackson Pollock's action painting, the color field of Helen Frankenthaler, and the tonal planes of Milton Avery. There are always layers of her fine draughtsmanship in her paintings, and whether she is making big brush strokes of swimmers or dancers or drawing bodies in muscular contortions, her hand continues a tradition of drawing that includes Pollaiuolo, Goya, Van Gogh, and Matisse.</h4>
+                <h4 className="individual-words-paragraph">Knowing and loving the work of Lorraine Shemesh as I do, it is hard for me to believe that her earliest desire was to become a dancer. But one can also understand that her brilliance as a figurative painter just may have its roots in the art of dance. As Martha Graham and her disciples have revealed, the human form as an abstraction, both still and in motion, may be nature's greatest visual achievement. I first became aware of Shemesh's work several years back when her focus was the human form as seen through the magical prism of water. The works were both powerful and sensitive, energy rich and calm.</h4>
                 <h4 className="individual-words-paragraph">In her exploration of water on light, the play of refraction on color—the turquoise of the water on the textiles (bathing suits) of the moving body—she creates surfaces that open to deep seeing, just as water is surface opening to underwater. She's a realist who brings solidity of form to the brink of abstraction as she creates light—scintillating and accreting—modeling the body through the refraction of water, in what strikes me as furthering mode of luminist expression.</h4>
                 <h4 className="individual-words-paragraph">The paintings in her new "The Space Between Us," series are an organic evolution of her work, and evolve from her "Intersections" series (2009) in which she made dramatic, life size paintings of two dancers in a unique modality of motion and stillness. Shemesh has noted that her love and ever deepening interest in dance has evolved from her experience dancing as a child. In her vision of those dancers in their black and white unitards, she creates dialectical gestures of bodies in motion that are intimate, sometimes suggesting the erotic—at once tucked in to each other, almost uroborically—while they maintain their formal dance poses and muscular realism.</h4>
                 <h4 className="individual-words-paragraph">In her new paintings, she pushes further her explorations of the body in motion. She brings into a unique balance the powerful force of the dancers in their arresting white unitards—terra cotta or turquoise light often shading and striping them—with the conceptual realities of pattern and design embedded in their movements and inscribed in their dance with each other. In the black and yellow camouflage-like pattern in two of the paintings,"Puzzle," and "Inseparable," the dancers almost disappear into each other as they join in a swirling form in which they blur the limits of self and intimacy. In all of these paintings Shemesh engages us in seeing the world in formal ways—that order our perception while absorbing us in the power and beauty of the dancers and their art and human encounter.</h4>
@@ -25,4 +25,4 @@ const biblio_balakian = () => {
     )
 }
 
-export default biblio_balakian;
+export default biblio_zona;

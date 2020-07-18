@@ -10,6 +10,9 @@ import { allImagesDesktopOrderPaperPools } from '../../imageDataFiles/imageDataP
 import { allImagesDesktopOrderPaperSBU } from '../../imageDataFiles/imageDataPaperSBU';
 import { allImagesDesktopOrderPaperInt } from '../../imageDataFiles/imageDataPaperInt';
 import { allImagesDesktopOrderPaperObj } from '../../imageDataFiles/imageDataPaperObj';
+import { allImagesDesktopOrderClayHB } from '../../imageDataFiles/imageDataClayHB';
+import { allImagesDesktopOrderClayWT } from '../../imageDataFiles/imageDataClayWT';
+import { allImagesDesktopOrderClaySC } from '../../imageDataFiles/imageDataClaySC';
 
 
 class IndividualImage extends Component {
@@ -64,6 +67,12 @@ class IndividualImage extends Component {
             currentGroup = allImagesDesktopOrderPaperInt;
         } else if (idWithoutDigits === 'paperobj') {
             currentGroup = allImagesDesktopOrderPaperObj;
+        } else if (idWithoutDigits === 'clayhb') {
+            currentGroup = allImagesDesktopOrderClayHB;
+        } else if (idWithoutDigits === 'claywt') {
+            currentGroup = allImagesDesktopOrderClayWT;
+        } else if (idWithoutDigits === 'claysc') {
+            currentGroup = allImagesDesktopOrderClaySC;
         } else {
             currentGroup = null;
         }

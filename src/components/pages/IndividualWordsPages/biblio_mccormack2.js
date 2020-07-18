@@ -1,6 +1,6 @@
 import React from 'react'
 
-const biblio_balakian = () => {
+const biblio_mccormack2 = () => {
     return (
         <div>
             <div className="image-section">
@@ -25,4 +25,4 @@ const biblio_balakian = () => {
     )
 }
 
-export default biblio_balakian;
+export default biblio_mccormack2;

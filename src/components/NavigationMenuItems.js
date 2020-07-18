@@ -109,9 +109,7 @@ const NavigationMenuItems = ({ open, setOpen }) => {
             </ul>
         </div>
     )
-    
 }
-
 
 NavigationMenuItems.propTypes = {
     open: bool,

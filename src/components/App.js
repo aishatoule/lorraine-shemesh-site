@@ -3,16 +3,16 @@ import React from 'react';
 import '../index.scss';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Navigation from './Navigation'
-import Home from './pages/Home';
-import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
-import Intersections from './pages/Paint/Intersections';
 import NotFound from './pages/PageNotFound';
+import Home from './pages/Home';
+import HomeAlternate from './pages/HomeTest2';
 import Contact from './pages/Contact';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
-import Words from './/pages/Words';
 import Exhibition from './pages/Exhibitions';
 import IndividualImage from './pages/IndividualImage';
+import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
+import Intersections from './pages/Paint/Intersections';
 import InsideOut from './pages/Paint/InsideOut';
 import BreakingTheSurface from './pages/Paint/BreakingTheSurface';
 import liquidStates from './pages/Paint/LiquidStates';
@@ -22,8 +22,24 @@ import paperPools from './pages/Paper/PaperPools';
 import paperSBU from './pages/Paper/PaperSBU';
 import paperInt from './pages/Paper/PaperInt';
 import paperObj from './pages/Paper/PaperObj';
-import HomeAlternate from './pages/HomeTest2';
-import Biblio_balakian from './pages/IndividualWordsPages/Biblio_balakian';
+import clayHB from './pages/Clay/ClayHB';
+import clayWT from './pages/Clay/ClayWT';
+import claySC from './pages/Clay/ClaySC';
+import Words from './/pages/Words';
+import biblio_balakian from './pages/IndividualWordsPages/biblio_balakian';
+import biblio_zona_2016 from './pages/IndividualWordsPages/biblio_zona_2016';
+import biblio_purcell from './pages/IndividualWordsPages/biblio_purcell';
+import biblio_davis from './pages/IndividualWordsPages/biblio_davis';
+import biblio_mccarthy from './pages/IndividualWordsPages/biblio_mccarthy';
+import biblio_mccormack2 from './pages/IndividualWordsPages/biblio_mccormack2';
+import biblio_cheng from './pages/IndividualWordsPages/biblio_cheng';
+import biblio_shemesh1 from './pages/IndividualWordsPages/biblio_shemesh1';
+import biblio_kennedy from './pages/IndividualWordsPages/biblio_kennedy';
+import biblio_zona from './pages/IndividualWordsPages/biblio_zona';
+import biblio_stone from './pages/IndividualWordsPages/biblio_stone';
+import biblio_goodman from './pages/IndividualWordsPages/biblio_goodman';
+import biblio_mccormack from './pages/IndividualWordsPages/biblio_mccormack';
+import biblio_little from './pages/IndividualWordsPages/biblio_little';
 
 function App() {
   return (
@@ -46,14 +62,28 @@ function App() {
               <Route path="/paperSpaceBetweenUs" component={paperSBU} />
               <Route path="/paperIntersections" component={paperInt} />
               <Route path="/paperObjects" component={paperObj} />
+              <Route path="/clayHandBuilt" component={clayHB} />
+              <Route path="/clayWheelThrown" component={clayWT} />
+              <Route path="/claySlipcast" component={claySC} />
               <Route path="/contact" component={Contact} />
-              <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
               <Route path="/words" component={Words} />
-              <Route path="/biblio_balakian" component={Biblio_balakian} />
+              <Route path="/biblio_balakian" component={biblio_balakian} />
+              <Route path="/biblio_zona_2016" component={biblio_zona_2016} />
+              <Route path="/biblio_purcell" component={biblio_purcell} />
+              <Route path="/biblio_davis" component={biblio_davis} />
+              <Route path="/biblio_mccarthy" component={biblio_mccarthy} />
+              <Route path="biblio_mccormack2" component={biblio_mccormack2} />
+              <Route path="biblio_cheng" component={biblio_cheng} />
+              <Route path="biblio_shemesh1" component={biblio_shemesh1} />
+              <Route path="biblio_kennedy" component={biblio_kennedy} />
+              <Route path="biblio_zona" component={biblio_zona} />
+              <Route path="biblio_stone" component={biblio_stone} />
+              <Route path="biblio_goodman" component={biblio_goodman} />
+              <Route path="biblio_mccormack" component={biblio_mccormack} />
+              <Route path="biblio_little" component={biblio_little} />
+              
               <Route path="/exhibition" component={Exhibition} />
-              {/* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} /> */}
-
               <Route path="/:id" component={IndividualImage} />
               <Route component={NotFound} />
             </Switch> 

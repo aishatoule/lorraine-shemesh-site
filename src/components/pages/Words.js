@@ -1,5 +1,7 @@
 import React, {  } from 'react';
 import { NavLink } from 'react-router-dom';
+import biblio_riley from './IndividualWordsPages/biblio_riley.pdf';
+import biblio_nash from './IndividualWordsPages/biblio_nash.pdf'
 
 const Words = () => {
     return (
@@ -22,11 +24,11 @@ const Words = () => {
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Balakian, Peter. "<NavLink to="/biblio_balakian" className="words-link">Lorraine Shemesh: Body, Light, Space</NavLink>."</p>
+                            <p className="exhibition-name">Balakian, Peter. "<NavLink to="/biblio_balakian" target="_blank" className="words-link">Lorraine Shemesh: Body, Light, Space</NavLink>."</p>
                             <p className="exhibition-name">Catalogue Essay, Gerald Peters Gallery, New York, (Sept. 12, 2019): 7-8.</p>
                         </div>   
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Zona, Louis, A. "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Introduction</a></b>."</p>
+                            <p className="exhibition-name">Zona, Louis, A. "<b><NavLink to="/biblio_zona_2016" target="_blank" className="words-link">Introduction</NavLink></b>."</p>
                             <p className="exhibition-name">The Space Between Us Catalogue, Gerald Peters Gallery, New York, (Sept. 12, 2019): 5.</p>
                         </div>   
                         <div className="exhibition-container">
@@ -56,9 +58,10 @@ const Words = () => {
                             <p className="exhibition-name"><b>Nashville Arts</b>. (August 2016): Cover, illus., 1-7.</p>
                         </div>   
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Riley, Charles, A. "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Art Review: Lorraine Shemesh Probes Balance of Abstraction and Figuration</a>.</b>."</p>
+                            <p className="exhibition-name">Riley, Charles, A. "<b><a target="_blank" rel="noopener noreferrer" className="words-link" href={biblio_riley}>Art Review: Lorraine Shemesh Probes Balance of Abstraction and Figuration</a>.</b>."</p>
                             <p className="exhibition-name">Hamptons Art Hub, (June 3, 2016).</p>
                         </div>   
+                        {/* ADD CORRECT LINK */}
                         <div className="exhibition-container">
                             <p className="exhibition-name">Bascove, A. "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Inside Out</a>.</b>" - Review</p>
                             <p className="exhibition-name">Art Fuse, (May 9, 2016).</p>
@@ -68,7 +71,7 @@ const Words = () => {
                             <p className="exhibition-name">(Spring 2016): illus. 14-18.</p>
                         </div>
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Nash, Steve. <b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">"Suspended: Lorraine Shemesh's Underwater States of Being."</a></b></p>
+                            <p className="exhibition-name">Nash, Steve. <b><a target="_blank" rel="noopener noreferrer"className="words-link" href={biblio_nash}>"Suspended: Lorraine Shemesh's Underwater States of Being."</a></b></p>
                             <p className="exhibition-name">Catalogue Essay, Gerald Peters Gallery, New York. (May 7, 2016): 7-14.</p>
                         </div>
                     </div>   
@@ -77,11 +80,11 @@ const Words = () => {
                     <p className="exhibition-year"><b>2011</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Shemesh, Lorraine. <b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">"Hands-On Art."</a></b></p>
+                            <p className="exhibition-name">Shemesh, Lorraine. <b>"Hands-On Art."</b></p>
                             <p className="exhibition-name"><b>The New Yorker. </b>(August 1, 2011): 5.</p>
                         </div>   
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Barrett, Terry. <b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">"Making Art - Form and Meaning."</a></b></p>
+                            <p className="exhibition-name">Barrett, Terry. <b>"Making Art - Form and Meaning."</b></p>
                             <p className="exhibition-name">McGraw-Hill, (2011): plate 3.44, 62-63.</p>
                         </div>   
                     </div>   
@@ -90,7 +93,7 @@ const Words = () => {
                 <p className="exhibition-year"><b>2010</b></p>
                 <div className="exhibition-content-right">
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Brendan, Davis. "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Lorraine Shemesh</a></b>."</p>
+                        <p className="exhibition-name">Brendan, Davis. "<b><NavLink to="/biblio_davis" target="_blank" className="words-link">Lorraine Shemesh</NavLink></b>."</p>
                         <p className="exhibition-name"><b>Art Interview ONLINE Magazine.</b> (October, 2010)</p>
                     </div>   
                 </div>   
@@ -143,8 +146,9 @@ const Words = () => {
                     <p className="exhibition-name">"Figures."</p>
                         <p className="exhibition-name"><b>The Reading Room/7</b>. New York City, NY. Great Marsh Press. (Fall 2007): 293, illus. 294-295.</p>
                     </div>  
+                    {/* ADD CORRECT LINK */}
                     <div className="exhibition-container">
-                        <p className="exhibition-name"><b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">The Collector</a></b>. Directed by Olympia Stone. 2007.</p>
+                        <p className="exhibition-name"><b><a className="words-link" href="http://thecollectorfilm.com/">The Collector</a></b>. Directed by Olympia Stone. 2007.</p>
                     </div>  
                     <div className="exhibition-container">
                         <p className="exhibition-name">Shattuck, Kathryn, "In a Daughter’s Film Tribute, a Celebration of a Life Lived Through Art."</p>
