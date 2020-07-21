@@ -41,7 +41,7 @@ const Words = () => {
                     <p className="exhibition-year"><b>2017</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Purcell, Janet, <b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">"Fine Arts: Must See Exhibition in Princeton."</a></b></p>
+                            <p className="exhibition-name">Purcell, Janet, <b><NavLink to="/biblio_purcell" target="_blank" className="words-link">"Fine Arts: Must See Exhibition in Princeton."</NavLink></b></p>
                             <p className="exhibition-name"><b>The Times of Trenton.</b> (January 18,2017).</p>
                         </div>   
                     </div>   
@@ -61,9 +61,8 @@ const Words = () => {
                             <p className="exhibition-name">Riley, Charles, A. "<b><a target="_blank" rel="noopener noreferrer" className="words-link" href={biblio_riley}>Art Review: Lorraine Shemesh Probes Balance of Abstraction and Figuration</a>.</b>."</p>
                             <p className="exhibition-name">Hamptons Art Hub, (June 3, 2016).</p>
                         </div>   
-                        {/* ADD CORRECT LINK */}
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Bascove, A. "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Inside Out</a>.</b>" - Review</p>
+                            <p className="exhibition-name">Bascove, A. "<b><NavLink to="/biblio_bascove" target="_blank" className="words-link">Inside Out</NavLink>.</b>" - Review</p>
                             <p className="exhibition-name">Art Fuse, (May 9, 2016).</p>
                         </div>   
                         <div className="exhibition-container">
@@ -102,7 +101,8 @@ const Words = () => {
                 <p className="exhibition-year"><b>2009</b></p>
                 <div className="exhibition-content-right">
                     <div className="exhibition-container">
-                        <p className="exhibition-name">McCarthy, Gerard. "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Lorraine Shemesh - Allan Stone."</a></b></p>
+                    
+                        <p className="exhibition-name">McCarthy, Gerard. "<b><NavLink to="/biblio_mccarthy" target="_blank" className="words-link">Lorraine Shemesh - Allan Stone.</NavLink>"</b></p>
                         <p className="exhibition-name"><b>Art in America. </b>(November 2009): illus. 197-198.</p>
                     </div>   
                     <div className="exhibition-container">
@@ -110,7 +110,7 @@ const Words = () => {
                         <p className="exhibition-name"><b>Art New England. </b>(August/September 2009): 35.</p>
                     </div>   
                     <div className="exhibition-container">
-                        <p className="exhibition-name">McCormack, Ed. "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Lorraine Shemesh: The Weight of the Body Poised Against the Dance of Paint</a></b>."</p>
+                        <p className="exhibition-name">McCormack, Ed. "<b><NavLink to="/biblio_mccormack2" target="_blank" className="words-link">Lorraine Shemesh: The Weight of the Body Poised Against the Dance of Paint</NavLink></b>."</p>
                         <p className="exhibition-name"><b>Gallery & Studio</b>. (April/May 2009): illus. 5.</p>
                     </div>   
                     <div className="exhibition-container">
@@ -126,7 +126,7 @@ const Words = () => {
                         <p className="exhibition-name">Catalogue Essay, Allan Stone Gallery. (February 28, 2009): 7-14.</p>
                     </div>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Cheng, Scarlet, Shemesh, Lorraine, "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Intersections - Questions and Answers</a></b>."</p>
+                        <p className="exhibition-name">Cheng, Scarlet, Shemesh, Lorraine,&nbsp;"<b><NavLink to="/biblio_cheng" target="_blank" className="words-link">Intersections - Questions and Answers</NavLink></b>."</p>
                     </div>
                 </div>   
             </div>
@@ -134,7 +134,7 @@ const Words = () => {
                 <p className="exhibition-year"><b>2008</b></p>
                 <div className="exhibition-content-right">
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Shemesh, Lorraine, "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">The Artist's Voice</a></b>."</p>
+                        <p className="exhibition-name">Shemesh, Lorraine, "<b><NavLink to="/biblio_shemesh1" target="_blank" className="words-link">The Artist's Voice</NavLink></b>."</p>
                         <p className="exhibition-name"><b>Bulletin - National Academy Museum and School of Fine Arts.</b> Vol 26, Number 1, (Spring 2008): illus., 11.</p>
                     </div>   
                 </div>   
@@ -146,9 +146,8 @@ const Words = () => {
                     <p className="exhibition-name">"Figures."</p>
                         <p className="exhibition-name"><b>The Reading Room/7</b>. New York City, NY. Great Marsh Press. (Fall 2007): 293, illus. 294-295.</p>
                     </div>  
-                    {/* ADD CORRECT LINK */}
                     <div className="exhibition-container">
-                        <p className="exhibition-name"><b><a className="words-link" href="http://thecollectorfilm.com/">The Collector</a></b>. Directed by Olympia Stone. 2007.</p>
+                        <p className="exhibition-name"><b><a className="words-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/video/detail/B014SM1UOK/">The Collector</a></b>. Directed by Olympia Stone. 2007.</p>
                     </div>  
                     <div className="exhibition-container">
                         <p className="exhibition-name">Shattuck, Kathryn, "In a Daughter’s Film Tribute, a Celebration of a Life Lived Through Art."</p>
@@ -166,9 +165,7 @@ const Words = () => {
                         <p className="exhibition-name">Kuspit, Donald, "Lorraine Shemesh's Dancers: The Figure as Grand Abstract Gesture."</p>
                         <p className="exhibition-name">Catalogue Essay, Allan Stone Gallery. (February 28, 2009): 7-14.</p>
                     </div>
-                    <div className="exhibition-container">
-                        <p className="exhibition-name">Cheng, Scarlet, Shemesh, Lorraine,<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">"Intersections - Questions and Answers."</a></b></p>
-                    </div>
+                    
                 </div>   
             </div>
             
@@ -180,7 +177,7 @@ const Words = () => {
                         <p className="exhibition-name"><b>The Reading Room/7</b>. New York City, NY. Great Marsh Press. (Fall 2007): 293, illus. 294-295.</p>
                     </div>   
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Kennedy, Patrick, <b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">"Seeing the Extraordinary in the Ordinary."</a></b></p>
+                        <p className="exhibition-name">Kennedy, Patrick, <b><NavLink to="/biblio_kennedy" target="_blank" className="words-link">"Seeing the Extraordinary in the Ordinary."</NavLink></b></p>
                         <p className="exhibition-name"><b>Esprit</b>. Boston University Press. (Summer 2006): illus., 4-5.</p>
                     </div>   
                     <div className="exhibition-container">
@@ -196,7 +193,7 @@ const Words = () => {
                         <p className="exhibition-name"><b></b>(February 16, 2006): 6.</p>
                     </div>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Zona, Louis A., "<a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/"><b>Introduction</b></a>."</p>
+                        <p className="exhibition-name">Zona, Louis A., <b>"<NavLink to="/biblio_zona" target="_blank" className="words-link">Introduction</NavLink></b>."</p>
                         <p className="exhibition-name"><b>Museum Catalogue, Butler Institute of American Art.</b> (February 26, 2006): 3.</p>
                     </div>
                     <div className="exhibition-container">
@@ -239,7 +236,7 @@ const Words = () => {
                         <p className="exhibition-name"><b></b>Arts & Leisure Guide, (April 25, 2004): illus., 35.</p>
                     </div>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Stone, Allan, "<a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/"><b>Liquid States</b></a>."</p>
+                        <p className="exhibition-name">Stone, Allan, "<b><NavLink to="/biblio_stone" target="_blank" className="words-link">Liquid States</NavLink></b>."</p>
                         <p className="exhibition-name"><b>Allan Stone Gallery Catalogue</b> . (May 1, 2004).</p>
                     </div>
                 </div> 
@@ -284,7 +281,8 @@ const Words = () => {
                         <p className="exhibition-name"><b>Painting as a Language</b>, Wadsworth, Thomson Learning, Inc., (2000): illus., 140.</p>
                     </div>   
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Goodman, Jonathan, "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Lorraine Shemesh at Allan Stone.</a></b>”</p>
+                    
+                        <p className="exhibition-name">Goodman, Jonathan, "<b><NavLink to="/biblio_goodman" target="_blank" className="words-link">Lorraine Shemesh at Allan Stone.</NavLink></b>”</p>
                         <p className="exhibition-name"><b>Art in America</b>. (December 2000): illus., 122.</p>
                     </div> 
                     <div className="exhibition-container">
@@ -303,7 +301,7 @@ const Words = () => {
                         <p className="exhibition-name"><b>The New York Times</b>. (May 26, 2000): 34.</p>
                     </div>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Dobyns, Stephen, McCormack, Ed, "<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Water-Works</a></b>."</p>
+                        <p className="exhibition-name">Dobyns, Stephen, McCormack, Ed, "<b><NavLink to="/biblio_mccormack" target="_blank" className="words-link">Water-Works</NavLink></b>."</p>
                         <p className="exhibition-name"><b>Allan Stone Gallery Catalogue</b>. (April 29, 2000): illus., 2-3.</p>
                     </div>
                 </div> 
@@ -392,7 +390,7 @@ const Words = () => {
                         <p className="exhibition-name"><b>Cover Arts New York</b>. (June 4, 1988): 15.  </p>
                     </div>   
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Little, Carl, ",<b><a className="words-link" href="https://unruffled-knuth-c3e5aa.netlify.app/">Lorraine Shemesh at Allan Stone.</a></b>"</p>
+                        <p className="exhibition-name">Little, Carl, ",<b><NavLink to="/biblio_little" target="_blank" className="words-link">Lorraine Shemesh at Allan Stone.</NavLink></b>"</p>
                         <p className="exhibition-name"><b>Art in America</b>. (September 1988): 189.</p>
                     </div> 
                     <div className="exhibition-container">

@@ -40,6 +40,7 @@ import biblio_stone from './pages/IndividualWordsPages/biblio_stone';
 import biblio_goodman from './pages/IndividualWordsPages/biblio_goodman';
 import biblio_mccormack from './pages/IndividualWordsPages/biblio_mccormack';
 import biblio_little from './pages/IndividualWordsPages/biblio_little';
+import biblio_bascove from './pages/IndividualWordsPages/biblio_bascove';
 
 function App() {
   return (
@@ -66,22 +67,24 @@ function App() {
               <Route path="/clayWheelThrown" component={clayWT} />
               <Route path="/claySlipcast" component={claySC} />
               <Route path="/contact" component={Contact} />
+              <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
               <Route path="/words" component={Words} />
               <Route path="/biblio_balakian" component={biblio_balakian} />
               <Route path="/biblio_zona_2016" component={biblio_zona_2016} />
               <Route path="/biblio_purcell" component={biblio_purcell} />
+              <Route path="/biblio_bascove" component={biblio_bascove} />
               <Route path="/biblio_davis" component={biblio_davis} />
               <Route path="/biblio_mccarthy" component={biblio_mccarthy} />
-              <Route path="biblio_mccormack2" component={biblio_mccormack2} />
-              <Route path="biblio_cheng" component={biblio_cheng} />
-              <Route path="biblio_shemesh1" component={biblio_shemesh1} />
-              <Route path="biblio_kennedy" component={biblio_kennedy} />
-              <Route path="biblio_zona" component={biblio_zona} />
-              <Route path="biblio_stone" component={biblio_stone} />
-              <Route path="biblio_goodman" component={biblio_goodman} />
-              <Route path="biblio_mccormack" component={biblio_mccormack} />
-              <Route path="biblio_little" component={biblio_little} />
+              <Route path="/biblio_mccormack2" component={biblio_mccormack2} />
+              <Route path="/biblio_cheng" component={biblio_cheng} />
+              <Route path="/biblio_shemesh1" component={biblio_shemesh1} />
+              <Route path="/biblio_kennedy" component={biblio_kennedy} />
+              <Route path="/biblio_zona" component={biblio_zona} />
+              <Route path="/biblio_stone" component={biblio_stone} />
+              <Route path="/biblio_goodman" component={biblio_goodman} />
+              <Route path="/biblio_mccormack" component={biblio_mccormack} />
+              <Route path="/biblio_little" component={biblio_little} />
               
               <Route path="/exhibition" component={Exhibition} />
               <Route path="/:id" component={IndividualImage} />
