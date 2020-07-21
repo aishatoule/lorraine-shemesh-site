@@ -9,21 +9,21 @@ export const allImagesDesktopOrderClaySC = [
     [/*COLUMN 1*/
         [
             {
-                name: teapot,
-                artistName: "Lorraine Shemesh",
-                title: "Teapot",
-                year: "1998",
-                dimensions: "13 x 10 x 4 in., low fire clay",
-                link: "claysc1",
-                privateCollection: ""
-            },
-            {
                 name: teapot34view,
                 artistName: "Lorraine Shemesh",
                 title: "Teapot 3/4 View",
                 year: "1998",
                 dimensions: "13 x 10 x 4 in., low fire clay",
                 link: "claysc2",
+                privateCollection: ""
+            },
+            {
+                name: teapot,
+                artistName: "Lorraine Shemesh",
+                title: "Teapot",
+                year: "1998",
+                dimensions: "13 x 10 x 4 in., low fire clay",
+                link: "claysc1",
                 privateCollection: ""
             }
         ],
@@ -80,21 +80,21 @@ export const allImagesDesktopOrderClaySC = [
 
 export const allImagesMobileOrderClaySC = [
     [{
-        name: teapot,
-        artistName: "Lorraine Shemesh",
-        title: "Teapot",
-        year: "1998",
-        dimensions: "13 x 10 x 4 in., low fire clay",
-        link: "claysc1",
-        privateCollection: ""
-    },
-    {
         name: teapot34view,
         artistName: "Lorraine Shemesh",
         title: "Teapot 3/4 View",
         year: "1998",
         dimensions: "13 x 10 x 4 in., low fire clay",
         link: "claysc2",
+        privateCollection: ""
+    },
+    {
+        name: teapot,
+        artistName: "Lorraine Shemesh",
+        title: "Teapot",
+        year: "1998",
+        dimensions: "13 x 10 x 4 in., low fire clay",
+        link: "claysc1",
         privateCollection: ""
     },
     {
