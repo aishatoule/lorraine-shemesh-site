@@ -1,6 +1,6 @@
 import React from 'react'
 
-const biblio_purcell = () => {
+const biblio_bascove = () => {
     return (
         <div>
             <div className="image-section">
@@ -26,4 +26,4 @@ const biblio_purcell = () => {
     )
 }
 
-export default biblio_purcell;
+export default biblio_bascove;
