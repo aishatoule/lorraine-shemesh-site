@@ -41,6 +41,16 @@ import biblio_goodman from './pages/IndividualWordsPages/biblio_goodman';
 import biblio_mccormack from './pages/IndividualWordsPages/biblio_mccormack';
 import biblio_little from './pages/IndividualWordsPages/biblio_little';
 import biblio_bascove from './pages/IndividualWordsPages/biblio_bascove';
+import biblio_stone_pool_image from './pages/IndividualWordsPages/ImagePages/biblio_stone_pool_image';
+import biblio_stone_cakes from './pages/IndividualWordsPages/ImagePages/biblio_stone_cakes';
+import biblio_stone_bagels_and_lox from './pages/IndividualWordsPages/ImagePages/biblio_stone_bagels_and_lox';
+import biblio_stone_donuts from './pages/IndividualWordsPages/ImagePages/biblio_stone_donuts';
+import biblio_stone_pastries from './pages/IndividualWordsPages/ImagePages/biblio_stone_pastries';
+import biblio_goodman_study from './pages/IndividualWordsPages/ImagePages/biblio_goodman_study';
+import biblio_little_shoes from './pages/IndividualWordsPages/ImagePages/biblio_little_shoes';
+import biblio_little_three_hearts from './pages/IndividualWordsPages/ImagePages/biblio_little_three_hearts';
+import biblio_little_menagerie from './pages/IndividualWordsPages/ImagePages/biblio_little_menagerie';
+import biblio_little_cyclone from './pages/IndividualWordsPages/ImagePages/biblio_little_cyclone';
 
 function App() {
   return (
@@ -83,8 +93,18 @@ function App() {
               <Route path="/biblio_zona" component={biblio_zona} />
               <Route path="/biblio_stone" component={biblio_stone} />
               <Route path="/biblio_goodman" component={biblio_goodman} />
+              <Route path="/biblio_goodman_study" component={biblio_goodman_study} />
+              <Route path="/biblio_stone_pool_image" component={biblio_stone_pool_image} />
+              <Route path="/biblio_stone_cakes" component={biblio_stone_cakes}/>
+              <Route path="/biblio_stone_donuts" component={biblio_stone_donuts}/>
+              <Route path="/biblio_stone_pastries" component={biblio_stone_pastries}/>
+              <Route path="/biblio_stone_bagels_and_lox" component={biblio_stone_bagels_and_lox}/>
               <Route path="/biblio_mccormack" component={biblio_mccormack} />
               <Route path="/biblio_little" component={biblio_little} />
+              <Route path="/biblio_little_shoes" component={biblio_little_shoes} />
+              <Route path="/biblio_little_three_hearts" component={biblio_little_three_hearts} />
+              <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
+              <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
               
               <Route path="/exhibition" component={Exhibition} />
               <Route path="/:id" component={IndividualImage} />
