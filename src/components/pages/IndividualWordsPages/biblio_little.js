@@ -5,7 +5,7 @@ const biblio_little = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/biblio-litttle-shoes.jpg'} alt="exhibition"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/biblio-litttle-shoes.jpg'} alt="Shoes"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH AT ALLAN STONE</b></h4>

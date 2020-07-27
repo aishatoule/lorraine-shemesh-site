@@ -7,7 +7,7 @@ const Words = () => {
     return (
         <div>
              <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/intersectionsStudioShot_v3.jpg'} alt="exhibition"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/intersectionsStudioShot_v3.jpg'} alt="Lorraine Shemesh in the studio looking at Intersections images."/>
             </div>
 
                 <p className="exhibition-type-title"><b>Words</b></p>

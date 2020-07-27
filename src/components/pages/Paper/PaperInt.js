@@ -37,7 +37,7 @@ class PaperInt extends Component {
                         }}
                         
                     }>
-                        <img key={index} src={image[0].name} className="grid-image" alt="Intersections series"/>
+                        <img key={index} src={image[0].name} className="grid-image" alt="Paper Intersections series"/>
                     </Link>
                 )                    
             })}
@@ -51,14 +51,7 @@ class PaperInt extends Component {
             {imageColumn.map((image, index) => {
                 return (
                     <div key={index} className="image-and-details-on-grid">
-                        {/* <Link to={{
-                            pathname:"/" + image.link, 
-                            state: {
-                                imageInformation: image
-                            }}
-                        }> */}
-                        <img key={index} src={image.name} className="grid-image" alt="Intersections series"/>
-                        {/* </Link> */}
+                        <img key={index} src={image.name} className="grid-image" alt="Paper Intersections series"/>
                         <div className="gallery-individual-image-details">
                             <p>{image.artistName}</p>
                             <p><span class="italics">{image.title}</span>{image.year !== undefined && ", " + image.year}</p>
