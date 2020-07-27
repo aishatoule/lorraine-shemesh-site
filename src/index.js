@@ -8,17 +8,6 @@ import App from './components/App';
 
 const store = configureStore();
 
-
-// ReactDOM.render(routes, document.getElementById('root'));
-
-// const rootElement = document.getElementById('root');
-// ReactDOM.render(
-//     <Provider store={store}>
-//       <App />
-//     </Provider>,
-//     rootElement
-// );
-
 render(
     <ReduxProvider store={store}>
       <Router>

@@ -4,7 +4,7 @@ const biblio_purcell = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/totem_gwd.jpg'} alt="exhibition"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-p/totem_gwd.jpg'} alt="Totem drawing, graphite wash on mylar"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>FINE ARTS: MUST-SEE EXHIBIT IN PRINCETON</b></h4>

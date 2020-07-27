@@ -4,7 +4,7 @@ const biblio_shemesh1 = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/pools-interview.jpg'} alt="exhibition"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/pools-interview.jpg'} alt="Wings"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>THE ARTIST'S CHOICE</b></h4>

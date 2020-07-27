@@ -4,7 +4,7 @@ const Exhibitions = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibitionTopImg.jpg'} alt="exhibition"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibitionTopImg.jpg'} alt="Lorraine Shemesh's The Space Between Us displayed at a gallery"/>
             </div>
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Solo Exhibitions</b></p>

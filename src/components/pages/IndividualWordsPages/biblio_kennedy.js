@@ -4,7 +4,7 @@ const biblio_kennedy = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/email_061004_B1_essay-kennedy-words.jpg'} alt="exhibition"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/email_061004_B1_essay-kennedy-words.jpg'} alt="Lorraine Shemesh painting Amoeba"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>SEEING THE EXTRAORDINARY IN THE ORDINARY</b></h4>
