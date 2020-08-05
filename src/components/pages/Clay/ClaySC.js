@@ -37,7 +37,7 @@ class ClaySC extends Component {
                         }}
                         
                     }>
-                        <img key={index} src={image[0].name} className="grid-image" alt="Objersections series"/>
+                        <img key={index} src={image[0].name} className="grid-image" alt="Slip-Cast Clay series"/>
                     </Link>
                 )                    
             })}
@@ -51,7 +51,7 @@ class ClaySC extends Component {
             {imageColumn.map((image, index) => {
                 return (
                     <div key={index} className="image-and-details-on-grid">
-                        <img key={index} src={image.name} className="grid-image" alt="Objersections series"/>
+                        <img key={index} src={image.name} className="grid-image" alt="Slip-Cast Clay series"/>
                         <div className="gallery-individual-image-details">
                             <p>{image.artistName}</p>
                             <p><span class="italics">{image.title}</span>{image.year !== undefined && ", " + image.year}</p>
