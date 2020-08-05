@@ -5,7 +5,6 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Navigation from './Navigation'
 import NotFound from './pages/PageNotFound';
 import Home from './pages/Home';
-import HomeAlternate from './pages/HomeTest2';
 import Contact from './pages/Contact';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
@@ -61,7 +60,6 @@ function App() {
           <div className="page-content">
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/homeAlternate" component={HomeAlternate} />
               <Route path="/spaceBetweenUs" component={SpaceBetweenUs} />
               <Route path="/intersections" component={Intersections} />
               <Route path="/insideOut" component={InsideOut} />
@@ -105,7 +103,6 @@ function App() {
               <Route path="/biblio_little_three_hearts" component={biblio_little_three_hearts} />
               <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
               <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
-              
               <Route path="/exhibition" component={Exhibition} />
               <Route path="/:id" component={IndividualImage} />
               <Route component={NotFound} />

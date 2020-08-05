@@ -4,7 +4,11 @@ import { NavLink } from 'react-router-dom';
 const biblio_stone = () => {
     return (
         <div>
-                <img className="individual-words-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/arc.jpg'} alt="Zipper" />
+            <div className="horizontal-image-set-container">
+                <img className="individual-words-image-vertical" src={'   https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/arch.jpg'} alt="Arch" />
+                <img className="individual-words-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/archway.jpg'} alt="Arch" />
+                <img className="individual-words-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/arc.jpg'} alt="Arch" />
+            </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LIQUID STATES</b></h4>
                 <h4 className="individual-words-paragraph">To the casual art observer, Lorraine Shemesh is painting about her favorite sport—swimming—and swimming pools. That same casual art observer might also think that Jasper Johns paints targets—his favorite sport—and patriotic portraits of flags. By the same token, Giorgio Morandi has been painting his bottle collection for most of his life, and de Kooning paints his women endlessly. In reality, each of these artists has found a “vehicle” which allows great freedom of expression and inspiration, not in a literary sense but rather in an abstract, painterly, functional sense.</h4>
