@@ -87,24 +87,22 @@ class IndividualImage extends Component {
             }
         }
 
-        const { width } = this.state; 
-        const isMobile = width <= 1000;
-
         var thumbnailImages = imageInformation.map((image, i) => {
             // each thumbnail is a button that onClick, the image index increases (getNewIndex gets called) 
-            console.log(image)    
             if (i !== this.state.currentImageIndex) {
                 return (
-                        <div key={i} onClick={() => this.getNewIndex(i)}>
-                            <img className='thumbnail-image' src={image.name} alt={image.title} />
-                        </div>
+                    <div key={i} onClick={() => this.getNewIndex(i)}>
+                        <img className='thumbnail-image' src={image.name} alt={image.title} />
+                    </div>
                 )
+            } else {
+                return(<></>)
             }
         })
 
         return(
-            <div className="individual-image-content-container"> 
-                <img key={id} src={imageInformation[this.state.currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
+            <div className="individual-image-content-container" key={imageInformation[this.state.currentImageIndex].link}> 
+                <img src={imageInformation[this.state.currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
                 <div className="individual-image-details">
                     <div className="image-detail-text">
                         <p>{imageInformation[0].artistName}</p>
