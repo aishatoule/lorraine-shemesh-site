@@ -4,9 +4,9 @@ const biblio_mccormack2 = () => {
     console.log("made it here")
     return (
         <div>
-            <div className="individual-words-image-horizontal">
-                <img className="individual-words-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-int/zipper_ld.jpg'} alt="exhibition"/>
-                <img className="individual-words-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-int/zipper_ld.jpg'} alt="exhibition"/>
+            <div className="horizontal-image-set-container">
+                <img className="individual-words-image-vertical-two" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-int/zipper_ld.jpg'} alt="exhibition"/>
+                <img className="individual-words-image-vertical-two" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/CD16_04_orig3.jpg'} alt="exhibition"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH: THE WEIGHT OF THE BODY POISED AGAINST THE DANCE OF PAINT</b></h4>
