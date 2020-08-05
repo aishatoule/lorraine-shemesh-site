@@ -42,7 +42,8 @@
   }
 
 .individual-words-image-vertical {
-    width: 30%;
+    width: auto;
+    max-height: 500px;
     padding: 35px 15px 35px 0px;
 }
 
@@ -51,10 +52,22 @@
 }
 
 .individual-words-image-vertical-two {
-    width: 45%;
+    width: auto;
+    max-height: 600px;
     padding: 35px 20px 35px 0px;
 }
 
 .individual-words-image-vertical-two:last-child {
     padding-right: 0px;
 }
+
+.individual-words-image-vertical-three {
+    width: 30%;
+    padding: 35px 15px 35px 0px;
+}
+
+.individual-words-image-vertical-three:last-child {
+    padding-right: 0px;
+}
+
+
