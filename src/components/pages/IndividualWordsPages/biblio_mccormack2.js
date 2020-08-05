@@ -1,7 +1,6 @@
 import React from 'react'
 
 const biblio_mccormack2 = () => {
-    console.log("made it here")
     return (
         <div>
             <div className="horizontal-image-set-container">
