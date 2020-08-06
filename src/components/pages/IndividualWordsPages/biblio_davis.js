@@ -44,7 +44,9 @@ const biblio_davis = () => {
                 <h4 className="individual-words-paragraph"><b>Lorraine Shemesh:</b> I think the abstract base is more substantial now than it was in the beginning. lnitially, I was working completely from life. I would set up a specific circumstance. Now, I work more with a series of shapes, and although there are models at some point, much of it is made up. I use a lot of different things to get to the finished image. So, the process is deeper now.</h4>
                 <h4 className="individual-words-paragraph">There are certain connecfing threads to my earliest works: I always loved patterns on form, light, and the figure. Sometimes the pattem wrapping around the form is created by light striations, sometimes by surface patterns on fabric, and often by color shifts.</h4>
                 <h4 className="individual-words-paragraph">I have to say, teaching at RISD really extended my education. The kinds of design problems that people dealt with were very inspiring.</h4>
-                    <img className="individual-words-image-vertical" src={'   https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/drawings-pools21.jpg'} alt="Zipper" />
+                
+                <img className="individual-words-image-vertical" src={'   https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/drawings-pools21.jpg'} alt="Zipper" />
+                
                 <h4 className="individual-words-paragraph"><b>Art Interview: </b>Do you consider yourself a photorealist?</h4>
                 <h4 className="individual-words-paragraph"><b>Lorraine Shemesh:</b> I use photographs as part of the process, but I don't really categorize myself in that way. I use photography as a means to something else. I work with live models and I do a lot of drawings. I am interested in a kind of specificity that precludes illustration and transcends photorealism both in content and painterly acumen.</h4>
                 <h4 className="individual-words-paragraph"><b>Art Interview: </b>What do you believe the medium of paint, combined with realist depiction, brings to our understanding of an image?</h4>
