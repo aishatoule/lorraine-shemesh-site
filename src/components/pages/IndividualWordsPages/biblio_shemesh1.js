@@ -7,7 +7,7 @@ const biblio_shemesh1 = () => {
                 <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/pools-interview.jpg'} alt="Wings"/>
             </div>
             <div className="individual-words-paragraph-container">
-                <h4 className="individual-words-title"><b>THE ARTIST'S CHOICE</b></h4>
+                <h4 className="individual-words-title"><b>THE ARTIST'S VOICE</b></h4>
                 <h4 className="individual-words-paragraph">I grew up on The Palisades, overlooking the Hudson River, and water was something that I was always drawn to. Entering the water, even then, time was suspended and all things seemed possible.</h4>
                 <h4 className="individual-words-paragraph">The painted pool series combines figurative subjects and abstract elements that fortify the underlying structure. The figures are vehicles for experiencing movement between forms and the action between those forms in space. They appear to me like dancers on a stage, whose gestures are firm yet fleeting, simultaneously. The experience of painting them is like trying to hold onto mercury.</h4>
                 <h4 className="individual-words-paragraph">There is something very compelling about the human form in combination with the capacity of water to refract and bend light. The water has given me the latitude to magnify, explode, and dissolve the forms immersed. It has also provided the opportunity to observe and extend various kinds of patterns as they are repeated and distorted in fluctuating ways, and to address alternating concerns about continuity, disjuncture, and harmony in visual terms, as well as those of the human experience.</h4>

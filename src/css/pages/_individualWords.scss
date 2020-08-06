@@ -3,15 +3,6 @@
     padding-bottom: 14px;
 }
 
-.individual-words-top-image {
-    max-height: 600px;
-    padding-bottom: 15px;
-}
-
-.image-section-bascove {
-    padding-bottom: 50px;
-}
-
 .individual-words-paragraph-container {
     max-width: 700px;
 }
@@ -30,36 +21,69 @@
     font-size: 16px;
 }
 
+.horizontal-image-set-container {
+    max-width: 700px;
+}
+
+.individual-words-top-image {
+    max-height: 600px;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
 .individual-words-image-horizontal {
     width: 100%;
+    max-height: 500px;
     padding: 35px 0;
 }
 
-.exhibition-image-horizontal {
-    max-width: 677px;
-    max-height: 460px;
-    padding-bottom: 50px;
-  }
-
 .individual-words-image-vertical {
-    width: auto;
     max-height: 500px;
     padding: 35px 15px 35px 0px;
 }
 
-.individual-words-image-vertical:last-child {
-    padding-right: 0px;
+// mobile only
+@media screen and (max-width: 769px) {
+    .individual-words-image-horizontal, .individual-words-image-vertical {
+        width: 100%;
+        max-height: 500px;
+        padding: 35px 0;
+    }
+
+    .individual-words-image-vertical-two {
+        width: 45%;
+        padding: 35px 20px 35px 0px;
+    }
+
+    .individual-words-image-vertical-two:last-child {
+        padding-right: 0px;
+    }
 }
 
-.individual-words-image-vertical-two {
-    width: auto;
-    max-height: 600px;
-    padding: 35px 20px 35px 0px;
+// desktop only
+@media screen and (min-width: 769px) {
+    .individual-words-image-horizontal {
+        width: 100%;
+        max-height: 500px;
+        padding: 35px 0;
+    }
+
+    .individual-words-image-vertical {
+        max-height: 500px;
+        padding: 35px 15px 35px 0px;
+    }
+
+    .individual-words-image-vertical-two {
+        width: 45%;
+        max-height: 600px;
+        padding: 35px 20px 35px 0px;
+    }
+
+    .individual-words-image-vertical-two:last-child {
+        padding-right: 0px;
+    }
 }
 
-.individual-words-image-vertical-two:last-child {
-    padding-right: 0px;
-}
 
 .individual-words-image-vertical-three {
     width: 30%;
