@@ -4,7 +4,7 @@ const biblio_zona_2016 = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studio_201904c.jpg'} alt="The Space Between Us paintings pictured in the studio"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/Attached_gallery.jpg'} alt="The Space Between Us paintings pictured in the studio"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>INTRODUCTION</b></h4>
@@ -16,8 +16,8 @@ const biblio_zona_2016 = () => {
                 <h4 className="individual-words-paragraph">It is not surprising to recognize that Lorraine Shemesh excels as well in the realm of clay. Her porcelain and stoneware pieces are utilitarian, for sure, but that sensitivity seen in the paintings is clearly present in her vessels. I am again reminded of Picasso who achieved in both disciplines. Shemesh's creations in clay are as graceful as her swimmers and as beautifully accomplished as her recent paintings of interlocking figures.</h4>
                 <h4 className="individual-words-paragraph">Few artists have achieved as much and even a fewer number have inspired others with such skill and innovation.</h4>
                 <div className="individual-words-text-container">
-                    <p className="individual-words-closing-text">Louis A. Zona, Executive Director and Chief Curator, The Butler Institute of American Art</p>
-                    <p className="individual-words-closing-text">The Space Between Us Catalogue, Gerald Peters Gallery, New York, (Sept. 12, 2016): 5.</p>
+                    <p className="individual-words-closing-text">Louis A. Zona, The Space Between Us catalogue introduction</p>
+                    <p className="individual-words-closing-text">Executive Director and Chief Curator, The Butler Institute of American Art</p>
                 </div>
             </div>
         </div>

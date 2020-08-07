@@ -33,8 +33,7 @@ const biblio_bascove = () => {
                 <h4 className="individual-words-paragraph">The various techniques explored in this show infuse and echo each other, but the sensation of impassioned movement, often with a precarious edge, abounds. Color penetrates and incites. For Shemesh, the materials in her hands contain fire and water, light and dark, the gravitational pull of order into chaos becomes a meditation on the passage of time and the keenly felt circumstances of life itself.</h4>
 
                 <div className="individual-words-text-container">
-                    <p className="individual-words-closing-text">Bascove, A., "Inside Out"</p>
-                    <p className="individual-words-closing-text">Art Fuse, May 9, 2016</p>                  
+                    <p className="individual-words-closing-text">Bascove, A., Art Fuse review</p>                  
                 </div>
             </div>
         </div>

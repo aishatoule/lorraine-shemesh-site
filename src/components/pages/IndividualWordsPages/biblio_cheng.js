@@ -4,7 +4,7 @@ const biblio_cheng = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/intersectionsStudioShot_v2.jpg'} alt="Lorraine in studio shot"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/lock_03_colorCorrected.jpg'} alt="Lorraine in studio shot"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>Q & A - INTERSECTIONS</b></h4>

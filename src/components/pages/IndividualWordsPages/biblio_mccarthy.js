@@ -13,8 +13,7 @@ const biblio_mccarthy = () => {
                 <h4 className="individual-words-paragraph">In <NavLink to={{
                 pathname:"/int8"}} target="_blank" className="words-link">Hook</NavLink> (2007), the figures adopt a dynamic standing pose that suggests a tall vessel or cup, with the pair's gracefully outstretched arms and curving upper torsos surmounting the thin "stem" of their intertwined legs. A number of canvases feature a couple facing each other on the floor and viewed from above. Checkmate (2008), shows seated figures with their conjoined outstretched legs spanning the center, and bowed head and shoulders of each pressed toward the far sides of the canvas. The alternating black-and-white bands of their leggings, creating a particularly strong checkerboard pattern, add to the tension here. The formal play of the composition also heightens a sense of narrative, in this case an ominous one since the figures look like captives. Eyes are veiled by the head-to-toe costume, and shoulders are pulled far back, as if the arms were tightly tethered. Throughout, Shemesh indicates a surprising range of drama, movement and even emotional nuance within the limited parameters she has set for herself in the new series.</h4>
                 <div className="individual-words-text-container">
-                    <p className="individual-words-closing-text">McCarthy, Gerard, "Lorraine Shemesh - Allan Stone."</p>
-                    <p className="individual-words-closing-text">Art in America. (November 2009): illus., 197-198.</p>
+                    <p className="individual-words-closing-text">McCarthy, Gerard, Art In America review</p>
                 </div>
             </div>
         </div>

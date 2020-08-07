@@ -4,7 +4,7 @@ const biblio_balakian = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/DSC_1326-cropped-adjusted.jpg'} alt="Lorraine Shemesh with Attached painting"/>
+                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu21.jpg'} alt="Puzzle painting"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH: BODY, LIGHT, SPACE</b></h4>
@@ -16,7 +16,7 @@ const biblio_balakian = () => {
                 <h4 className="individual-words-paragraph">The whole series brings us to some deeper insights about our humanity. The bold dramas of these selves seeking each other in the dance recall for me the final line of Theodore Roethke's final poem "Once More the Round": "we dance on, we dance on, we dance on." Whether we do as a human species—remains to be seen—but Shemesh's vision affirms life as a complex dance—a human and humane encounter with the other in which there is both mystery and the sensuous presence of the other.</h4>
                 <h4 className="individual-words-paragraph">The paintings are accompanied by ten ceramic works. Shemesh writes that "My goal has been to create a dialogue between dance, paint, and clay," and these stunning pieces certainly do that. Her bowls, vessels, and hives are elegant, inventive and beautiful. Their shapes evoke archetypal forms, some of them are sensuously earthy and elemental and others exquisitely mannered. Using a Japanese neriage technique, she twines two clays of contrasting color—to patterns of slightly irregular horizontal stripes or meandering black or brown and white patches. These coils and weaves made out of the two toned clay—embody an aesthetic of the layered rock formations of the earth that Shemesh sees as emanations of "the earth's memory." These ten ceramic pieces create a rich dialogue across genres—about form and space and materials. A dialogue that engages us in the imagination's craving for beauty and order and our understanding of how we know what we know.</h4>
                 <div className="individual-words-text-container">
-                    <p className="individual-words-closing-text">Peter Balakian</p>
+                    <p className="individual-words-closing-text">Peter Balakian, The Space Between Us catalogue essay</p>
                     <p className="individual-words-closing-text">Donald M. and Constance H. Rebar Professor of Humanities, Colgate University</p>
                     <p className="individual-words-closing-text">Pulitzer Prize for Poetry 2016</p>
                 </div>

@@ -92,7 +92,7 @@ const Words = () => {
                 <p className="exhibition-year"><b>2010</b></p>
                 <div className="exhibition-content-right">
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Brendan, Davis. "<b><NavLink to="/biblio_davis" className="words-link">Lorraine Shemesh</NavLink></b>."</p>
+                        <p className="exhibition-name">Davis, Brendan. "<b><NavLink to="/biblio_davis" className="words-link">Lorraine Shemesh</NavLink></b>."</p>
                         <p className="exhibition-name"><b>Art Interview ONLINE Magazine.</b> (October, 2010)</p>
                     </div>   
                 </div>   

@@ -18,8 +18,7 @@ const biblio_mccormack2 = () => {
                 <h4 className="individual-words-paragraph">Just as haunting in another manner is the painting called, "Lock," in which the two figures, crouched like rowers with lowered heads, clutch each others' upper arms near the shoulders, as though commiserating in some shared grief.</h4>
                 <h4 className="individual-words-paragraph">In a more general sense, however, Lorraine Shemesh's new paintings seem to be all about the push and pull of relationships and of painting itself. In the latter regard (which always trumps subject matter, no matter how compelling, in a painter of her caliber), the bold black and white stripes, as well as the juicily glistening sumptuousness of Shemesh's oil surfaces, seem kindred to the abstraction of Sean Scully. Shemesh, however, eschews the geometric strictures that Scully imposes, making her stripes twist and undulate expressively with the gestures of her figures. And while these dancers may be more static than her swimmers, the spaces around and between them are evoked with such succulent vigor as to suggest that this virtuoso painter has gone beyond apprehending the flow of water to make magically palpable in pigment the swarming energies that activate the very air we breathe.</h4>
                 <div className="individual-words-text-container">
-                    <p className="individual-words-closing-text">McCormack, Ed. "Lorraine Shemesh: The Weight of the Body Poised Against the Dance of Paint."</p>
-                    <p className="individual-words-closing-text">Gallery & Studio. (April/May 2009): illus. 5.</p>
+                    <p className="individual-words-closing-text">McCormack, Ed., Gallery &amp; Studio review</p>
                 </div>
             </div>
         </div>
