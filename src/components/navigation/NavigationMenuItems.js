@@ -111,9 +111,4 @@ const NavigationMenuItems = ({ open, setOpen }) => {
     )
 }
 
-NavigationMenuItems.propTypes = {
-    open: bool,
-    setOpen: bool
-}
-
 export default NavigationMenuItems;
