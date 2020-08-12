@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { bool } from 'prop-types';
+import { bool, func } from 'prop-types';
 import { NavLink, useLocation } from 'react-router-dom';
 
 const NavigationMenuItems = ({ open, setOpen }) => {

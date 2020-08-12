@@ -82,15 +82,15 @@ const IndividualImage = () => {
         // each thumbnail is a button that onClick, the image index increases (getNewIndex gets called) 
         if (i !== currentImageIndex) {
             return (
-                    <div key={i} onClick={() => getNewIndex(i)}>
-                        <img className='thumbnail-image' src={image.name} alt={image.title} />
-                    </div>
+                <div key={i} onClick={() => getNewIndex(i)}>
+                    <img className='thumbnail-image' src={image.name} alt={image.title} />
+                </div>
             )
         }
     })
 
     return(
-        <div className="individual-image-content-container"> 
+        <div className="individual-image-content-container" key={imageInformation[currentImageIndex].link}> 
             <img key={id} src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
             <div className="individual-image-details">
                 <div className="image-detail-text">

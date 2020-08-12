@@ -3,7 +3,6 @@ var zigzagDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/
 var handstand = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/handstand.jpg';
 var handstandDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/handstandDetail1.jpg';
 var archway = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/archway.jpg';
-var archwayDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/archwayDetail1.jpg';
 var arch = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/arch.jpg';
 var archDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/archDetail1.jpg';
 var arc = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/arc.jpg';
