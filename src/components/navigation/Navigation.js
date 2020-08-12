@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavigationMenuItems from './NavigationMenuItems';
-import Burger from './navigation/Burger';
+import Burger from './Burger';
 
 const Navigation = () => {
     const [open, setOpen] = useState(false); 
     const isMobile = window.innerWidth < 768;
-
-    
 
     const handleLogoClick = () => {
         const isMobile = window.innerWidth < 768;
