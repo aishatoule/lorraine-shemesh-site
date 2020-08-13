@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 const biblio_goodman = () => {
     return (
         <div>
-            <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-bts/link.jpg'} alt="Link"/>
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-horizontal" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-bts/link.jpg'} alt="Link"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH AT ALLAN STONE</b></h4>

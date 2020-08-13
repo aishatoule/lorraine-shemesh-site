@@ -3,7 +3,7 @@ import React from 'react'
 const biblio_mccormack2 = () => {
     return (
         <div>
-            <div className="horizontal-image-set-container">
+            <div className="individual-words-hero-image-container">
                 <img className="individual-words-image-vertical-two" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-int/zipper_ld.jpg'} alt="exhibition"/>
                 <img className="individual-words-image-vertical-two" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/CD16_04_orig3.jpg'} alt="exhibition"/>
             </div>

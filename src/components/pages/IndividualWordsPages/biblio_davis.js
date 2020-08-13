@@ -3,8 +3,8 @@ import React from 'react'
 const biblio_davis = () => {
     return (
         <div>
-            <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/echo.jpg'} alt="Echo"/>
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-horizontal" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ww/echo.jpg'} alt="Echo"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH - ART INTERVIEW ONLINE MAGAZINE</b></h4>

@@ -3,8 +3,8 @@ import React from 'react'
 const biblio_zona = () => {
     return (
         <div>
-            <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-bts/amoeba.jpg'} alt="Amoeba"/>
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-bts/amoeba.jpg'} alt="Amoeba"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>INTRODUCTION</b></h4>

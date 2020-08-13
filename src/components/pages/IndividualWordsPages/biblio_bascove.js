@@ -3,8 +3,8 @@ import React from 'react'
 const biblio_bascove = () => {
     return (
         <div>
-            <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/tilt_Em201604_Tilt_painting_v1.jpg'} alt="Tilt"/>
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-horizontal" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/tilt_Em201604_Tilt_painting_v1.jpg'} alt="Tilt"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH: Inside Out</b></h4>

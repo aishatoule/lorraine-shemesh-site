@@ -3,8 +3,8 @@ import React from 'react'
 const biblio_kennedy = () => {
     return (
         <div>
-            <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/email_061004_B1_essay-kennedy-words.jpg'} alt="Lorraine Shemesh painting Amoeba"/>
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studioWithEddy.jpg'} alt="Lorraine Shemesh painting Eddy"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>SEEING THE EXTRAORDINARY IN THE ORDINARY</b></h4>
