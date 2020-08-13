@@ -3,8 +3,8 @@ import React from 'react'
 const biblio_cheng = () => {
     return (
         <div>
-            <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/lock_03_colorCorrected.jpg'} alt="Lorraine in studio shot"/>
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-horizontal" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/lock_03_colorCorrected.jpg'} alt="Lorraine in studio shot"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>Q & A - INTERSECTIONS</b></h4>

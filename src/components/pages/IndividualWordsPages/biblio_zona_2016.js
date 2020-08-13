@@ -3,8 +3,8 @@ import React from 'react'
 const biblio_zona_2016 = () => {
     return (
         <div>
-            <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/Attached_gallery.jpg'} alt="The Space Between Us paintings pictured in the studio"/>
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-horizontal" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/Attached_gallery.jpg'} alt="The Space Between Us paintings pictured in the studio"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>INTRODUCTION</b></h4>

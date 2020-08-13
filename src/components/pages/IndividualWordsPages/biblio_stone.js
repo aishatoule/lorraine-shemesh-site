@@ -4,10 +4,8 @@ import { NavLink } from 'react-router-dom';
 const biblio_stone = () => {
     return (
         <div>
-            <div className="horizontal-image-set-container">
-                <img className="individual-words-image-vertical-three" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/archway.jpg'} alt="Archway" />
-                <img className="individual-words-image-vertical-three" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/arch.jpg'} alt="Arch" />
-                <img className="individual-words-image-vertical-three" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-ls/arc.jpg'} alt="Arc" />
+            <div className="individual-words-hero-image-container">
+                <img className="individual-words-hero-image-horizontal" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/stone_essay_hero.jpg'} alt="Archway, Arch, Arc" />
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LIQUID STATES</b></h4>

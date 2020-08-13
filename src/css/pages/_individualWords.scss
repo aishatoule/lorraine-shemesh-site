@@ -1,3 +1,33 @@
+.individual-words-hero-image-container {
+    max-width: 700px;
+    padding-bottom: 50px;
+}
+
+.individual-words-hero-image-horizontal {
+    width: 100%;
+    max-height: 600px;
+}
+
+.individual-words-hero-image-vertical {
+    width: auto;
+    max-height: 600px;
+}
+
+.individual-words-hero-image-container-three {
+    display: inline;
+    float: none;
+}
+
+.individual-words-image-vertical-three {
+    height: 100%;
+    padding-right: 15px;
+}
+
+.individual-words-image-vertical-three:last-child {
+    padding-right: 0px;
+}
+
+
 .individual-words-title {
     text-transform: uppercase;
     padding-bottom: 14px;
@@ -21,15 +51,6 @@
     font-size: 16px;
 }
 
-.horizontal-image-set-container {
-    max-width: 700px;
-}
-
-.individual-words-top-image {
-    max-height: 600px;
-    max-width: 100%;
-    padding-bottom: 15px;
-}
 
 .individual-words-image-horizontal {
     width: 100%;
@@ -85,13 +106,5 @@
 }
 
 
-.individual-words-image-vertical-three {
-    width: 30%;
-    padding: 35px 15px 35px 0px;
-}
-
-.individual-words-image-vertical-three:last-child {
-    padding-right: 0px;
-}
 
 
