@@ -24,7 +24,7 @@ const Words = () => {
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Balakian, Peter. "<NavLink to="/biblio_balakian" className="words-link">Lorraine Shemesh: Body, Light, Space</NavLink>."</p>
+                            <p className="exhibition-name">Balakian, Peter. "<b><NavLink to="/biblio_balakian" className="words-link">Lorraine Shemesh: Body, Light, Space</NavLink>.</b>"</p>
                             <p className="exhibition-name">Catalogue Essay, Gerald Peters Gallery, New York, (Sept. 12, 2019): 7-8.</p>
                         </div>   
                         <div className="exhibition-container">

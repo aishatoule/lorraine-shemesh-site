@@ -8,8 +8,11 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
-import Exhibition from './pages/Exhibitions';
+import Exhibitions from './pages/Exhibitions';
+import Exhibition_tsbu_nyc from './pages/IndividualExhibitions/Exhibition_tsbu_nyc';
+import Exhibition_tsbu_sf from './pages/IndividualExhibitions/Exhibition_tsbu_sf';
 import IndividualImage from './pages/IndividualImage';
+import IndividualPhoto from './pages/IndividualPhoto';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
 import Intersections from './pages/Paint/Intersections';
 import InsideOut from './pages/Paint/InsideOut';
@@ -103,7 +106,10 @@ function App() {
               <Route path="/biblio_little_three_hearts" component={biblio_little_three_hearts} />
               <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
               <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
-              <Route path="/exhibition" component={Exhibition} />
+              <Route path="/exhibitions" component={Exhibitions} />
+              <Route path="/exhibition_tsbu_nyc" component={Exhibition_tsbu_nyc} />
+              <Route path="/exhibition_tsbu_sf" component={Exhibition_tsbu_sf} />
+              <Route path="/exh/:id" component={IndividualPhoto} />
               <Route path="/:id" component={IndividualImage} />
               <Route component={NotFound} />
             </Switch> 

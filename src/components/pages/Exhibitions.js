@@ -1,10 +1,11 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Exhibitions = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibitions_StudioShot.jpg'} alt="Lorraine Shemesh at work in the studio"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/sbu_exhibition_with_lorraine.jpg'} alt="Lorraine Shemesh looking at her painting titled, Accordion"/>
             </div>
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Solo Exhibitions</b></p>
@@ -12,12 +13,12 @@ const Exhibitions = () => {
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">The Space Between Us</p>
+                            <p className="exhibition-name">"<b><NavLink to="/exhibition_tsbu_nyc" className="exhibition-link">The Space Between Us</NavLink>.</b>"</p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
                             <p className="exhibition-dates">September 12 - October 16, 2019</p>
                         </div>
                         <div className="exhibition-container">
-                        <p className="exhibition-name">The Space Between Us</p>
+                            <p className="exhibition-name">"<b><NavLink to="/exhibition_tsbu_sf" className="exhibition-link">The Space Between Us</NavLink>.</b>"</p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Projects</b>, Santa Fe, New Mexico</p>
                             <p className="exhibition-dates">June 21 - August 17, 2019</p>
                         </div>

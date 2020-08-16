@@ -4,7 +4,7 @@ const Biography = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/sbu_exhibition_with_lorraine.jpg'} alt="Lorraine Shemesh looking at her painting titled, Accordion"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibitions_StudioShot.jpg'} alt="Lorraine Shemesh at work in the studio"/>
             </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>Education</b></p>
