@@ -58,9 +58,9 @@ const IndividualPhoto = () => {
             <img key={id} src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
             <div className="individual-image-details">
                 <div className="image-detail-text">
-                    <p>{imageInformation[0].caption1}</p>
-                    <p>{imageInformation[0].caption2}</p>
-                    <p>{imageInformation[0].caption3}</p>
+                    <p>{imageInformation[0].captionln1}</p>
+                    <p>{imageInformation[0].captionln2}</p>
+                    <p>{imageInformation[0].captionln3}</p>
                 </div>
                 <div className="thumbnail-section">
                     {thumbnailImages}
