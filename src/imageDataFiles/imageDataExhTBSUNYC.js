@@ -18,45 +18,45 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_1,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc1"
             },
         ],
         [
             {
                 name: exhTBSUNYC_2,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc2"
             },
         ],
         [
             {
                 name: exhTBSUNYC_3,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc3"
             },
         ],
         [
             {
                 name: exhTBSUNYC_4,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc4"
             },
         ],
         [
             {
                 name: exhTBSUNYC_5,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc5"
             },
         ]
@@ -65,45 +65,45 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_6,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc6"
             },
         ],
         [
             {
                 name: exhTBSUNYC_7,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc7"
             },
         ],
         [
             {
                 name: exhTBSUNYC_8,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc8"
             },
         ],
         [
             {
                 name: exhTBSUNYC_9,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc9"
             },
         ],
         [
             {
                 name: exhTBSUNYC_10,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc10"
             },
         ]
@@ -112,36 +112,36 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_11,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc11"
             },
         ],
         [
             {
                 name: exhTBSUNYC_12,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc12"
             },
         ],
         [
             {
                 name: exhTBSUNYC_13,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc13"
             },
         ],
         [
             {
                 name: exhTBSUNYC_14,
-                captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-                captionln2: "",
-                captionln2: "",
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc14"
             },
         ]
@@ -151,100 +151,100 @@ export const allImagesDesktopOrderExhTBSUNYC = [
 export const allImagesMobileOrderExhTBSUNYC = [
     [{
         name: exhTBSUNYC_1,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc1"
     },
     {
         name: exhTBSUNYC_2,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc2"
     },
     {
         name: exhTBSUNYC_3,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc3"
     },
     {
         name: exhTBSUNYC_4,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc4"
     },
     {
         name: exhTBSUNYC_5,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc5"
     },
     {
         name: exhTBSUNYC_6,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc6"
     },
     {
         name: exhTBSUNYC_7,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc7"
     },
     {
         name: exhTBSUNYC_8,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc8"
     },
     {
         name: exhTBSUNYC_9,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc9"
     },
     {
         name: exhTBSUNYC_10,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc10"
     },
     {
         name: exhTBSUNYC_11,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc11"
     },
     {
         name: exhTBSUNYC_12,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc12"
     },
     {
         name: exhTBSUNYC_13,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc13"
     },
     {
         name: exhTBSUNYC_14,
-        captionln1: "The Space Between Us, New York, New York, September 12 - October 16, 2019",
-        captionln2: "",
-        captionln2: "",
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc14"
     }]      
 ]
