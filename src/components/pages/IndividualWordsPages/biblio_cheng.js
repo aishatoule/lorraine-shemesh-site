@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_cheng = () => {
+const Biblio_cheng = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -31,5 +36,5 @@ const biblio_cheng = () => {
     )
 }
 
-export default biblio_cheng
+export default Biblio_cheng;
 ;

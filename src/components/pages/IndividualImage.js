@@ -21,12 +21,12 @@ const IndividualImage = () => {
 
     const handleWindowSizeChange = () => {
         setWidth(window.innerWidth);
-      };
+    };
 
     useEffect(() => {
         window.addEventListener("resize", handleWindowSizeChange);
         window.scrollTo(0, 0);
-      });
+    });
 
     const getNewIndex = (index) => {
         setCurrentImageIndex(index)

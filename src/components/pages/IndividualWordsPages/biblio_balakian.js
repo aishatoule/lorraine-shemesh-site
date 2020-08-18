@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_balakian = () => {
+const Biblio_balakian = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -25,4 +30,4 @@ const biblio_balakian = () => {
     )
 }
 
-export default biblio_balakian;
+export default Biblio_balakian;
