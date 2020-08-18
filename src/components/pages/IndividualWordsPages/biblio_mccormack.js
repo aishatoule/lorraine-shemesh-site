@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 
-const biblio_mccormack = () => {
+const Biblio_mccormack = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -28,4 +33,4 @@ const biblio_mccormack = () => {
     )
 }
 
-export default biblio_mccormack;
+export default Biblio_mccormack;

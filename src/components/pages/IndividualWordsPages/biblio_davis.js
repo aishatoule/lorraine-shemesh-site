@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_davis = () => {
+const Biblio_davis = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -133,4 +138,4 @@ const biblio_davis = () => {
     )
 }
 
-export default biblio_davis;
+export default Biblio_davis;

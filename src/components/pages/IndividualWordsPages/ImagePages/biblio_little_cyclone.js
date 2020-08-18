@@ -1,7 +1,11 @@
+import React, { useEffect } from "react";
 
-import React from 'react';
+const Biblio_little_cyclone = () => {
 
-const biblio_little_cyclone = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return( 
         <div className="individual-image-content-container"> 
             <img src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/biblio_little_cyclone.jpg'} className="individual-image-main" alt="Cyclone"/>
@@ -9,4 +13,4 @@ const biblio_little_cyclone = () => {
     )
 }
 
-export default biblio_little_cyclone;
+export default Biblio_little_cyclone;

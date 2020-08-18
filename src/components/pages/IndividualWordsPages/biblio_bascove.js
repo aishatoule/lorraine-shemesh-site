@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_bascove = () => {
+const Biblio_bascove = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -40,4 +45,4 @@ const biblio_bascove = () => {
     )
 }
 
-export default biblio_bascove;
+export default Biblio_bascove;

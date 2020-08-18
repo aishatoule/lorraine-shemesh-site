@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 
-const biblio_stone = () => {
+const Biblio_stone = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -27,4 +32,4 @@ const biblio_stone = () => {
     )
 }
 
-export default biblio_stone;
+export default Biblio_stone;
