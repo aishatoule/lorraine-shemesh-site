@@ -54,7 +54,7 @@ class InsideOut extends Component {
                         <img key={index} src={image.name} className="grid-image" alt="Inside Out series"/>
                         <div className="gallery-individual-image-details">
                             <p>{image.artistName}</p>
-                            <p><span class="italics">{image.title}</span>{image.year !== undefined && ", " + image.year}</p>
+                            <p><span className="italics">{image.title}</span>{image.year !== undefined && ", " + image.year}</p>
                             <p>{image.dimensions}</p>
                             <p>{image.privateCollection}</p>
                         </div>
