@@ -16,17 +16,33 @@ import { allImagesDesktopOrderClayWT } from '../../imageDataFiles/imageDataClayW
 import { allImagesDesktopOrderClaySC } from '../../imageDataFiles/imageDataClaySC';
 
 const IndividualImage = () => {
-    const [setWidth] = useState(window.innerWidth);
+    // const [setWidth] = useState(window.innerWidth);
+    const width = useWindowWidth(); // Our custom Hook
+
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    const handleWindowSizeChange = () => {
-        setWidth(window.innerWidth);
-    };
-
+    function useWindowWidth() {
+        const [width, setWidth] = useState(window.innerWidth);
+        
+        useEffect(() => {
+          const handleResize = () => setWidth(window.innerWidth);
+          window.addEventListener('resize', handleResize);
+          return () => {
+            window.removeEventListener('resize', handleResize);
+          };
+        });
+        
+        return width;
+      }
+    
     useEffect(() => {
-        window.addEventListener("resize", handleWindowSizeChange);
+        // window.addEventListener("resize", handleWindowSizeChange);
         window.scrollTo(0, 0);
     });
+    
+    // const handleWindowSizeChange = () => {
+    //     setWidth(window.innerWidth);
+    // };
 
     const getNewIndex = (index) => {
         setCurrentImageIndex(index)
@@ -86,14 +102,16 @@ const IndividualImage = () => {
                     <img className='thumbnail-image' src={image.name} alt={image.title} />
                 </div>
             )
+        } else {
+            return <div key={i}></div>;
         }
     })
 
     return(
         <div className="individual-image-content-container" key={imageInformation[currentImageIndex].link}> 
-            <img key={id} src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
-            <div className="individual-image-details">
-                <div className="image-detail-text">
+            <img src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
+            <div className="individual-image-details" key={imageInformation[currentImageIndex].link}>
+                <div className="image-detail-text" key={imageInformation[currentImageIndex].link}>
                     <p>{imageInformation[0].artistName}</p>
                     <p><span className="italics">{imageInformation[0].title}</span>{imageInformation[0].year !== undefined && ", " + imageInformation[0].year}</p>
                     <p>{imageInformation[0].dimensions}</p>

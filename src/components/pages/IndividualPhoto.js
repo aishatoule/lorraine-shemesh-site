@@ -6,16 +6,16 @@ import { allImagesDesktopOrderExhTBSUNYC } from '../../imageDataFiles/imageDataE
 const IndividualPhoto = () => {
     const [setWidth] = useState(window.innerWidth);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-    const handleWindowSizeChange = () => {
-        setWidth(window.innerWidth);
-      };
-
+    
     useEffect(() => {
         window.addEventListener("resize", handleWindowSizeChange);
         window.scrollTo(0, 0);
-      });
-
+    });
+    
+    const handleWindowSizeChange = () => {
+        setWidth(window.innerWidth);
+    };
+    
     const getNewIndex = (index) => {
         setCurrentImageIndex(index)
     }
@@ -50,14 +50,16 @@ const IndividualPhoto = () => {
                     <img className='thumbnail-image' src={image.name} alt={image.title} />
                 </div>
             )
+        } else {
+            return <div key={i}></div>;
         }
     })
 
     return(
         <div className="individual-image-content-container" key={imageInformation[currentImageIndex].link}> 
-            <img key={id} src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
-            <div className="individual-image-details">
-                <div className="image-detail-text">
+            <img src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
+            <div className="individual-image-details" key={imageInformation[currentImageIndex].link}>
+                <div className="image-detail-text" key={imageInformation[currentImageIndex].link}>
                     <p>{imageInformation[0].caption1}</p>
                     <p>{imageInformation[0].caption2}</p>
                     <p>{imageInformation[0].caption3}</p>
