@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_mccormack2 = () => {
+const Biblio_mccormack2 = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -25,4 +30,4 @@ const biblio_mccormack2 = () => {
     )
 }
 
-export default biblio_mccormack2;
+export default Biblio_mccormack2;

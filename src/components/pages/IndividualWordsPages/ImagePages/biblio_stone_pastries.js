@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from "react";
 
-const biblio_stone_pastries = () => {
+const Biblio_stone_pastries = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return( 
         <div className="individual-image-content-container"> 
             <img src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/stone-words-pastries.jpg'} className="individual-image-main" alt="Pastries"/>
@@ -8,4 +13,4 @@ const biblio_stone_pastries = () => {
     )
 }
 
-export default biblio_stone_pastries;
+export default Biblio_stone_pastries;

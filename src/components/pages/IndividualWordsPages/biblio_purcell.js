@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_purcell = () => {
+const Biblio_purcell = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -28,4 +33,4 @@ const biblio_purcell = () => {
     )
 }
 
-export default biblio_purcell;
+export default Biblio_purcell;

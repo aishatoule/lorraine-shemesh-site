@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from "react";
 
-const biblio_little_three_hearts = () => {
+const Biblio_little_three_hearts = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return( 
         <div className="individual-image-content-container"> 
             <img src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/biblio_little_three_hearts.jpg'} className="individual-image-main" alt="Three hearts"/>
@@ -8,4 +13,4 @@ const biblio_little_three_hearts = () => {
     )
 }
 
-export default biblio_little_three_hearts;
+export default Biblio_little_three_hearts;

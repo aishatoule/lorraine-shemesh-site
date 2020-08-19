@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_shemesh1 = () => {
+const Biblio_shemesh1 = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -23,5 +28,4 @@ const biblio_shemesh1 = () => {
     )
 }
 
-export default biblio_shemesh1
-;
+export default Biblio_shemesh1;

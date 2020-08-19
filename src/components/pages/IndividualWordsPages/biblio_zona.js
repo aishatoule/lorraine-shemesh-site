@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-const biblio_zona = () => {
+const Biblio_zona = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    
     return (
         <div>
             <div className="individual-words-hero-image-container">
@@ -24,5 +29,5 @@ const biblio_zona = () => {
     )
 }
 
-export default biblio_zona
+export default Biblio_zona;
 ;
