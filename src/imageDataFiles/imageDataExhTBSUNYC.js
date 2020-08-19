@@ -53,22 +53,22 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         ],
         [
             {
-                name: exhTBSUNYC_5,
+                name: exhTBSUNYC_6,
                 captionln1: "The Space Between Us Exhibition",
                 captionln2: "Gerald Peters Gallery, New York, New York",
                 captionln3: "September 12 - October 16, 2019",
-                link: "tbsu_nyc5"
+                link: "tbsu_nyc6"
             },
         ]
     ],
     [/*COLUMN 2*/
         [
             {
-                name: exhTBSUNYC_6,
+                name: exhTBSUNYC_5,
                 captionln1: "The Space Between Us Exhibition",
                 captionln2: "Gerald Peters Gallery, New York, New York",
                 captionln3: "September 12 - October 16, 2019",
-                link: "tbsu_nyc6"
+                link: "tbsu_nyc5"
             },
         ],
         [
@@ -82,20 +82,20 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         ],
         [
             {
-                name: exhTBSUNYC_8,
-                captionln1: "The Space Between Us Exhibition",
-                captionln2: "Gerald Peters Gallery, New York, New York",
-                captionln3: "September 12 - October 16, 2019",
-                link: "tbsu_nyc8"
-            },
-        ],
-        [
-            {
                 name: exhTBSUNYC_9,
                 captionln1: "The Space Between Us Exhibition",
                 captionln2: "Gerald Peters Gallery, New York, New York",
                 captionln3: "September 12 - October 16, 2019",
                 link: "tbsu_nyc9"
+            },
+        ],
+        [
+            {
+                name: exhTBSUNYC_8,
+                captionln1: "The Space Between Us Exhibition",
+                captionln2: "Gerald Peters Gallery, New York, New York",
+                captionln3: "September 12 - October 16, 2019",
+                link: "tbsu_nyc8"
             },
         ],
         [
@@ -178,18 +178,18 @@ export const allImagesMobileOrderExhTBSUNYC = [
         link: "tbsu_nyc4"
     },
     {
-        name: exhTBSUNYC_5,
-        captionln1: "The Space Between Us Exhibition",
-        captionln2: "Gerald Peters Gallery, New York, New York",
-        captionln3: "September 12 - October 16, 2019",
-        link: "tbsu_nyc5"
-    },
-    {
         name: exhTBSUNYC_6,
         captionln1: "The Space Between Us Exhibition",
         captionln2: "Gerald Peters Gallery, New York, New York",
         captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc6"
+    },
+    {
+        name: exhTBSUNYC_5,
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
+        link: "tbsu_nyc5"
     },
     {
         name: exhTBSUNYC_7,
@@ -199,18 +199,18 @@ export const allImagesMobileOrderExhTBSUNYC = [
         link: "tbsu_nyc7"
     },
     {
-        name: exhTBSUNYC_8,
-        captionln1: "The Space Between Us Exhibition",
-        captionln2: "Gerald Peters Gallery, New York, New York",
-        captionln3: "September 12 - October 16, 2019",
-        link: "tbsu_nyc8"
-    },
-    {
         name: exhTBSUNYC_9,
         captionln1: "The Space Between Us Exhibition",
         captionln2: "Gerald Peters Gallery, New York, New York",
         captionln3: "September 12 - October 16, 2019",
         link: "tbsu_nyc9"
+    },
+    {
+        name: exhTBSUNYC_8,
+        captionln1: "The Space Between Us Exhibition",
+        captionln2: "Gerald Peters Gallery, New York, New York",
+        captionln3: "September 12 - October 16, 2019",
+        link: "tbsu_nyc8"
     },
     {
         name: exhTBSUNYC_10,
