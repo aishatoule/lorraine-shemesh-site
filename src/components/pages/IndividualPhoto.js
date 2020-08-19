@@ -60,7 +60,7 @@ const IndividualPhoto = () => {
             <img src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
             <div className="individual-image-details" key={imageInformation[currentImageIndex].link}>
                 <div className="image-detail-text" key={imageInformation[currentImageIndex].link}>
-                    <p>{imageInformation[0].captionln1}</p>
+                    <p dangerouslySetInnerHTML={{__html: imageInformation[0].captionln1}}/>
                     <p>{imageInformation[0].captionln2}</p>
                     <p>{imageInformation[0].captionln3}</p>
                 </div>

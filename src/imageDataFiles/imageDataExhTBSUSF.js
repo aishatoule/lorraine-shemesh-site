@@ -18,7 +18,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_1,
-                captionln1: "The banner outside Gerald Peters Gallery in Santa Fe announcing the solo exhibition, \<b\>The Space Between Us\</b\>",
+                captionln1: "The banner outside Gerald Peters Gallery in Santa Fe announcing the solo exhibition, <b>The Space Between Us</b>.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf1"
@@ -27,7 +27,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_2,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf2"
@@ -36,7 +36,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_5,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf5"
@@ -45,7 +45,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_4,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf4"
@@ -54,7 +54,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_3,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf3"
@@ -65,7 +65,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_6,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf6"
@@ -74,7 +74,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_9,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf9"
@@ -83,7 +83,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_8,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf8"
@@ -92,7 +92,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_7,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf7"
@@ -101,7 +101,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_10,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf10"
@@ -112,7 +112,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_11,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf11"
@@ -121,7 +121,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_12,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf12"
@@ -130,7 +130,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_13,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf13"
@@ -139,7 +139,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_14,
-                captionln1: "The Space Between Us Exhibition",
+                captionln1: "",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf14"
@@ -151,98 +151,98 @@ export const allImagesDesktopOrderExhTBSUSF = [
 export const allImagesMobileOrderExhTBSUSF = [
     [{
         name: exhTBSUSF_1,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "The banner outside Gerald Peters Gallery in Santa Fe announcing the solo exhibition, <b>The Space Between Us</b>",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf1"
     },
     {
         name: exhTBSUSF_2,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf2"
     },
     {
         name: exhTBSUSF_5,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf5"
     },
     {
         name: exhTBSUSF_4,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf4"
     },
     {
         name: exhTBSUSF_3,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf3"
     },
     {
         name: exhTBSUSF_6,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf6"
     },
     {
         name: exhTBSUSF_9,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf9"
     },
     {
         name: exhTBSUSF_8,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf8"
     },
     {
         name: exhTBSUSF_7,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf7"
     },
     {
         name: exhTBSUSF_10,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf10"
     },
     {
         name: exhTBSUSF_11,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf11"
     },
     {
         name: exhTBSUSF_12,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf12"
     },
     {
         name: exhTBSUSF_13,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf13"
     },
     {
         name: exhTBSUSF_14,
-        captionln1: "The Space Between Us Exhibition",
+        captionln1: "",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf14"

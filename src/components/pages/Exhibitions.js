@@ -13,12 +13,12 @@ const Exhibitions = () => {
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">"<b><NavLink to="/exhibition_tsbu_nyc" className="exhibition-link">The Space Between Us</NavLink>.</b>"</p>
+                            <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_nyc" className="exhibition-link">The Space Between Us</NavLink>.</b></p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
-                            <p className="exhibition-dates">September 12 - October 16, 2019</p>
+                            <p className="exhibition-dates"></p>
                         </div>
                         <div className="exhibition-container">
-                            <p className="exhibition-name">"<b><NavLink to="/exhibition_tsbu_sf" className="exhibition-link">The Space Between Us</NavLink>.</b>"</p>
+                            <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_sf" className="exhibition-link">The Space Between Us</NavLink>.</b></p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Projects</b>, Santa Fe, New Mexico</p>
                             <p className="exhibition-dates">June 21 - August 17, 2019</p>
                         </div>
