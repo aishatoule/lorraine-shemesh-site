@@ -53,7 +53,7 @@ class Exhibition_tbsu_nyc extends Component {
                     <div key={index} className="image-and-details-on-grid">
                         <img key={index} src={image.name} className="grid-image" alt="The Space Between Us exhibition, NYC"/>
                         <div className="gallery-individual-image-details">
-                            <p>{image.captionln1}</p>
+                            <p dangerouslySetInnerHTML={{__html: image.captionln1}}/>
                             <p>{image.captionln2}</p>
                             <p>{image.captionln3}</p>
                         </div>
