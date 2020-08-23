@@ -12,6 +12,7 @@ var exhTBSUSF_11 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/e
 var exhTBSUSF_12 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibition_tbsu_sf/exhTBSUSF_12.jpg';
 var exhTBSUSF_13 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibition_tbsu_sf/exhTBSUSF_13.jpg';
 var exhTBSUSF_14 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibition_tbsu_sf/exhTBSUSF_14.jpg';
+var exhTBSUSF_15 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibition_tbsu_sf/IMG_2920.jpg';
 
 export const allImagesDesktopOrderExhTBSUSF = [
     [/*COLUMN 1*/
@@ -27,7 +28,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_2,
-                captionln1: "",
+                captionln1: "Gerald Peters Gallery before the opening of the solo exhibition, <b>The Space Between Us</b> in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf2"
@@ -36,7 +37,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_5,
-                captionln1: "",
+                captionln1: "Gerald Peters Gallery before the opening of the solo exhibition, <b>The Space Between Us</b> in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf5"
@@ -45,7 +46,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_4,
-                captionln1: "",
+                captionln1: "Gerald Peters Gallery before the opening of <b>The Space Between Us</b> in Santa Fe with the short accompanying video in the background.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf4"
@@ -54,7 +55,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_3,
-                captionln1: "",
+                captionln1: "Gerald Peters Gallery before the opening of the solo exhibition,<b>The Space Between Us</b>, in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf3"
@@ -65,7 +66,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_6,
-                captionln1: "",
+                captionln1: "Checking out the light on the painting, Accordion, before the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf6"
@@ -74,7 +75,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_9,
-                captionln1: "",
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf9"
@@ -83,7 +84,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_8,
-                captionln1: "",
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf8"
@@ -92,7 +93,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_7,
-                captionln1: "",
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf7"
@@ -100,11 +101,11 @@ export const allImagesDesktopOrderExhTBSUSF = [
         ],
         [
             {
-                name: exhTBSUSF_10,
-                captionln1: "",
+                name: exhTBSUSF_13,
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
-                link: "tbsu_sf10"
+                link: "tbsu_sf13"
             },
         ]
     ],
@@ -112,7 +113,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_11,
-                captionln1: "",
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf11"
@@ -121,7 +122,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_12,
-                captionln1: "",
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf12"
@@ -129,20 +130,29 @@ export const allImagesDesktopOrderExhTBSUSF = [
         ],
         [
             {
-                name: exhTBSUSF_13,
-                captionln1: "",
+                name: exhTBSUSF_10,
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
-                link: "tbsu_sf13"
+                link: "tbsu_sf10"
             },
         ],
         [
             {
                 name: exhTBSUSF_14,
-                captionln1: "",
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf14"
+            },
+        ],
+        [
+            {
+                name: exhTBSUSF_15,
+                captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
+                captionln2: "",
+                captionln3: "",
+                link: "tbsu_sf15"
             },
         ]
     ]          
@@ -158,93 +168,100 @@ export const allImagesMobileOrderExhTBSUSF = [
     },
     {
         name: exhTBSUSF_2,
-        captionln1: "",
+        captionln1: "Gerald Peters Gallery before the opening of the solo exhibition, <b>The Space Between Us</b> in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf2"
     },
     {
         name: exhTBSUSF_5,
-        captionln1: "",
+        captionln1: "Gerald Peters Gallery before the opening of the solo exhibition, <b>The Space Between Us</b> in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf5"
     },
     {
         name: exhTBSUSF_4,
-        captionln1: "",
+        captionln1: "Gerald Peters Gallery before the opening of <b>The Space Between Us</b> in Santa Fe with the short accompanying video in the background.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf4"
     },
     {
         name: exhTBSUSF_3,
-        captionln1: "",
+        captionln1: "Gerald Peters Gallery before the opening of the solo exhibition,<b>The Space Between Us</b>, in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf3"
     },
     {
         name: exhTBSUSF_6,
-        captionln1: "",
+        captionln1: "Checking out the light on the painting, Accordion, before the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf6"
     },
     {
         name: exhTBSUSF_9,
-        captionln1: "",
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf9"
     },
     {
         name: exhTBSUSF_8,
-        captionln1: "",
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf8"
     },
     {
         name: exhTBSUSF_7,
-        captionln1: "",
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf7"
     },
     {
-        name: exhTBSUSF_10,
-        captionln1: "",
+        name: exhTBSUSF_13,
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
-        link: "tbsu_sf10"
+        link: "tbsu_sf13"
     },
     {
         name: exhTBSUSF_11,
-        captionln1: "",
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf11"
     },
     {
         name: exhTBSUSF_12,
-        captionln1: "",
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf12"
     },
     {
-        name: exhTBSUSF_13,
-        captionln1: "",
+        name: exhTBSUSF_10,
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
-        link: "tbsu_sf13"
+        link: "tbsu_sf10"
     },
     {
         name: exhTBSUSF_14,
-        captionln1: "",
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_sf14"
+    },
+    {
+        name: exhTBSUSF_15,
+        captionln1: "The opening of the solo show <b>The Space Between Us</b> at Gerald Peters Gallery in Santa Fe.",
+        captionln2: "",
+        captionln3: "",
+        link: "tbsu_sf15"
     }]      
 ]

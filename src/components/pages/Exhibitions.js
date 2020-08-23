@@ -43,7 +43,7 @@ const Exhibitions = () => {
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2006</b></p>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Breaking the Surface</p>
+                        <p className="exhibition-name"><b><NavLink to="/exhibition_butler" className="exhibition-link">Breaking the Surface</NavLink></b></p>
                         <p className="exhibition-gallery-name"><b>Butler Institute of American Art</b>, Youngstown, Ohio</p>
                         <p className="exhibition-dates">February 26 - April 9, 2006</p>
                     </div>

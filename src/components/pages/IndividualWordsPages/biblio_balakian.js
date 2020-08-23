@@ -9,7 +9,7 @@ const Biblio_balakian = () => {
     return (
         <div>
             <div className="individual-words-hero-image-container">
-                <img className="individual-words-hero-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu21.jpg'} alt="Puzzle painting"/>
+                <img className="individual-words-hero-image-vertical" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/jigsaw.jpg'} alt="Jigsaw painting"/>
             </div>
             <div className="individual-words-paragraph-container">
                 <h4 className="individual-words-title"><b>LORRAINE SHEMESH: BODY, LIGHT, SPACE</b></h4>
