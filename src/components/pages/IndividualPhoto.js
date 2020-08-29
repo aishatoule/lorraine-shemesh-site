@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { allImagesDesktopOrderExhTBSUSF } from '../../imageDataFiles/imageDataExhTBSUSF';
 import { allImagesDesktopOrderExhTBSUNYC } from '../../imageDataFiles/imageDataExhTBSUNYC';
+import { allImagesDesktopOrderExhButler } from '../../imageDataFiles/imageDataExhButler';
+import { allImagesDesktopOrderExhIntersections } from '../../imageDataFiles/imageDataExhIntersections';
 
 const IndividualPhoto = () => {
     const [setWidth] = useState(window.innerWidth);
@@ -28,6 +30,10 @@ const IndividualPhoto = () => {
         currentGroup = allImagesDesktopOrderExhTBSUNYC;
     } else if (idWithoutDigits === 'tbsu_sf') {
         currentGroup = allImagesDesktopOrderExhTBSUSF;
+    } else if (idWithoutDigits === 'butler') {
+        currentGroup = allImagesDesktopOrderExhButler;
+    } else if (idWithoutDigits === 'intersections') {
+        currentGroup = allImagesDesktopOrderExhIntersections;
     } else {
         currentGroup = null;
     }

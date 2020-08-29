@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { allImagesDesktopOrderClayWT, allImagesMobileOrderClayWT } from '../../../imageDataFiles/imageDataClayWT';
+import { allImagesDesktopOrderExhIntersections, allImagesMobileOrderExhIntersections } from '../../../imageDataFiles/imageDataExhIntersections';
 
-class ClayWT extends Component {
+class Exhibition_intersections extends Component {
 
     constructor() {
         super();
@@ -23,21 +23,21 @@ class ClayWT extends Component {
 
     render() {
 
-    let mappedDesktopImages = allImagesDesktopOrderClayWT.map((imageColumn, i) => {
+    let mappedDesktopImages = allImagesDesktopOrderExhIntersections.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
                 return (
                     // sends to individual image 
                     <Link key={index} location={this.props.location} to={{
-                        pathname:"/" + image[0].link, 
+                        pathname:"/exh/" + image[0].link, 
                         state: {
                             imageInformation: image,
                             from: this.props.location
                         }}
                         
                     }>
-                        <img key={index} src={image[0].name} className="grid-image" alt="Wheel-Thrown Clay series"/>
+                        <img key={index} src={image[0].name} className="grid-image" alt="Intersections exhibition, New York"/>
                     </Link>
                 )                    
             })}
@@ -45,18 +45,17 @@ class ClayWT extends Component {
         )
     })
 
-    let mappedMobileImages = allImagesMobileOrderClayWT.map((imageColumn, i) => {
+    let mappedMobileImages = allImagesMobileOrderExhIntersections.map((imageColumn, i) => {
         return(
             <div key={i} className="column">
             {imageColumn.map((image, index) => {
                 return (
                     <div key={index} className="image-and-details-on-grid">
-                        <img key={index} src={image.name} className="grid-image" alt="Wheel-Thrown Clay series"/>
+                        <img key={index} src={image.name} className="grid-image" alt="Intersections exhibition, New York"/>
                         <div className="gallery-individual-image-details">
-                            <p>{image.artistName}</p>
-                            <p><span className="italics">{image.title}</span>{image.year !== undefined && ", " + image.year}</p>
-                            <p>{image.dimensions}</p>
-                            <p>{image.privateCollection}</p>
+                            <p dangerouslySetInnerHTML={{__html: image.captionln1}}/>
+                            <p>{image.captionln2}</p>
+                            <p>{image.captionln3}</p>
                         </div>
                     </div>
                 )                   
@@ -82,4 +81,4 @@ class ClayWT extends Component {
     }
 }
 
-export default ClayWT;
+export default Exhibition_intersections;

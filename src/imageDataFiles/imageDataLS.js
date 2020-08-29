@@ -25,7 +25,7 @@ export const allImagesDesktopOrderLs = [
             {
                 name: zigzagDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Zig Zag - Detail",
+                title: "Zig Zag - detail",
                 year: "2003",
                 dimensions: "83 1/2 x 52 3/4 in., o/c",
                 link: "ls2",
@@ -46,7 +46,7 @@ export const allImagesDesktopOrderLs = [
             {
                 name: handstandDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Hand Stand - Detail",
+                title: "Hand Stand - detail",
                 year: "2003",
                 dimensions: "83 1/4 x 39 1/4 in., o/c",
                 link: "ls4",
@@ -68,7 +68,7 @@ export const allImagesDesktopOrderLs = [
             {
                 name: archDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Archway - Detail",
+                title: "Archway - detail",
                 year: "2001",
                 dimensions: "81 3/8 x 51 5/8 in., o/c",
                 link: "ls6",
@@ -88,7 +88,7 @@ export const allImagesDesktopOrderLs = [
             {
                 name: propellerDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Propeller - Detail",
+                title: "Propeller - detail",
                 year: "2002",
                 dimensions: "67 1/2 x 71 1/2 in., o/c",
                 link: "ls12",
@@ -132,7 +132,7 @@ export const allImagesDesktopOrderLs = [
             {
                 name: archDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Arch - Detail",
+                title: "Arch - detail",
                 year: "2001",
                 dimensions: "80 x 57 3/4 in., o/c",
                 link: "ls8",
@@ -156,7 +156,7 @@ export const allImagesMobileOrderLs = [
     {
         name: zigzagDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Zig Zag - Detail",
+        title: "Zig Zag - detail",
         year: "2003",
         dimensions: "83 1/2 x 52 3/4 in., o/c",
         link: "ls2",
@@ -174,7 +174,7 @@ export const allImagesMobileOrderLs = [
     {
         name: handstandDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Hand Stand - Detail",
+        title: "Hand Stand - detail",
         year: "2003",
         dimensions: "83 1/4 x 39 1/4 in., o/c",
         link: "ls4",
@@ -192,7 +192,7 @@ export const allImagesMobileOrderLs = [
     {
         name: archDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Archway - Detail",
+        title: "Archway - detail",
         year: "2001",
         dimensions: "81 3/8 x 51 5/8 in., o/c",
         link: "ls6",
@@ -210,7 +210,7 @@ export const allImagesMobileOrderLs = [
     {
         name: archDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Arch - Detail",
+        title: "Arch - detail",
         year: "2001",
         dimensions: "80 x 57 3/4 in., o/c",
         link: "ls8",
@@ -246,7 +246,7 @@ export const allImagesMobileOrderLs = [
     {
         name: propellerDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Propeller - Detail",
+        title: "Propeller - detail",
         year: "2002",
         dimensions: "67 1/2 x 71 1/2 in., o/c",
         link: "ls12",
