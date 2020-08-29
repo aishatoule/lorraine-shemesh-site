@@ -133,7 +133,7 @@ export const allImagesDesktopOrderIntersections = [
             {
                 name: crossingDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Crossing",
+                title: "Crossing - detail",
                 year: "2008",
                 dimensions: "73 x 54 1/4 in., o/c",
                 link: "int6",
@@ -142,7 +142,7 @@ export const allImagesDesktopOrderIntersections = [
             {
                 name: crossingDetail2,
                 artistName: "Lorraine Shemesh",
-                title: "Crossing",
+                title: "Crossing - detail",
                 year: "2008",
                 dimensions: "73 x 54 1/4 in., o/c",
                 link: "int7",
@@ -184,7 +184,7 @@ export const allImagesMobileOrderIntersections = [
     {
         name: crossingDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Crossing",
+        title: "Crossing - detail",
         /*year: "2008",*/
         dimensions: "73 x 54 1/4 in., o/c",
         link: "int6",
@@ -193,7 +193,7 @@ export const allImagesMobileOrderIntersections = [
     {
         name: crossingDetail2,
         artistName: "Lorraine Shemesh",
-        title: "Crossing",
+        title: "Crossing - detail",
         /*year: "2008",*/
         dimensions: "73 x 54 1/4 in., o/c",
         link: "int7",

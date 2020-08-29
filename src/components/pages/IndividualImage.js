@@ -109,13 +109,13 @@ const IndividualImage = () => {
 
     return(
         <div className="individual-image-content-container" key={imageInformation[currentImageIndex].link}> 
-            <img src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[0].title}/>
+            <img src={imageInformation[currentImageIndex].name} className="individual-image-main" alt={imageInformation[currentImageIndex].title}/>
             <div className="individual-image-details" key={imageInformation[currentImageIndex].link}>
                 <div className="image-detail-text" key={imageInformation[currentImageIndex].link}>
-                    <p>{imageInformation[0].artistName}</p>
-                    <p><span className="italics">{imageInformation[0].title}</span>{imageInformation[0].year !== undefined && ", " + imageInformation[0].year}</p>
-                    <p>{imageInformation[0].dimensions}</p>
-                    <p>{imageInformation[0].privateCollection}</p>
+                    <p>{imageInformation[currentImageIndex].artistName}</p>
+                    <p><span className="italics">{imageInformation[currentImageIndex].title}</span>{imageInformation[currentImageIndex].year !== undefined && ", " + imageInformation[currentImageIndex].year}</p>
+                    <p>{imageInformation[currentImageIndex].dimensions}</p>
+                    <p>{imageInformation[currentImageIndex].privateCollection}</p>
                 </div>
                 <div className="thumbnail-section">
                     {thumbnailImages}

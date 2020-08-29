@@ -63,7 +63,7 @@ export const allImagesDesktopOrderTsbu = [
               year: "2017",
               dimensions: "60 1⁄2 x 49 1⁄2 in., o/c",
               details: "09. Enclosure painting.jpg",
-              link: "tsbu14",
+              link: "tsbu20",
               privateCollection: ""
           }
       ],
@@ -187,7 +187,7 @@ export const allImagesDesktopOrderTsbu = [
               artistName: "Lorraine Shemesh",
               title: "Interlock",
               year: "2017",
-              dimensions: "52 x 45 in., 0/c",
+              dimensions: "52 x 45 in., o/c",
               details: "08. Interlock painting.jpg",
               link: "tsbu19",
               privateCollection: ""
@@ -208,7 +208,7 @@ export const allImagesDesktopOrderTsbu = [
               name: tsbu10,
               artistName: "Lorraine Shemesh",
               title: "Hinge – detail",
-              yesr: "2017",
+              year: "2017",
               dimensions: "63 1/2 x 47 1/2 in., o/c",
               details: "04c. Hinge detail (feet).jpg",
               link: "tsbu10",
@@ -255,7 +255,7 @@ export const allImagesDesktopOrderTsbu = [
               dimensions: "60 1⁄2 x 62 in., o/c",
               details: "07b. Riddle detail (center calf _ arm).jpg",
               link: "tsbu18",
-              privateCollection: ""
+              privateCollection: "Private Collection"
           }
       ]
   ]          
@@ -341,7 +341,8 @@ export const allImagesMobileOrderTsbu = [
         year: "2017",
         dimensions: "63 1/2 x 47 1/2 in., o/c",
         details: "04a. Hinge painting.jpg",
-        link: "tsbu8"
+        link: "tsbu8",
+        privateCollection: ""
     },
     {
         name: tsbu9,
@@ -441,14 +442,14 @@ export const allImagesMobileOrderTsbu = [
         dimensions: "60 1⁄2 x 62 in., o/c",
         details: "07b. Riddle detail (center calf _ arm).jpg",
         link: "tsbu18",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: tsbu19,
         artistName: "Lorraine Shemesh",
         title: "Interlock", 
         year: "2017",
-        dimensions: "52 x 45 in., 0/c",
+        dimensions: "52 x 45 in., o/c",
         details: "08. Interlock painting.jpg",
         link: "tsbu19",
         privateCollection: ""

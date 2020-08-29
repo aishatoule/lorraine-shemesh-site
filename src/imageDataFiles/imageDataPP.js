@@ -89,7 +89,7 @@ export const allImagesDesktopOrderPp = [
             {
                 name: chickenFightDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Chicken Fight",
+                title: "Chicken Fight - detail",
                 year: "1992",
                 dimensions: "68 x 84 in., o/c",
                 link: "pp8",
@@ -177,7 +177,7 @@ export const allImagesMobileOrderPp = [
     {
         name: chickenFightDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Chicken Fight",
+        title: "Chicken Fight - detail",
         year: "1992",
         dimensions: "68 x 84 in., o/c",
         link: "pp8",

@@ -34,7 +34,7 @@ export const allImagesDesktopOrderBts = [
             {
                 name: ghostDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Ghost - Detail",
+                title: "Ghost - detail",
                 year: "2006",
                 dimensions: "72 x 64 in., o/c",
                 link: "bts3",
@@ -67,7 +67,7 @@ export const allImagesDesktopOrderBts = [
             {
                 name: amoebaDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Amoeba",
+                title: "Amoeba - detail",
                 year: "2005",
                 dimensions: "73 1/2 x 64 in., o/c",
                 link: "bts6",
@@ -89,7 +89,7 @@ export const allImagesDesktopOrderBts = [
             {
                 name: backfloatDetail1,
                 artistName: "Lorraine Shemesh",
-                title: "Back Float - Detail",
+                title: "Back Float - detail",
                 year: "1991",
                 dimensions: "72 x 78 in., o/c",
                 link: "bts8",
@@ -132,7 +132,7 @@ export const allImagesMobileOrderBts = [
     {
         name: ghostDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Ghost - Detail",
+        title: "Ghost - detail",
         year: "2006",
         dimensions: "72 x 64 in., o/c",
         link: "bts3",
@@ -159,7 +159,7 @@ export const allImagesMobileOrderBts = [
     {
         name: amoebaDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Amoeba",
+        title: "Amoeba - detail",
         year: "2005",
         dimensions: "73 1/2 x 64 in., o/c",
         link: "bts6",
@@ -177,7 +177,7 @@ export const allImagesMobileOrderBts = [
     {
         name: backfloatDetail1,
         artistName: "Lorraine Shemesh",
-        title: "Back Float - Detail",
+        title: "Back Float - detail",
         year: "1991",
         dimensions: "72 x 78 in., o/c",
         link: "bts8",

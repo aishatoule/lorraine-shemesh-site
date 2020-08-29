@@ -35,7 +35,7 @@ const Exhibitions = () => {
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2009</b></p>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Intersections - Paintings</p>
+                        <p className="exhibition-name"><b><NavLink to="/exhibition_intersections" className="exhibition-link">Intersections - Paintings</NavLink></b></p>
                         <p className="exhibition-gallery-name"><b>Allan Stone Gallery</b>, New York, New York</p>
                         <p className="exhibition-dates">February 28 - April 18, 2009</p>
                     </div>
