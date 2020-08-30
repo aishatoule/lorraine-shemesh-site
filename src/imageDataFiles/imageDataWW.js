@@ -81,7 +81,7 @@ export const allImagesDesktopOrderWw = [
                 artistName: "Lorraine Shemesh",
                 title: "Wings",
                 year: "2008",
-                dimensions: "64 x 63 1/4 in., o/c",
+                dimensions: "64 1/4 x 63 1/4 in., o/c",
                 link: "ww9",
                 privateCollection: "Private Collection"
             },
@@ -90,7 +90,7 @@ export const allImagesDesktopOrderWw = [
                 artistName: "Lorraine Shemesh",
                 title: "Wings - detail",
                 year: "2008",
-                dimensions: "64 x 63 1/4 in., o/c",
+                dimensions: "64 1/4 x 63 1/4 in., o/c",
                 link: "ww10",
                 privateCollection: "Private Collection"
             }
@@ -198,7 +198,7 @@ export const allImagesMobileOrderWw = [
         artistName: "Lorraine Shemesh",
         title: "Wings",
         year: "2008",
-        dimensions: "64 x 63 1/4 in., o/c",
+        dimensions: "64 1/4 x 63 1/4 in., o/c",
         link: "ww9",
         privateCollection: "Private Collection"
     },
@@ -207,7 +207,7 @@ export const allImagesMobileOrderWw = [
         artistName: "Lorraine Shemesh",
         title: "Wings - detail",
         year: "2008",
-        dimensions: "64 x 63 1/4 in., o/c",
+        dimensions: "64 1/4 x 63 1/4 in., o/c",
         link: "ww10",
         privateCollection: "Private Collection"
     }]      

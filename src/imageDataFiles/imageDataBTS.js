@@ -49,7 +49,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Ring",
                 year: "1997",
-                dimensions: "73 5/8 x 56 in.,o/c",
+                dimensions: "46 x 36 in.,o/c",
                 link: "bts4",
                 privateCollection: "Private Collection"
             }
@@ -60,7 +60,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Amoeba",
                 year: "2005",
-                dimensions: "73 1/2 x 64 in., o/c",
+                dimensions: "71 1/2 x 61 1/2 in., o/c",
                 link: "bts5",
                 privateCollection: "Private Collection"
             },
@@ -69,7 +69,7 @@ export const allImagesDesktopOrderBts = [
                 artistName: "Lorraine Shemesh",
                 title: "Amoeba - detail",
                 year: "2005",
-                dimensions: "73 1/2 x 64 in., o/c",
+                dimensions: "71 1/2 x 61 1/2 in., o/c",
                 link: "bts6",
                 privateCollection: "Private Collection"
             }
@@ -143,7 +143,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Ring",
         year: "1997",
-        dimensions: "73 5/8 x 56 in.,o/c",
+        dimensions: "46 x 36 in.,o/c",
         link: "bts4",
         privateCollection: "Private Collection"
     },
@@ -152,7 +152,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Amoeba",
         year: "2005",
-        dimensions: "73 1/2 x 64 in., o/c",
+        dimensions: "71 1/2 x 61 1/2 in., o/c",
         link: "bts5",
         privateCollection: "Private Collection"
     },
@@ -161,7 +161,7 @@ export const allImagesMobileOrderBts = [
         artistName: "Lorraine Shemesh",
         title: "Amoeba - detail",
         year: "2005",
-        dimensions: "73 1/2 x 64 in., o/c",
+        dimensions: "71 1/2 x 61 1/2 in., o/c",
         link: "bts6",
         privateCollection: "Private Collection"
     },

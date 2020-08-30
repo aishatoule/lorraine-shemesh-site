@@ -4,6 +4,7 @@
 }
 
 .individual-image-details {
+    color: #999;
     padding-top: 10px;
 }
 
@@ -27,6 +28,7 @@
 
 @media screen and (min-width: 769px) {
     .individual-image-details {
+        color: #999;
         display: flex;
         justify-content: space-between;
     }
@@ -47,3 +49,4 @@
 .non-current-image-border {
     border: 0;
 }
+

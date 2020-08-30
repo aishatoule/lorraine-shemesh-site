@@ -114,7 +114,7 @@ export const allImagesDesktopOrderLs = [
                 artistName: "Lorraine Shemesh",
                 title: "Eddy",
                 year: "2003",
-                dimensions: "66 1/2 x 66 in.,",
+                dimensions: "66 1/2 x 66 in., o/c",
                 link: "ls10",
                 privateCollection: "Private Collection"
             }
@@ -230,7 +230,7 @@ export const allImagesMobileOrderLs = [
         artistName: "Lorraine Shemesh",
         title: "Eddy",
         year: "2003",
-        dimensions: "66 1/2 x 66 in.,",
+        dimensions: "66 1/2 x 66 in., o/c",
         link: "ls10",
         privateCollection: "Private Collection"
     },

@@ -30,7 +30,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Attached",
               year: "2018",
               dimensions: "64 x 61 1/2 in., o/c",
-              details: "02a. Attached painting.jpg",
               link: "tsbu4",
               privateCollection: "Private Collection"
           },
@@ -40,7 +39,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Attached - detail",
               year: "2018",
               dimensions: "64 x 61 1/2 in., o/c",
-              details: "02b. Attached detail (heads _ hands).jpg",
               link: "tsbu5",
               privateCollection: "Private Collection"
           },
@@ -50,7 +48,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Attached - detail",
               year: "2018",
               dimensions: "64 x 61 1/2 in., o/c",
-              details: "02c. Attached detail (foot).jpg",
               link: "tsbu6",
               privateCollection: "Private Collection"
           }
@@ -62,7 +59,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Enclosure",
               year: "2017",
               dimensions: "60 1⁄2 x 49 1⁄2 in., o/c",
-              details: "09. Enclosure painting.jpg",
               link: "tsbu20",
               privateCollection: ""
           }
@@ -74,7 +70,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Inseparable",
               year: "2016",
               dimensions: "63 x 49 1⁄2 in., o/c",
-              details: "06a. Inseparable painting.jpg",
               link: "tsbu14",
               privateCollection: "Private Collection"
           },
@@ -84,7 +79,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Inseparable - detail",
               year: "2016",
               dimensions: "63 x 49 1⁄2 in., o/c",
-              details: "06c. Inseparable detail (female hands).jpg",
               link: "tsbu16",
               privateCollection: "Private Collection"
           },
@@ -94,7 +88,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Inseparable - detail",
               year: "2016",
               dimensions: "63 x 49 1⁄2 in., o/c",
-              details: "06b. Inseparable detail (male head).jpg",
               link: "tsbu19",
               privateCollection: "Private Collection"
           }
@@ -106,7 +99,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "The Space Between Us",
               year: "2015",
               dimensions: "64 x 64 1/4 in., o/c",
-              details: "05a. The Space Between Us.jpg",
               link: "tsbu12",
               privateCollection: ""
           },
@@ -116,7 +108,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "The Space Between Us - detail",
               year: "2015",
               dimensions: "64 x 64 1/2 in., o/c",
-              details: "05b. The Space Between Us detail (female head).jpg",
               link: "tsbu13",
               privateCollection: ""
           },
@@ -130,7 +121,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Puzzle",
               year: "2014",
               dimensions: "65 x 65 in., o/c",
-              details: "10. Puzzle painting.jpg",
               link: "tsbu21",
               privateCollection: ""
           }
@@ -142,7 +132,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Accordion",
               year: "2018",
               dimensions: "65 x 55 in., o/c",
-              details: "01a. Accordion painting.jpg",
               link: "tsbu1",
               privateCollection: ""
           },
@@ -152,7 +141,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Accordion – detail",
               year: "2018",
               dimensions: "65 x 55 in., o/c",
-              details: "01c. Accordion detail (hand).jpeg",
               link: "tsbu3",
               privateCollection: ""
           },
@@ -162,7 +150,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Accordion – detail",
               year: "2018",
               dimensions: "65 x 55 in., o/c",
-              details: "01b. Accordion detail (head).jpeg",
               link: "tsbu2",
               privateCollection: ""
           }
@@ -174,7 +161,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Sway",
               year: "2019",
               dimensions: "72 x 57 1⁄2 in., o/c",
-              details: "03. Sway painting.jpg",
               link: "tsbu7",
               privateCollection: ""
           }
@@ -188,7 +174,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Interlock",
               year: "2017",
               dimensions: "52 x 45 in., o/c",
-              details: "08. Interlock painting.jpg",
               link: "tsbu19",
               privateCollection: ""
           }
@@ -200,7 +185,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Hinge",
               year: "2017",
               dimensions: "63 1/2 x 47 1/2 in., o/c",
-              details: "04a. Hinge painting.jpg",
               link: "tsbu8",
               privateCollection: ""
           },
@@ -210,7 +194,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Hinge – detail",
               year: "2017",
               dimensions: "63 1/2 x 47 1/2 in., o/c",
-              details: "04c. Hinge detail (feet).jpg",
               link: "tsbu10",
               privateCollection: ""
 
@@ -221,7 +204,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Hinge – detail",
               year: "2017",
               dimensions: "63 1/2 x 47 1/2 in., o/c",
-              details: "04d. Hinge detail (hand).jpeg",
               link: "tsbu11",
               privateCollection: ""
           },
@@ -231,7 +213,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Hinge - detail",
               year: "2017",
               dimensions: "63 1/2 x 47 1/2 in., o/c",
-              details: "04b Hinge detail (head).jpeg",
               link: "tsbu9",
               privateCollection: ""
           }
@@ -243,7 +224,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Riddle",
               year: "2018",
               dimensions: "60 1⁄2 x 62 in., o/c",
-              details: "07a. Riddle painting.jpg",
               link: "tsbu17",
               privateCollection: "Private Collection"
           },
@@ -253,7 +233,6 @@ export const allImagesDesktopOrderTsbu = [
               title: "Riddle - detail",
               year: "2018",
               dimensions: "60 1⁄2 x 62 in., o/c",
-              details: "07b. Riddle detail (center calf _ arm).jpg",
               link: "tsbu18",
               privateCollection: "Private Collection"
           }
@@ -268,7 +247,6 @@ export const allImagesMobileOrderTsbu = [
         year: "2018",
         dimensions: "65 x 55 in., o/c",
         artistName: "Lorraine Shemesh",
-        details: "image details",
         link: "tsbu1",
         privateCollection: ""
 
@@ -279,7 +257,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Accordion – detail",
         year: "2018",
         dimensions: "65 x 55 in., o/c",
-        details: "01b. Accordion detail (head).jpeg",
         link: "tsbu2",
         privateCollection: ""
     },
@@ -289,7 +266,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Accordion – detail", 
         year: "2018",
         dimensions: "65 x 55 in., o/c",
-        details: "01c. Accordion detail (hand).jpeg",
         link: "tsbu3",
         privateCollection: ""
 
@@ -300,7 +276,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Attached", 
         year: "2018",
         dimensions: "64 x 61 1/2 in., o/c",
-        details: "02a. Attached painting.jpg",
         link: "tsbu4",
         privateCollection: "Private Collection"
     },
@@ -310,7 +285,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Attached - detail",
         year: "2018",
         dimensions: "64 x 61 1/2 in., o/c",
-        details: "02b. Attached detail (heads _ hands).jpg",
         link: "tsbu5",
         privateCollection: "Private Collection"
     },
@@ -320,7 +294,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Attached - detail",
         year: "2018",
         dimensions: "64 x 61 1/2 in., o/c",
-        details: "02c. Attached detail (foot).jpg",
         link: "tsbu6",
         privateCollection: "Private Collection"
     }],
@@ -330,7 +303,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Sway", 
         year: "2019",
         dimensions: "72 x 57 1⁄2 in., o/c",
-        details: "03. Sway painting.jpg",
         link: "tsbu7",
         privateCollection: ""
     }, 
@@ -340,7 +312,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Hinge",
         year: "2017",
         dimensions: "63 1/2 x 47 1/2 in., o/c",
-        details: "04a. Hinge painting.jpg",
         link: "tsbu8",
         privateCollection: ""
     },
@@ -350,7 +321,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Hinge - detail", 
         year: "2017",
         dimensions: "63 1/2 x 47 1/2 in., o/c",
-        details: "04b Hinge detail (head).jpeg",
         link: "tsbu9",
         privateCollection: ""
     },
@@ -360,7 +330,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Hinge – detail", 
         year: "2017",
         dimensions: "63 1/2 x 47 1/2 in., o/c",
-        details: "04c. Hinge detail (feet).jpg",
         link: "tsbu10",
         privateCollection: ""
     },
@@ -370,7 +339,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Hinge – detail", 
         year: "2017",
         dimensions: "63 1/2 x 47 1/2 in., o/c",
-        details: "04d. Hinge detail (hand).jpeg",
         link: "tsbu11",
         privateCollection: ""
     }],
@@ -380,7 +348,6 @@ export const allImagesMobileOrderTsbu = [
         title: "The Space Between Us", 
         year: "2015",
         dimensions: "64 x 64 1/4 in., o/c",
-        details: "05a. The Space Between Us.jpg",
         link: "tsbu12",
         privateCollection: ""
     }, 
@@ -390,7 +357,6 @@ export const allImagesMobileOrderTsbu = [
         title: "The Space Between Us - detail", 
         year: "2015",
         dimensions: "64 x 64 1/4 in., o/c",
-        details: "05b. The Space Between Us detail (female head).jpg",
         link: "tsbu13",
         privateCollection: ""
     },
@@ -400,7 +366,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Inseparable", 
         year: "2016",
         dimensions: "63 x 49 1⁄2 in., o/c",
-        details: "06a. Inseparable painting.jpg",
         link: "tsbu14",
         privateCollection: "Private Collection"
     },
@@ -410,7 +375,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Inseparable - detail", 
         year: "2016",
         dimensions: "63 x 49 1⁄2 in., o/c",
-        details: "06b. Inseparable detail (male head).jpg",
         link: "tsbu19",
         privateCollection: "Private Collection"
     },
@@ -420,7 +384,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Inseparable - detail", 
         year: "2016",
         dimensions: "63 x 49 1⁄2 in., o/c",
-        details: "06c. Inseparable detail (female hands).jpg",
         link: "tsbu16",
         privateCollection: "Private Collection"
     }],
@@ -430,7 +393,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Riddle", 
         year: "2018",
         dimensions: "60 1⁄2 x 62 in., o/c",
-        details: "07a. Riddle painting.jpg",
         link: "tsbu17",
         privateCollection: "Private Collection"
     }, 
@@ -440,7 +402,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Riddle - detail", 
         year: "2018",
         dimensions: "60 1⁄2 x 62 in., o/c",
-        details: "07b. Riddle detail (center calf _ arm).jpg",
         link: "tsbu18",
         privateCollection: "Private Collection"
     },
@@ -450,7 +411,6 @@ export const allImagesMobileOrderTsbu = [
         title: "Interlock", 
         year: "2017",
         dimensions: "52 x 45 in., o/c",
-        details: "08. Interlock painting.jpg",
         link: "tsbu19",
         privateCollection: ""
     },
@@ -460,8 +420,7 @@ export const allImagesMobileOrderTsbu = [
         title: "Enclosure", 
         year: "2017",
         dimensions: "60 1⁄2 x 49 1⁄2 in., o/c",
-        details: "09. Enclosure painting.jpg",
-        link: "tsbu14",
+        link: "tsbu20",
         privateCollection: ""
     },
     {
