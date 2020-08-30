@@ -44,7 +44,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections5,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections5"
@@ -55,7 +55,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections4,
-                captionln1: "The banner hanging outside the museum announcing the solo exhibition, <b>Breaking The Surface</b>.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections4"
@@ -64,7 +64,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections7,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections7"
@@ -73,7 +73,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections8,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections8"
@@ -82,7 +82,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections9,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections9"
@@ -91,7 +91,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections6,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections6"
@@ -102,7 +102,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections10,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections10"
@@ -111,7 +111,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections11,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections11"
@@ -120,7 +120,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections12,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections12"
@@ -129,7 +129,7 @@ export const allImagesDesktopOrderExhIntersections = [
         [
             {
                 name: exhIntersections13,
-                captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "intersections13"
@@ -162,70 +162,70 @@ export const allImagesMobileOrderExhIntersections = [
     },
     {
         name: exhIntersections4,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections4"
     },
     {
         name: exhIntersections5,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections5"
     },
     {
         name: exhIntersections6,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections6"
     },
     {
         name: exhIntersections7,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections7"
     },
     {
         name: exhIntersections8,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections8"
     },
     {
         name: exhIntersections9,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections9"
     },
     {
         name: exhIntersections10,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections10"
     },
     {
         name: exhIntersections11,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections11"
     },
     {
         name: exhIntersections12,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections12"
     },
     {
         name: exhIntersections13,
-        captionln1: "The opening of the solo exhibition <b>Intersections</b> at Allan Stone Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>Intersections</b>, at Allan Stone Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "intersections13"

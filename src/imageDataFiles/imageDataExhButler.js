@@ -39,7 +39,7 @@ export const allImagesDesktopOrderExhButler = [
         [
             {
                 name: exhButler3,
-                captionln1: "The billboard outside the Butler Museum announcing the solo exhibition, <b>Breaking The Surface</b> at The Butler Institute of American Art.",
+                captionln1: "The billboard outside the Butler Museum announcing the solo exhibition, <b>Breaking The Surface</b>, at The Butler Institute of American Art.",
                 captionln2: "",
                 captionln3: "",
                 link: "butler3"
@@ -195,7 +195,7 @@ export const allImagesMobileOrderExhButler = [
     },
     {
         name: exhButler3,
-        captionln1: "The billboard outside the Butler Museum announcing the solo exhibition, <b>Breaking The Surface</b> at The Butler Institute of American Art.",
+        captionln1: "The billboard outside the Butler Museum announcing the solo exhibition, <b>Breaking The Surface</b>, at The Butler Institute of American Art.",
         captionln2: "",
         captionln3: "",
         link: "butler3"
