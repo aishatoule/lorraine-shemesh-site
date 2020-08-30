@@ -54,7 +54,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_6,
-                captionln1: "The opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "The opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc6"
@@ -74,7 +74,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_7,
-                captionln1: "The wall of ceramic vessels in the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "The wall of ceramic vessels in the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc7"
@@ -83,7 +83,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_9,
-                captionln1: "At the opening  of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "At the opening  of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc9"
@@ -92,7 +92,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_8,
-                captionln1: "The ceramic vessels shown alongside paintings and drawing in the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "The ceramic vessels shown alongside paintings and drawing in the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc8"
@@ -101,7 +101,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_10,
-                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc10"
@@ -112,7 +112,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_11,
-                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc11"
@@ -121,7 +121,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_12,
-                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc12"
@@ -130,7 +130,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_13,
-                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc13"
@@ -139,7 +139,7 @@ export const allImagesDesktopOrderExhTBSUNYC = [
         [
             {
                 name: exhTBSUNYC_14,
-                captionln1: "Standing in front of the painting, Attached, the night of the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+                captionln1: "Standing in front of the painting, Attached, the night of the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_nyc14"
@@ -172,14 +172,14 @@ export const allImagesMobileOrderExhTBSUNYC = [
     },
     {
         name: exhTBSUNYC_4,
-        captionln1: "The gallery space right before the opening of <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "The gallery space right before the opening of <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc4"
     },
     {
         name: exhTBSUNYC_6,
-        captionln1: "The opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "The opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc6"
@@ -193,56 +193,56 @@ export const allImagesMobileOrderExhTBSUNYC = [
     },
     {
         name: exhTBSUNYC_7,
-        captionln1: "The wall of ceramic vessels in the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "The wall of ceramic vessels in the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc7"
     },
     {
         name: exhTBSUNYC_9,
-        captionln1: "At the opening  of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "At the opening  of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc9"
     },
     {
         name: exhTBSUNYC_8,
-        captionln1: "The ceramic vessels shown alongside paintings and drawing in the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "The ceramic vessels shown alongside paintings and drawing in the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc8"
     },
     {
         name: exhTBSUNYC_10,
-        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc10"
     },
     {
         name: exhTBSUNYC_11,
-        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc11"
     },
     {
         name: exhTBSUNYC_12,
-        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc12"
     },
     {
         name: exhTBSUNYC_13,
-        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "At the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc13"
     },
     {
         name: exhTBSUNYC_14,
-        captionln1: "Standing in front of the painting, Attached, the night of the opening of the solo exhibition, <b>The Space Between Us</b> at Gerald Peters Gallery in New York City.",
+        captionln1: "Standing in front of the painting, Attached, the night of the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in New York City.",
         captionln2: "",
         captionln3: "",
         link: "tbsu_nyc14"
