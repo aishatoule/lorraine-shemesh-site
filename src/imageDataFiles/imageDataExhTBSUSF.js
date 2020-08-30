@@ -66,7 +66,7 @@ export const allImagesDesktopOrderExhTBSUSF = [
         [
             {
                 name: exhTBSUSF_6,
-                captionln1: "Checking out the light on the painting, Accordion, before the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in Santa Fe.",
+                captionln1: "Checking out the light on the painting, <span class='italics'>Accordion</span>, before the opening of the solo exhibition, <b>The Space Between Us</b>, at Gerald Peters Gallery in Santa Fe.",
                 captionln2: "",
                 captionln3: "",
                 link: "tbsu_sf6"
