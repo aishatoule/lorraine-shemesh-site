@@ -30,7 +30,7 @@ export const allImagesDesktopOrderPaperPools = [
                 artistName: "Lorraine Shemesh",
                 title: "Spots",
                 year: "2011",
-                dimensions: "24 1/4 x 24 1/4 ilk graphite wash on mylar",
+                dimensions: "24 1/4 x 24 1/4 in., graphite wash on mylar",
                 link: "paperpool1",
                 privateCollection: "Private Collection"
             }
@@ -72,7 +72,7 @@ export const allImagesDesktopOrderPaperPools = [
                 artistName: "Lorraine Shemesh",
                 title: "Lunge",
                 year: "2013",
-                dimensions: "29 1/2x 23 ink graphite wash on mylar",
+                dimensions: "29 1/2 x 23 in., graphite wash on mylar",
                 link: "paperpool5",
                 privateCollection: ""
             }
@@ -167,7 +167,7 @@ export const allImagesDesktopOrderPaperPools = [
                 artistName: "Lorraine Shemesh", 
                 title: "Lasso",
                 year: "2000",
-                dimensions: "32 x 21 1/4 in., graphite on mylar",
+                dimensions: "16 x 10 1/2 in., graphite on mylar",
                 link: "paperpool17",
                 privateCollection: ""
             }
@@ -231,7 +231,7 @@ export const allImagesDesktopOrderPaperPools = [
                 artistName: "Lorraine Shemesh",
                 title: "Link",
                 year: "1999",
-                dimensions: "21 3/4 x 21/34 in., graphite wash on mylar",
+                dimensions: "21 3/4 x 21 3/4 in., graphite wash on mylar",
                 link: "paperpool22",
                 privateCollection: "Collection of The Butler Institute of American Art"
             }
@@ -278,7 +278,7 @@ export const allImagesMobileOrderPaperPools = [
         artistName: "Lorraine Shemesh",
         title: "Spots",
         year: "2011",
-        dimensions: "24 1/4 x 24 1/4 ilk graphite wash on mylar",
+        dimensions: "24 1/4 x 24 1/4 in., graphite wash on mylar",
         link: "paperpool1",
         privateCollection: "Private Collection"
     },
@@ -314,7 +314,7 @@ export const allImagesMobileOrderPaperPools = [
         artistName: "Lorraine Shemesh",
         title: "Lunge",
         year: "2013",
-        dimensions: "29 1/2x 23 ink graphite wash on mylar",
+        dimensions: "29 1/2 x 23 in., graphite wash on mylar",
         link: "paperpool5",
         privateCollection: ""
     },
@@ -404,7 +404,7 @@ export const allImagesMobileOrderPaperPools = [
         artistName: "Lorraine Shemesh", 
         title: "Lasso",
         year: "2000",
-        dimensions: "32 x 21 1/4 in., graphite on mylar",
+        dimensions: "16 x 10 1/2 in., graphite on mylar",
         link: "paperpool17",
         privateCollection: ""
     },
@@ -449,7 +449,7 @@ export const allImagesMobileOrderPaperPools = [
         artistName: "Lorraine Shemesh",
         title: "Link",
         year: "1999",
-        dimensions: "21 3/4 x 21/34 in., graphite wash on mylar",
+        dimensions: "21 3/4 x 21 3/4 in., graphite wash on mylar",
         link: "paperpool22",
         privateCollection: "Collection of The Butler Institute of American Art"
     },

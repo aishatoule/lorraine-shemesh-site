@@ -27,9 +27,9 @@ export const allImagesDesktopOrderPaperInt = [
                 artistName: "Lorraine Shemesh",
                 title: "Zipper",
                 year: "2008",
-                dimensions: "15 x 12 in., litho crayon on vellum",
+                dimensions: "13 3/4 x 9 1/2 in., litho crayon on vellum",
                 link: "paperint2",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             }
         ],
         [
@@ -131,9 +131,9 @@ export const allImagesMobileOrderPaperInt = [
         artistName: "Lorraine Shemesh",
         title: "Zipper",
         year: "2008",
-        dimensions: "15 x 12 in., litho crayon on vellum",
+        dimensions: "13 3/4 x 9 1/2 in., litho crayon on vellum",
         link: "paperint2",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: zipper_g,
