@@ -62,7 +62,7 @@ export const allImagesDesktopOrderPaperSBU = [
                 artistName: "Lorraine Shemesh",
                 title: "Lime & Violet",
                 year: "2014",
-                dimensions: "9 x 81/2 inches, woven origami paper",
+                dimensions: "9 x 8 1/2 in., woven origami paper",
                 link: "papersbu6",
                 privateCollection: ""
             }
@@ -134,7 +134,7 @@ export const allImagesMobileOrderPaperSBU = [
         artistName: "Lorraine Shemesh",
         title: "Lime & Violet",
         year: "2014",
-        dimensions: "9 x 81/2 inches, woven origami paper",
+        dimensions: "9 x 8 1/2 in., woven origami paper",
         link: "papersbu6",
         privateCollection: ""
     },

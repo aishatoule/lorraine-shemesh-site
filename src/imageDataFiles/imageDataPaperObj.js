@@ -73,7 +73,7 @@ export const allImagesDesktopOrderPaperObj = [
                 artistName: "Lorraine Shemesh",
                 title: "Chinese Take Out",
                 year: "1987",
-                dimensions: "30 x 22 in., graphite",
+                dimensions: "30 x 32 in., graphite",
                 link: "paperobj4",
                 privateCollection: "Private Collection"
             }
@@ -125,7 +125,7 @@ export const allImagesMobileOrderPaperObj = [
         artistName: "Lorraine Shemesh",
         title: "Chinese Take Out",
         year: "1987",
-        dimensions: "30 x 22 in., graphite",
+        dimensions: "30 x 32 in., graphite",
         link: "paperobj4",
         privateCollection: "Private Collection"
     },
