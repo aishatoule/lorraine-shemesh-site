@@ -13,7 +13,7 @@ var tilt = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/
 var tiltDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/7_tiltDetail.jpg';
 var crescent = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/crescent_CD26_03_0.jpg';
 var crescentDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/8a_crescentDetail.jpg';
-var crescentDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/8a_crescentDetail.jpg';
+var crescentDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/8b_crescentDetail.jpg';
 var suspension = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/suspension_Em201604_Suspension_painting_v1.jpg';
 var suspensionDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/6a_suspensionDetail.jpg';
 var suspensionDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-io/6b_suspensionDetail.jpg';
@@ -55,7 +55,7 @@ export const allImagesDesktopOrderIO = [
                 artistName: "Lorraine Shemesh",
                 title: "Surrender - detail",
                 year: "2015",
-                dimension: "58 x 70 in., o/c",
+                dimensions: "58 x 70 in., o/c",
                 link: "io10",
                 privateCollection: ""
             }
@@ -247,7 +247,7 @@ export const allImagesMobileOrderIO = [
         artistName: "Lorraine Shemesh",
         title: "Surrender - detail",
         year: "2015",
-        dimension: "58 x 70 in., o/c",
+        dimensions: "58 x 70 in., o/c",
         link: "io10",
         privateCollection: ""
     },
