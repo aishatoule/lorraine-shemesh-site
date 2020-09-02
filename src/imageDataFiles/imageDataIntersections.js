@@ -92,7 +92,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: hook,
                 artistName: "Lorraine Shemesh",
                 title: "Hook",
-                year: "2008",
+                year: "2007",
                 dimensions: "80 1/4 x 42 1/2 in., o/c",
                 link: "int8",
                 privateCollection: "Private Collection"
@@ -103,7 +103,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: intersection,
                 artistName: "Lorraine Shemesh",
                 title: "Intersection",
-                year: "2009",
+                year: "2007",
                 dimensions: "72 1⁄4 x 52 1/4 in., o/c",
                 link: "int3",
                 privateCollection: ""
@@ -112,7 +112,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: intersectionDetail1,
                 artistName: "Lorraine Shemesh",
                 title: "Intersection - detail",
-                year: "2009",
+                year: "2007",
                 dimensions: "72 1⁄4 x 52 1/4 in., o/c",
                 link: "int4",
                 privateCollection: ""
@@ -158,7 +158,7 @@ export const allImagesMobileOrderIntersections = [
         name: intersection,
         artistName: "Lorraine Shemesh",
         title: "Intersection",
-        year: "2009",
+        year: "2007",
         dimensions: "72 1⁄4 x 52 1/4 in., o/c",
         link: "int3",
         privateCollection: ""
@@ -167,7 +167,7 @@ export const allImagesMobileOrderIntersections = [
         name: intersectionDetail1,
         artistName: "Lorraine Shemesh",
         title: "Intersection - detail",
-        year: "2009",
+        year: "2007",
         dimensions: "72 1⁄4 x 52 1/4 in., o/c",
         link: "int4",
         privateCollection: ""
@@ -203,7 +203,7 @@ export const allImagesMobileOrderIntersections = [
         name: hook,
         artistName: "Lorraine Shemesh",
         title: "Hook",
-        year: "2008",
+        year: "2007",
         dimensions: "80 1/4 x 42 1/2 in., o/c",
         link: "int8",
         privateCollection: "Private Collection"
