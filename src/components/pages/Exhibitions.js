@@ -13,12 +13,12 @@ const Exhibitions = () => {
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_nyc" className="exhibition-link">The Space Between Us</NavLink>.</b></p>
+                            <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_nyc" className="exhibition-link">The Space Between Us</NavLink></b></p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
                             <p className="exhibition-dates"></p>
                         </div>
                         <div className="exhibition-container">
-                            <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_sf" className="exhibition-link">The Space Between Us</NavLink>.</b></p>
+                            <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_sf" className="exhibition-link">The Space Between Us</NavLink></b></p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Projects</b>, Santa Fe, New Mexico</p>
                             <p className="exhibition-dates">June 21 - August 17, 2019</p>
                         </div>
@@ -27,7 +27,7 @@ const Exhibitions = () => {
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2016</b></p>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Inside Out</p>
+                        <p className="exhibition-name"><b><NavLink to="/exhibition_insideout" className="exhibition-link">Inside Out</NavLink></b></p>
                         <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
                         <p className="exhibition-dates">May 7 - June 10, 2016</p>
                     </div>
