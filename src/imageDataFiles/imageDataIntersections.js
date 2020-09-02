@@ -21,7 +21,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: zipper,
                 artistName: "Lorraine Shemesh",
                 title: "Zipper",
-                /*year: "2008",*/
+                year: "2008",
                 dimensions: "78 1/4 x 48 1/4 in., o/c",
                 link: "int9",
                 privateCollection: ""
@@ -50,7 +50,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: checkmate,
                 artistName: "Lorraine Shemesh",
                 title: "Checkmate",
-                /*year: "2008",*/
+                year: "2008",
                 dimensions: "35 1/4 x 79 3/4 in., o/c",
                 link: "int12",
                 privateCollection: ""
@@ -70,7 +70,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: lock,
                 artistName: "Lorraine Shemesh",
                 title: "Lock",
-                /*year: "2009",*/
+                year: "2009",
                 dimensions: "46 3/4 x 78 1/4 in., o/c",
                 link: "int14",
                 privateCollection: ""
@@ -92,7 +92,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: hook,
                 artistName: "Lorraine Shemesh",
                 title: "Hook",
-                /*year: "2008",*/
+                year: "2008",
                 dimensions: "80 1/4 x 42 1/2 in., o/c",
                 link: "int8",
                 privateCollection: "Private Collection"
@@ -103,7 +103,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: intersection,
                 artistName: "Lorraine Shemesh",
                 title: "Intersection",
-                /*year: "2009",*/
+                year: "2009",
                 dimensions: "72 1⁄4 x 52 1/4 in., o/c",
                 link: "int3",
                 privateCollection: ""
@@ -125,7 +125,7 @@ export const allImagesDesktopOrderIntersections = [
                 name: crossing,
                 artistName: "Lorraine Shemesh",
                 title: "Crossing",
-                /*year: "2008",*/
+                year: "2008",
                 dimensions: "73 x 54 1/4 in., o/c",
                 link: "int5",
                 privateCollection: ""
@@ -158,7 +158,7 @@ export const allImagesMobileOrderIntersections = [
         name: intersection,
         artistName: "Lorraine Shemesh",
         title: "Intersection",
-        /*year: "2009",*/
+        year: "2009",
         dimensions: "72 1⁄4 x 52 1/4 in., o/c",
         link: "int3",
         privateCollection: ""
@@ -167,7 +167,7 @@ export const allImagesMobileOrderIntersections = [
         name: intersectionDetail1,
         artistName: "Lorraine Shemesh",
         title: "Intersection - detail",
-        /*year: "2009",*/
+        year: "2009",
         dimensions: "72 1⁄4 x 52 1/4 in., o/c",
         link: "int4",
         privateCollection: ""
@@ -176,7 +176,7 @@ export const allImagesMobileOrderIntersections = [
         name: crossing,
         artistName: "Lorraine Shemesh",
         title: "Crossing",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "73 x 54 1/4 in., o/c",
         link: "int5",
         privateCollection: ""
@@ -185,7 +185,7 @@ export const allImagesMobileOrderIntersections = [
         name: crossingDetail1,
         artistName: "Lorraine Shemesh",
         title: "Crossing - detail",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "73 x 54 1/4 in., o/c",
         link: "int6",
         privateCollection: ""
@@ -194,7 +194,7 @@ export const allImagesMobileOrderIntersections = [
         name: crossingDetail2,
         artistName: "Lorraine Shemesh",
         title: "Crossing - detail",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "73 x 54 1/4 in., o/c",
         link: "int7",
         privateCollection: ""
@@ -203,7 +203,7 @@ export const allImagesMobileOrderIntersections = [
         name: hook,
         artistName: "Lorraine Shemesh",
         title: "Hook",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "80 1/4 x 42 1/2 in., o/c",
         link: "int8",
         privateCollection: "Private Collection"
@@ -212,7 +212,7 @@ export const allImagesMobileOrderIntersections = [
         name: zipper,
         artistName: "Lorraine Shemesh",
         title: "Zipper",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "78 1/4 x 48 1/4 in., o/c",
         link: "int9",
         privateCollection: ""
@@ -221,7 +221,7 @@ export const allImagesMobileOrderIntersections = [
         name: zipperDetail1,
         artistName: "Lorraine Shemesh",
         title: "Zipper - detail",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "78 1/4 x 48 1/4 in., o/c",
         link: "int10",
         privateCollection: ""
@@ -230,7 +230,7 @@ export const allImagesMobileOrderIntersections = [
         name: zipperDetail2,
         artistName: "Lorraine Shemesh",
         title: "Zipper - detail",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "78 1/4 x 48 1/4 in., o/c",
         link: "int11",
         privateCollection: ""
@@ -239,7 +239,7 @@ export const allImagesMobileOrderIntersections = [
         name: checkmate,
         artistName: "Lorraine Shemesh",
         title: "Checkmate",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "35 1/4 x 79 3/4 in., o/c",
         link: "int12",
         privateCollection: ""
@@ -248,7 +248,7 @@ export const allImagesMobileOrderIntersections = [
         name: checkmateDetail1,
         artistName: "Lorraine Shemesh",
         title: "Checkmate - detail",
-        /*year: "2008",*/
+        year: "2008",
         dimensions: "35 1/4 x 79 3/4 in., o/c",
         link: "int13",
         privateCollection: ""
@@ -257,7 +257,7 @@ export const allImagesMobileOrderIntersections = [
         name: lock,
         artistName: "Lorraine Shemesh",
         title: "Lock",
-        /*year: "2009",*/
+        year: "2009",
         dimensions: "46 3/4 x 78 1/4 in., o/c",
         link: "int14",
         privateCollection: ""
@@ -266,7 +266,7 @@ export const allImagesMobileOrderIntersections = [
         name: lockDetail1,
         artistName: "Lorraine Shemesh",
         title: "Lock - detail",
-        /*year: "2009",*/
+        year: "2009",
         dimensions: "46 3/4 x 78 1/4 in., o/c",
         link: "int15",
         privateCollection: ""
