@@ -13,6 +13,7 @@ import Exhibition_tsbu_nyc from './pages/IndividualExhibitions/Exhibition_tsbu_n
 import Exhibition_tsbu_sf from './pages/IndividualExhibitions/Exhibition_tsbu_sf';
 import Exhibition_butler from './pages/IndividualExhibitions/Exhibition_butler';
 import Exhibition_intersections from './pages/IndividualExhibitions/Exhibition_intersections';
+import Exhibition_insideout from './pages/IndividualExhibitions/Exhibition_insideout';
 import IndividualImage from './pages/IndividualImage';
 import IndividualPhoto from './pages/IndividualPhoto';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
@@ -113,6 +114,7 @@ function App() {
               <Route path="/exhibition_tsbu_sf" component={Exhibition_tsbu_sf} />
               <Route path="/exhibition_butler" component={Exhibition_butler} />
               <Route path="/exhibition_intersections" component={Exhibition_intersections} />
+              <Route path="/Exhibition_insideout" component={Exhibition_insideout} />
               <Route path="/exh/:id" component={IndividualPhoto} />
               <Route path="/:id" component={IndividualImage} />
               <Route component={NotFound} />
