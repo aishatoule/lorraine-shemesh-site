@@ -21,7 +21,7 @@ export const allImagesDesktopOrderClayWT = [
                 artistName: "Lorraine Shemesh",
                 title: "Brown, Tan, & White, Swirl Neriage Vessel",
                 year: "2017",
-                dimensions: "9 1/2 x 7 x7 in., porcelain",
+                dimensions: "9 1/2 x 7 x 7 in., porcelain",
                 link: "claywt1",
                 privateCollection: ""
             }
@@ -120,7 +120,7 @@ export const allImagesDesktopOrderClayWT = [
                 artistName: "Lorraine Shemesh",
                 title: "Two Curved Neriage Vessels",
                 year: "2011",
-                dimensions: "8 3/4 x 6 x 6in., 9 3/4 x 1/2 x 7 1/2in., stoneware",
+                dimensions: "8 3/4 x 6 x 6 in., 9 3/4 x 7 1/2 x 7 1/2 in., stoneware",
                 link: "claywt10",
                 privateCollection: ""
             }
@@ -180,7 +180,7 @@ export const allImagesMobileOrderClayWT = [
         artistName: "lorraineshemeshsiteimgsraine Shemesh",
         title: "Brown, Tan, & White, Swirl Neriage Vessel",
         year: "2017",
-        dimensions: "9 1/2 x 7 x7 in., porcelain",
+        dimensions: "9 1/2 x 7 x 7 in., porcelain",
         link: "claywt1",
         privateCollection: ""
     },
@@ -261,7 +261,7 @@ export const allImagesMobileOrderClayWT = [
         artistName: "Lorraine Shemesh",
         title: "Two Curved Neriage Vessels",
         year: "2011",
-        dimensions: "8 3/4 x 6 x 6in., 9 3/4 x 1/2 x 7 1/2in., stoneware",
+        dimensions: "8 3/4 x 6 x 6 in., 9 3/4 x 1/2 x 7 1/2 in., stoneware",
         link: "claywt10",
         privateCollection: ""
     },

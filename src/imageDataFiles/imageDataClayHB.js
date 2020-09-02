@@ -67,7 +67,7 @@ export const allImagesDesktopOrderClayHB = [
                 artistName: "Lorraine Shemesh",
                 title: "Small Checked Black & White Neriage Cylinder",
                 year: "2015",
-                dimensions: "5 1/8 x 5 x 5in., porcelain",
+                dimensions: "5 1/8 x 5 x 5 in., porcelain",
                 link: "clayhb5",
                 privateCollection: ""
             }
@@ -212,7 +212,7 @@ export const allImagesMobileOrderClayHB = [
         artistName: "Lorraine Shemesh",
         title: "Small Checked Black & White Neriage Cylinder",
         year: "2015",
-        dimensions: "5 1/8 x 5 x 5in., porcelain",
+        dimensions: "5 1/8 x 5 x 5 in., porcelain",
         link: "clayhb5",
         privateCollection: ""
     },
