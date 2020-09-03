@@ -1,9 +1,9 @@
 var tsbu1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu1.jpg'
 var tsbu2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu2.jpeg'
 var tsbu3 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu3.jpeg'
-var tsbu4 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/attached.jpg'
-var tsbu5 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/attachedDetail1.jpg'
-var tsbu6 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/attachedDetail2.jpg'
+var attached = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/attached.jpg'
+var attachedDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/attachedDetail1.jpg'
+var attachedDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/attachedDetail2.jpg'
 var tsbu7 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu7.jpg'
 var tsbu8 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu8.jpg'
 var tsbu9 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu9.jpeg'
@@ -19,13 +19,14 @@ var tsbu18 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-s
 var tsbu19 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu19.jpg'
 var tsbu20 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu20.jpg'
 var tsbu21 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu21.jpg'
+var jigsaw = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/jigsaw.jpg'
 
 
 export const allImagesDesktopOrderTsbu = [
   [/*COLUMN 1*/
       [
           {
-              name: tsbu4,
+              name: attached,
               artistName: "Lorraine Shemesh",
               title: "Attached",
               year: "2018",
@@ -34,7 +35,7 @@ export const allImagesDesktopOrderTsbu = [
               privateCollection: "Private Collection"
           },
           {
-              name: tsbu5,
+              name: attachedDetail1,
               artistName: "Lorraine Shemesh",
               title: "Attached - detail",
               year: "2018",
@@ -43,7 +44,7 @@ export const allImagesDesktopOrderTsbu = [
               privateCollection: "Private Collection"
           },
           {
-              name: tsbu6,
+              name: attachedDetail2,
               artistName: "Lorraine Shemesh",
               title: "Attached - detail",
               year: "2018",
@@ -110,7 +111,7 @@ export const allImagesDesktopOrderTsbu = [
               dimensions: "64 x 64 1/2 in., o/c",
               link: "tsbu13",
               privateCollection: ""
-          },
+          }
       ]
   ],
   [/*COLUMN 2*/
@@ -163,6 +164,17 @@ export const allImagesDesktopOrderTsbu = [
               dimensions: "72 x 57 1⁄2 in., o/c",
               link: "tsbu7",
               privateCollection: ""
+          }
+      ],
+      [
+          {
+              name: jigsaw,
+              artistName: "Lorraine Shemesh",
+              title: "Jigsaw",
+              year: "2014",
+              dimensions: "60 x 51 in., o/c",
+              link: "tsbu22",
+              privateCollection: "Private Collection"
           }
       ]
   ],
@@ -271,7 +283,7 @@ export const allImagesMobileOrderTsbu = [
 
     },
     {
-        name: tsbu4,
+        name: attached,
         artistName: "Lorraine Shemesh",
         title: "Attached", 
         year: "2018",
@@ -280,7 +292,7 @@ export const allImagesMobileOrderTsbu = [
         privateCollection: "Private Collection"
     },
     {
-        name: tsbu5,
+        name: attachedDetail1,
         artistName: "Lorraine Shemesh",
         title: "Attached - detail",
         year: "2018",
@@ -289,7 +301,7 @@ export const allImagesMobileOrderTsbu = [
         privateCollection: "Private Collection"
     },
     {
-        name: tsbu6,
+        name: attachedDetail2,
         artistName: "Lorraine Shemesh",
         title: "Attached - detail",
         year: "2018",
@@ -306,6 +318,15 @@ export const allImagesMobileOrderTsbu = [
         link: "tsbu7",
         privateCollection: ""
     }, 
+    {
+        name: jigsaw,
+        artistName: "Lorraine Shemesh",
+        title: "Jigsaw",
+        year: "2014",
+        dimensions: "60 x 51 in., o/c",
+        link: "tsbu22",
+        privateCollection: "Private Collection"
+    },
     {
         name: tsbu8,
         artistName: "Lorraine Shemesh",
