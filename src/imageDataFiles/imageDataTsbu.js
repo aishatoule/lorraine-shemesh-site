@@ -18,7 +18,7 @@ var tsbu17 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-s
 var tsbu18 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu18.jpg'
 var tsbu19 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu19.jpg'
 var tsbu20 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu20.jpg'
-var tsbu21 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu21.jpg'
+var puzzle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu21.jpg'
 var jigsaw = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/jigsaw.jpg'
 
 
@@ -117,13 +117,13 @@ export const allImagesDesktopOrderTsbu = [
   [/*COLUMN 2*/
       [
           {
-              name: tsbu21,
+              name: jigsaw,
               artistName: "Lorraine Shemesh",
-              title: "Puzzle",
+              title: "Jigsaw",
               year: "2014",
-              dimensions: "65 x 65 in., o/c",
-              link: "tsbu21",
-              privateCollection: ""
+              dimensions: "60 x 51 in., o/c",
+              link: "tsbu22",
+              privateCollection: "Private Collection"
           }
       ],
       [
@@ -168,13 +168,13 @@ export const allImagesDesktopOrderTsbu = [
       ],
       [
           {
-              name: jigsaw,
+              name: puzzle,
               artistName: "Lorraine Shemesh",
-              title: "Jigsaw",
+              title: "Puzzle",
               year: "2014",
-              dimensions: "60 x 51 in., o/c",
-              link: "tsbu22",
-              privateCollection: "Private Collection"
+              dimensions: "65 x 65 in., o/c",
+              link: "tsbu21",
+              privateCollection: ""
           }
       ]
   ],
@@ -445,7 +445,7 @@ export const allImagesMobileOrderTsbu = [
         privateCollection: ""
     },
     {
-        name: tsbu21,
+        name: puzzle,
         artistName: "Lorraine Shemesh",
         title: "Puzzle", 
         year: "2014",
