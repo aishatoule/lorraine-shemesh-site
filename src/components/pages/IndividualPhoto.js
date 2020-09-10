@@ -5,6 +5,7 @@ import { allImagesDesktopOrderExhTBSUNYC } from '../../imageDataFiles/imageDataE
 import { allImagesDesktopOrderExhButler } from '../../imageDataFiles/imageDataExhButler';
 import { allImagesDesktopOrderExhIntersections } from '../../imageDataFiles/imageDataExhIntersections';
 import { allImagesDesktopOrderExhInsideOut } from '../../imageDataFiles/imageDataExhInsideOut';
+import { allImagesDesktopOrderStudio } from '../../imageDataFiles/imageDataStudio';
 
 const IndividualPhoto = () => {
     const [setWidth] = useState(window.innerWidth);
@@ -37,6 +38,8 @@ const IndividualPhoto = () => {
         currentGroup = allImagesDesktopOrderExhIntersections;
     } else if (idWithoutDigits === 'insideout') {
         currentGroup = allImagesDesktopOrderExhInsideOut;
+    } else if (idWithoutDigits === 'studio') {
+        currentGroup = allImagesDesktopOrderStudio;
     } else {
         currentGroup = null;
     }

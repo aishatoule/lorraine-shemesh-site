@@ -1,7 +1,7 @@
 import React, {  } from 'react';
 import { NavLink } from 'react-router-dom';
-import biblio_riley from './IndividualWordsPages/biblio_riley.pdf';
-import biblio_nash from './IndividualWordsPages/biblio_nash.pdf'
+import biblio_riley from './Words/biblio_riley.pdf';
+import biblio_nash from './Words/biblio_nash.pdf'
 
 const Words = () => {
     return (
