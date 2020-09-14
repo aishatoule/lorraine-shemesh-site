@@ -8,12 +8,14 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
+import Studio from './pages/Studio';
 import Exhibitions from './pages/Exhibitions';
-import Exhibition_tsbu_nyc from './pages/IndividualExhibitions/Exhibition_tsbu_nyc';
-import Exhibition_tsbu_sf from './pages/IndividualExhibitions/Exhibition_tsbu_sf';
-import Exhibition_butler from './pages/IndividualExhibitions/Exhibition_butler';
-import Exhibition_intersections from './pages/IndividualExhibitions/Exhibition_intersections';
-import Exhibition_insideout from './pages/IndividualExhibitions/Exhibition_insideout';
+import Exhibition_tsbu_nyc from './pages/Exhibitions/Exhibition_tsbu_nyc';
+import Exhibition_tsbu_sf from './pages/Exhibitions/Exhibition_tsbu_sf';
+import Exhibition_butler from './pages/Exhibitions/Exhibition_butler';
+import Exhibition_intersections from './pages/Exhibitions/Exhibition_intersections';
+import Exhibition_insideout from './pages/Exhibitions/Exhibition_insideout';
+import Exhibition_insideout_slideshow from './pages/Exhibitions/Exhibition_insideout_slideshow';
 import IndividualImage from './pages/IndividualImage';
 import IndividualPhoto from './pages/IndividualPhoto';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
@@ -31,31 +33,31 @@ import clayHB from './pages/Clay/ClayHB';
 import clayWT from './pages/Clay/ClayWT';
 import claySC from './pages/Clay/ClaySC';
 import Words from './/pages/Words';
-import biblio_balakian from './pages/IndividualWordsPages/biblio_balakian';
-import biblio_zona_2016 from './pages/IndividualWordsPages/biblio_zona_2016';
-import biblio_purcell from './pages/IndividualWordsPages/biblio_purcell';
-import biblio_davis from './pages/IndividualWordsPages/biblio_davis';
-import biblio_mccarthy from './pages/IndividualWordsPages/biblio_mccarthy';
-import biblio_mccormack2 from './pages/IndividualWordsPages/biblio_mccormack2';
-import biblio_cheng from './pages/IndividualWordsPages/biblio_cheng';
-import biblio_shemesh1 from './pages/IndividualWordsPages/biblio_shemesh1';
-import biblio_kennedy from './pages/IndividualWordsPages/biblio_kennedy';
-import biblio_zona from './pages/IndividualWordsPages/biblio_zona';
-import biblio_stone from './pages/IndividualWordsPages/biblio_stone';
-import biblio_goodman from './pages/IndividualWordsPages/biblio_goodman';
-import biblio_mccormack from './pages/IndividualWordsPages/biblio_mccormack';
-import biblio_little from './pages/IndividualWordsPages/biblio_little';
-import biblio_bascove from './pages/IndividualWordsPages/biblio_bascove';
-import biblio_stone_pool_image from './pages/IndividualWordsPages/ImagePages/biblio_stone_pool_image';
-import biblio_stone_cakes from './pages/IndividualWordsPages/ImagePages/biblio_stone_cakes';
-import biblio_stone_bagels_and_lox from './pages/IndividualWordsPages/ImagePages/biblio_stone_bagels_and_lox';
-import biblio_stone_donuts from './pages/IndividualWordsPages/ImagePages/biblio_stone_donuts';
-import biblio_stone_pastries from './pages/IndividualWordsPages/ImagePages/biblio_stone_pastries';
-import biblio_goodman_study from './pages/IndividualWordsPages/ImagePages/biblio_goodman_study';
-import biblio_little_shoes from './pages/IndividualWordsPages/ImagePages/biblio_little_shoes';
-import biblio_little_three_hearts from './pages/IndividualWordsPages/ImagePages/biblio_little_three_hearts';
-import biblio_little_menagerie from './pages/IndividualWordsPages/ImagePages/biblio_little_menagerie';
-import biblio_little_cyclone from './pages/IndividualWordsPages/ImagePages/biblio_little_cyclone';
+import biblio_balakian from './pages/Words/biblio_balakian';
+import biblio_zona_2016 from './pages/Words/biblio_zona_2016';
+import biblio_purcell from './pages/Words/biblio_purcell';
+import biblio_davis from './pages/Words/biblio_davis';
+import biblio_mccarthy from './pages/Words/biblio_mccarthy';
+import biblio_mccormack2 from './pages/Words/biblio_mccormack2';
+import biblio_cheng from './pages/Words/biblio_cheng';
+import biblio_shemesh1 from './pages/Words/biblio_shemesh1';
+import biblio_kennedy from './pages/Words/biblio_kennedy';
+import biblio_zona from './pages/Words/biblio_zona';
+import biblio_stone from './pages/Words/biblio_stone';
+import biblio_goodman from './pages/Words/biblio_goodman';
+import biblio_mccormack from './pages/Words/biblio_mccormack';
+import biblio_little from './pages/Words/biblio_little';
+import biblio_bascove from './pages/Words/biblio_bascove';
+import biblio_stone_pool_image from './pages/Words/ImagePages/biblio_stone_pool_image';
+import biblio_stone_cakes from './pages/Words/ImagePages/biblio_stone_cakes';
+import biblio_stone_bagels_and_lox from './pages/Words/ImagePages/biblio_stone_bagels_and_lox';
+import biblio_stone_donuts from './pages/Words/ImagePages/biblio_stone_donuts';
+import biblio_stone_pastries from './pages/Words/ImagePages/biblio_stone_pastries';
+import biblio_goodman_study from './pages/Words/ImagePages/biblio_goodman_study';
+import biblio_little_shoes from './pages/Words/ImagePages/biblio_little_shoes';
+import biblio_little_three_hearts from './pages/Words/ImagePages/biblio_little_three_hearts';
+import biblio_little_menagerie from './pages/Words/ImagePages/biblio_little_menagerie';
+import biblio_little_cyclone from './pages/Words/ImagePages/biblio_little_cyclone';
 
 function App() {
   return (
@@ -83,6 +85,7 @@ function App() {
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
+              <Route path="/studio" component={Studio} />
               <Route path="/words" component={Words} />
               <Route path="/biblio_balakian" component={biblio_balakian} />
               <Route path="/biblio_zona_2016" component={biblio_zona_2016} />
@@ -115,7 +118,9 @@ function App() {
               <Route path="/exhibition_butler" component={Exhibition_butler} />
               <Route path="/exhibition_intersections" component={Exhibition_intersections} />
               <Route path="/Exhibition_insideout" component={Exhibition_insideout} />
+              <Route path="/Exhibition_insideout_slideshow" component={Exhibition_insideout_slideshow} />
               <Route path="/exh/:id" component={IndividualPhoto} />
+              <Route path="/exh_sshow/:id" component={IndividualPhoto} />
               <Route path="/:id" component={IndividualImage} />
               <Route component={NotFound} />
             </Switch> 
