@@ -16,6 +16,7 @@ import Exhibition_butler from './pages/Exhibitions/Exhibition_butler';
 import Exhibition_intersections from './pages/Exhibitions/Exhibition_intersections';
 import Exhibition_insideout from './pages/Exhibitions/Exhibition_insideout';
 import Exhibition_insideout_slideshow from './pages/Exhibitions/Exhibition_insideout_slideshow';
+import TestBreakingTheSurface from './pages/Paint/TestBreakingTheSurface';
 import IndividualImage from './pages/IndividualImage';
 import IndividualPhoto from './pages/IndividualPhoto';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
@@ -119,6 +120,9 @@ function App() {
               <Route path="/exhibition_intersections" component={Exhibition_intersections} />
               <Route path="/Exhibition_insideout" component={Exhibition_insideout} />
               <Route path="/Exhibition_insideout_slideshow" component={Exhibition_insideout_slideshow} />
+
+              <Route path="/testBreakingTheSurface" component={TestBreakingTheSurface} />
+              
               <Route path="/exh/:id" component={IndividualPhoto} />
               <Route path="/exh_sshow/:id" component={IndividualPhoto} />
               <Route path="/:id" component={IndividualImage} />
