@@ -17,23 +17,57 @@ import { allImagesDesktopOrderClaySC } from '../../imageDataFiles/imageDataClayS
 
 const IndividualImage = () => {
     // const [setWidth] = useState(window.innerWidth);
-    const width = useWindowWidth(); // Our custom Hook
+    // const width = useWindowWidth(); // Our custom Hook
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    function useWindowWidth() {
-        const [width, setWidth] = useState(window.innerWidth);
+    // function useWindowWidth() {
+    //     const [width, setWidth] = useState(window.innerWidth);
         
-        useEffect(() => {
-          const handleResize = () => setWidth(window.innerWidth);
-          window.addEventListener('resize', handleResize);
-          return () => {
-            window.removeEventListener('resize', handleResize);
-          };
+    //     useEffect(() => {
+    //       const handleResize = () => setWidth(window.innerWidth);
+    //       window.addEventListener('resize', handleResize);
+    //       return () => {
+    //         window.removeEventListener('resize', handleResize);
+    //       };
+    //     });
+        
+    //     return width;
+    //   }
+
+    const size = useWindowSize();
+
+        // Hook
+    function useWindowSize() {
+        // Initialize state with undefined width/height so server and client renders match
+        // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+        const [windowSize, setWindowSize] = useState({
+        width: undefined,
+        height: undefined,
         });
+    
+        useEffect(() => {
+        // Handler to call on window resize
+        function handleResize() {
+            // Set window width/height to state
+            setWindowSize({
+            width: window.innerWidth,
+            height: window.innerHeight,
+            });
+        }
         
-        return width;
-      }
+        // Add event listener
+        window.addEventListener("resize", handleResize);
+        
+        // Call handler right away so state gets updated with initial window size
+        handleResize();
+        
+        // Remove event listener on cleanup
+        return () => window.removeEventListener("resize", handleResize);
+        }, []); // Empty array ensures that effect is only run on mount
+    
+        return windowSize;
+    }
     
     useEffect(() => {
         // window.addEventListener("resize", handleWindowSizeChange);

@@ -1,7 +1,9 @@
-// import '../components/App';
 import React from 'react';
 import '../index.scss';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import SimpleReactLightbox from "simple-react-lightbox";
+// import 'bootstrap/dist/c ss/bootstrap.min.css';
+
 import Navigation from './navigation/Navigation'
 import NotFound from './pages/PageNotFound';
 import Home from './pages/Home';
@@ -16,6 +18,7 @@ import Exhibition_butler from './pages/Exhibitions/Exhibition_butler';
 import Exhibition_intersections from './pages/Exhibitions/Exhibition_intersections';
 import Exhibition_insideout from './pages/Exhibitions/Exhibition_insideout';
 import Exhibition_insideout_slideshow from './pages/Exhibitions/Exhibition_insideout_slideshow';
+import TestBreakingTheSurface from './pages/Paint/TestBreakingTheSurface';
 import IndividualImage from './pages/IndividualImage';
 import IndividualPhoto from './pages/IndividualPhoto';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
@@ -63,6 +66,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <SimpleReactLightbox>
         <div className="site-content">
           <Navigation />
           <div className="page-content">
@@ -119,6 +123,9 @@ function App() {
               <Route path="/exhibition_intersections" component={Exhibition_intersections} />
               <Route path="/Exhibition_insideout" component={Exhibition_insideout} />
               <Route path="/Exhibition_insideout_slideshow" component={Exhibition_insideout_slideshow} />
+
+              <Route path="/testBreakingTheSurface" component={TestBreakingTheSurface} />
+              
               <Route path="/exh/:id" component={IndividualPhoto} />
               <Route path="/exh_sshow/:id" component={IndividualPhoto} />
               <Route path="/:id" component={IndividualImage} />
@@ -126,6 +133,7 @@ function App() {
             </Switch> 
           </div>
         </div>
+        </SimpleReactLightbox>
       </div>
     </Router>
   );
