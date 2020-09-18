@@ -1,150 +1,53 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { allImagesDesktopOrderBts, allImagesMobileOrderBts } from '../../../imageDataFiles/imageDataBTS';
+import { SRLWrapper } from "simple-react-lightbox";
+import { allImagesDesktopOrderBts, allImagesMobileOrderBts } from '../../../imageDataFiles/testImageData';
 
-class TestBreakingTheSurface extends Component {
-
-    constructor() {
-        super();
-        this.state = {
-            width: window.innerWidth
-        }
+const TestBreakingTheSurface = () => {
+    const images = allImagesDesktopOrderBts;
+    const options = {
+        buttons: {
+        backgroundColor: 'rgba(0,0,0.2)',
+        iconColor: '#e8eddf',
+        iconPadding: '7px'
+    },
+    caption: {
+        captionColor: '#e8eddf',
+        captionFontSize: '30px'
+    },
+    settings: {
+        overlayColor: 'rgba(6, 90, 130, 1)'
+    },
+    thumbnails: {
+        thumbnailsAlignment: 'start'
     }
-
-    componentDidMount() {
-        window.addEventListener('resize', this.handleWindowSizeChange);   
     }
-
-    handleWindowSizeChange = () => {
-        this.setState({
-            width: window.innerWidth
-        });
+    // Callback(s) to be passed to the SRLWrapper
+    const callbacks = {
+        onSlideChange: slide => console.log(slide),
+        onLightboxOpened: current => console.log(current),
+        onLightboxClosed: current => console.log(current),
+        onCountSlides: total => console.log(total)
     }
-
-    render() {
-
-    let mappedDesktopImages = allImagesDesktopOrderBts.map((imageColumn, i) => {
-        return(
-            <div key={i} className="column">
-            {imageColumn.map((image, index) => {
-                return (
-                    // sends to individual image 
-                    <Link key={index} location={this.props.location} to={{
-                        pathname:"/" + image[0].link, 
-                        state: {
-                            imageInformation: image,
-                            from: this.props.location
-                        }}
-                        
-                    }>
-                        <img key={index} src={image[0].name} className="grid-image" alt="Breaking the Surface series"/>
-                    </Link>
-                )                    
-            })}
-            </div>
-        )
-    })
-
-    let mappedMobileImages = allImagesMobileOrderBts.map((imageColumn, i) => {
-        return(
-            <div key={i} className="column">
-            {imageColumn.map((image, index) => {
-                return (
-                    <div key={index} className="image-and-details-on-grid">
-                        <img key={index} src={image.name} className="grid-image" alt="Breaking the Surface series"/>
-                        <div className="gallery-individual-image-details">
-                            <p>{image.artistName}</p>
-                            <p><span className="italics">{image.title}</span>{image.year !== undefined && ", " + image.year}</p>
-                            <p>{image.dimensions}</p>
-                            <p>{image.privateCollection}</p>
-                        </div>
-                    </div>
-                )                   
-            })}
-            </div>
-        )
-    })
-    const { width } = this.state; 
-    const isMobile = width <= 1000;
-    const mappedImages = (isMobile) 
-    ? 
-    mappedMobileImages
-    :
-    mappedDesktopImages
 
     return (
-      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-      
-          {/* <!-- Background of PhotoSwipe. 
-               It's a separate element as animating opacity is faster than rgba(). --> */}
-          <div class="pswp__bg"></div>
-      
-          {/* <!-- Slides wrapper with overflow:hidden. --> */}
-          <div class="pswp__scroll-wrap">
-      
-              {/* <!-- Container that holds slides. 
-                  PhotoSwipe keeps only 3 of them in the DOM to save memory.
-                  Don't modify these 3 pswp__item elements, data is added later on. --> */}
-              <div class="pswp__container">
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-              </div>
-      
-              {/* <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. --> */}
-              <div class="pswp__ui pswp__ui--hidden">
-      
-                  <div class="pswp__top-bar">
-      
-                      {/* <!--  Controls are self-explanatory. Order can be changed. --> */}
-      
-                      <div class="pswp__counter"></div>
-      
-                      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      
-                      <button class="pswp__button pswp__button--share" title="Share"></button>
-      
-                      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      
-                      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-                      {/* <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR --> */}
-                      {/* <!-- element will get class pswp__preloader--active when preloader is running --> */}
-                      <div class="pswp__preloader">
-                          <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                              <div class="pswp__preloader__donut"></div>
+        <div>
+            <SRLWrapper images={allImagesDesktopOrderBts} callbacks={callbacks}>
+                <div className="image-grid-container">
+                    <div id="content-page-one" className="column">
+                        {images.map(({ link, src, caption }) => (
+                            <div key={link} className="col-md-4 col-6 col--small">
+                                <a href={src} data-attribute="SRL">
+                                    <img className="grid-image" src={src} alt={caption} />
+                                </a>
                             </div>
-                          </div>
-                      </div>
-                  </div>
-      
-                  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                      <div class="pswp__share-tooltip"></div> 
-                  </div>
-      
-                  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                  </button>
-      
-                  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                  </button>
-      
-                  <div class="pswp__caption">
-                      <div class="pswp__caption__center"></div>
-                  </div>
-      
-              </div>
-      
-          </div>
-      
-          {/* // <div>
-          //     <div className="image-grid-container">
-          //         {mappedImages}
-          //     </div>
-          // </div> */}
-      </div>
-    )
+                        ))}
+                    </div>
+                </div>
+            </SRLWrapper>
+        </div>
+        )
+    
     }
-}
 
 export default TestBreakingTheSurface;

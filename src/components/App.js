@@ -1,7 +1,9 @@
-// import '../components/App';
 import React from 'react';
 import '../index.scss';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import SimpleReactLightbox from "simple-react-lightbox";
+// import 'bootstrap/dist/c ss/bootstrap.min.css';
+
 import Navigation from './navigation/Navigation'
 import NotFound from './pages/PageNotFound';
 import Home from './pages/Home';
@@ -64,6 +66,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <SimpleReactLightbox>
         <div className="site-content">
           <Navigation />
           <div className="page-content">
@@ -130,6 +133,7 @@ function App() {
             </Switch> 
           </div>
         </div>
+        </SimpleReactLightbox>
       </div>
     </Router>
   );
