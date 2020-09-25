@@ -11,7 +11,7 @@ const Biography = () => {
                 <div className="biography-year-group">
                     <p className="biography-year"><b>1973</b></p>
                     <div className="biography-container">
-                        <p><b>Tyler School of Art</b>, M.F.A. painting.</p>
+                        <p><b>Tyler School of Art</b>, M.F.A. Painting.</p>
                         <p>Elkins Park, Pennsylvania.</p>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const Biography = () => {
                 <div className="biography-year-group">
                     <p className="biography-year"><b>1971</b></p>
                     <div className="biography-container">
-                        <p className="biography-listing"><b>Boston University</b>, B.F.A. painting, magna cum laude.</p>
+                        <p className="biography-listing"><b>Boston University</b>, B.F.A. Painting, Magna Cum Laude.</p>
                         <p>Boston, Massachusetts.</p>
                     </div>
                 </div>
@@ -55,29 +55,29 @@ const Biography = () => {
                     <p className="biography-year"><b>2005</b></p>
                     <div className="biography-content-right">
 	                    <div className="biography-container">
-	                        <p className="biography-listing"><b>National Academy of Design</b> - elected for membership.</p>
+	                        <p className="biography-listing"><b>National Academy of Design</b> - Elected For Membership.</p>
 	                    </div>
 	                    <div className="biography-container">
-	                        <p className="biography-listing"><b>Watershed</b> - fellowship, Newcastle, Maine.</p>
+	                        <p className="biography-listing"><b>Watershed</b> - Fellowship, Newcastle, Maine.</p>
 	                    </div>
 	                </div>
                 </div>
                 <div className="biography-year-group">
                     <p className="biography-year"><b>2000</b></p>
                     <div className="biography-container">
-                        <p className="biography-listing"><b>Watershed</b> - fellowship, Newcastle, Maine.</p>
+                        <p className="biography-listing"><b>Watershed</b> - Fellowship, Newcastle, Maine.</p>
                     </div>
                 </div>
                 <div className="biography-year-group">
                     <p className="biography-year"><b>1999</b></p>
                     <div className="biography-container">
-                        <p className="biography-listing"><b>Fire & Form Symposium</b> - residency, Burgstein, Austria.</p>
+                        <p className="biography-listing"><b>Fire & Form Symposium</b> - Residency, Burgstein, Austria.</p>
                     </div>
                 </div>
                 <div className="biography-year-group">
                     <p className="biography-year"><b>1996</b></p>
                     <div className="biography-container">
-                        <p className="biography-listing"><b>NEA/MAAF Regional Fellowship</b>, painting finalist.</p>
+                        <p className="biography-listing"><b>NEA/MAAF Regional Fellowship</b>, Painting Finalist.</p>
                     </div>
                 </div>
                 <div className="biography-year-group">
@@ -90,7 +90,7 @@ const Biography = () => {
                     <p className="biography-year"><b>1981</b></p>
                     <div className="biography-content-right">
 	                    <div className="biography-container">
-	                        <p className="biography-listing"><b>Yaddo</b> - fellowship.</p>
+	                        <p className="biography-listing"><b>Yaddo</b> - Fellowship.</p>
 	                    </div>
 	                    <div className="biography-container">
 	                        <p className="biography-listing"><b>Outstanding Service Award</b>, Amherst College.</p>
@@ -100,7 +100,7 @@ const Biography = () => {
                 <div className="biography-year-group">
                     <p className="biography-year"><b>1979</b></p>
                     <div className="biography-container">
-                        <p className="biography-listing"><b>Rhode Island State Council for the Arts Grant</b>, painting.</p>
+                        <p className="biography-listing"><b>Rhode Island State Council for the Arts Grant</b>, Painting.</p>
                     </div>
                 </div>
                 <div className="biography-year-group">
