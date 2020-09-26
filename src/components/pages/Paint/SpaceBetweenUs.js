@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { flatten } from 'lodash';
 import { allImagesDesktopOrderTsbu, allImagesMobileOrderTsbu } from '../../../imageDataFiles/imageDataTsbu';
 import Lightbox from '../Lightbox';
 
@@ -15,24 +15,33 @@ class SpaceBetweenUs extends Component {
 
     componentDidMount() {
         window.addEventListener('resize', this.handleWindowSizeChange);
-        if (this.props.match.params.image && window.innerWidth <= 1000) {
+        if (this.props.match.params.image) {
 
-            // handle bookmark for mobile, scrolls image into view once all are loaded
-            Promise.all([...document.querySelectorAll('img.grid-image')].map(img => {
-                return new Promise(resolve => {
-                    img.onload = () => {
-                        resolve();
-                        console.log('resolved');
-                    }
+            if (window.innerWidth <= 1000) {
 
+                // handle bookmark for mobile, scrolls image into view once all are loaded
+                Promise.all([...document.querySelectorAll('img.grid-image')].map(img => {
+                    return new Promise(resolve => {
+                        img.onload = () => {
+                            resolve();
+                            console.log('resolved');
+                        }
+
+                    });
+                })).then(() => {
+
+                    setTimeout(() => {
+                        const pos = document.getElementById(this.props.match.params.image).offsetTop;
+                        window.scrollTo(0, pos);
+                    }, 500)
                 });
-            })).then(() => {
+            } else {
 
-                setTimeout(() => {
-                    const pos = document.getElementById(this.props.match.params.image).offsetTop;
-                    window.scrollTo(0, pos);
-                }, 500)
-            });
+                this.setState({
+                    lightboxIndex:
+                        flatten(allImagesDesktopOrderTsbu).findIndex(group => group[0].link === this.props.match.params.image)
+                })
+            }
         }
 
     }
@@ -54,27 +63,17 @@ class SpaceBetweenUs extends Component {
     }
 
     render() {
-
-
-
+        // this is to keep count of the index of image regardless of column
+        let imgIndexCount = -1;
         let mappedDesktopImages = allImagesDesktopOrderTsbu.map((imageColumn, i) => {
             return (
                 <div key={i} className="column">
                     {imageColumn.map((image, index) => {
+                        const localIndex = imgIndexCount += 1;
                         return (
-                            // sends to individual image 
-                            // <Link key={index} location={this.props.location} to={{
-                            //     pathname: "/" + image[0].link,
-                            //     state: {
-                            //         imageInformation: image,
-                            //         from: this.props.location
-                            //     }
-                            // }
-                            // }>
-                            <a href={`/${image[0].link}`} onClick={(e) => { this.openLightbox(index); e.preventDefault() }}>
+                            <a href={`/${image[0].link}`} onClick={(e) => { this.openLightbox(localIndex); e.preventDefault() }}>
                                 <img key={index} src={image[0].name} className="grid-image" alt="The Space Between Us series" />
                             </a>
-                            // </Link>
                         )
                     })}
                 </div>

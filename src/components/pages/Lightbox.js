@@ -5,7 +5,6 @@ import { useSwipeable } from 'react-swipeable';
 import FocusTrap from 'focus-trap-react';
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 
-// @TODO - add animation
 const PreviousButtonSVG = () => (
     <svg class="overlay-previous-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
         <path class="SRLPrevButton" d="M25.47 38.64l.44-.44c.29-.29.29-.76 0-1.05L14.82 26.06h23.35c.41 0 .75-.33.75-.75v-.62c0-.41-.33-.75-.75-.75H14.82l11.09-11.09c.29-.29.29-.76 0-1.05l-.44-.44a.742.742 0 0 0-1.05 0L11.31 24.47c-.29.29-.29.76 0 1.05l13.11 13.11c.29.3.76.3 1.05.01z"></path>
@@ -28,7 +27,6 @@ const CloseButtonSVG = () => (
 const Lightbox = ({ images, selectedIndex, onClose }) => {
     const imageGroups = flatten(images);
     const nextButtonRef = useRef(null);
-    const [animationDirectionClass, setAnimationDirectionClass] = useState('fade-left');
 
     const handlePrevNext = (toIndex) => {
         setGroupIndex(toIndex);
@@ -36,14 +34,8 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
         setChangedImageGroup(true);
     }
 
-    const handlePrevious = () => {
-        handlePrevNext(groupIndex === 0 ? imageGroups.length - 1 : groupIndex - 1);
-        setAnimationDirectionClass('fade-right');
-    }
-    const handleNext = () => {
-        handlePrevNext(groupIndex === imageGroups.length - 1 ? 0 : groupIndex + 1);
-        setAnimationDirectionClass('fade-left');
-    }
+    const handlePrevious = () => setTimeout(handlePrevNext(groupIndex === 0 ? imageGroups.length - 1 : groupIndex - 1), 100);
+    const handleNext = () => setTimeout(handlePrevNext(groupIndex === imageGroups.length - 1 ? 0 : groupIndex + 1), 100);
 
     const handleClose = () => {
         history.replace(`/${basePath}`);
@@ -67,12 +59,12 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
     const imagePath = `/${[basePath, currentGroup[0].link].join('/')}`;
 
     useEffect(() => {
+        // replace currentPath with next/previous slide, so back button works as expected
         hasChangedImageGroup ? history.replace(imagePath) : history.push(imagePath);
     }, [groupIndex]);
 
     useEffect(() => {
         const handleKeyEvents = (e) => {
-            console.log('handling event', e);
             if (e.key === 'ArrowRight') handleNext();
             if (e.key === 'ArrowLeft') handlePrevious();
             if (e.key === 'Escape') handleClose();
@@ -83,7 +75,7 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
 
     const makeThumbs = images => images.map((image, index) => (
         <button className="overlay-thumbnail" key={image.name} onClick={() => {
-            setImageIndex(index)
+            setImageIndex(index);
             nextButtonRef.current.focus();
         }} tabIndex={0} disabled={index === imageIndex}>
             <img className='overlay-thumbnail-image' src={image.name} alt={image.title} />
@@ -100,7 +92,7 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
                     <SwitchTransition>
                         <CSSTransition
                             key={`${groupIndex}-${imageIndex}`}
-                            classNames={animationDirectionClass}
+                            classNames="fade"
                             addEndListener={(node, done) => {
                                 node.addEventListener("transitionend", done, false);
                             }}
