@@ -8,6 +8,14 @@
     background: rgba(0, 0, 0, .8);
 }
 
+.overlay-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+}
+
 .overlay-previous, .overlay-next {
     border: 1px solid red;
     background: black;

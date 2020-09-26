@@ -4,7 +4,7 @@ import { flatten } from 'lodash';
 
 
 
-const Lightbox = ({ images, selectedIndex }) => {
+const Lightbox = ({ images, selectedIndex, onClose }) => {
     const imageGroups = flatten(images);
     const [groupIndex, setGroupIndex] = useState(selectedIndex);
     const [imageIndex, setImageIndex] = useState(0);
@@ -15,10 +15,9 @@ const Lightbox = ({ images, selectedIndex }) => {
     const history = useHistory();
 
     const basePath = history.location.pathname.split('/')[1];
+    const imagePath = `/${[basePath, currentGroup[0].link].join('/')}`;
 
     useEffect(() => {
-        const imagePath = `/${[basePath, currentGroup[0].link].join('/')}`;
-
         hasChangedImageGroup ? history.replace(imagePath) : history.push(imagePath);
     }, [groupIndex]);
 
@@ -26,6 +25,11 @@ const Lightbox = ({ images, selectedIndex }) => {
         setGroupIndex(toIndex);
         setImageIndex(0);
         setChangedImageGroup(true);
+    }
+
+    const handleClose = () => {
+        history.replace(`/${basePath}`);
+        onClose();
     }
 
     const makeThumbs = images => images.map((image, index) => (
@@ -36,6 +40,7 @@ const Lightbox = ({ images, selectedIndex }) => {
 
     return (
         <div class="overlay">
+            <button class="overlay-close" onClick={handleClose}>X</button>
             <button class="overlay-previous" onClick={() => {
                 handlePrevNext(groupIndex === 0 ? imageGroups.length - 1 : groupIndex - 1);
 
