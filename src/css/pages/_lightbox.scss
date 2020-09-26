@@ -51,8 +51,6 @@
     }
 }
 
-
-
 .overlay-thumbnail-image {
     height: 82px;
 }
@@ -102,3 +100,44 @@
     width: 1000px;
 
 }
+
+.fade-left-enter, .fade-right-enter {
+    opacity: 0;
+}
+
+.fade-left-enter {
+    transform: translateX(500px);
+}
+
+.fade-right-enter {
+    transform: translateX(-500px);
+}
+
+.fade-left-enter-active,
+.fade-right-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 200ms;
+  }
+
+  .fade-left-exit, .fade-right-ext {
+      opacity: 1;
+  }
+
+.fade-left-exit, .fade-left-exit {
+    transform: translateX(0);
+}
+
+.fade-left-exit-active {
+    transform: translateX(-500px);
+}
+
+.fade-right-exit-active {
+    transform: translateX(-500px);
+}
+
+.fade-left-exit-active,
+.fade-right-exit-active {
+    opacity: 0;
+    transition: all 200ms;
+  }

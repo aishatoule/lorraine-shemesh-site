@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { flatten } from 'lodash';
 import { useSwipeable } from 'react-swipeable';
 import FocusTrap from 'focus-trap-react';
+import { SwitchTransition, CSSTransition } from 'react-transition-group';
 
 // @TODO - add animation
 const PreviousButtonSVG = () => (
@@ -27,6 +28,7 @@ const CloseButtonSVG = () => (
 const Lightbox = ({ images, selectedIndex, onClose }) => {
     const imageGroups = flatten(images);
     const nextButtonRef = useRef(null);
+    const [animationDirectionClass, setAnimationDirectionClass] = useState('fade-left');
 
     const handlePrevNext = (toIndex) => {
         setGroupIndex(toIndex);
@@ -34,8 +36,14 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
         setChangedImageGroup(true);
     }
 
-    const handlePrevious = () => handlePrevNext(groupIndex === 0 ? imageGroups.length - 1 : groupIndex - 1);
-    const handleNext = () => handlePrevNext(groupIndex === imageGroups.length - 1 ? 0 : groupIndex + 1);
+    const handlePrevious = () => {
+        handlePrevNext(groupIndex === 0 ? imageGroups.length - 1 : groupIndex - 1);
+        setAnimationDirectionClass('fade-right');
+    }
+    const handleNext = () => {
+        handlePrevNext(groupIndex === imageGroups.length - 1 ? 0 : groupIndex + 1);
+        setAnimationDirectionClass('fade-left');
+    }
 
     const handleClose = () => {
         history.replace(`/${basePath}`);
@@ -49,6 +57,7 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
         onSwipedLeft: handlePrevious,
         onSwipedRight: handleNext,
     })
+
 
     const currentGroup = imageGroups[groupIndex];
     const currentImage = currentGroup[imageIndex];
@@ -81,8 +90,6 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
         </button>
     ));
 
-
-
     return (
         <FocusTrap>
             <div class="overlay">
@@ -90,28 +97,38 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
                     <NextButtonSVG />
                 </button>
                 <div class="overlay-image-container">
-                    <div class="overlay-image-content">
-                        <div class="overlay-image-wrappper" {...swipeHandlers}>
-                            <img class="overlay-image" src={currentImage.name} alt={currentImage.title} />
-                        </div>
-                        <div class="overlay-bottom-wrapper">
-                            <div class="overlay-description">
-                                <div className="image-detail-text">
-                                    <p>{currentImage.artistName}</p>
-                                    <p><span className="italics">{currentImage.title}</span>{currentImage.year !== undefined && ", " + currentImage.year}</p>
-                                    <p>{currentImage.dimensions}</p>
-                                    <p>{currentImage.privateCollection}</p>
+                    <SwitchTransition>
+                        <CSSTransition
+                            key={`${groupIndex}-${imageIndex}`}
+                            classNames={animationDirectionClass}
+                            addEndListener={(node, done) => {
+                                node.addEventListener("transitionend", done, false);
+                            }}
+                        >
+                            <div class="overlay-image-content">
+                                <div class="overlay-image-wrappper" {...swipeHandlers}>
+                                    <img class="overlay-image" src={currentImage.name} alt={currentImage.title} />
+                                </div>
+                                <div class="overlay-bottom-wrapper">
+                                    <div class="overlay-description">
+                                        <div className="image-detail-text">
+                                            <p>{currentImage.artistName}</p>
+                                            <p><span className="italics">{currentImage.title}</span>{currentImage.year !== undefined && ", " + currentImage.year}</p>
+                                            <p>{currentImage.dimensions}</p>
+                                            <p>{currentImage.privateCollection}</p>
+                                        </div>
+                                    </div>
+                                    <div class="overlay-details">
+                                        {currentGroup.length > 1 && (
+                                            <div class="thumbnail-section">
+                                                {makeThumbs(currentGroup)}
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
-                            <div class="overlay-details">
-                                {currentGroup.length > 1 && (
-                                    <div class="thumbnail-section">
-                                        {makeThumbs(currentGroup)}
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-                    </div>
+                        </CSSTransition>
+                    </SwitchTransition>
                 </div>
                 <button class="overlay-previous" onClick={handlePrevious} tabIndex={0}>
                     <PreviousButtonSVG />
