@@ -10,14 +10,13 @@
 
 .overlay-close {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 0px;
+    right: 0px;
     height: 70px;
     width: 70px;
 }
 
 .overlay-previous, .overlay-next {
-    border: 1px solid red;
     background: black;
     height: 70px;
     width: 70px;
@@ -32,6 +31,38 @@
 
 .overlay-next {
     right: 0;
+}
+
+.overlay-previous-svg, .overlay-next-svg, .overlay-close-svg {
+    fill: white;
+}
+
+.overlay-previous, .overlay-next, .overlay-close, .overlay-thumbnail {
+    &:focus {
+        outline: 1px dotted white;
+    }
+}
+
+.overlay-thumbnail {
+    margin-left: 7px;
+
+    &:disabled {
+        opacity: .5;
+    }
+}
+
+
+
+.overlay-thumbnail-image {
+    height: 82px;
+}
+
+.overlay-previous-svg, .overlay-next-svg {
+    transform: scale(.75);
+}
+
+.overlay-close-svg {
+    transform: scale(.5);
 }
 
 .overlay-image-container {
@@ -50,6 +81,7 @@
 .overlay-image-content {
     // border: 1px solid green;
 }
+
 
 .overlay-image {
     max-width: 100%;
