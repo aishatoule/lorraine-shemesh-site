@@ -128,7 +128,7 @@ function App() {
 
                 <Route path="/exh/:id" component={IndividualPhoto} />
                 <Route path="/exh_sshow/:id" component={IndividualPhoto} />
-                {/* <Route path="/:id" component={IndividualImage} /> */}
+                <Route path="/:id" component={IndividualImage} />
                 <Route path="/:gallery/:id" component={IndividualImage} />
                 <Route component={NotFound} />
               </Switch>
