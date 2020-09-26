@@ -78,7 +78,7 @@ class SpaceBetweenUs extends Component {
 
         return (
             <>
-                <Lightbox />
+                {!isMobile && <Lightbox images={allImagesDesktopOrderTsbu} selectedIndex={0} />}
                 <div>
                     <div className="image-grid-container">
                         {mappedImages}
