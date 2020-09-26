@@ -1,92 +1,76 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { flatten } from 'lodash';
-import { allImagesDesktopOrderTsbu, allImagesMobileOrderTsbu } from '../../../imageDataFiles/imageDataTsbu';
-import Lightbox from '../Lightbox';
+import Lightbox from './Lightbox';
 
-class SpaceBetweenUs extends Component {
+const GalleryPage = ({ desktopImages, mobileImages, alt }) => {
+  const isMobileCheck = () => window.innerWidth <= 1000;
+  const [isMobile, setIsMobile] = useState(isMobileCheck());
+  const [lightboxIndex, setLightboxIndex] = useState(-1);
+  const params = useParams();
 
-  constructor() {
-    super();
-    this.state = {
-      width: window.innerWidth,
-      lightboxIndex: -1,
-    }
-  }
+  // handleResize
+  useEffect(() => {
+    const handleResize = () => {
+      console.log('handling resize');
+      setIsMobile(isMobileCheck())
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
-  componentDidMount() {
-    window.addEventListener('resize', this.handleWindowSizeChange);
-    if (this.props.match.params.image) {
-
-      if (window.innerWidth <= 1000) {
+  // handle image bookmark
+  useEffect(() => {
+    if (params.image) {
+      if (isMobile) {
 
         // handle bookmark for mobile, scrolls image into view once all are loaded
         Promise.all([...document.querySelectorAll('img.grid-image')].map(img => {
           return new Promise(resolve => {
-            img.onload = () => {
-              resolve();
-              console.log('resolved');
-            }
-
+            if (img.complete) resolve();
+            img.onload = resolve;
           });
         })).then(() => {
-
-          setTimeout(() => {
-            const pos = document.getElementById(this.props.match.params.image).offsetTop;
-            window.scrollTo(0, pos);
-          }, 500)
+          const pos = document.getElementById(params.image).offsetTop;
+          window.scrollTo({
+            left: 0,
+            top: pos,
+            behavior: 'smooth'
+          });
         });
       } else {
-
-        this.setState({
-          lightboxIndex:
-            flatten(allImagesDesktopOrderTsbu).findIndex(group => group[0].link === this.props.match.params.image)
-        })
+        setLightboxIndex(flatten(desktopImages).findIndex(group => group[0].link === params.image));
       }
     }
+  }, []);
 
-  }
+  const getMappedImages = () => {
+    if (!isMobile) {
+      // this is to keep count of the index of image regardless of column
+      let imgIndexCount = -1;
+      return desktopImages.map((imageColumn, i) => {
+        return (
+          <div key={i} className="column">
+            {imageColumn.map((image, index) => {
+              const localIndex = imgIndexCount += 1;
+              return (
+                <a href={`/${image[0].link}`} onClick={(e) => { setLightboxIndex(localIndex); e.preventDefault() }}>
+                  <img key={index} src={image[0].name} className="grid-image" alt={alt} />
+                </a>
+              )
+            })}
+          </div>
+        )
+      })
+    }
 
-  handleWindowSizeChange = () => {
-    this.setState({
-      width: window.innerWidth
-    });
-  }
-
-  openLightbox = (groupIndex) => {
-    this.setState({
-      lightboxIndex: groupIndex,
-    })
-  }
-
-  closeLightbox = () => {
-    this.setState({ lightboxIndex: -1 })
-  }
-
-  render() {
-    // this is to keep count of the index of image regardless of column
-    let imgIndexCount = -1;
-    let mappedDesktopImages = allImagesDesktopOrderTsbu.map((imageColumn, i) => {
-      return (
-        <div key={i} className="column">
-          {imageColumn.map((image, index) => {
-            const localIndex = imgIndexCount += 1;
-            return (
-              <a href={`/${image[0].link}`} onClick={(e) => { this.openLightbox(localIndex); e.preventDefault() }}>
-                <img key={index} src={image[0].name} className="grid-image" alt="The Space Between Us series" />
-              </a>
-            )
-          })}
-        </div>
-      )
-    })
-
-    let mappedMobileImages = allImagesMobileOrderTsbu.map((imageColumn, i) => {
+    return mobileImages.map((imageColumn, i) => {
       return (
         <div key={i} className="column">
           {imageColumn.map((image, index) => {
             return (
               <div key={index} className="image-and-details-on-grid" id={image.link}>
-                <img key={index} src={image.name} className="grid-image" alt="The Space Between Us series" />
+                <img key={index} src={image.name} className="grid-image" alt={alt} />
                 <div className="gallery-individual-image-details">
                   <p>{image.artistName}</p>
                   <p><span className="italics">{image.title}</span>, {image.year}</p>
@@ -99,28 +83,25 @@ class SpaceBetweenUs extends Component {
         </div>
       )
     })
-    const { width } = this.state;
-    const isMobile = width <= 1000;
-
-    const mappedImages = (isMobile)
-      ?
-      mappedMobileImages
-      :
-      mappedDesktopImages
-
-    return (
-      <>
-        {!isMobile && this.state.lightboxIndex >= 0 && (
-          <Lightbox images={allImagesDesktopOrderTsbu} selectedIndex={this.state.lightboxIndex} onClose={this.closeLightbox} />
-        )}
-        <div>
-          <div className="image-grid-container">
-            {mappedImages}
-          </div>
-        </div>
-      </>
-    )
   }
+
+  return (
+    <>
+      {!isMobile && lightboxIndex >= 0 && (
+        <Lightbox
+          images={desktopImages}
+          selectedIndex={lightboxIndex}
+          onClose={() => setLightboxIndex(-1)} />
+      )}
+
+      <div>
+        <div className="image-grid-container">
+          {getMappedImages()}
+        </div>
+      </div>
+    </>
+  )
 }
 
-export default SpaceBetweenUs;
+
+export default GalleryPage;
