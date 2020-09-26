@@ -1,20 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import { flatten } from 'lodash';
 
 
 
 const Lightbox = ({ images, selectedIndex }) => {
     const imageGroups = flatten(images);
-
     const [groupIndex, setGroupIndex] = useState(selectedIndex);
     const [imageIndex, setImageIndex] = useState(0);
+    const [hasChangedImageGroup, setChangedImageGroup] = useState(false);
 
     const currentGroup = imageGroups[groupIndex];
     const currentImage = currentGroup[imageIndex];
+    const history = useHistory();
 
+    const basePath = history.location.pathname.split('/')[1];
 
-    console.log({ currentImage, currentGroup, imageGroups }); // for testing remove
+    useEffect(() => {
+        const imagePath = `/${[basePath, currentGroup[0].link].join('/')}`;
 
+        hasChangedImageGroup ? history.replace(imagePath) : history.push(imagePath);
+    }, [groupIndex]);
+
+    const handlePrevNext = (toIndex) => {
+        setGroupIndex(toIndex);
+        setImageIndex(0);
+        setChangedImageGroup(true);
+    }
 
     const makeThumbs = images => images.map((image, index) => (
         <div key={image.name} onClick={() => setImageIndex(index)}> {/* make accessible */}
@@ -25,8 +37,8 @@ const Lightbox = ({ images, selectedIndex }) => {
     return (
         <div class="overlay">
             <button class="overlay-previous" onClick={() => {
-                setGroupIndex(groupIndex === 0 ? imageGroups.length - 1 : groupIndex - 1);
-                setImageIndex(0);
+                handlePrevNext(groupIndex === 0 ? imageGroups.length - 1 : groupIndex - 1);
+
             }}></button>
             <div class="overlay-image-container">
                 <div class="overlay-image-content">
@@ -43,16 +55,17 @@ const Lightbox = ({ images, selectedIndex }) => {
                             </div>
                         </div>
                         <div class="overlay-details">
-                            <div class="thumbnail-section">
-                                {makeThumbs(currentGroup)}
-                            </div>
+                            {currentGroup.length > 1 && (
+                                <div class="thumbnail-section">
+                                    {makeThumbs(currentGroup)}
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
             </div>
             <button class="overlay-next" onClick={() => {
-                setGroupIndex(groupIndex === imageGroups.length - 1 ? 0 : groupIndex + 1);
-                setImageIndex(0);
+                handlePrevNext(groupIndex === imageGroups.length - 1 ? 0 : groupIndex + 1);
             }}></button>
         </div >
     );
