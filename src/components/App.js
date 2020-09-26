@@ -63,81 +63,80 @@ import biblio_little_menagerie from './pages/Words/ImagePages/biblio_little_mena
 import biblio_little_cyclone from './pages/Words/ImagePages/biblio_little_cyclone';
 
 function App() {
-    return (
-        <Router>
-            <div className="App">
-                <SimpleReactLightbox>
-                    <div className="site-content">
-                        <Navigation />
-                        <div className="page-content">
-                            <Switch>
-                                <Route exact path="/" component={Home} />
-                                <Route path="/spaceBetweenUs/:image?" component={SpaceBetweenUs} />
-                                <Route path="/intersections" component={Intersections} />
-                                <Route path="/insideOut" component={InsideOut} />
-                                <Route path="/breakingTheSurface" component={BreakingTheSurface} />
-                                <Route path="/liquidStates" component={liquidStates} />
-                                <Route path="/waterWorks" component={WaterWorks} />
-                                <Route path="/paintedPools" component={PaintedPools} />
-                                <Route path="/paperPools" component={paperPools} />
-                                <Route path="/paperSpaceBetweenUs" component={paperSBU} />
-                                <Route path="/paperIntersections" component={paperInt} />
-                                <Route path="/paperObjects" component={paperObj} />
-                                <Route path="/clayHandBuilt" component={clayHB} />
-                                <Route path="/clayWheelThrown" component={clayWT} />
-                                <Route path="/claySlipcast" component={claySC} />
-                                <Route path="/contact" component={Contact} />
-                                <Route path="/biography" component={Biography} />
-                                <Route path="/video" component={Video} />
-                                <Route path="/studio" component={Studio} />
-                                <Route path="/words" component={Words} />
-                                <Route path="/biblio_balakian" component={biblio_balakian} />
-                                <Route path="/biblio_zona_2016" component={biblio_zona_2016} />
-                                <Route path="/biblio_purcell" component={biblio_purcell} />
-                                <Route path="/biblio_bascove" component={biblio_bascove} />
-                                <Route path="/biblio_davis" component={biblio_davis} />
-                                <Route path="/biblio_mccarthy" component={biblio_mccarthy} />
-                                <Route path="/biblio_mccormack2" component={biblio_mccormack2} />
-                                <Route path="/biblio_cheng" component={biblio_cheng} />
-                                <Route path="/biblio_shemesh1" component={biblio_shemesh1} />
-                                <Route path="/biblio_kennedy" component={biblio_kennedy} />
-                                <Route path="/biblio_zona" component={biblio_zona} />
-                                <Route path="/biblio_stone" component={biblio_stone} />
-                                <Route path="/biblio_goodman" component={biblio_goodman} />
-                                <Route path="/biblio_goodman_study" component={biblio_goodman_study} />
-                                <Route path="/biblio_stone_pool_image" component={biblio_stone_pool_image} />
-                                <Route path="/biblio_stone_cakes" component={biblio_stone_cakes} />
-                                <Route path="/biblio_stone_donuts" component={biblio_stone_donuts} />
-                                <Route path="/biblio_stone_pastries" component={biblio_stone_pastries} />
-                                <Route path="/biblio_stone_bagels_and_lox" component={biblio_stone_bagels_and_lox} />
-                                <Route path="/biblio_mccormack" component={biblio_mccormack} />
-                                <Route path="/biblio_little" component={biblio_little} />
-                                <Route path="/biblio_little_shoes" component={biblio_little_shoes} />
-                                <Route path="/biblio_little_three_hearts" component={biblio_little_three_hearts} />
-                                <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
-                                <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
-                                <Route path="/exhibitions" component={Exhibitions} />
-                                <Route path="/exhibition_tsbu_nyc" component={Exhibition_tsbu_nyc} />
-                                <Route path="/exhibition_tsbu_sf" component={Exhibition_tsbu_sf} />
-                                <Route path="/exhibition_butler" component={Exhibition_butler} />
-                                <Route path="/exhibition_intersections" component={Exhibition_intersections} />
-                                <Route path="/Exhibition_insideout" component={Exhibition_insideout} />
-                                <Route path="/Exhibition_insideout_slideshow" component={Exhibition_insideout_slideshow} />
+  return (
+    <Router>
+      <div className="App">
+        <SimpleReactLightbox>
+        <div className="site-content">
+          <Navigation />
+          <div className="page-content">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/spaceBetweenUs/:image?" component={SpaceBetweenUs} />
+              <Route path="/intersections" component={Intersections} />
+              <Route path="/insideOut" component={InsideOut} />
+              <Route path="/breakingTheSurface" component={BreakingTheSurface} />
+              <Route path="/liquidStates" component={liquidStates} />
+              <Route path="/waterWorks" component={WaterWorks} />
+              <Route path="/paintedPools" component={PaintedPools} />
+              <Route path="/paperPools" component={paperPools} />
+              <Route path="/paperSpaceBetweenUs" component={paperSBU} />
+              <Route path="/paperIntersections" component={paperInt} />
+              <Route path="/paperObjects" component={paperObj} />
+              <Route path="/clayHandBuilt" component={clayHB} />
+              <Route path="/clayWheelThrown" component={clayWT} />
+              <Route path="/claySlipcast" component={claySC} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/biography" component={Biography} />
+              <Route path="/video" component={Video} />
+              <Route path="/studio" component={Studio} />
+              <Route path="/words" component={Words} />
+              <Route path="/biblio_balakian" component={biblio_balakian} />
+              <Route path="/biblio_zona_2016" component={biblio_zona_2016} />
+              <Route path="/biblio_purcell" component={biblio_purcell} />
+              <Route path="/biblio_bascove" component={biblio_bascove} />
+              <Route path="/biblio_davis" component={biblio_davis} />
+              <Route path="/biblio_mccarthy" component={biblio_mccarthy} />
+              <Route path="/biblio_mccormack2" component={biblio_mccormack2} />
+              <Route path="/biblio_cheng" component={biblio_cheng} />
+              <Route path="/biblio_shemesh1" component={biblio_shemesh1} />
+              <Route path="/biblio_kennedy" component={biblio_kennedy} />
+              <Route path="/biblio_zona" component={biblio_zona} />
+              <Route path="/biblio_stone" component={biblio_stone} />
+              <Route path="/biblio_goodman" component={biblio_goodman} />
+              <Route path="/biblio_goodman_study" component={biblio_goodman_study} />
+              <Route path="/biblio_stone_pool_image" component={biblio_stone_pool_image} />
+              <Route path="/biblio_stone_cakes" component={biblio_stone_cakes}/>
+              <Route path="/biblio_stone_donuts" component={biblio_stone_donuts}/>
+              <Route path="/biblio_stone_pastries" component={biblio_stone_pastries}/>
+              <Route path="/biblio_stone_bagels_and_lox" component={biblio_stone_bagels_and_lox}/>
+              <Route path="/biblio_mccormack" component={biblio_mccormack} />
+              <Route path="/biblio_little" component={biblio_little} />
+              <Route path="/biblio_little_shoes" component={biblio_little_shoes} />
+              <Route path="/biblio_little_three_hearts" component={biblio_little_three_hearts} />
+              <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
+              <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
+              <Route path="/exhibitions" component={Exhibitions} />
+              <Route path="/exhibition_tsbu_nyc" component={Exhibition_tsbu_nyc} />
+              <Route path="/exhibition_tsbu_sf" component={Exhibition_tsbu_sf} />
+              <Route path="/exhibition_butler" component={Exhibition_butler} />
+              <Route path="/exhibition_intersections" component={Exhibition_intersections} />
+              <Route path="/Exhibition_insideout" component={Exhibition_insideout} />
+              <Route path="/Exhibition_insideout_slideshow" component={Exhibition_insideout_slideshow} />
 
-                                <Route path="/testBreakingTheSurface" component={TestBreakingTheSurface} />
-
-                                <Route path="/exh/:id" component={IndividualPhoto} />
-                                <Route path="/exh_sshow/:id" component={IndividualPhoto} />
-                                <Route path="/:id" component={IndividualImage} />
-                                <Route path="/:gallery/:id" component={IndividualImage} />
-                                <Route component={NotFound} />
-                            </Switch>
-                        </div>
-                    </div>
-                </SimpleReactLightbox>
-            </div>
-        </Router>
-    );
+              <Route path="/testBreakingTheSurface" component={TestBreakingTheSurface} />
+              
+              <Route path="/exh/:id" component={IndividualPhoto} />
+              <Route path="/exh_sshow/:id" component={IndividualPhoto} />
+              <Route path="/:id" component={IndividualImage} />
+              <Route component={NotFound} />
+            </Switch> 
+          </div>
+        </div>
+        </SimpleReactLightbox>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
