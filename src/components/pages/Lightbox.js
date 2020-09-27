@@ -29,8 +29,8 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
     const nextButtonRef = useRef(null);
 
     const handlePrevNext = (toIndex) => {
-        setGroupIndex(toIndex);
         setImageIndex(0);
+        setGroupIndex(toIndex);
         setChangedImageGroup(true);
     }
 

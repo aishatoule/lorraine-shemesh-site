@@ -46,6 +46,7 @@
     margin-left: 7px;
 
     &:disabled {
+        cursor: default;
         opacity: .5;
     }
 }
