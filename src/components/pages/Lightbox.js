@@ -50,7 +50,6 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
         onSwipedRight: handleNext,
     })
 
-
     const currentGroup = imageGroups[groupIndex];
     const currentImage = currentGroup[imageIndex];
     const history = useHistory();

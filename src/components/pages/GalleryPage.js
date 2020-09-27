@@ -19,6 +19,11 @@ const GalleryPage = ({ desktopImages, mobileImages, alt }) => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
+    useEffect(() => {
+        // close light box when back button clicked
+        if (!params.image) setLightboxIndex(-1);
+    }, [params.image])
+
     // handle image bookmark
     useEffect(() => {
         if (params.image) {
