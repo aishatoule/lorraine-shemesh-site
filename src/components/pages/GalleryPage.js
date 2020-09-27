@@ -56,11 +56,11 @@ const GalleryPage = ({ desktopImages, mobileImages, alt }) => {
             return desktopImages.map((imageColumn, i) => {
                 return (
                     <div key={i} className="column">
-                        {imageColumn.map((image, index) => {
+                        {imageColumn.map((image) => {
                             const localIndex = imgIndexCount += 1;
                             return (
-                                <a href={`/${image[0].link}`} onClick={(e) => { setLightboxIndex(localIndex); e.preventDefault() }}>
-                                    <img key={index} src={image[0].name} className="grid-image" alt={alt} />
+                                <a  key={image[0].link} href={`/${image[0].link}`} onClick={(e) => { setLightboxIndex(localIndex); e.preventDefault() }}>
+                                    <img key={image[0].link} src={image[0].name} className="grid-image" alt={alt} />
                                 </a>
                             )
                         })}
