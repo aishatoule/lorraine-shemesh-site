@@ -1,49 +1,48 @@
-.overlay {
-    // border: 1px solid red;
+.lightbox-overlay {
+    background: black;
     height: 100vh;
-    width: 100vw;
+    left: 0;
     position: fixed;
     top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, .8);
+    width: 100vw;
 }
 
-.overlay-close {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+.lightbox-close {
     height: 70px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
     width: 70px;
 }
 
-.overlay-previous, .overlay-next {
+.lightbox-previous, .lightbox-next {
     background: black;
     height: 70px;
-    width: 70px;
     position: absolute;
     top: calc(50vh - 35px);
+    width: 70px;
     z-index: 2;
 }
 
-.overlay-previous {
+.lightbox-previous {
     left: 0;
 }
 
-.overlay-next {
+.lightbox-next {
     right: 0;
 }
 
-.overlay-previous-svg, .overlay-next-svg, .overlay-close-svg {
+.lightbox-previous-svg, .lightbox-next-svg, .lightbox-close-svg {
     fill: white;
 }
 
-.overlay-previous, .overlay-next, .overlay-close, .overlay-thumbnail {
+.lightbox-previous, .lightbox-next, .lightbox-close, .lightbox-thumbnail {
     &:focus {
         outline: 1px dotted white;
     }
 }
 
-.overlay-thumbnail {
+.lightbox-thumbnail {
     margin-left: 7px;
 
     &:disabled {
@@ -51,54 +50,44 @@
     }
 }
 
-.overlay-thumbnail-image {
+.lightbox-thumbnail-image {
     height: 82px;
 }
 
-.overlay-previous-svg, .overlay-next-svg {
+.lightbox-previous-svg, .lightbox-next-svg {
     transform: scale(.75);
 }
 
-.overlay-close-svg {
+.lightbox-close-svg {
     transform: scale(.5);
 }
 
-.overlay-image-container {
-    // border: 1px solid red;
-    display: flex;
-    justify-content: center;
+.lightbox-image-container {
     align-items: center;
-    width: auto;
+    display: flex;
     height: auto;
     height: calc(100% - 100px);
-    width: calc(100% - 180px); // 100% - button size + 40px padding
+    justify-content: center;
     margin: 50px auto 0;
+    width: auto;
+    width: calc(100% - 180px); // 100% - button size + 40px padding
     z-index: 1;
 }
 
-.overlay-image-content {
-    // border: 1px solid green;
-}
-
-
-.overlay-image {
-    max-width: 100%;
+.lightbox-image {
     max-height: 75vh;
-    // object-fit: contain;
+    max-width: 100%;
     width: auto;
 }
 
-.overlay-bottom-wrapper {
+.lightbox-bottom-wrapper {
     display: flex;
-    // border: 1px solid red;
     justify-content: space-between;
     padding-top: 10px;
 }
 
-.overlay-image-wrapper {
-    border: 1px solid orange;
+.lightbox-image-wrapper {
     width: 1000px;
-
 }
 
 .fade-enter {

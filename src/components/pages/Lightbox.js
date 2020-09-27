@@ -6,19 +6,19 @@ import FocusTrap from 'focus-trap-react';
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 
 const PreviousButtonSVG = () => (
-    <svg class="overlay-previous-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <svg class="lightbox-previous-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
         <path class="SRLPrevButton" d="M25.47 38.64l.44-.44c.29-.29.29-.76 0-1.05L14.82 26.06h23.35c.41 0 .75-.33.75-.75v-.62c0-.41-.33-.75-.75-.75H14.82l11.09-11.09c.29-.29.29-.76 0-1.05l-.44-.44a.742.742 0 0 0-1.05 0L11.31 24.47c-.29.29-.29.76 0 1.05l13.11 13.11c.29.3.76.3 1.05.01z"></path>
     </svg>
 );
 
 const NextButtonSVG = () => (
-    <svg class="overlay-next-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <svg class="lightbox-next-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
         <path d="M24.53 11.36l-.44.44c-.29.29-.29.76 0 1.05l11.09 11.09H11.83c-.41 0-.75.33-.75.75v.62c0 .41.33.75.75.75h23.35L24.09 37.14c-.29.29-.29.76 0 1.05l.44.44c.29.29.76.29 1.05 0l13.11-13.11c.29-.29.29-.76 0-1.05l-13.1-13.11a.754.754 0 0 0-1.06 0z"></path>
     </svg>
 )
 
 const CloseButtonSVG = () => (
-    <svg class="overlay-close-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <svg class="lightbox-close-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
         <path class="SRLCloseButton" d="M27.92 25l8.84-8.84 1.82-1.82c.27-.27.27-.71 0-.97l-1.95-1.95a.682.682 0 0 0-.97 0L25 22.08 14.34 11.42a.682.682 0 0 0-.97 0l-1.95 1.95c-.27.27-.27.71 0 .97L22.08 25 11.42 35.66c-.27.27-.27.71 0 .97l1.95 1.95c.27.27.71.27.97 0L25 27.92l8.84 8.84 1.82 1.82c.27.27.71.27.97 0l1.95-1.95c.27-.27.27-.71 0-.97L27.92 25z"></path>
     </svg>
 )
@@ -73,21 +73,21 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
     })
 
     const makeThumbs = images => images.map((image, index) => (
-        <button className="overlay-thumbnail" key={image.name} onClick={() => {
+        <button className="lightbox-thumbnail" key={image.name} onClick={() => {
             setImageIndex(index);
             nextButtonRef.current.focus();
         }} tabIndex={0} disabled={index === imageIndex}>
-            <img className='overlay-thumbnail-image' src={image.name} alt={image.title} />
+            <img className='lightbox-thumbnail-image' src={image.name} alt={image.title} />
         </button>
     ));
 
     return (
         <FocusTrap>
-            <div class="overlay">
-                <button class="overlay-next" onClick={handleNext} tabIndex={0} ref={nextButtonRef}>
+            <div class="lightbox-overlay">
+                <button class="lightbox-next" onClick={handleNext} tabIndex={0} ref={nextButtonRef}>
                     <NextButtonSVG />
                 </button>
-                <div class="overlay-image-container">
+                <div class="lightbox-image-container">
                     <SwitchTransition>
                         <CSSTransition
                             key={`${groupIndex}-${imageIndex}`}
@@ -96,12 +96,12 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
                                 node.addEventListener("transitionend", done, false);
                             }}
                         >
-                            <div class="overlay-image-content">
-                                <div class="overlay-image-wrappper" {...swipeHandlers}>
-                                    <img class="overlay-image" src={currentImage.name} alt={currentImage.title} />
+                            <div class="lightbox-image-content">
+                                <div class="lightbox-image-wrappper" {...swipeHandlers}>
+                                    <img class="lightbox-image" src={currentImage.name} alt={currentImage.title} />
                                 </div>
-                                <div class="overlay-bottom-wrapper">
-                                    <div class="overlay-description">
+                                <div class="lightbox-bottom-wrapper">
+                                    <div class="lightbox-description">
                                         <div className="image-detail-text">
                                             <p>{currentImage.artistName}</p>
                                             <p><span className="italics">{currentImage.title}</span>{currentImage.year !== undefined && ", " + currentImage.year}</p>
@@ -109,9 +109,9 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
                                             <p>{currentImage.privateCollection}</p>
                                         </div>
                                     </div>
-                                    <div class="overlay-details">
+                                    <div class="lightbox-details">
                                         {currentGroup.length > 1 && (
-                                            <div class="thumbnail-section">
+                                            <div class="lightbox-thumbnail">
                                                 {makeThumbs(currentGroup)}
                                             </div>
                                         )}
@@ -121,10 +121,10 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
                         </CSSTransition>
                     </SwitchTransition>
                 </div>
-                <button class="overlay-previous" onClick={handlePrevious} tabIndex={0}>
+                <button class="lightbox-previous" onClick={handlePrevious} tabIndex={0}>
                     <PreviousButtonSVG />
                 </button>
-                <button class="overlay-close" onClick={handleClose} tabIndex={0}>
+                <button class="lightbox-close" onClick={handleClose} tabIndex={0}>
                     <CloseButtonSVG />
                 </button>
             </div >
