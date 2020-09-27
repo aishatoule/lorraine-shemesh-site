@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { SRLWrapper } from "simple-react-lightbox";
 import { allImagesDesktopOrderBts, allImagesMobileOrderBts } from '../../../imageDataFiles/testImageData';
 
