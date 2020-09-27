@@ -72,7 +72,7 @@ function App() {
           <div className="page-content">
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/spaceBetweenUs" component={SpaceBetweenUs} />
+              <Route path="/spaceBetweenUs/:image?" component={SpaceBetweenUs} />
               <Route path="/intersections" component={Intersections} />
               <Route path="/insideOut" component={InsideOut} />
               <Route path="/breakingTheSurface" component={BreakingTheSurface} />

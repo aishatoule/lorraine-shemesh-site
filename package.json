@@ -23,7 +23,11 @@
     "redux": "^4.0.5",
     "redux-immutable-state-invariant": "^2.1.0",
     "simple-react-lightbox": "^3.3.4-1",
-    "use-react-router": "^1.0.7"
+    "use-react-router": "^1.0.7",
+    "focus-trap-react": "^8.1.0",
+    "lodash": "^4.17.20",
+    "react-swipeable": "^5.5.1",
+    "react-transition-group": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
