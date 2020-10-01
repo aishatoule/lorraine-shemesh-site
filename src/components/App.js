@@ -73,19 +73,19 @@ function App() {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/spaceBetweenUs/:image?" component={SpaceBetweenUs} />
-              <Route path="/intersections" component={Intersections} />
-              <Route path="/insideOut" component={InsideOut} />
-              <Route path="/breakingTheSurface" component={BreakingTheSurface} />
-              <Route path="/liquidStates" component={liquidStates} />
-              <Route path="/waterWorks" component={WaterWorks} />
-              <Route path="/paintedPools" component={PaintedPools} />
-              <Route path="/paperPools" component={paperPools} />
-              <Route path="/paperSpaceBetweenUs" component={paperSBU} />
-              <Route path="/paperIntersections" component={paperInt} />
-              <Route path="/paperObjects" component={paperObj} />
-              <Route path="/clayHandBuilt" component={clayHB} />
-              <Route path="/clayWheelThrown" component={clayWT} />
-              <Route path="/claySlipcast" component={claySC} />
+              <Route path="/intersections/:image?" component={Intersections} />
+              <Route path="/insideOut/:image?" component={InsideOut} />
+              <Route path="/breakingTheSurface/:image?" component={BreakingTheSurface} />
+              <Route path="/liquidStates/:image?" component={liquidStates} />
+              <Route path="/waterWorks/:image?" component={WaterWorks} />
+              <Route path="/paintedPools/:image?" component={PaintedPools} />
+              <Route path="/paperPools/:image?" component={paperPools} />
+              <Route path="/paperSpaceBetweenUs/:image?" component={paperSBU} />
+              <Route path="/paperIntersections/:image?" component={paperInt} />
+              <Route path="/paperObjects/:image?" component={paperObj} />
+              <Route path="/clayHandBuilt/:image?" component={clayHB} />
+              <Route path="/clayWheelThrown/:image?" component={clayWT} />
+              <Route path="/claySlipcast/:image?" component={claySC} />
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
