@@ -61,8 +61,6 @@ const Biblio_davis = () => {
                 <h4 className="individual-words-paragraph"><b>Art Interview: </b>That being said, are you attempting to go beyond the technical issues of form, shape and color within your paintings?</h4>
                 <h4 className="individual-words-paragraph"><b>Lorraine Shemesh:</b> Absolutely. When you choose to deal with the figure, you are dealing with a charged form; psychologically, physically, and certainly visually. There are certain conceptual issues that I'm confronting, like disjuncture and continuity. You know, how do you use the figure in today's world and make it relevant? How do you make it something vital, pulsing, and sensual?</h4>
                 
-                <img className="individual-words-image-horizontal" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/sbu_exhibition_with_lorraine.jpg'} alt="Exhibition with Lorraine Shemesh" />
-                
                 <h4 className="individual-words-paragraph"><b>Art Interview: </b>Can you describe your studio?</h4>
                 <h4 className="individual-words-paragraph"><b>Lorraine Shemesh:</b> I work in a renovated old factory building in midtown Manhattan. It is a large loft space.</h4>
                 <h4 className="individual-words-paragraph"><b>Art Interview: </b>Do you work in your studio every day?</h4>

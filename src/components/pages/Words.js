@@ -42,7 +42,7 @@ const Words = () => {
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
                             <p className="exhibition-name">Purcell, Janet, "<b><NavLink to="/biblio_purcell" className="words-link">Fine Arts: Must See Exhibition in Princeton</NavLink>.</b>"</p>
-                            <p className="exhibition-name"><b>The Times of Trenton.</b> (January 18,2017).</p>
+                            <p className="exhibition-name"><b>The Times of Trenton.</b> (January 18, 2017).</p>
                         </div>   
                     </div>   
                 </div>
