@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
+import News from './pages/News';
 import Studio from './pages/Studio';
 import Exhibitions from './pages/Exhibitions';
 import Exhibition_tsbu_nyc from './pages/Exhibitions/Exhibition_tsbu_nyc';
@@ -89,6 +90,7 @@ function App() {
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
+              <Route path="/news" component={News} />
               <Route path="/studio" component={Studio} />
               <Route path="/words" component={Words} />
               <Route path="/biblio_balakian" component={biblio_balakian} />
