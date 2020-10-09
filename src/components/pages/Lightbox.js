@@ -90,7 +90,7 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
             <p>{currentImage.captionln2}</p>
             <p>{currentImage.captionln3}</p>
             </React.Fragment>;
-    } else {
+    } else if (currentImage.title) {
         CurrentCaption = 
             <React.Fragment>
             <p>{currentImage.artistName}</p>
@@ -98,6 +98,8 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
             <p>{currentImage.dimensions}</p>
             <p>{currentImage.privateCollection}</p>
             </React.Fragment>;
+    } else {
+        CurrentCaption = "";
     }
 
     return (

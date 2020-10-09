@@ -81,7 +81,7 @@ const GalleryPage = ({ desktopImages, mobileImages, alt }) => {
                                 <p>{image.captionln2}</p>
                                 <p>{image.captionln3}</p>
                                 </React.Fragment>;
-                        } else {
+                        } else if (image.title) {
                             CurrentCaption = 
                                 <React.Fragment>
                                 <p>{image.artistName}</p>
@@ -89,6 +89,8 @@ const GalleryPage = ({ desktopImages, mobileImages, alt }) => {
                                 <p>{image.dimensions}</p>
                                 <p>{image.privateCollection}</p>
                                 </React.Fragment>;
+                        } else {
+                            CurrentCaption = "";
                         }
                         return (
                             <div key={index} className="image-and-details-on-grid" id={image.link}>
