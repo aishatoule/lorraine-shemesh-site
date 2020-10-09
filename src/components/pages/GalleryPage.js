@@ -73,14 +73,28 @@ const GalleryPage = ({ desktopImages, mobileImages, alt }) => {
             return (
                 <div key={i} className="column">
                     {imageColumn.map((image, index) => {
+                        let CurrentCaption;
+                        if (image.captionln1) {
+                            CurrentCaption =
+                                <React.Fragment>
+                                <p dangerouslySetInnerHTML={{__html: image.captionln1}}/>
+                                <p>{image.captionln2}</p>
+                                <p>{image.captionln3}</p>
+                                </React.Fragment>;
+                        } else {
+                            CurrentCaption = 
+                                <React.Fragment>
+                                <p>{image.artistName}</p>
+                                <p><span className="italics">{image.title}</span>, {image.year}</p>
+                                <p>{image.dimensions}</p>
+                                <p>{image.privateCollection}</p>
+                                </React.Fragment>;
+                        }
                         return (
                             <div key={index} className="image-and-details-on-grid" id={image.link}>
                                 <img key={index} src={image.name} className="grid-image" alt={alt} />
                                 <div className="gallery-individual-image-details">
-                                    <p>{image.artistName}</p>
-                                    <p><span className="italics">{image.title}</span>, {image.year}</p>
-                                    <p>{image.dimensions}</p>
-                                    <p>{image.privateCollection}</p>
+                                    {CurrentCaption}
                                 </div>
                             </div>
                         )
