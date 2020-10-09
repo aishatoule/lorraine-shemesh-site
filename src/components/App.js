@@ -16,7 +16,6 @@ import Exhibition_tsbu_sf from './pages/Exhibitions/Exhibition_tsbu_sf';
 import Exhibition_butler from './pages/Exhibitions/Exhibition_butler';
 import Exhibition_intersections from './pages/Exhibitions/Exhibition_intersections';
 import Exhibition_insideout from './pages/Exhibitions/Exhibition_insideout';
-import IndividualImage from './pages/IndividualImage';
 import IndividualPhoto from './pages/IndividualPhoto';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
 import Intersections from './pages/Paint/Intersections';
@@ -122,7 +121,6 @@ function App() {
               <Route path="/Exhibition_insideout/:image?" component={Exhibition_insideout} />              
               <Route path="/exh/:id" component={IndividualPhoto} />
               <Route path="/exh_sshow/:id" component={IndividualPhoto} />
-              <Route path="/:id" component={IndividualImage} />
               <Route component={NotFound} />
             </Switch> 
           </div>
