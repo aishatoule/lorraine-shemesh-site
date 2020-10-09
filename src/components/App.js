@@ -115,11 +115,11 @@ function App() {
               <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
               <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
               <Route path="/exhibitions" component={Exhibitions} />
-              <Route path="/exhibition_tsbu_nyc" component={Exhibition_tsbu_nyc} />
-              <Route path="/exhibition_tsbu_sf" component={Exhibition_tsbu_sf} />
-              <Route path="/exhibition_butler" component={Exhibition_butler} />
-              <Route path="/exhibition_intersections" component={Exhibition_intersections} />
-              <Route path="/Exhibition_insideout" component={Exhibition_insideout} />              
+              <Route path="/exhibition_tsbu_nyc/:image?" component={Exhibition_tsbu_nyc} />
+              <Route path="/exhibition_tsbu_sf/:image?" component={Exhibition_tsbu_sf} />
+              <Route path="/exhibition_butler/:image?" component={Exhibition_butler} />
+              <Route path="/exhibition_intersections/:image?" component={Exhibition_intersections} />
+              <Route path="/Exhibition_insideout/:image?" component={Exhibition_insideout} />              
               <Route path="/exh/:id" component={IndividualPhoto} />
               <Route path="/exh_sshow/:id" component={IndividualPhoto} />
               <Route path="/:id" component={IndividualImage} />

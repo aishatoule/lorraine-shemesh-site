@@ -52,6 +52,7 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
 
     const currentGroup = imageGroups[groupIndex];
     const currentImage = currentGroup[imageIndex];
+
     const history = useHistory();
 
     const basePath = history.location.pathname.split('/')[1];
@@ -81,6 +82,24 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
         </button>
     ));
 
+    let CurrentCaption;
+    if (currentImage.captionln1) {
+        CurrentCaption =
+            <React.Fragment>
+            <p dangerouslySetInnerHTML={{__html: currentImage.captionln1}}/>
+            <p>{currentImage.captionln2}</p>
+            <p>{currentImage.captionln3}</p>
+            </React.Fragment>;
+    } else {
+        CurrentCaption = 
+            <React.Fragment>
+            <p>{currentImage.artistName}</p>
+            <p><span className="italics">{currentImage.title}</span>{currentImage.year !== undefined && ", " + currentImage.year}</p>
+            <p>{currentImage.dimensions}</p>
+            <p>{currentImage.privateCollection}</p>
+            </React.Fragment>;
+    }
+
     return (
         <FocusTrap>
             <div className="lightbox-overlay">
@@ -103,10 +122,7 @@ const Lightbox = ({ images, selectedIndex, onClose }) => {
                                 <div className="lightbox-bottom-wrapper">
                                     <div className="lightbox-description">
                                         <div className="image-detail-text">
-                                            <p>{currentImage.artistName}</p>
-                                            <p><span className="italics">{currentImage.title}</span>{currentImage.year !== undefined && ", " + currentImage.year}</p>
-                                            <p>{currentImage.dimensions}</p>
-                                            <p>{currentImage.privateCollection}</p>
+                                            {CurrentCaption}
                                         </div>
                                     </div>
                                     <div className="lightbox-details">
