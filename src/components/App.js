@@ -87,7 +87,7 @@ function App() {
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
               <Route path="/news" component={News} />
-              <Route path="/studio" component={Studio} />
+              <Route path="/studio/:image?" component={Studio} />
               <Route path="/words" component={Words} />
               <Route path="/biblio_balakian" component={biblio_balakian} />
               <Route path="/biblio_zona_2016" component={biblio_zona_2016} />
