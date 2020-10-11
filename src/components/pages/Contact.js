@@ -20,13 +20,6 @@ const Contact = () => {
                 <p>505-954-5800</p>
                 <p className="gallery-website"><a href="http://www.petersprojects.com/" target="_blank" rel="noopener noreferrer">petersprojects.com</a></p>
             </div> 
-            <div className="gallery-information-container">
-                <h5 className="gallery-name"><b>J. Willott Gallery</b></h5>
-                <p>73300 El Paseo</p>
-                <p>Palm Desert, CA 92260</p>
-                <p>760-568-3180</p>
-                <p className="gallery-website"><a href="http://www.jwillott.com/" target="_blank" rel="noopener noreferrer">jwillott.com</a></p>
-            </div>
             <div className="contact-address-section">
                 <div className="contact-address-container">
                     <img src={emailIcon} className="contact-type-icon" alt="email icon"/>
