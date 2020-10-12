@@ -21,7 +21,7 @@ const Contact = () => {
                 <p>1011 Paseo de Peralta</p>
                 <p>Santa Fe, NM 87501</p>
                 <p>505-954-5800</p>
-                <p className="gallery-website"><a href="http://www.petersprojects.com/" target="_blank" rel="noopener noreferrer">petersprojects.com</a></p>
+                <p className="gallery-website"><a href="http://www.petersprojects.com/" target="_blank" rel="noopener noreferrer">gpgallery.com</a></p>
             </div> 
             <div className="contact-address-section">
                 <div className="contact-address-container">
