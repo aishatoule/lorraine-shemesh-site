@@ -20,6 +20,12 @@ var tsbu19 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-s
 var enclosure = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu20.jpg'
 var puzzle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu21.jpg'
 var jigsaw = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/jigsaw.jpg'
+var trellis = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/trellis.jpg'
+var trellisDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/trellisDetail1.jpg'
+var trellisDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/trellisDetail2.jpg'
+var slide = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slide.jpg'
+var slideDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail1.jpg'
+var slideDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail2.jpg'
 
 
 export const allImagesDesktopOrderTsbu = [
@@ -110,6 +116,35 @@ export const allImagesDesktopOrderTsbu = [
               year: "2015",
               dimensions: "64 x 64 1/2 in., o/c",
               link: "tsbu13",
+              privateCollection: ""
+          }
+      ],
+      [
+          {
+              name: slide,
+              artistName: "Lorraine Shemesh",
+              title: "Slide",
+              year: "2020",
+              dimensions: "58 x 60 1/2 in., o/c",
+              link: "tbsu26",
+              privateCollection: ""
+          },
+          {
+              name: slideDetail1,
+              artistName: "Lorraine Shemesh",
+              title: "Slide - detail",
+              year: "2020",
+              dimensions: "58 x 60 1/2 in., o/c",
+              link: "tbsu27",
+              privateCollection: ""
+          },
+          {
+              name: slideDetail2,
+              artistName: "Lorraine Shemesh",
+              title: "Slide - detail",
+              year: "2020",
+              dimensions: "58 x 60 1/2 in., o/c",
+              link: "tbsu28",
               privateCollection: ""
           }
       ]
@@ -248,6 +283,35 @@ export const allImagesDesktopOrderTsbu = [
               link: "tsbu18",
               privateCollection: "Private Collection"
           }
+      ],
+      [
+          {
+              name: trellis,
+              artistName: "Lorraine Shemesh",
+              title: "Trellis",
+              year: "2020",
+              dimensions: "62 1⁄4 x 60 in., o/c",
+              link: "tbsu23",
+              privateCollection: ""
+          },
+          {
+              name: trellisDetail1,
+              artistName: "Lorraine Shemesh",
+              title: "Trellis - detail",
+              year: "2020",
+              dimensions: "62 1⁄4 x 60 in., o/c",
+              link: "tbsu24",
+              privateCollection: ""
+          },
+          {
+              name: trellisDetail2,
+              artistName: "Lorraine Shemesh",
+              title: "Trellis - detail",
+              year: "2020",
+              dimensions: "62 1⁄4 x 60 in., o/c",
+              link: "tbsu25",
+              privateCollection: ""
+          }
       ]
   ]          
 ]
@@ -332,6 +396,33 @@ export const allImagesMobileOrderTsbu = [
           year: "2015",
           dimensions: "64 x 64 1/2 in., o/c",
           link: "tsbu13",
+          privateCollection: ""
+      },
+      {
+          name: slide,
+          artistName: "Lorraine Shemesh",
+          title: "Slide",
+          year: "2020",
+          dimensions: "58 x 60 1/2 in., o/c",
+          link: "tbsu26",
+          privateCollection: ""
+      },
+      {
+          name: slideDetail1,
+          artistName: "Lorraine Shemesh",
+          title: "Slide - detail",
+          year: "2020",
+          dimensions: "58 x 60 1/2 in., o/c",
+          link: "tbsu27",
+          privateCollection: ""
+      },
+      {
+          name: slideDetail2,
+          artistName: "Lorraine Shemesh",
+          title: "Slide - detail",
+          year: "2020",
+          dimensions: "58 x 60 1/2 in., o/c",
+          link: "tbsu28",
           privateCollection: ""
       },
       {
@@ -451,5 +542,33 @@ export const allImagesMobileOrderTsbu = [
           dimensions: "60 1⁄2 x 62 in., o/c",
           link: "tsbu18",
           privateCollection: "Private Collection"
-      }]      
+      },
+      {
+          name: trellis,
+          artistName: "Lorraine Shemesh",
+          title: "Trellis",
+          year: "2020",
+          dimensions: "62 1⁄4 x 60 in., o/c",
+          link: "tbsu23",
+          privateCollection: ""
+      },
+      {
+          name: trellisDetail1,
+          artistName: "Lorraine Shemesh",
+          title: "Trellis - detail",
+          year: "2020",
+          dimensions: "62 1⁄4 x 60 in., o/c",
+          link: "tbsu24",
+          privateCollection: ""
+      },
+      {
+          name: trellisDetail2,
+          artistName: "Lorraine Shemesh",
+          title: "Trellis - detail",
+          year: "2020",
+          dimensions: "62 1⁄4 x 60 in., o/c",
+          link: "tbsu25",
+          privateCollection: ""
+      }
+]      
 ]
