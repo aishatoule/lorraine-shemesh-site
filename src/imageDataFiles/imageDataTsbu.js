@@ -203,12 +203,30 @@ export const allImagesDesktopOrderTsbu = [
       ],
       [
           {
-              name: puzzle,
+              name: trellis,
               artistName: "Lorraine Shemesh",
-              title: "Puzzle",
-              year: "2014",
-              dimensions: "65 x 65 in., o/c",
-              link: "tsbu21",
+              title: "Trellis",
+              year: "2020",
+              dimensions: "62 1⁄4 x 60 in., o/c",
+              link: "tbsu23",
+              privateCollection: ""
+          },
+          {
+              name: trellisDetail1,
+              artistName: "Lorraine Shemesh",
+              title: "Trellis - detail",
+              year: "2020",
+              dimensions: "62 1⁄4 x 60 in., o/c",
+              link: "tbsu24",
+              privateCollection: ""
+          },
+          {
+              name: trellisDetail2,
+              artistName: "Lorraine Shemesh",
+              title: "Trellis - detail",
+              year: "2020",
+              dimensions: "62 1⁄4 x 60 in., o/c",
+              link: "tbsu25",
               privateCollection: ""
           }
       ]
@@ -286,30 +304,12 @@ export const allImagesDesktopOrderTsbu = [
       ],
       [
           {
-              name: trellis,
+              name: puzzle,
               artistName: "Lorraine Shemesh",
-              title: "Trellis",
-              year: "2020",
-              dimensions: "62 1⁄4 x 60 in., o/c",
-              link: "tbsu23",
-              privateCollection: ""
-          },
-          {
-              name: trellisDetail1,
-              artistName: "Lorraine Shemesh",
-              title: "Trellis - detail",
-              year: "2020",
-              dimensions: "62 1⁄4 x 60 in., o/c",
-              link: "tbsu24",
-              privateCollection: ""
-          },
-          {
-              name: trellisDetail2,
-              artistName: "Lorraine Shemesh",
-              title: "Trellis - detail",
-              year: "2020",
-              dimensions: "62 1⁄4 x 60 in., o/c",
-              link: "tbsu25",
+              title: "Puzzle",
+              year: "2014",
+              dimensions: "65 x 65 in., o/c",
+              link: "tsbu21",
               privateCollection: ""
           }
       ]
