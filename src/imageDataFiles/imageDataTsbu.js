@@ -290,7 +290,7 @@ export const allImagesDesktopOrderTsbu = [
               year: "2018",
               dimensions: "60 1⁄2 x 62 in., o/c",
               link: "tsbu17",
-              privateCollection: "Private Collection"
+              privateCollection: ""
           },
           {
               name: tsbu18,
@@ -299,7 +299,7 @@ export const allImagesDesktopOrderTsbu = [
               year: "2018",
               dimensions: "60 1⁄2 x 62 in., o/c",
               link: "tsbu18",
-              privateCollection: "Private Collection"
+              privateCollection: ""
           }
       ],
       [
@@ -532,7 +532,7 @@ export const allImagesMobileOrderTsbu = [
           year: "2018",
           dimensions: "60 1⁄2 x 62 in., o/c",
           link: "tsbu17",
-          privateCollection: "Private Collection"
+          privateCollection: ""
       },
       {
           name: tsbu18,
@@ -541,7 +541,7 @@ export const allImagesMobileOrderTsbu = [
           year: "2018",
           dimensions: "60 1⁄2 x 62 in., o/c",
           link: "tsbu18",
-          privateCollection: "Private Collection"
+          privateCollection: ""
       },
       {
           name: trellis,
