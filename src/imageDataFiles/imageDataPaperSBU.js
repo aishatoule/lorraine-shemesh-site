@@ -1,10 +1,13 @@
 var accordion = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/accordion.jpg';
 var jigsaw = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/jigsaw.jpg';
 var inseparable = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/inseparable.jpg';
-var attached = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/attached.jpg';
+var tippingpoint = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/attached.jpg';
 var blueblack = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/blueblack.jpg';
 var violetlime = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/violetlime.jpg';
 var yellowblack = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/yellowblack.jpg';
+var trellis = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/trellis.jpg';
+var trellisVar1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/trellisVar1.jpg';
+var trellisVar2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paper-sbu/trellisVar2.jpg';
 
 export const allImagesDesktopOrderPaperSBU = [
     [/*COLUMN 1*/
@@ -29,14 +32,43 @@ export const allImagesDesktopOrderPaperSBU = [
                 link: "papersbu2",
                 privateCollection: "Private Collection"
             }
+        ],
+        [
+            {
+                name: trellis,
+                artistName: "Lorraine Shemesh",
+                title: "Trellis",
+                year: "2020", 
+                dimensions: "6 x 7 in., marker on vellum",
+                link: "papersbu8",
+                privateCollection: ""
+            },
+            {
+                name: trellisVar2,
+                artistName: "Lorraine Shemesh",
+                title: "Trellis",
+                year: "2020", 
+                dimensions: "6 x 7 in., marker on vellum",
+                link: "papersbu10",
+                privateCollection: ""
+            },
+            {
+                name: trellisVar1,
+                artistName: "Lorraine Shemesh",
+                title: "Trellis",
+                year: "2020", 
+                dimensions: "6 x 7 in., marker on vellum",
+                link: "papersbu9",
+                privateCollection: ""
+            }
         ]
     ],
     [/*COLUMN 2*/
         [
             {    
-                name: attached,
+                name: tippingpoint,
                 artistName: "Lorraine Shemesh",
-                title: "Attached 3/4 view",
+                title: "Tipping Point",
                 year: "2018",
                 dimensions: "9 x 7 1/2 in., marker on vellum",
                 link: "papersbu4",
@@ -112,9 +144,36 @@ export const allImagesMobileOrderPaperSBU = [
         privateCollection: "Private Collection"
     },
     {
-        name: attached,
+        name: trellis,
         artistName: "Lorraine Shemesh",
-        title: "Attached 3/4 view",
+        title: "Trellis",
+        year: "2020", 
+        dimensions: "6 x 7 in., marker on vellum",
+        link: "papersbu8",
+        privateCollection: ""
+    },
+    {
+        name: trellisVar2,
+        artistName: "Lorraine Shemesh",
+        title: "Trellis",
+        year: "2020", 
+        dimensions: "6 x 7 in., marker on vellum",
+        link: "papersbu10",
+        privateCollection: ""
+    },
+    {
+        name: trellisVar1,
+        artistName: "Lorraine Shemesh",
+        title: "Trellis",
+        year: "2020", 
+        dimensions: "6 x 7 in., marker on vellum",
+        link: "papersbu9",
+        privateCollection: ""
+    },
+    {
+        name: tippingpoint,
+        artistName: "Lorraine Shemesh",
+        title: "Tipping Point",
         year: "2018",
         dimensions: "9 x 7 1/2 in., marker on vellum",
         link: "papersbu4",
