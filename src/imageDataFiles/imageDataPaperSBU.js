@@ -44,21 +44,21 @@ export const allImagesDesktopOrderPaperSBU = [
                 privateCollection: ""
             },
             {
-                name: trellisVar2,
-                artistName: "Lorraine Shemesh",
-                title: "Trellis",
-                year: "2020", 
-                dimensions: "6 x 7 in., marker on vellum",
-                link: "papersbu10",
-                privateCollection: ""
-            },
-            {
                 name: trellisVar1,
                 artistName: "Lorraine Shemesh",
                 title: "Trellis",
                 year: "2020", 
                 dimensions: "6 x 7 in., marker on vellum",
                 link: "papersbu9",
+                privateCollection: ""
+            },
+            {
+                name: trellisVar2,
+                artistName: "Lorraine Shemesh",
+                title: "Trellis",
+                year: "2020", 
+                dimensions: "6 x 7 in., marker on vellum",
+                link: "papersbu10",
                 privateCollection: ""
             }
         ]
@@ -153,21 +153,21 @@ export const allImagesMobileOrderPaperSBU = [
         privateCollection: ""
     },
     {
-        name: trellisVar2,
-        artistName: "Lorraine Shemesh",
-        title: "Trellis",
-        year: "2020", 
-        dimensions: "6 x 7 in., marker on vellum",
-        link: "papersbu10",
-        privateCollection: ""
-    },
-    {
         name: trellisVar1,
         artistName: "Lorraine Shemesh",
         title: "Trellis",
         year: "2020", 
         dimensions: "6 x 7 in., marker on vellum",
         link: "papersbu9",
+        privateCollection: ""
+    },
+    {
+        name: trellisVar2,
+        artistName: "Lorraine Shemesh",
+        title: "Trellis",
+        year: "2020", 
+        dimensions: "6 x 7 in., marker on vellum",
+        link: "papersbu10",
         privateCollection: ""
     },
     {
