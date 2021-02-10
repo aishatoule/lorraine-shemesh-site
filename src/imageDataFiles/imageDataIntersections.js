@@ -157,7 +157,7 @@ export const allImagesDesktopOrderIntersections = [
                 artistName: "Lorraine Shemesh",
                 title: "Tangle",
                 year: "2010",
-                dimensions: "52 x 39 in., o/c",
+                dimensions: "52 x 38 1/2 in., o/c",
                 link: "int16",
                 privateCollection: ""
             },
@@ -166,7 +166,7 @@ export const allImagesDesktopOrderIntersections = [
                 artistName: "Lorraine Shemesh",
                 title: "Tangle - detail",
                 year: "2010",
-                dimensions: "52 x 39 in., o/c",
+                dimensions: "52 x 38 1/2 in., o/c",
                 link: "int16",
                 privateCollection: ""
             }
@@ -298,7 +298,7 @@ export const allImagesMobileOrderIntersections = [
         artistName: "Lorraine Shemesh",
         title: "Tangle",
         year: "2010",
-        dimensions: "52 x 39 in., o/c",
+        dimensions: "52 x 38 1/2 in., o/c",
         link: "int16",
         privateCollection: ""
     },
@@ -307,7 +307,7 @@ export const allImagesMobileOrderIntersections = [
         artistName: "Lorraine Shemesh",
         title: "Tangle - detail",
         year: "2010",
-        dimensions: "52 x 39 in., o/c",
+        dimensions: "52 x 38 1/2 in., o/c",
         link: "int16",
         privateCollection: ""
     }
