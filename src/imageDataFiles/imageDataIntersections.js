@@ -12,6 +12,7 @@ var crossing = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint
 var crossingDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/crossing_detail_6A_colorCorrected.jpg'
 var crossingDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/crossing_detail_6B_colorCorrected.jpg'
 var tangle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/tangle.jpg'
+var tangleDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/tangleDetail1.jpg'
 
 
 
@@ -159,6 +160,15 @@ export const allImagesDesktopOrderIntersections = [
                 dimensions: "52 x 39 in., o/c",
                 link: "int16",
                 privateCollection: ""
+            },
+            {
+                name: tangleDetail1,
+                artistName: "Lorraine Shemesh",
+                title: "Tangle - detail",
+                year: "2010",
+                dimensions: "52 x 39 in., o/c",
+                link: "int16",
+                privateCollection: ""
             }
         ]
     ]          
@@ -287,6 +297,15 @@ export const allImagesMobileOrderIntersections = [
         name: tangle,
         artistName: "Lorraine Shemesh",
         title: "Tangle",
+        year: "2010",
+        dimensions: "52 x 39 in., o/c",
+        link: "int16",
+        privateCollection: ""
+    },
+    {
+        name: tangleDetail1,
+        artistName: "Lorraine Shemesh",
+        title: "Tangle - detail",
         year: "2010",
         dimensions: "52 x 39 in., o/c",
         link: "int16",
