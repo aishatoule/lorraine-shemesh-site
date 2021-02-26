@@ -64,15 +64,6 @@ export const allImagesDesktopOrderLs = [
                 dimensions: "81 3/8 x 51 5/8 in., o/c",
                 link: "ls5",
                 privateCollection: ""
-            },
-            {
-                name: archDetail1,
-                artistName: "Lorraine Shemesh",
-                title: "Archway - detail",
-                year: "2001",
-                dimensions: "81 3/8 x 51 5/8 in., o/c",
-                link: "ls6",
-                privateCollection: ""                            
             }
         ],
         [
@@ -188,15 +179,6 @@ export const allImagesMobileOrderLs = [
         dimensions: "81 3/8 x 51 5/8 in., o/c",
         link: "ls5",
         privateCollection: ""
-    },
-    {
-        name: archDetail1,
-        artistName: "Lorraine Shemesh",
-        title: "Archway - detail",
-        year: "2001",
-        dimensions: "81 3/8 x 51 5/8 in., o/c",
-        link: "ls6",
-        privateCollection: ""                            
     },
     {
         name: arch,
