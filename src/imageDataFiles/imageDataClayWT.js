@@ -12,6 +12,8 @@ var brownwhitetwisttop = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws
 var darkbrownwhiteswirlnervess = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/darkbrownwhiteswirlnervess.jpg';
 var graywhitenerbowl = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/graywhitenerbowl.jpg';
 var tallneckedvessflange = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/tallneckedvesselflange.jpg';
+var bluewhiteswirlvess = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/bluewhiteswirlvess.jpg';
+var openneckbluewhiteswirlvess = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/openneckbluewhiteswirlvess.jpg';
 
 export const allImagesDesktopOrderClayWT = [
     [/*COLUMN 1*/
@@ -124,6 +126,17 @@ export const allImagesDesktopOrderClayWT = [
                 link: "claywt10",
                 privateCollection: ""
             }
+        ],
+        [
+            {
+                name: bluewhiteswirlvess,
+                artistName: "Lorraine Shemesh",
+                title: "Blue & White Swirl Vessel",
+                year: "2015",
+                dimensions: "6 3/4 x 5/1/2 x 5 1/2 in., porcelain",
+                link: "claywt15",
+                privateCollection: "Private Collection"
+            }
         ]
     ],
     [/*COLUMN 3*/
@@ -168,6 +181,17 @@ export const allImagesDesktopOrderClayWT = [
                 year: "1997",
                 dimensions: "16 x 6 x 6 in., porcelain",
                 link: "claywt14",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: openneckbluewhiteswirlvess,
+                artistName: "Lorraine Shemesh",
+                title: "Open Necked Blue & White Swirl Vessel",
+                year: "2016",
+                dimensions: "6 1/2 x 8 x 8 in., porcelain",
+                link: "claywt16",
                 privateCollection: ""
             }
         ]
@@ -265,6 +289,15 @@ export const allImagesMobileOrderClayWT = [
         link: "claywt10",
         privateCollection: ""
     },
+    {
+        name: bluewhiteswirlvess,
+        artistName: "Lorraine Shemesh",
+        title: "Blue & White Swirl Vessel",
+        year: "2015",
+        dimensions: "6 3/4 x 5/1/2 x 5 1/2 in., porcelain",
+        link: "claywt15",
+        privateCollection: "Private Collection"
+    },
     {    
         name: brownwhitetwisttop,
         artistName: "Lorraine Shemesh",
@@ -299,6 +332,15 @@ export const allImagesMobileOrderClayWT = [
         year: "1997",
         dimensions: "16 x 6 x 6 in., porcelain",
         link: "claywt14",
+        privateCollection: ""
+    },
+    {
+        name: openneckbluewhiteswirlvess,
+        artistName: "Lorraine Shemesh",
+        title: "Open Necked Blue & White Swirl Vessel",
+        year: "2016",
+        dimensions: "6 1/2 x 8 x 8 in., porcelain",
+        link: "claywt16",
         privateCollection: ""
     }]      
 ]

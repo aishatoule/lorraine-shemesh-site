@@ -12,6 +12,8 @@ var whitetoasttwistednerovalvessDetail = 'https://lorraineshemeshsiteimgs.s3.us-
 var lgblackwhitespiralnerbowl = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/lgblackwhitespiralnerbowl.jpg';
 var lgblackwhitespiralnerbowlDetail = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/lgblackwhitespiralnerbowl-detail.jpg';
 var sepiawovennercyl = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/sepiawovennercyl.jpg';
+var bluewhitetwistcyl = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/bluewhitetwistcyl.jpg';
+var bluewhitetwistvess = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/bluewhitetwistvess.jpg';
 
 export const allImagesDesktopOrderClayHB = [
     [/*COLUMN 1*/
@@ -45,6 +47,17 @@ export const allImagesDesktopOrderClayHB = [
                 year: "2017",
                 dimensions: "7 3/4 x 10 x 10 1/2 in., stoneware",
                 link: "clayhb3",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: bluewhitetwistcyl,
+                artistName: "Lorraine Shemesh",
+                title: "Blue & White Twist Cylinder",
+                year: "2016",
+                dimensions: "7 x 7 x 7 in., porcelain",
+                link: "clayhb15",
                 privateCollection: ""
             }
         ],
@@ -166,6 +179,17 @@ export const allImagesDesktopOrderClayHB = [
                 link: "clayhb14",
                 privateCollection: ""
             }
+        ],
+        [
+            {
+                name: bluewhitetwistvess,
+                artistName: "Lorraine Shemesh",
+                title: "Blue & White Twist Vessel",
+                year: "2015",
+                dimensions: "7 1/2 x 8 x 8 in., porcelain",
+                link: "clayhb16",
+                privateCollection: ""
+            }
         ]
     ]          
 ]
@@ -196,6 +220,15 @@ export const allImagesMobileOrderClayHB = [
         year: "2017",
         dimensions: "7 3/4 x 10 x 10 1/2 in., stoneware",
         link: "clayhb3",
+        privateCollection: ""
+    },
+    {
+        name: bluewhitetwistcyl,
+        artistName: "Lorraine Shemesh",
+        title: "Blue & White Twist Cylinder",
+        year: "2016",
+        dimensions: "7 x 7 x 7 in., porcelain",
+        link: "clayhb15",
         privateCollection: ""
     },
     {
@@ -295,6 +328,15 @@ export const allImagesMobileOrderClayHB = [
         year: "1998",
         dimensions: "11 x 10 x 10 in., stoneware",
         link: "clayhb14",
+        privateCollection: ""
+    },
+    {
+        name: bluewhitetwistvess,
+        artistName: "Lorraine Shemesh",
+        title: "Blue & White Twist Vessel",
+        year: "2015",
+        dimensions: "7 1/2 x 8 x 8 in., porcelain",
+        link: "clayhb16",
         privateCollection: ""
     }]      
 ]
