@@ -6,11 +6,17 @@ const News = () => {
             <div className="image-section">
                 <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/butler_201905a.jpg'} alt="Lorraine Shemesh at the Butler Institute of American Art"/>
             </div>
+            <div className="image-section">
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/butler_062021.jpg'} alt="Lorraine Shemesh at the Butler Institute of American Art"/>
+            </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>News</b></p>
                 <div className="biography-year-group">
                     <p className="biography-year"><b>2021</b></p>
                     <div className="biography-content-right">
+                        <div className="biography-container">
+                            <p>The painting, <a class="biography-link" href="https://lorraineshemesh.com/insideOut/io8">Crescent</a>, has entered the permanent collection of the Butler Institute of American Art.</p>
+                        </div>
                         <div className="biography-container">
                             <p>Artist-in-Residence, Dartmouth College</p>
                             <p>September - November 2021</p>
