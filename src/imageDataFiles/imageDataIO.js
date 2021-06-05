@@ -190,7 +190,7 @@ export const allImagesDesktopOrderIO = [
                 year: "2013",
                 dimensions: "75 x 48 3/4 in., o/c",
                 link: "io8",
-                privateCollection: ""
+                privateCollection: "Permanent Collection of the Butler Institute of American Art"
             },
             {
                 name: crescentDetail1,
@@ -199,7 +199,7 @@ export const allImagesDesktopOrderIO = [
                 year: "2013",
                 dimensions: "75 x 48 3/4 in., o/c",
                 link: "io18",
-                privateCollection: ""
+                privateCollection: "Permanent Collection of the Butler Institute of American Art"
             },
             {
                 name: crescentDetail2,
@@ -208,7 +208,7 @@ export const allImagesDesktopOrderIO = [
                 year: "2013",
                 dimensions: "75 x 48 3/4 in., o/c",
                 link: "io19",
-                privateCollection: ""
+                privateCollection: "Permanent Collection of the Butler Institute of American Art"
             }
         ]
     ]          
@@ -366,7 +366,7 @@ export const allImagesMobileOrderIO = [
         year: "2013",
         dimensions: "75 x 48 3/4 in., o/c",
         link: "io8",
-        privateCollection: ""
+        privateCollection: "Permanent Collection of the Butler Institute of American Art"
     },
     {
         name: crescentDetail1,
@@ -375,7 +375,7 @@ export const allImagesMobileOrderIO = [
         year: "2013",
         dimensions: "75 x 48 3/4 in., o/c",
         link: "io18",
-        privateCollection: ""
+        privateCollection: "Permanent Collection of the Butler Institute of American Art"
     },
     {
         name: crescentDetail2,
@@ -384,6 +384,6 @@ export const allImagesMobileOrderIO = [
         year: "2013",
         dimensions: "75 x 48 3/4 in., o/c",
         link: "io19",
-        privateCollection: ""
+        privateCollection: "Permanent Collection of the Butler Institute of American Art"
     }]      
 ]
