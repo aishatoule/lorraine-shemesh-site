@@ -10,6 +10,14 @@ const Exhibitions = () => {
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Solo Exhibitions</b></p>
                 <div className="exhibition-year-group">
+                    <p className="exhibition-year"><b>2021</b></p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Holding On</p>
+                        <p className="exhibition-gallery-name"><b>Jaffe-Friede Gallery, Dartmouth College</b>, Hanover, New Hampshire</p>
+                        <p className="exhibition-dates">September 21 - November 14, 2021</p>
+                    </div>
+                </div>
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2019</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
