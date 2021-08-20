@@ -16,10 +16,20 @@ var studio15 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studi
 var studio16 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studio/studio16.jpg';
 var studio17 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studio/studio17.jpg';
 var studio18 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studio/studio18.jpg';
-
+var studio19 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/DSC_1326-cropped-adjusted.jpg';
+var studio20 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studio/IMG_1370_2.jpg';
 
 export const allImagesDesktopOrderStudio = [
     [/*COLUMN 1*/
+        [
+            {
+                name: studio19,
+                captionln1: "",
+                captionln2: "",
+                captionln3: "",
+                link: "studio19"
+            }
+        ],
         [
             {
                 name: studio1,
@@ -134,6 +144,15 @@ export const allImagesDesktopOrderStudio = [
     [/*COLUMN 3*/
         [
             {
+                name: studio20,
+                captionln1: "",
+                captionln2: "",
+                captionln3: "",
+                link: "studio20"
+            }
+        ],
+        [
+            {
                 name: studio13,
                 captionln1: "",
                 captionln2: "",
@@ -191,6 +210,13 @@ export const allImagesDesktopOrderStudio = [
 
 export const allImagesMobileOrderStudio = [
     [{
+        name: studio19,
+        captionln1: "",
+        captionln2: "",
+        captionln3: "",
+        link: "studio19"
+    },
+    {
         name: studio1,
         captionln1: "",
         captionln2: "",
@@ -273,6 +299,13 @@ export const allImagesMobileOrderStudio = [
         captionln2: "",
         captionln3: "",
         link: "studio12"
+    },
+    {
+        name: studio20,
+        captionln1: "",
+        captionln2: "",
+        captionln3: "",
+        link: "studio20"
     },
     {
         name: studio13,
