@@ -12,7 +12,7 @@ const News = () => {
                     <p className="biography-year"><b>2021</b></p>
                     <div className="biography-content-right">
                         <div className="biography-container">
-                            <p>Dartmouth College presents a solo exhibition of Lorraine Shemesh’s work titled, <i>Holding On</i>, September 21 - November 14, 2021, while she is the Artist-in-Residence there. A video of the talk she presented at Dartmouth is <a class="biography-link" href="https://www.youtube.com/watch?v=flLVIib5jlo">available here</a>.</p>
+                            <p>Dartmouth College presents a solo exhibition of Lorraine Shemesh’s work titled, <i>Holding On</i>, September 21 - November 14, 2021, while she is the Artist-in-Residence there.</p>
                         </div>
                         <div className="biography-container">
                             <p>The painting, <a class="biography-link" href="https://lorraineshemesh.com/insideOut/io8">Crescent</a>, has entered the permanent collection of the Butler Institute of American Art.</p>
