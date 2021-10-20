@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Biography from './pages/Biography';
 import Video from './pages/Video';
-import Video_demo from './pages/Video_demo';
 import News from './pages/News';
 import Studio from './pages/Studio';
 import Exhibitions from './pages/Exhibitions';
@@ -86,7 +85,6 @@ function App() {
               <Route path="/contact" component={Contact} />
               <Route path="/biography" component={Biography} />
               <Route path="/video" component={Video} />
-              <Route path="/video_demo" component={Video_demo} />
               <Route path="/news" component={News} />
               <Route path="/studio/:image?" component={Studio} />
               <Route path="/words" component={Words} />
