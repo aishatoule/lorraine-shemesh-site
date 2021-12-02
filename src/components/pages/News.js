@@ -4,13 +4,17 @@ const News = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/holding_on_announcement.jpg'} alt="Announcing Holding On exhibition at Dartmouth College"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/DSC_1326-cropped-adjusted.jpg'} alt="Lorraine Shemesh painting"/>
             </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>News</b></p>
                 <div className="biography-year-group">
                     <p className="biography-year"><b>2021</b></p>
                     <div className="biography-content-right">
+                        <div className="biography-container">
+                            <p><a class="biography-link" href="https://nationalacademy.org/calendar/OutofMany_LorraineShemesh">Out of Many</a>:  Conversation with National Academician, Lorraine Shemesh and curator and cultural historian, Dr. Kelli Morgan</p>
+                            <p>November 23, 2021, at 7:00 PM</p>
+                        </div>
                         <div className="biography-container">
                             <p>Dartmouth College presents a solo exhibition of Lorraine Shemesh’s work titled, <i>Holding On</i>, September 21 - November 14, 2021, while she is the Artist-in-Residence there.</p>
                         </div>
