@@ -14,9 +14,48 @@ var lgblackwhitespiralnerbowlDetail = 'https://lorraineshemeshsiteimgs.s3.us-eas
 var sepiawovennercyl = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/sepiawovennercyl.jpg';
 var bluewhitetwistcyl = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/bluewhitetwistcyl.jpg';
 var bluewhitetwistvess = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/bluewhitetwistvess.jpg';
+var black_white__twist_oblong_nerikomi_vessel2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white__twist_oblong_nerikomi_vessel2.jpg';
+var black_white_checked_nerikomi_bottleFront = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_checked_nerikomi_bottle-front.jpg';
+var black_white_checked_nerikomi_bottleBack = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_checked_nerikomi_bottle-back.jpg';
+var black_white_checked_nerikomi_vessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_checked_nerikomi_vessel.jpg';
+var black_white_tall_swirl_nerikomi_bottle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_tall_swirl_nerikomi_bottle.jpg';
+var black_white_tall_twist_nerikomi_bottle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_tall_twist_nerikomi_bottle.jpg';
+var black_white_wide_swirl_nerikomi_bottle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_wide_swirl_nerikomi_bottle.jpg';
+var black_white_wide_twist_nerikomi_bottle_II = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_wide_twist_nerikomi_bottleII.jpg';
 
 export const allImagesDesktopOrderClayHB = [
     [/*COLUMN 1*/
+        [
+            {
+                name: black_white__twist_oblong_nerikomi_vessel2,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Twist Oblong Nerikomi Vessel",
+                year: "2021",
+                dimensions: "12 1/2 x 11 x 11 1/4 in., porcelain",
+                link: "clayhb17",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: black_white_checked_nerikomi_bottleFront,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Checked Nerikomi Bottle",
+                year: "2021",
+                dimensions: "10 3/4 x 7 1/4 x 2 3/4 in., porcelain",
+                link: "clayhb18",
+                privateCollection: ""
+            },
+            {
+                name: black_white_checked_nerikomi_bottleBack,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Checked Nerikomi Bottle - rear view",
+                year: "2021",
+                dimensions: "10 3/4 x 7 1/4 x 2 3/4 in., porcelain",
+                link: "clayhb19",
+                privateCollection: ""
+            }
+        ],
         [
             {
                 name: blackwhitetiltednervess,
@@ -76,6 +115,39 @@ export const allImagesDesktopOrderClayHB = [
     [/*COLUMN 2*/
         [
             {
+                name: black_white_wide_swirl_nerikomi_bottle,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Wide Swirl Nerikomi Bottle",
+                year: "2021",
+                dimensions: "8 1/2 x 10 1/2 x  3 1/4 in., porcelain",
+                link: "clayhb23",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: black_white_wide_twist_nerikomi_bottle_II,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Wide Twist Nerikomi Bottle II",
+                year: "2021",
+                dimensions: "8 1/2 x 10 1/4 x 3 1/4 in., porcelain",
+                link: "clayhb24",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: black_white_tall_twist_nerikomi_bottle,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Tall Twist Nerikomi Bottle",
+                year: "2021",
+                dimensions: "11 x 8 x 2 3/4 in., porcelain",
+                link: "clayhb22",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
                 name: smcheckedblackwhitenercyl,
                 artistName: "Lorraine Shemesh",
                 title: "Small Checked Black & White Neriage Cylinder",
@@ -129,6 +201,28 @@ export const allImagesDesktopOrderClayHB = [
         ]
     ],
     [/*COLUMN 3*/
+        [
+            {
+                name: black_white_checked_nerikomi_vessel,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Checked Nerikomi Vessel",
+                year: "2021",
+                dimensions: "10 3/4 x 9 5/8 x 9 in., porcelain",
+                link: "clayhb20",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: black_white_tall_swirl_nerikomi_bottle,
+                artistName: "Lorraine Shemesh",
+                title: "Black & White Tall Swirl Nerikomi Bottle",
+                year: "2021",
+                dimensions: "10 5/8  x 7 5/8 x 2 3/4 in., porcelain",
+                link: "clayhb21",
+                privateCollection: ""
+            }
+        ],
         [
             {    
                 name: whitetoasttwistednerovalvess,
@@ -196,6 +290,78 @@ export const allImagesDesktopOrderClayHB = [
 
 export const allImagesMobileOrderClayHB = [
     [{
+        name: black_white__twist_oblong_nerikomi_vessel2,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Twist Oblong Nerikomi Vessel",
+        year: "2021",
+        dimensions: "12 1/2 x 11 x 11 1/4 in., porcelain",
+        link: "clayhb17",
+        privateCollection: ""
+    },
+    {
+        name: black_white_checked_nerikomi_bottleFront,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Checked Nerikomi Bottle",
+        year: "2021",
+        dimensions: "10 3/4 x 7 1/4 x 2 3/4 in., porcelain",
+        link: "clayhb18",
+        privateCollection: ""
+    },
+    {
+        name: black_white_checked_nerikomi_bottleBack,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Checked Nerikomi Bottle - rear view",
+        year: "2021",
+        dimensions: "10 3/4 x 7 1/4 x 2 3/4 in., porcelain",
+        link: "clayhb19",
+        privateCollection: ""
+    },
+    {
+        name: black_white_wide_swirl_nerikomi_bottle,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Wide Swirl Nerikomi Bottle",
+        year: "2021",
+        dimensions: "8 1/2 x 10 1/2 x  3 1/4 in., porcelain",
+        link: "clayhb23",
+        privateCollection: ""
+    },
+    {
+        name: black_white_wide_twist_nerikomi_bottle_II,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Wide Twist Nerikomi Bottle II",
+        year: "2021",
+        dimensions: "8 1/2 x 10 1/4 x 3 1/4 in., porcelain",
+        link: "clayhb24",
+        privateCollection: ""
+    },
+    {
+        name: black_white_tall_twist_nerikomi_bottle,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Tall Twist Nerikomi Bottle",
+        year: "2021",
+        dimensions: "11 x 8 x 2 3/4 in., porcelain",
+        link: "clayhb22",
+        privateCollection: ""
+    },
+    {
+        name: black_white_checked_nerikomi_vessel,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Checked Nerikomi Vessel",
+        year: "2021",
+        dimensions: "10 3/4 x 9 5/8 x 9 in., porcelain",
+        link: "clayhb20",
+        privateCollection: ""
+    },
+    {
+        name: black_white_tall_swirl_nerikomi_bottle,
+        artistName: "Lorraine Shemesh",
+        title: "Black & White Tall Swirl Nerikomi Bottle",
+        year: "2021",
+        dimensions: "10 5/8  x 7 5/8 x 2 3/4 in., porcelain",
+        link: "clayhb21",
+        privateCollection: ""
+    },
+    {
         name: blackwhitetiltednervess,
         artistName: "Lorraine Shemesh",
         title: "Black & White Tilted Neriage Vessel",
