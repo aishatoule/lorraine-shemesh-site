@@ -114,12 +114,12 @@ export const allImagesDesktopOrderClayWT = [
         ],
         [
             {
-                name: hive,
+                name: zigzagneckedneriagevessel,
                 artistName: "Lorraine Shemesh",
-                title: "Hive",
-                year: "2015",
-                dimensions: "10 x 7 x 7 in., stoneware",
-                link: "claywt6",
+                title: "Zig-Zag Necked Neriage Vessel",
+                year: "2021",
+                dimensions: "14 x 5 3/4 x 5 3/4 in., stoneware",
+                link: "claywt21",
                 privateCollection: ""
             }
         ],
@@ -180,12 +180,12 @@ export const allImagesDesktopOrderClayWT = [
     [/*COLUMN 3*/
         [
             {
-                name: zigzagneckedneriagevessel,
+                name: hive,
                 artistName: "Lorraine Shemesh",
-                title: "Zig-Zag Necked Neriage Vessel",
-                year: "2021",
-                dimensions: "14 x 5 3/4 x 5 3/4 in., stoneware",
-                link: "claywt21",
+                title: "Hive",
+                year: "2015",
+                dimensions: "10 x 7 x 7 in., stoneware",
+                link: "claywt6",
                 privateCollection: ""
             }
         ],
