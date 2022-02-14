@@ -26,38 +26,21 @@ var trellisDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com
 var slide = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slide.jpg'
 var slideDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail1.jpg'
 var slideDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail2.jpg'
+var magnet = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/magnet.jpg'
 
 
 export const allImagesDesktopOrderTsbu = [
   [/*COLUMN 1*/
       [
           {
-              name: attached,
+              name: magnet,
               artistName: "Lorraine Shemesh",
-              title: "Attached",
-              year: "2018",
-              dimensions: "64 x 61 1/2 in., o/c",
-              link: "tsbu4",
-              privateCollection: "Private Collection"
+              title: "Magnet",
+              year: "2021",
+              dimensions: "65 x 50 in., o/c",
+              link: "tsbu29",
+              privateCollection: ""
           },
-          {
-              name: attachedDetail1,
-              artistName: "Lorraine Shemesh",
-              title: "Attached - detail",
-              year: "2018",
-              dimensions: "64 x 61 1/2 in., o/c",
-              link: "tsbu5",
-              privateCollection: "Private Collection"
-          },
-          {
-              name: attachedDetail2,
-              artistName: "Lorraine Shemesh",
-              title: "Attached - detail",
-              year: "2018",
-              dimensions: "64 x 61 1/2 in., o/c",
-              link: "tsbu6",
-              privateCollection: "Private Collection"
-          }
       ],
       [
           {
@@ -121,31 +104,31 @@ export const allImagesDesktopOrderTsbu = [
       ],
       [
           {
-              name: slide,
+              name: attached,
               artistName: "Lorraine Shemesh",
-              title: "Slide",
-              year: "2020",
-              dimensions: "58 x 60 1/2 in., o/c",
-              link: "tbsu26",
-              privateCollection: ""
+              title: "Attached",
+              year: "2018",
+              dimensions: "64 x 61 1/2 in., o/c",
+              link: "tsbu4",
+              privateCollection: "Private Collection"
           },
           {
-              name: slideDetail1,
+              name: attachedDetail1,
               artistName: "Lorraine Shemesh",
-              title: "Slide - detail",
-              year: "2020",
-              dimensions: "58 x 60 1/2 in., o/c",
-              link: "tbsu27",
-              privateCollection: ""
+              title: "Attached - detail",
+              year: "2018",
+              dimensions: "64 x 61 1/2 in., o/c",
+              link: "tsbu5",
+              privateCollection: "Private Collection"
           },
           {
-              name: slideDetail2,
+              name: attachedDetail2,
               artistName: "Lorraine Shemesh",
-              title: "Slide - detail",
-              year: "2020",
-              dimensions: "58 x 60 1/2 in., o/c",
-              link: "tbsu28",
-              privateCollection: ""
+              title: "Attached - detail",
+              year: "2018",
+              dimensions: "64 x 61 1/2 in., o/c",
+              link: "tsbu6",
+              privateCollection: "Private Collection"
           }
       ]
   ],
@@ -318,6 +301,15 @@ export const allImagesDesktopOrderTsbu = [
 
 export const allImagesMobileOrderTsbu = [
     [{
+          name: magnet,
+          artistName: "Lorraine Shemesh",
+          title: "Magnet",
+          year: "2021",
+          dimensions: "65 x 50 in., o/c",
+          link: "tsbu29",
+          privateCollection: ""
+      },
+      {
           name: attached,
           artistName: "Lorraine Shemesh",
           title: "Attached",
