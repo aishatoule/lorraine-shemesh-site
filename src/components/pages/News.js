@@ -4,10 +4,18 @@ const News = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/DSC_1326-cropped-adjusted.jpg'} alt="Lorraine Shemesh painting"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/hoodmuseum.jpg'} alt="Hood Museum of Art, Dartmouth"/>
             </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>News</b></p>
+                <div className="biography-year-group">
+                    <p className="biography-year"><b>2022</b></p>
+                    <div className="biography-content-right">
+                        <div className="biography-container">
+                            <p>The painting, <a class="biography-link" href="https://lorraineshemesh.com/spaceBetweenUs/tsbu29">Magnet</a>, from the solo exhibition at Dartmouth College titled, <i>Holding On</i>, has been acquired by the Hood Museum of Art for its Permanent Collection.</p>
+                        </div>
+                    </div>
+                </div>
                 <div className="biography-year-group">
                     <p className="biography-year"><b>2021</b></p>
                     <div className="biography-content-right">

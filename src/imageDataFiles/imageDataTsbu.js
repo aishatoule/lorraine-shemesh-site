@@ -39,7 +39,7 @@ export const allImagesDesktopOrderTsbu = [
               year: "2021",
               dimensions: "65 x 50 in., o/c",
               link: "tsbu29",
-              privateCollection: ""
+              privateCollection: "Permanent Collection of the Hood Museum of Art"
           },
       ],
       [
@@ -307,7 +307,7 @@ export const allImagesMobileOrderTsbu = [
           year: "2021",
           dimensions: "65 x 50 in., o/c",
           link: "tsbu29",
-          privateCollection: ""
+          privateCollection: "Permanent Collection of the Hood Museum of Art"
       },
       {
           name: attached,
