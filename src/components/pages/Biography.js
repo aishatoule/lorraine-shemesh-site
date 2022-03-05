@@ -155,7 +155,7 @@ const Biography = () => {
                 <div className="biography-year-group">
                 	<div className="biography-content-left">
                         <div className="biography-container">
-	                        <p className="biography-listing"><b>Hood Museum of Art, Dartmouth</b>, Hanover, New Hampshire.</p>
+	                        <p className="biography-listing"><b>Hood Museum of Art</b>, Hanover, New Hampshire.</p>
 	                    </div>
                         <div className="biography-container">
 	                        <p className="biography-listing"><b>Danforth Museum</b>, Framingham, Massachusetts.</p>
