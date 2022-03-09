@@ -14,14 +14,14 @@ const Contact = () => {
                 <p>24 East 78th Street</p>
                 <p>New York, NY 10075</p>
                 <p>212-628-9760</p>
-                <p className="gallery-website"><a href="https://www.gpgallery.com/" target="_blank" rel="noopener noreferrer">gpgallery.com</a></p>
+                <p className="gallery-website"><a href="https://gpgallery.com/artist/lorraine-shemesh/" target="_blank" rel="noopener noreferrer">gpgallery.com</a></p>
             </div> 
             <div className="gallery-information-container">
                 <p><b>Santa Fe</b></p>
                 <p>1011 Paseo de Peralta</p>
                 <p>Santa Fe, NM 87501</p>
                 <p>505-954-5800</p>
-                <p className="gallery-website"><a href="http://www.petersprojects.com/" target="_blank" rel="noopener noreferrer">gpgallery.com</a></p>
+                <p className="gallery-website"><a href="https://gpgallery.com/artist/lorraine-shemesh/" target="_blank" rel="noopener noreferrer">gpgallery.com</a></p>
             </div> 
             <div className="contact-address-section">
                 <div className="contact-address-container">
