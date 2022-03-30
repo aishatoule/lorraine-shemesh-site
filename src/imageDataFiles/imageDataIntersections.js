@@ -13,11 +13,22 @@ var crossingDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.co
 var crossingDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/crossing_detail_6B_colorCorrected.jpg'
 var tangle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/tangle.jpg'
 var tangleDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/tangleDetail1.jpg'
-
+var knot =  'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-int/knot.jpg'
 
 
 export const allImagesDesktopOrderIntersections = [
     [/*COLUMN 1*/
+        [
+            {
+                name: knot,
+                artistName: "Lorraine Shemesh",
+                title: "Knot",
+                year: "2021",
+                dimensions: "48 x 46 5/8 in., o/c",
+                link: "int17",
+                privateCollection: ""
+            }
+        ],
         [
             {
                 name: zipper,
@@ -177,6 +188,15 @@ export const allImagesDesktopOrderIntersections = [
 
 export const allImagesMobileOrderIntersections = [
     [{
+        name: knot,
+        artistName: "Lorraine Shemesh",
+        title: "Knot",
+        year: "2021",
+        dimensions: "48 x 46 5/8 in., o/c",
+        link: "int17",
+        privateCollection: ""
+    },
+    {
         name: intersection,
         artistName: "Lorraine Shemesh",
         title: "Intersection",
