@@ -212,6 +212,35 @@ export const allImagesDesktopOrderTsbu = [
               link: "tbsu25",
               privateCollection: ""
           }
+      ],
+      [
+          {
+              name: slide,
+              artistName: "Lorraine Shemesh",
+              title: "Slide",
+              year: "2020",
+              dimensions: "58 x 60 1/2 in., o/c",
+              link: "tbsu26",
+              privateCollection: ""
+          },
+          {
+              name: slideDetail1,
+              artistName: "Lorraine Shemesh",
+              title: "Slide - detail",
+              year: "2020",
+              dimensions: "58 x 60 1/2 in., o/c",
+              link: "tbsu27",
+              privateCollection: ""
+          },
+          {
+              name: slideDetail2,
+              artistName: "Lorraine Shemesh",
+              title: "Slide - detail",
+              year: "2020",
+              dimensions: "58 x 60 1/2 in., o/c",
+              link: "tbsu28",
+              privateCollection: ""
+          }
       ]
   ],
   [/*COLUMN 3*/

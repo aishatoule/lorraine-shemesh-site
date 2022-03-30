@@ -4,7 +4,7 @@ const News = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/hoodmuseum.jpg'} alt="Hood Museum of Art, Dartmouth"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/HoodMuseumOfArt.jpg'} alt="Hood Museum of Art, Dartmouth"/>
             </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>News</b></p>
