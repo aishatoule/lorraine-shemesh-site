@@ -18,6 +18,7 @@ var studio17 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studi
 var studio18 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studio/studio18.jpg';
 var studio19 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/DSC_1326-cropped-adjusted.jpg';
 var studio20 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/studio/IMG_1370_2.jpg';
+var studio21 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/exhibitions_StudioShot.jpg';
 
 export const allImagesDesktopOrderStudio = [
     [/*COLUMN 1*/
@@ -138,6 +139,15 @@ export const allImagesDesktopOrderStudio = [
                 captionln2: "",
                 captionln3: "",
                 link: "studio12"
+            }
+        ],
+        [
+            {
+                name: studio21,
+                captionln1: "",
+                captionln2: "",
+                captionln3: "",
+                link: "studio21"
             }
         ]
     ],
@@ -299,6 +309,13 @@ export const allImagesMobileOrderStudio = [
         captionln2: "",
         captionln3: "",
         link: "studio12"
+    },
+    {
+        name: studio21,
+        captionln1: "",
+        captionln2: "",
+        captionln3: "",
+        link: "studio21"
     },
     {
         name: studio20,
