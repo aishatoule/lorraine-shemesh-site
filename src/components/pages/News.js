@@ -12,7 +12,10 @@ const News = () => {
                     <p className="biography-year"><b>2022</b></p>
                     <div className="biography-content-right">
                         <div className="biography-container">
-                            <p>The painting, <a class="biography-link" href="https://lorraineshemesh.com/spaceBetweenUs/tsbu29">Magnet</a>, from the solo exhibition at Dartmouth College titled, <i>Holding On</i>, has been acquired by the Hood Museum of Art for its Permanent Collection.</p>
+                            <p>The National Academy of Design presents Lorraine Shemesh in conversation with the artist, Frances Barth, as part of their Exquisite Corpse Podcast.  <a class="biography-link" href="https://nationalacademy.org/perspectives/exquisite-corpse-s2e3">Listen here</a>.</p>
+                        </div>
+                        <div className="biography-container">
+                            <p>Lorraine Shemesh's painting, <a class="biography-link" href="https://lorraineshemesh.com/spaceBetweenUs/tsbu29">Magnet</a>, from the solo exhibition at Dartmouth College titled, <i>Holding On</i>, has been acquired by the Hood Museum of Art for its Permanent Collection.</p>
                         </div>
                     </div>
                 </div>
