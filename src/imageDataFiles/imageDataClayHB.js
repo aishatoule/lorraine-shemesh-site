@@ -60,7 +60,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: blackwhitetiltednervess,
                 artistName: "Lorraine Shemesh",
-                title: "Black & White Tilted Neriage Vessel",
+                title: "Black & White Tilted Nerikomi Vessel",
                 year: "2011",
                 dimensions: "4 1/2 x 11 x 7 1/2 in., porcelain",
                 link: "clayhb1",
@@ -71,7 +71,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: lgblackwhitewovennercyl,
                 artistName: "Lorraine Shemesh",
-                title: "Large Black & White Woven Neriage Cylinder",
+                title: "Black & White Woven Nerikomi Cylinder",
                 year: "2017",
                 dimensions: "9 x 9 1/2 x 8 1/2 in., porcelain",
                 link: "clayhb2",
@@ -150,7 +150,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: smcheckedblackwhitenercyl,
                 artistName: "Lorraine Shemesh",
-                title: "Small Checked Black & White Neriage Cylinder",
+                title: "Small Checked Black & White Nerikomi Cylinder",
                 year: "2015",
                 dimensions: "5 1/8 x 5 x 5 in., porcelain",
                 link: "clayhb5",
@@ -172,7 +172,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: toastbrownspiralnerbowl,
                 artistName: "Lorraine Shemesh",
-                title: "Toast & Brown Spiral Neriage Bowl",
+                title: "Toast & Brown Spiral Nerikomi Bowl",
                 year: "2011",
                 dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
                 link: "clayhb7",
@@ -181,7 +181,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: toastbrownspiralnerbowlDetail,
                 artistName: "Lorraine Shemesh",
-                title: "Toast & Brown Spiral Neriage Bowl - detail",
+                title: "Toast & Brown Spiral Nerikomi Bowl - detail",
                 year: "2011",
                 dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
                 link: "clayhb8",
@@ -192,7 +192,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: lgblackwhitetwistednercyl,
                 artistName: "Lorraine Shemesh",
-                title: "Large Black & White Twisted Neriage Cylinder",
+                title: "Large Black & White Twisted Nerikomi Cylinder",
                 year: "2011",
                 dimensions: "9 1/4 x 9 3/4 x 9 1/2 in., porcelain",
                 link: "clayhb9",
@@ -227,7 +227,7 @@ export const allImagesDesktopOrderClayHB = [
             {    
                 name: whitetoasttwistednerovalvess,
                 artistName: "Lorraine Shemesh",
-                title: "White & Toast Twisted Neriage Oval Vessel",
+                title: "White & Toast Twisted Vessel",
                 year: "2011",
                 dimensions: "8 x 10 x 8 3/4 in., porcelain & stoneware",
                 link: "clayhb10",
@@ -236,7 +236,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: whitetoasttwistednerovalvessDetail,
                 artistName: "Lorraine Shemesh",
-                title: "White & Toast Twisted Neriage Oval Vessel - detail",
+                title: "White & Toast Twisted Vessel - detail",
                 year: "2011",
                 dimensions: "8 x 10 x 8 3/4 in., porcelain & stoneware",
                 link: "clayhb11",
@@ -247,7 +247,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: lgblackwhitespiralnerbowl,
                 artistName: "Lorraine Shemesh",
-                title: "Large Black & White Spiral Neriage Bowl",
+                title: "Large Black & White Spiral Nerikomi Bowl",
                 year: "2000",
                 dimensions: "5 x 20 x 20 in., porcelain",
                 link: "clayhb12",
@@ -256,7 +256,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: lgblackwhitespiralnerbowlDetail,
                 artistName: "Lorraine Shemesh",
-                title: "Large Black & White Spiral Neriage Bowl - detail",
+                title: "Large Black & White Spiral Nerikomi Bowl - detail",
                 year: "2000",
                 dimensions: "5 x 20 x 20 in., porcelain",
                 link: "clayhb13",
@@ -267,7 +267,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: sepiawovennercyl,
                 artistName: "Lorraine Shemesh",
-                title: "Sepia Woven Neriage Cylinder",
+                title: "Sepia Woven Nerikomi Cylinder",
                 year: "1998",
                 dimensions: "11 x 10 x 10 in., stoneware",
                 link: "clayhb14",
@@ -364,7 +364,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: blackwhitetiltednervess,
         artistName: "Lorraine Shemesh",
-        title: "Black & White Tilted Neriage Vessel",
+        title: "Black & White Tilted Nerikomi Vessel",
         year: "2011",
         dimensions: "4 1/2 x 11 x 7 1/2 in., porcelain",
         link: "clayhb1",
@@ -373,7 +373,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: lgblackwhitewovennercyl,
         artistName: "Lorraine Shemesh",
-        title: "Large Black & White Woven Neriage Cylinder",
+        title: "Black & White Woven Nerikomi Cylinder",
         year: "2017",
         dimensions: "9 x 9 1/2 x 8 1/2 in., porcelain",
         link: "clayhb2",
@@ -409,7 +409,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: smcheckedblackwhitenercyl,
         artistName: "Lorraine Shemesh",
-        title: "Small Checked Black & White Neriage Cylinder",
+        title: "Small Checked Black & White Nerikomi Cylinder",
         year: "2015",
         dimensions: "5 1/8 x 5 x 5 in., porcelain",
         link: "clayhb5",
@@ -427,7 +427,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: toastbrownspiralnerbowl,
         artistName: "Lorraine Shemesh",
-        title: "Toast & Brown Spiral Neriage Bowl",
+        title: "Toast & Brown Spiral Nerikomi Bowl",
         year: "2011",
         dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
         link: "clayhb7",
@@ -436,7 +436,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: toastbrownspiralnerbowlDetail,
         artistName: "Lorraine Shemesh",
-        title: "Toast & Brown Spiral Neriage Bowl - detail",
+        title: "Toast & Brown Spiral Nerikomi Bowl - detail",
         year: "2011",
         dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
         link: "clayhb8",
@@ -445,7 +445,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: lgblackwhitetwistednercyl,
         artistName: "Lorraine Shemesh",
-        title: "Large Black & White Twisted Neriage Cylinder",
+        title: "Large Black & White Twisted Nerikomi Cylinder",
         year: "2011",
         dimensions: "9 1/4 x 9 3/4 x 9 1/2 in., porcelain",
         link: "clayhb9",
@@ -454,7 +454,7 @@ export const allImagesMobileOrderClayHB = [
     {    
         name: whitetoasttwistednerovalvess,
         artistName: "Lorraine Shemesh",
-        title: "White & Toast Twisted Neriage Oval Vessel",
+        title: "White & Toast Twisted Vessel",
         year: "2011",
         dimensions: "8 x 10 x 8 3/4 in., porcelain & stoneware",
         link: "clayhb10",
@@ -463,7 +463,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: whitetoasttwistednerovalvessDetail,
         artistName: "Lorraine Shemesh",
-        title: "White & Toast Twisted Neriage Oval Vessel - detail",
+        title: "White & Toast Twisted Vessel - detail",
         year: "2011",
         dimensions: "8 x 10 x 8 3/4 in., porcelain & stoneware",
         link: "clayhb11",
@@ -472,7 +472,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: lgblackwhitespiralnerbowl,
         artistName: "Lorraine Shemesh",
-        title: "Large Black & White Spiral Neriage Bowl",
+        title: "Large Black & White Spiral Nerikomi Bowl",
         year: "2000",
         dimensions: "5 x 20 x 20 in., porcelain",
         link: "clayhb12",
@@ -481,7 +481,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: lgblackwhitespiralnerbowlDetail,
         artistName: "Lorraine Shemesh",
-        title: "Large Black & White Spiral Neriage Bowl - detail",
+        title: "Large Black & White Spiral Nerikomi Bowl - detail",
         year: "2000",
         dimensions: "5 x 20 x 20 in., porcelain",
         link: "clayhb13",
@@ -490,7 +490,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: sepiawovennercyl,
         artistName: "Lorraine Shemesh",
-        title: "Sepia Woven Neriage Cylinder",
+        title: "Sepia Woven Nerikomi Cylinder",
         year: "1998",
         dimensions: "11 x 10 x 10 in., stoneware",
         link: "clayhb14",
