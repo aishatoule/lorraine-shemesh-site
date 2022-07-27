@@ -119,7 +119,7 @@ export const allImagesDesktopOrderIntersections = [
                 year: "2007",
                 dimensions: "72 1⁄4 x 52 1/4 in., o/c",
                 link: "int3",
-                privateCollection: ""
+                privateCollection: "Permanent Collection of The National Academy of Design"
             },
             {
                 name: intersectionDetail1,
@@ -128,7 +128,7 @@ export const allImagesDesktopOrderIntersections = [
                 year: "2007",
                 dimensions: "72 1⁄4 x 52 1/4 in., o/c",
                 link: "int4",
-                privateCollection: ""
+                privateCollection: "Permanent Collection of The National Academy of Design"
             }
         ],
     ],
