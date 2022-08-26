@@ -12,6 +12,9 @@ const News = () => {
                     <p className="biography-year"><b>2022</b></p>
                     <div className="biography-content-right">
                         <div className="biography-container">
+                            <p>Lorraine Shemesh's painting, <a class="biography-link" href="https://lorraineshemesh.com/intersections/int3">Intersection</a>, has entered the Permanent Collection of the National Academy of Design.</p>
+                        </div>
+                        <div className="biography-container">
                             <p>Lorraine Shemesh's painting, <a class="biography-link" href="https://lorraineshemesh.com/spaceBetweenUs/tsbu29">Magnet</a>, from the solo exhibition at Dartmouth College titled, <i>Holding On</i>, has been acquired by the Hood Museum of Art for its Permanent Collection.</p>
                         </div>
                         <div className="biography-container">

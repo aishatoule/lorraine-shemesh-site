@@ -1,6 +1,7 @@
 import React from 'react';
 import emailIcon from '../../images/icons/emailIcon.svg';
 import instagramIcon from '../../images/icons/instagramIcon.svg';
+import wikipediaIcon from '../../images/icons/wikipediaIcon.svg';
 
 const Contact = () => {
     var currentYear = new Date().getFullYear();
@@ -31,6 +32,10 @@ const Contact = () => {
                 <div className="contact-address-container">
                     <img src={instagramIcon} className="contact-type-icon" alt="instagram icon"/>
                     <p className="contact-address-text"><a href="https://www.instagram.com/lorraine.shemesh/" target="_blank" rel="noopener noreferrer">Instagram: @lorraine.shemesh</a></p>
+                </div>
+                <div className="contact-address-container">
+                    <img src={wikipediaIcon} className="contact-type-icon" alt="wikipedia icon"/>
+                    <p className="contact-address-text"><a href="https://en.wikipedia.org/wiki/Lorraine_Shemesh" target="_blank" rel="noopener noreferrer">Wikipedia: Lorraine Shemesh</a></p>
                 </div>
             </div>
             <div className="legal-text">
