@@ -27,10 +27,22 @@ var slide = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sb
 var slideDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail1.jpg'
 var slideDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail2.jpg'
 var magnet = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/magnet.jpg'
+var clasp = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/clasp.jpg'
 
 
 export const allImagesDesktopOrderTsbu = [
   [/*COLUMN 1*/
+      [
+          {
+              name: clasp,
+              artistName: "Lorraine Shemesh",
+              title: "Clasp",
+              year: "2022",
+              dimensions: "55 11/16 x 53 5/8 in., o/c",
+              link: "tsbu30",
+              privateCollection: ""
+          },
+      ],
       [
           {
               name: magnet,
@@ -329,7 +341,17 @@ export const allImagesDesktopOrderTsbu = [
 ]
 
 export const allImagesMobileOrderTsbu = [
-    [{
+    [
+      {
+          name: clasp,
+          artistName: "Lorraine Shemesh",
+          title: "Clasp",
+          year: "2022",
+          dimensions: "55 11/16 x 53 5/8 in., o/c",
+          link: "tsbu30",
+          privateCollection: ""
+      },
+      {
           name: magnet,
           artistName: "Lorraine Shemesh",
           title: "Magnet",
