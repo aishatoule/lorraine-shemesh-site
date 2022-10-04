@@ -17,6 +17,7 @@ import Exhibition_butler from './pages/Exhibitions/Exhibition_butler';
 import Exhibition_intersections from './pages/Exhibitions/Exhibition_intersections';
 import Exhibition_insideout from './pages/Exhibitions/Exhibition_insideout';
 import IndividualPhoto from './pages/IndividualPhoto';
+import HoldingOn from './pages/Paint/HoldingOn';
 import SpaceBetweenUs from './pages/Paint/SpaceBetweenUs';
 import Intersections from './pages/Paint/Intersections';
 import InsideOut from './pages/Paint/InsideOut';
@@ -68,6 +69,7 @@ function App() {
           <div className="page-content">
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route path="/holdingOn/:image?" component={HoldingOn} />
               <Route path="/spaceBetweenUs/:image?" component={SpaceBetweenUs} />
               <Route path="/intersections/:image?" component={Intersections} />
               <Route path="/insideOut/:image?" component={InsideOut} />

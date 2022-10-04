@@ -19,49 +19,47 @@ var tsbu18 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-s
 var tsbu19 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu19.jpg'
 var enclosure = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu20.jpg'
 var puzzle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/tsbu21.jpg'
-var jigsaw = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/jigsaw.jpg'
-var trellis = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/trellis.jpg'
-var trellisDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/trellisDetail1.jpg'
-var trellisDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/trellisDetail2.jpg'
-var slide = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slide.jpg'
-var slideDetail1 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail1.jpg'
-var slideDetail2 = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/slideDetail2.jpg'
-var magnet = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/magnet.jpg'
-var clasp = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/clasp.jpg'
 
 
 export const allImagesDesktopOrderTsbu = [
   [/*COLUMN 1*/
       [
           {
-              name: clasp,
+              name: attached,
               artistName: "Lorraine Shemesh",
-              title: "Clasp",
-              year: "2022",
-              dimensions: "55 11/16 x 53 5/8 in., o/c",
-              link: "tsbu30",
-              privateCollection: ""
+              title: "Attached",
+              year: "2018",
+              dimensions: "64 x 61 1/2 in., o/c",
+              link: "tsbu4",
+              privateCollection: "Private Collection"
           },
+          {
+              name: attachedDetail1,
+              artistName: "Lorraine Shemesh",
+              title: "Attached - detail",
+              year: "2018",
+              dimensions: "64 x 61 1/2 in., o/c",
+              link: "tsbu5",
+              privateCollection: "Private Collection"
+          },
+          {
+              name: attachedDetail2,
+              artistName: "Lorraine Shemesh",
+              title: "Attached - detail",
+              year: "2018",
+              dimensions: "64 x 61 1/2 in., o/c",
+              link: "tsbu6",
+              privateCollection: "Private Collection"
+          }
       ],
       [
           {
-              name: magnet,
+              name: enclosure,
               artistName: "Lorraine Shemesh",
-              title: "Magnet",
-              year: "2021",
-              dimensions: "65 x 50 in., o/c",
-              link: "tsbu29",
-              privateCollection: "Permanent Collection of the Hood Museum of Art"
-          },
-      ],
-      [
-          {
-              name: sway,
-              artistName: "Lorraine Shemesh",
-              title: "Sway",
-              year: "2019",
-              dimensions: "72 x 57 1⁄2 in., o/c",
-              link: "tsbu7",
+              title: "Enclosure",
+              year: "2017",
+              dimensions: "60 1⁄2 x 49 1⁄2 in., o/c",
+              link: "tsbu20",
               privateCollection: ""
           }
       ],
@@ -113,47 +111,18 @@ export const allImagesDesktopOrderTsbu = [
               link: "tsbu13",
               privateCollection: ""
           }
-      ],
-      [
-          {
-              name: attached,
-              artistName: "Lorraine Shemesh",
-              title: "Attached",
-              year: "2018",
-              dimensions: "64 x 61 1/2 in., o/c",
-              link: "tsbu4",
-              privateCollection: "Private Collection"
-          },
-          {
-              name: attachedDetail1,
-              artistName: "Lorraine Shemesh",
-              title: "Attached - detail",
-              year: "2018",
-              dimensions: "64 x 61 1/2 in., o/c",
-              link: "tsbu5",
-              privateCollection: "Private Collection"
-          },
-          {
-              name: attachedDetail2,
-              artistName: "Lorraine Shemesh",
-              title: "Attached - detail",
-              year: "2018",
-              dimensions: "64 x 61 1/2 in., o/c",
-              link: "tsbu6",
-              privateCollection: "Private Collection"
-          }
       ]
   ],
   [/*COLUMN 2*/
       [
           {
-              name: jigsaw,
+              name: puzzle,
               artistName: "Lorraine Shemesh",
-              title: "Jigsaw",
+              title: "Puzzle",
               year: "2014",
-              dimensions: "60 x 51 in., o/c",
-              link: "tsbu22",
-              privateCollection: "Private Collection"
+              dimensions: "65 x 65 in., o/c",
+              link: "tsbu21",
+              privateCollection: ""
           }
       ],
       [
@@ -187,70 +156,12 @@ export const allImagesDesktopOrderTsbu = [
       ],
       [
           {
-              name: enclosure,
+              name: sway,
               artistName: "Lorraine Shemesh",
-              title: "Enclosure",
-              year: "2017",
-              dimensions: "60 1⁄2 x 49 1⁄2 in., o/c",
-              link: "tsbu20",
-              privateCollection: ""
-          }
-      ],
-      [
-          {
-              name: trellis,
-              artistName: "Lorraine Shemesh",
-              title: "Trellis",
-              year: "2020",
-              dimensions: "62 1⁄4 x 60 in., o/c",
-              link: "tbsu23",
-              privateCollection: ""
-          },
-          {
-              name: trellisDetail1,
-              artistName: "Lorraine Shemesh",
-              title: "Trellis - detail",
-              year: "2020",
-              dimensions: "62 1⁄4 x 60 in., o/c",
-              link: "tbsu24",
-              privateCollection: ""
-          },
-          {
-              name: trellisDetail2,
-              artistName: "Lorraine Shemesh",
-              title: "Trellis - detail",
-              year: "2020",
-              dimensions: "62 1⁄4 x 60 in., o/c",
-              link: "tbsu25",
-              privateCollection: ""
-          }
-      ],
-      [
-          {
-              name: slide,
-              artistName: "Lorraine Shemesh",
-              title: "Slide",
-              year: "2020",
-              dimensions: "58 x 60 1/2 in., o/c",
-              link: "tbsu26",
-              privateCollection: ""
-          },
-          {
-              name: slideDetail1,
-              artistName: "Lorraine Shemesh",
-              title: "Slide - detail",
-              year: "2020",
-              dimensions: "58 x 60 1/2 in., o/c",
-              link: "tbsu27",
-              privateCollection: ""
-          },
-          {
-              name: slideDetail2,
-              artistName: "Lorraine Shemesh",
-              title: "Slide - detail",
-              year: "2020",
-              dimensions: "58 x 60 1/2 in., o/c",
-              link: "tbsu28",
+              title: "Sway",
+              year: "2019",
+              dimensions: "72 x 57 1⁄2 in., o/c",
+              link: "tsbu7",
               privateCollection: ""
           }
       ]
@@ -325,41 +236,12 @@ export const allImagesDesktopOrderTsbu = [
               link: "tsbu18",
               privateCollection: ""
           }
-      ],
-      [
-          {
-              name: puzzle,
-              artistName: "Lorraine Shemesh",
-              title: "Puzzle",
-              year: "2014",
-              dimensions: "65 x 65 in., o/c",
-              link: "tsbu21",
-              privateCollection: ""
-          }
       ]
   ]          
 ]
 
 export const allImagesMobileOrderTsbu = [
     [
-      {
-          name: clasp,
-          artistName: "Lorraine Shemesh",
-          title: "Clasp",
-          year: "2022",
-          dimensions: "55 11/16 x 53 5/8 in., o/c",
-          link: "tsbu30",
-          privateCollection: ""
-      },
-      {
-          name: magnet,
-          artistName: "Lorraine Shemesh",
-          title: "Magnet",
-          year: "2021",
-          dimensions: "65 x 50 in., o/c",
-          link: "tsbu29",
-          privateCollection: "Permanent Collection of the Hood Museum of Art"
-      },
       {
           name: attached,
           artistName: "Lorraine Shemesh",
@@ -388,12 +270,12 @@ export const allImagesMobileOrderTsbu = [
           privateCollection: "Private Collection"
       },
       {
-          name: sway,
+          name: enclosure,
           artistName: "Lorraine Shemesh",
-          title: "Sway",
-          year: "2019",
-          dimensions: "72 x 57 1⁄2 in., o/c",
-          link: "tsbu7",
+          title: "Enclosure",
+          year: "2017",
+          dimensions: "60 1⁄2 x 49 1⁄2 in., o/c",
+          link: "tsbu20",
           privateCollection: ""
       },
       {
@@ -442,40 +324,13 @@ export const allImagesMobileOrderTsbu = [
           privateCollection: ""
       },
       {
-          name: slide,
+          name: puzzle,
           artistName: "Lorraine Shemesh",
-          title: "Slide",
-          year: "2020",
-          dimensions: "58 x 60 1/2 in., o/c",
-          link: "tbsu26",
-          privateCollection: ""
-      },
-      {
-          name: slideDetail1,
-          artistName: "Lorraine Shemesh",
-          title: "Slide - detail",
-          year: "2020",
-          dimensions: "58 x 60 1/2 in., o/c",
-          link: "tbsu27",
-          privateCollection: ""
-      },
-      {
-          name: slideDetail2,
-          artistName: "Lorraine Shemesh",
-          title: "Slide - detail",
-          year: "2020",
-          dimensions: "58 x 60 1/2 in., o/c",
-          link: "tbsu28",
-          privateCollection: ""
-      },
-      {
-          name: jigsaw,
-          artistName: "Lorraine Shemesh",
-          title: "Jigsaw",
+          title: "Puzzle",
           year: "2014",
-          dimensions: "60 x 51 in., o/c",
-          link: "tsbu22",
-          privateCollection: "Private Collection"
+          dimensions: "65 x 65 in., o/c",
+          link: "tsbu21",
+          privateCollection: ""
       },
       {
           name: tsbu1,
@@ -505,21 +360,12 @@ export const allImagesMobileOrderTsbu = [
           privateCollection: ""
       },
       {
-          name: enclosure,
+          name: sway,
           artistName: "Lorraine Shemesh",
-          title: "Enclosure",
-          year: "2017",
-          dimensions: "60 1⁄2 x 49 1⁄2 in., o/c",
-          link: "tsbu20",
-          privateCollection: ""
-      },
-      {
-          name: puzzle,
-          artistName: "Lorraine Shemesh",
-          title: "Puzzle",
-          year: "2014",
-          dimensions: "65 x 65 in., o/c",
-          link: "tsbu21",
+          title: "Sway",
+          year: "2019",
+          dimensions: "72 x 57 1⁄2 in., o/c",
+          link: "tsbu7",
           privateCollection: ""
       },
       {
@@ -584,33 +430,6 @@ export const allImagesMobileOrderTsbu = [
           year: "2018",
           dimensions: "60 1⁄2 x 62 in., o/c",
           link: "tsbu18",
-          privateCollection: ""
-      },
-      {
-          name: trellis,
-          artistName: "Lorraine Shemesh",
-          title: "Trellis",
-          year: "2020",
-          dimensions: "62 1⁄4 x 60 in., o/c",
-          link: "tbsu23",
-          privateCollection: ""
-      },
-      {
-          name: trellisDetail1,
-          artistName: "Lorraine Shemesh",
-          title: "Trellis - detail",
-          year: "2020",
-          dimensions: "62 1⁄4 x 60 in., o/c",
-          link: "tbsu24",
-          privateCollection: ""
-      },
-      {
-          name: trellisDetail2,
-          artistName: "Lorraine Shemesh",
-          title: "Trellis - detail",
-          year: "2020",
-          dimensions: "62 1⁄4 x 60 in., o/c",
-          link: "tbsu25",
           privateCollection: ""
       }
 ]      
