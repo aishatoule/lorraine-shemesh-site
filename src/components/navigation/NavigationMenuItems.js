@@ -76,6 +76,7 @@ const NavigationMenuItems = ({ open, setOpen }) => {
             <ul>
                 <li className="nav-menu-item"><button onClick={() => togglePaintSubMenu()}>Paint</button></li>
                     <ul className={`section-sub-menu ${revealPaintSubMenuItems}`}>
+                    <NavLink to="/holdingOn" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Holding On</li></NavLink>
                     <NavLink to="/spaceBetweenUs" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></NavLink>
                     <NavLink to="/intersections" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Intersections</li></NavLink>
                     <NavLink to="/insideOut" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Inside Out</li></NavLink>
