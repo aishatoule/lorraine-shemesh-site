@@ -9,6 +9,8 @@ var magnet = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/magnet.
 var clasp = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/clasp.jpg'
 var claspDetail = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/claspDetail.jpg'
 var timeBeing = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/paint-sbu/timebeing.jpg'
+var backbend = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/backbend.jpg'
+var backbendDetail = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/backbend_detail.jpg'
 
 export const allImagesDesktopOrderHoldingOn = [
   [/*COLUMN 1*/
@@ -51,7 +53,27 @@ export const allImagesDesktopOrderHoldingOn = [
               link: "ho4",
               privateCollection: ""
           }
-      ]
+      ],
+      [
+          {
+              name: backbend,
+              artistName: "Lorraine Shemesh",
+              title: "Backbend",
+              year: "2022",
+              dimensions: "60 1/4 x 52 in., o/c",
+              link: "ho12",
+              privateCollection: ""
+          },
+          {
+              name: backbendDetail,
+              artistName: "Lorraine Shemesh",
+              title: "Backbend - detail",
+              year: "2022",
+              dimensions: "60 1/4 x 52 in., o/c",
+              link: "ho13",
+              privateCollection: ""
+          }
+        ]
   ],
   [/*COLUMN 2*/
       [
@@ -166,6 +188,24 @@ export const allImagesMobileOrderHoldingOn = [
           year: "2020",
           dimensions: "58 x 60 1/2 in., o/c",
           link: "ho4",
+          privateCollection: ""
+      },
+      {
+          name: backbend,
+          artistName: "Lorraine Shemesh",
+          title: "Backbend",
+          year: "2022",
+          dimensions: "60 1/4 x 52 in., o/c",
+          link: "ho12",
+          privateCollection: ""
+      },
+      {
+          name: backbendDetail,
+          artistName: "Lorraine Shemesh",
+          title: "Backbend - detail",
+          year: "2022",
+          dimensions: "60 1/4 x 52 in., o/c",
+          link: "ho13",
           privateCollection: ""
       },
       {
