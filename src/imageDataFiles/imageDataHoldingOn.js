@@ -69,7 +69,7 @@ export const allImagesDesktopOrderHoldingOn = [
               artistName: "Lorraine Shemesh",
               title: "Backbend - detail",
               year: "2022",
-              dimensions: "60 1/4 x 52 in., o/c",
+              dimensions: "60 1/4 x 52 in., o/c ",
               link: "ho13",
               privateCollection: ""
           }
