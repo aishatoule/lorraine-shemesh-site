@@ -52,6 +52,12 @@ const Biography = () => {
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>Awards</b></p>
                 <div className="biography-year-group">
+                    <p className="biography-year"><b>2021</b></p>
+                    <div className="biography-container">
+                        <p className="biography-listing"><b>Dartmouth College</b> - Artist-in-Residence.</p>
+                    </div>
+                </div>
+                <div className="biography-year-group">
                     <p className="biography-year"><b>2005</b></p>
                     <div className="biography-content-right">
 	                    <div className="biography-container">
