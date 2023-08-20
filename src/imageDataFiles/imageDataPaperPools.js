@@ -54,7 +54,7 @@ export const allImagesDesktopOrderPaperPools = [
                 year: "2015",
                 dimensions: "21 3/4 x 23 in., graphite wash on mylar",
                 link: "paperpool3",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             },
             {
                 name: tiltLd,
@@ -63,7 +63,7 @@ export const allImagesDesktopOrderPaperPools = [
                 year: "2015",
                 dimensions: "6 x 6 3/4 in., graphite on mylar",
                 link: "paperpool4",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             }
         ],
         [
@@ -298,7 +298,7 @@ export const allImagesMobileOrderPaperPools = [
         year: "2015",
         dimensions: "21 3/4 x 23 in., graphite wash on mylar",
         link: "paperpool3",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: tiltLd,
@@ -307,7 +307,7 @@ export const allImagesMobileOrderPaperPools = [
         year: "2015",
         dimensions: "6 x 6 3/4 in., graphite on mylar",
         link: "paperpool4",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {   
         name: lunge,
