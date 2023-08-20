@@ -9,6 +9,22 @@ const News = () => {
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>News</b></p>
                 <div className="biography-year-group">
+                    <p className="biography-year"><b>2024</b></p>
+                    <div className="biography-content-right">
+                        <div className="biography-container">
+                            <p>Lorraine Shemesh is one of the featured artists in the upcoming book, <b>Nerikomi:  The Art of Colored Clay</b> by Thomas Hoadley, published by Bloomsbury USA, February 13, 2024.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="biography-year-group">
+                    <p className="biography-year"><b>2023</b></p>
+                    <div className="biography-content-right">
+                        <div className="biography-container">
+                            <p>Lorraine Shemesh's drawing, <b>Propeller</b>, will be shown in the group exhibition, <i>Drawing as Practice</i>, at the National Academy of Design, September 14 - December 16, 2023, in their new location at 519 West 26th Street in New York City.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="biography-year-group">
                     <p className="biography-year"><b>2022</b></p>
                     <div className="biography-content-right">
                         <div className="biography-container">

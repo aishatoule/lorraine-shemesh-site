@@ -9,8 +9,16 @@ const Words = () => {
              <div className="image-section">
                 <img className="exhibition-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/intersectionsStudioShot_v3.jpg'} alt="Lorraine Shemesh in the studio looking at Intersections images."/>
             </div>
-
                 <p className="exhibition-type-title"><b>Words</b></p>
+                <div className="exhibition-year-group">
+                    <p className="exhibition-year"><b>2024</b></p>
+                    <div className="exhibition-content-right">
+                        <div className="exhibition-container">
+                            <p className="exhibition-name">Hoadley, Thomas, <b>"Nerikomi:  The Art of Colored Clay."</b></p>
+                            <p className="exhibition-name">Bloomsbury USA. (February 13, 2024): illus. 154-158.</p>
+                        </div>        
+                    </div>
+                </div>
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2020</b></p>
                     <div className="exhibition-content-right">

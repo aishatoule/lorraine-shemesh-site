@@ -135,10 +135,18 @@ const Exhibitions = () => {
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Selected Group Exhibitions</b></p>
                 <div className="exhibition-year-group">
+                    <p className="exhibition-year"><b>2023</b></p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">Drawing as Practice</p>
+                        <p className="exhibition-gallery-name"><b>National Academy of Design</b>, New York, New York</p>
+                        <p className="exhibition-dates">September 14 - December 16, 2023</p>
+                    </div>
+                </div>
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2021</b></p>
                     <div className="exhibition-container">
                         <p className="exhibition-name"><a className="exhibition-link" href="https://nationalacademy.org/calendar/OutofMany_LorraineShemesh">e pluribus:  Out of Many, Digital Annual Exhibition</a></p>
-                        <p className="exhibition-gallery-name"><b>National Academy of Design</b></p>
+                        <p className="exhibition-gallery-name"><b>National Academy of Design</b>, New York, New York</p>
                         <p className="exhibition-dates">September 23 - December 31, 2021</p>
                     </div>
                 </div>

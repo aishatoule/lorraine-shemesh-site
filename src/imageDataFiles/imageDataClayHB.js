@@ -104,7 +104,7 @@ export const allImagesDesktopOrderClayHB = [
             {
                 name: browntoaststripednervess,
                 artistName: "Lorraine Shemesh",
-                title: "Brown & Toast Striped Neriage Vessel",
+                title: "Brown & Toast Striped Nerikomi Vessel",
                 year: "2016",
                 dimensions: "9 1/2 x 10 1/2 x 10 1/2 in., stoneware",
                 link: "clayhb4",
@@ -400,7 +400,7 @@ export const allImagesMobileOrderClayHB = [
     {
         name: browntoaststripednervess,
         artistName: "Lorraine Shemesh",
-        title: "Brown & Toast Striped Neriage Vessel",
+        title: "Brown & Toast Striped Nerikomi Vessel",
         year: "2016",
         dimensions: "9 1/2 x 10 1/2 x 10 1/2 in., stoneware",
         link: "clayhb4",

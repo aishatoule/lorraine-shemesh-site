@@ -83,7 +83,7 @@ export const allImagesDesktopOrderPaperSBU = [
                 year: "2016",
                 dimensions: "10 1/2 x 7 3/4 in., marker on vellum",
                 link: "papersbu3",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             }
         ]
     ],
@@ -186,7 +186,7 @@ export const allImagesMobileOrderPaperSBU = [
         year: "2016",
         dimensions: "10 1/2 x 7 3/4 in., marker on vellum",
         link: "papersbu3",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: violetlime,
