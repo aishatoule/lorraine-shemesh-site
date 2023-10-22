@@ -10,9 +10,17 @@ const Exhibitions = () => {
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Solo Exhibitions</b></p>
                 <div className="exhibition-year-group">
+                    <p className="exhibition-year"><b>2024</b></p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name"><b>On Balance</b></p>
+                        <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
+                        <p className="exhibition-dates">February 29 - March 29, 2024</p>
+                    </div>
+                </div>
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2021</b></p>
                     <div className="exhibition-container">
-                        <p className="exhibition-name">Holding On</p>
+                        <p className="exhibition-name"><b>Holding On</b></p>
                         <p className="exhibition-gallery-name"><b>Jaffe-Friede Gallery, Dartmouth College</b>, Hanover, New Hampshire</p>
                         <p className="exhibition-dates">September 21 - November 14, 2021</p>
                     </div>
@@ -23,7 +31,7 @@ const Exhibitions = () => {
                         <div className="exhibition-container">
                             <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_nyc" className="exhibition-link">The Space Between Us</NavLink></b></p>
                             <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
-                            <p className="exhibition-dates"></p>
+                            <p className="exhibition-dates">September 12 - October 16, 2019</p>
                         </div>
                         <div className="exhibition-container">
                             <p className="exhibition-name"><b><NavLink to="/exhibition_tsbu_sf" className="exhibition-link">The Space Between Us</NavLink></b></p>
