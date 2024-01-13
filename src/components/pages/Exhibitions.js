@@ -14,7 +14,7 @@ const Exhibitions = () => {
                     <div className="exhibition-container">
                         <p className="exhibition-name"><b>On Balance</b></p>
                         <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
-                        <p className="exhibition-dates">February 29 - March 29, 2024</p>
+                        <p className="exhibition-dates">February 29 - April 3, 2024</p>
                     </div>
                 </div>
                 <div className="exhibition-year-group">
