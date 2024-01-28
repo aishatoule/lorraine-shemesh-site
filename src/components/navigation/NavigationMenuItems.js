@@ -59,7 +59,7 @@ const NavigationMenuItems = ({ open, setOpen }) => {
         revealClaySubMenuItems = 'hide';
     }
 
-    if(location.pathname === '/spaceBetweenUs' || location.pathname === '/intersections' || location.pathname === '/insideOut' || location.pathname === '/breakingTheSurface' || location.pathname === '/liquidStates' || location.pathname === '/waterWorks' || location.pathname === '/paintedPools') {
+    if(location.pathname === '/onBalance' || location.pathname === '/holdingOn' || location.pathname === '/spaceBetweenUs' || location.pathname === '/intersections' || location.pathname === '/insideOut' || location.pathname === '/breakingTheSurface' || location.pathname === '/liquidStates' || location.pathname === '/waterWorks' || location.pathname === '/paintedPools') {
         revealPaintSubMenuItems = '';  
     }
 
@@ -76,6 +76,7 @@ const NavigationMenuItems = ({ open, setOpen }) => {
             <ul>
                 <li className="nav-menu-item"><button onClick={() => togglePaintSubMenu()}>Paint</button></li>
                     <ul className={`section-sub-menu ${revealPaintSubMenuItems}`}>
+                    <NavLink to="/onBalance" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">On Balance</li></NavLink>
                     <NavLink to="/holdingOn" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Holding On</li></NavLink>
                     <NavLink to="/spaceBetweenUs" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">The Space Between Us</li></NavLink>
                     <NavLink to="/intersections" activeClassName="active" onClick={handleClick}><li className="sub-nav-menu-item">Intersections</li></NavLink>
