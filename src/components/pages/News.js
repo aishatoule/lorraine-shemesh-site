@@ -4,13 +4,16 @@ const News = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/HoodMuseumOfArt.jpg'} alt="Hood Museum of Art, Dartmouth"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/onbalancecover.jpg'} alt="Lorraine Shemesh: On Balance book cover"/>
             </div>
             <div className="biography-section-type">
                 <p className="biography-type-title"><b>News</b></p>
                 <div className="biography-year-group">
                     <p className="biography-year"><b>2024</b></p>
                     <div className="biography-content-right">
+                        <div className="biography-container">
+                            <p>The hardcover book, <b>LORRAINE SHEMESH: On Balance</b>, which documents 30 year of work in paint, paper, and clay and their relationship over time, has arrived. It        supports a solo exhibition of the same name at Gerald Peters Gallery in New York City, February 29 - April 3, 2024.</p>
+                        </div>
                         <div className="biography-container">
                             <p>Lorraine Shemesh is one of the featured artists in the upcoming book, <b>Nerikomi:  The Art of Colored Clay</b> by Thomas Hoadley, published by Bloomsbury USA, February 13, 2024.</p>
                         </div>
