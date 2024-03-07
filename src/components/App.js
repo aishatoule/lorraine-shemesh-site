@@ -11,6 +11,7 @@ import Video from './pages/Video';
 import News from './pages/News';
 import Studio from './pages/Studio';
 import Exhibitions from './pages/Exhibitions';
+import Exhibition_onbalance_nyc from './pages/Exhibitions/Exhibition_onbalance_nyc';
 import Exhibition_tsbu_nyc from './pages/Exhibitions/Exhibition_tsbu_nyc';
 import Exhibition_tsbu_sf from './pages/Exhibitions/Exhibition_tsbu_sf';
 import Exhibition_butler from './pages/Exhibitions/Exhibition_butler';
@@ -118,6 +119,7 @@ function App() {
               <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
               <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
               <Route path="/exhibitions" component={Exhibitions} />
+              <Route path="/exhibition_onbalance_nyc/:image?" component={Exhibition_onbalance_nyc} />
               <Route path="/exhibition_tsbu_nyc/:image?" component={Exhibition_tsbu_nyc} />
               <Route path="/exhibition_tsbu_sf/:image?" component={Exhibition_tsbu_sf} />
               <Route path="/exhibition_butler/:image?" component={Exhibition_butler} />

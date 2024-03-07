@@ -132,7 +132,7 @@ export const allImagesDesktopOrderClayHB = [
                 year: "2021",
                 dimensions: "8 1/2 x 10 1/4 x 3 1/4 in., porcelain",
                 link: "clayhb24",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             }
         ],
         [
@@ -143,7 +143,7 @@ export const allImagesDesktopOrderClayHB = [
                 year: "2021",
                 dimensions: "11 x 8 x 2 3/4 in., porcelain",
                 link: "clayhb22",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             }
         ],
         [
@@ -332,7 +332,7 @@ export const allImagesMobileOrderClayHB = [
         year: "2021",
         dimensions: "8 1/2 x 10 1/4 x 3 1/4 in., porcelain",
         link: "clayhb24",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: black_white_tall_twist_nerikomi_bottle,
@@ -341,7 +341,7 @@ export const allImagesMobileOrderClayHB = [
         year: "2021",
         dimensions: "11 x 8 x 2 3/4 in., porcelain",
         link: "clayhb22",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: black_white_checked_nerikomi_vessel,

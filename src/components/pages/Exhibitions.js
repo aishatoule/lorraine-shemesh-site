@@ -5,14 +5,14 @@ const Exhibitions = () => {
     return (
         <div>
             <div className="image-section">
-                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/sbu_exhibition_with_lorraine.jpg'} alt="Lorraine Shemesh looking at her painting titled, Accordion"/>
+                <img className="biography-image" src={'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/onbalance_exh_gallery_front.jpg'} alt="On Balance at Gerald Peters Gallery, New York City"/>
             </div>
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Solo Exhibitions</b></p>
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2024</b></p>
                     <div className="exhibition-container">
-                        <p className="exhibition-name"><b>On Balance</b></p>
+                        <p className="exhibition-name"><b><NavLink to="/exhibition_onbalance_nyc" className="exhibition-link">On Balance</NavLink></b></p>
                         <p className="exhibition-gallery-name"><b>Gerald Peters Gallery</b>, New York, New York</p>
                         <p className="exhibition-dates">February 29 - April 3, 2024</p>
                     </div>
