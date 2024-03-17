@@ -60,6 +60,8 @@ import biblio_little_shoes from './pages/Words/ImagePages/biblio_little_shoes';
 import biblio_little_three_hearts from './pages/Words/ImagePages/biblio_little_three_hearts';
 import biblio_little_menagerie from './pages/Words/ImagePages/biblio_little_menagerie';
 import biblio_little_cyclone from './pages/Words/ImagePages/biblio_little_cyclone';
+import biblio_video_ohern from './pages/Words/biblio_video_ohern';
+import biblio_video_hoadley from './pages/Words/biblio_video_hoadley';
 
 function App() {
   return (
@@ -118,6 +120,8 @@ function App() {
               <Route path="/biblio_little_three_hearts" component={biblio_little_three_hearts} />
               <Route path="/biblio_little_menagerie" component={biblio_little_menagerie} />
               <Route path="/biblio_little_cyclone" component={biblio_little_cyclone} />
+              <Route path="/biblio_video_ohern" component={biblio_video_ohern} />
+              <Route path="/biblio_video_hoadley" component={biblio_video_hoadley} />
               <Route path="/exhibitions" component={Exhibitions} />
               <Route path="/exhibition_onbalance_nyc/:image?" component={Exhibition_onbalance_nyc} />
               <Route path="/exhibition_tsbu_nyc/:image?" component={Exhibition_tsbu_nyc} />
