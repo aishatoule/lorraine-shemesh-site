@@ -14,11 +14,11 @@ const Words = () => {
                     <p className="exhibition-year"><b>2024</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
-                            <p className="exhibition-name">O’Hern, John. “<b><NavLink to="/biblio_video_ohern" className="words-link">Form in Flux</NavLink></b>.”</p>
+                            <p className="exhibition-name">O’Hern, John. <b>"Form in Flux.”</b></p>
                             <p className="exhibition-name">American Art Collector. (March 2024): Cover, illus., 034-041.</p>
                         </div>        
                         <div className="exhibition-container">
-                            <p className="exhibition-name">Hoadley, Thomas, "<b><NavLink to="/biblio_video_hoadley" className="words-link">Nerikomi:  The Art of Colored Clay</NavLink></b>."</p>
+                            <p className="exhibition-name">Hoadley, Thomas, <b>"Nerikomi:  The Art of Colored Clay."</b></p>
                             <p className="exhibition-name">Bloomsbury USA. (February 13, 2024): illus. 154-158.</p>
                         </div>        
                     </div>
