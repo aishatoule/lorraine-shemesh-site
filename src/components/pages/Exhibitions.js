@@ -140,8 +140,18 @@ const Exhibitions = () => {
                 </div>
             </div>
 
+
+
             <div className="exhibition-section-type">
                 <p className="exhibition-type-title"><b>Selected Group Exhibitions</b></p>
+                <div className="exhibition-year-group">
+                    <p className="exhibition-year"><b>2024</b></p>
+                    <div className="exhibition-container">
+                        <p className="exhibition-name">National Academy of Design 191st Annual Exhibition</p>
+                        <p className="exhibition-gallery-name"><b>National Academy of Design</b>, New York, New York</p>
+                        <p className="exhibition-dates">June 20 - September 14, 2024</p>
+                    </div>
+                </div>
                 <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2023</b></p>
                     <div className="exhibition-container">
