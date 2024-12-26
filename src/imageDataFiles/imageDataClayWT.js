@@ -19,9 +19,36 @@ var bluewhiteswirloblongneriagevessel = 'https://lorraineshemeshsiteimgs.s3.us-e
 var toastbrownsquathive = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/toastbrownsquathive.jpg';
 var toastwhiteswirltiltvessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/toastwhiteswirltiltvessel.jpg';
 var zigzagneckedneriagevessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/zigzagneckedneriagevessel.jpg';
+var bluecreamneriageflareneckvessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/bluecreamneriageflareneckvessel.jpg';
+var creamochrebulbI = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/creamochrebulbI.jpg';
+var bluecreamtwistedneckneriagevessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/bluecreamtwistedneckneriagevessel.jpg';
+var browntoastneriagevessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/browntoastneriagevessel.jpg';
+var browntoastneriageorb = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-wt/browntoastneriageorb.jpg';
 
 export const allImagesDesktopOrderClayWT = [
     [/*COLUMN 1*/
+        [
+            {
+                name: bluecreamneriageflareneckvessel,
+                artistName: "Lorraine Shemesh",
+                title: "Blue & Cream Neriage Flare Neck Vessel",
+                year: "2024",
+                dimensions: "11 1/2 x 5 3/4 x 5 3/4 in., stoneware",
+                link: "claywt22",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: browntoastneriagevessel,
+                artistName: "Lorraine Shemesh",
+                title: "Brown & Toast Neriage Vessel",
+                year: "2016",
+                dimensions: "9 3/4 x 7 3/8 x 7 3/8 in., stoneware",
+                link: "claywt23",
+                privateCollection: ""
+            }
+        ],
         [
             {
                 name: toastwhiteswirltiltvessel,
@@ -103,6 +130,28 @@ export const allImagesDesktopOrderClayWT = [
     [/*COLUMN 2*/
         [
             {
+                name: creamochrebulbI,
+                artistName: "Lorraine Shemesh",
+                title: "Cream & Toast Bulb I",
+                year: "2024",
+                dimensions: "10 1/2 x 6 x 6 in., stoneware",
+                link: "claywt24",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: browntoastneriageorb,
+                artistName: "Lorraine Shemesh",
+                title: "Brown & Toast Neriage Orb",
+                year: "2016",
+                dimensions: "8 3/8 x 5 1/4 x 5 1/4 in., stoneware",
+                link: "claywt25",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
                 name: bluewhiteswirlledgeneriagevessel,
                 artistName: "Lorraine Shemesh",
                 title: "Blue & White Swirl Ledge Neriage Vessel",
@@ -178,7 +227,18 @@ export const allImagesDesktopOrderClayWT = [
         ]
     ],
     [/*COLUMN 3*/
-        [
+        [ 
+            {
+                name: bluecreamtwistedneckneriagevessel,
+                artistName: "Lorraine Shemesh",
+                title: "Blue & Cream Twisted Neck Neriage Vessel",
+                year: "2024",
+                dimensions: "15 x 5 1/2 x 5 1/2 in., stoneware",
+                link: "claywt26",
+                privateCollection: ""
+            }
+        ],
+        [ 
             {
                 name: hive,
                 artistName: "Lorraine Shemesh",
@@ -259,7 +319,53 @@ export const allImagesDesktopOrderClayWT = [
 ]
 
 export const allImagesMobileOrderClayWT = [
-    [{
+    [
+    {
+        name: bluecreamneriageflareneckvessel,
+        artistName: "Lorraine Shemesh",
+        title: "Blue & Cream Neriage Flare Neck Vessel",
+        year: "2024",
+        dimensions: "11 1/2 x 5 3/4 x 5 3/4 in., stoneware",
+        link: "claywt22",
+        privateCollection: ""
+    },
+    {
+        name: browntoastneriagevessel,
+        artistName: "Lorraine Shemesh",
+        title: "Brown & Toast Neriage Vessel",
+        year: "2016",
+        dimensions: "9 3/4 x 7 3/8 x 7 3/8 in., stoneware",
+        link: "claywt23",
+        privateCollection: ""
+    },
+    {
+        name: creamochrebulbI,
+        artistName: "Lorraine Shemesh",
+        title: "Cream & Toast Bulb I",
+        year: "2024",
+        dimensions: "10 1/2 x 6 x 6 in., stoneware",
+        link: "claywt24",
+        privateCollection: ""
+    },
+    {
+        name: browntoastneriageorb,
+        artistName: "Lorraine Shemesh",
+        title: "Brown & Toast Neriage Orb",
+        year: "2016",
+        dimensions: "8 3/8 x 5 1/4 x 5 1/4 in., stoneware",
+        link: "claywt25",
+        privateCollection: ""
+    },
+    {
+        name: bluecreamtwistedneckneriagevessel,
+        artistName: "Lorraine Shemesh",
+        title: "Blue & Cream Twisted Neck Neriage Vessel",
+        year: "2024",
+        dimensions: "15 x 5 1/2 x 5 1/2 in., stoneware",
+        link: "claywt26",
+        privateCollection: ""
+    },
+    {
         name: toastwhiteswirltiltvessel,
         artistName: "Lorraine Shemesh",
         title: "Toast & White Swirl Tilt Vessel",
