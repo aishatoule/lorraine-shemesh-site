@@ -205,17 +205,6 @@ export const allImagesDesktopOrderClayWT = [
         ],
         [
             {
-                name: twocurvednervess,
-                artistName: "Lorraine Shemesh",
-                title: "Two Curved Neriage Vessels",
-                year: "2011",
-                dimensions: "8 3/4 x 6 x 6 in., 9 3/4 x 7 1/2 x 7 1/2 in., stoneware",
-                link: "claywt10",
-                privateCollection: ""
-            }
-        ],
-        [
-            {
                 name: bluewhiteswirlvess,
                 artistName: "Lorraine Shemesh",
                 title: "Blue & White Swirl Vessel",
@@ -489,15 +478,6 @@ export const allImagesMobileOrderClayWT = [
         year: "2011",
         dimensions: "6 1/4 x 5 1/2 x 5 1/2 in., stoneware",
         link: "claywt9",
-        privateCollection: ""
-    },
-    {
-        name: twocurvednervess,
-        artistName: "Lorraine Shemesh",
-        title: "Two Curved Neriage Vessels",
-        year: "2011",
-        dimensions: "8 3/4 x 6 x 6 in., 9 3/4 x 1/2 x 7 1/2 in., stoneware",
-        link: "claywt10",
         privateCollection: ""
     },
     {
