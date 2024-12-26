@@ -114,17 +114,6 @@ export const allImagesDesktopOrderClayWT = [
                 link: "claywt4",
                 privateCollection: ""
             }
-        ],
-        [
-            {
-                name: satellite,
-                artistName: "Lorraine Shemesh",
-                title: "Satellite",
-                year: "2015",
-                dimensions: "7 3/4 x 8 x 9 in., porcelain & stoneware",
-                link: "claywt5",
-                privateCollection: ""
-            }
         ]
     ],
     [/*COLUMN 2*/
@@ -212,6 +201,17 @@ export const allImagesDesktopOrderClayWT = [
                 dimensions: "6 3/4 x 5/1/2 x 5 1/2 in., porcelain",
                 link: "claywt15",
                 privateCollection: "Private Collection"
+            }
+        ],
+        [
+            {
+                name: satellite,
+                artistName: "Lorraine Shemesh",
+                title: "Satellite",
+                year: "2015",
+                dimensions: "7 3/4 x 8 x 9 in., porcelain & stoneware",
+                link: "claywt5",
+                privateCollection: ""
             }
         ]
     ],
