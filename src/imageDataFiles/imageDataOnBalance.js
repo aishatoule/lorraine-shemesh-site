@@ -13,14 +13,23 @@ export const allImagesDesktopOrderOnBalance = [
   [/*COLUMN 1*/
       [
           {
-              name: aroundthebend,
+              name: backbend,
               artistName: "Lorraine Shemesh",
-              title: "Around the Bend",
-              year: "2023",
-              dimensions: "62 x 43 1/2 in., o/c",
-              link: "ob1",
+              title: "Backbend",
+              year: "2022",
+              dimensions: "60 1/4 x 52 in., o/c",
+              link: "ob9",
               privateCollection: ""
           },
+          {
+              name: backbendDetail,
+              artistName: "Lorraine Shemesh",
+              title: "Backbend - detail",
+              year: "2022",
+              dimensions: "60 1/4 x 52 in., o/c ",
+              link: "ob10",
+              privateCollection: ""
+          }
       ],
       [
           {
@@ -99,23 +108,14 @@ export const allImagesDesktopOrderOnBalance = [
       ],
       [
           {
-              name: backbend,
+              name: aroundthebend,
               artistName: "Lorraine Shemesh",
-              title: "Backbend",
-              year: "2022",
-              dimensions: "60 1/4 x 52 in., o/c",
-              link: "ob9",
+              title: "Around the Bend",
+              year: "2023",
+              dimensions: "62 x 43 1/2 in., o/c",
+              link: "ob1",
               privateCollection: ""
           },
-          {
-              name: backbendDetail,
-              artistName: "Lorraine Shemesh",
-              title: "Backbend - detail",
-              year: "2022",
-              dimensions: "60 1/4 x 52 in., o/c ",
-              link: "ob10",
-              privateCollection: ""
-          }
       ]
   ]          
 ]
