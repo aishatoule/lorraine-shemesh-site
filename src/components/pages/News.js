@@ -12,7 +12,7 @@ const News = () => {
                     <p className="biography-year"><b>2025</b></p>
                     <div className="biography-content-right">
                         <div className="biography-container">
-                            <p>The Montréal Review of books is featuring <b>LORRAINE SHEMESH: On Balance</b> in its “<a class="biography-link" href="https://www.themontrealreview.com/Articles/Lorraine_Shemesh_On_Balance.php">Life in the Studio</a>” series in January.</p>
+                            <p>The Montréal Review is featuring the book, <b>LORRAINE SHEMESH: On Balance</b>, in its “<a class="biography-link" href="https://www.themontrealreview.com/Articles/Lorraine_Shemesh_On_Balance.php">Life in the Studio</a>” series in January.</p>
                         </div>
                     </div>
                 </div>
