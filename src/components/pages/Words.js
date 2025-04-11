@@ -11,6 +11,15 @@ const Words = () => {
             </div>
                 <p className="exhibition-type-title"><b>Words</b></p>
                 <div className="exhibition-year-group">
+                    <p className="exhibition-year"><b>2025</b></p>
+                    <div className="exhibition-content-right">
+                        <div className="exhibition-container">
+                            <p className="exhibition-name">Leuthold, Marc. <b>"Layers and Light.”</b></p>
+                            <p className="exhibition-name">New Ceramics, The International Ceramic Magazine. (March/April): illus. 16-19.</p>
+                        </div>        
+                    </div>
+                </div>
+                <div className="exhibition-year-group">
                     <p className="exhibition-year"><b>2024</b></p>
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
