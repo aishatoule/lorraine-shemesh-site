@@ -15,7 +15,7 @@ const Words = () => {
                     <div className="exhibition-content-right">
                         <div className="exhibition-container">
                             <p className="exhibition-name">Leuthold, Marc. <b>"Layers and Light.”</b></p>
-                            <p className="exhibition-name">New Ceramics, The International Ceramic Magazine. (March/April): illus. 16-19.</p>
+                            <p className="exhibition-name">New Ceramics, The International Ceramic Magazine, Neue Keramik, Das Internationale Keramikmagazin. (March/April): illus. 16-19.</p>
                         </div>        
                     </div>
                 </div>
