@@ -139,7 +139,7 @@ export const allImagesDesktopOrderIO = [
                 year: "2013",
                 dimensions: "70 1/4 x 56 1/4 in., o/c",
                 link: "io6",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             },
             {
                 name: suspensionDetail1,
@@ -148,7 +148,7 @@ export const allImagesDesktopOrderIO = [
                 year: "2013",
                 dimensions: "70 1/4 x 56 1/4 in., o/c",
                 link: "io15",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             },
             {
                 name: suspensionDetail2,
@@ -157,7 +157,7 @@ export const allImagesDesktopOrderIO = [
                 year: "2013",
                 dimensions: "70 1/4 x 56 1/4 in., o/c",
                 link: "io16",
-                privateCollection: ""
+                privateCollection: "Private Collection"
             }
         ]
     ],
@@ -321,7 +321,7 @@ export const allImagesMobileOrderIO = [
         year: "2013",
         dimensions: "70 1/4 x 56 1/4 in., o/c",
         link: "io6",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: suspensionDetail1,
@@ -330,7 +330,7 @@ export const allImagesMobileOrderIO = [
         year: "2013",
         dimensions: "70 1/4 x 56 1/4 in., o/c",
         link: "io15",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: suspensionDetail2,
@@ -339,7 +339,7 @@ export const allImagesMobileOrderIO = [
         year: "2013",
         dimensions: "70 1/4 x 56 1/4 in., o/c",
         link: "io16",
-        privateCollection: ""
+        privateCollection: "Private Collection"
     },
     {
         name: tilt,
