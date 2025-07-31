@@ -22,9 +22,76 @@ var black_white_tall_swirl_nerikomi_bottle = 'https://lorraineshemeshsiteimgs.s3
 var black_white_tall_twist_nerikomi_bottle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_tall_twist_nerikomi_bottle.jpg';
 var black_white_wide_swirl_nerikomi_bottle = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_wide_swirl_nerikomi_bottle.jpg';
 var black_white_wide_twist_nerikomi_bottle_II = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/black_white_wide_twist_nerikomi_bottleII.jpg';
+var crisscross3a = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/crisscross3a.jpg';
+var crisscross3b = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/crisscross3b.jpg';
+var toastcreamstripedgourda = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/toastcreamstripedgourda.jpg';
+var toastcreamstripedgourdb = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/toastcreamstripedgourdb.jpg';
+var wingsa = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/wingsa.jpg';
+var wingsb = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/wingsb.jpg';
+var mediumtoastwhitestripedvessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/mediumtoastwhitestripedvessel.jpg';
+var crisscross2a = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/crisscross2a.jpg';
+var crisscross2b = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/crisscross2b.jpg';
+var zigzagnerikomiivessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/zigzagnerikomiivessel.jpg';
+var browntannerikomigourda = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/browntannerikomigourda.jpg';
+var browntannerikomigourdb = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/browntannerikomigourdb.jpg';
+var browntoastnerikomiscoop = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/browntoastnerikomiscoop.jpg';
+var largebrowntoaststripednerikomivessel = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/largebrowntoaststripednerikomivessel.jpg';
+var crisscross1a = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/crisscross1a.jpg';
+var crisscross1b = 'https://lorraineshemeshsiteimgs.s3.us-east-2.amazonaws.com/clay-hb/crisscross1b.jpg';
 
 export const allImagesDesktopOrderClayHB = [
     [/*COLUMN 1*/
+        [
+            {
+                name: crisscross3a,
+                artistName: "Lorraine Shemesh",
+                title: "Criss-Cross 3",
+                year: "2025",
+                dimensions: "15 x 13 1/2 x 4 3/8 in., terracotta",
+                link: "crisscross3a",
+                privateCollection: ""
+            },
+            {
+                name: crisscross3b,
+                artistName: "Lorraine Shemesh",
+                title: "Criss-Cross 3",
+                year: "2025",
+                dimensions: "15 x 13 1/2 x 4 3/8 in., terracotta",
+                link: "crisscross3b",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: mediumtoastwhitestripedvessel,
+                artistName: "Lorraine Shemesh",
+                title: "Medium Toast & White Striped Vessel",
+                year: "2025",
+                dimensions: "10 x 7 1/2 x 7 in., stoneware & porcelain",
+                link: "mediumtoastwhitestripedvessel",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: browntannerikomigourda,
+                artistName: "Lorraine Shemesh",
+                title: "Brown & Tan Nerikomi Gourd",
+                year: "2025",
+                dimensions: "11 x 12 1/2 x 9 1/2 in., stoneware",
+                link: "browntannerikomigourda",
+                privateCollection: ""
+            },            
+            {
+                name: browntannerikomigourdb,
+                artistName: "Lorraine Shemesh",
+                title: "Brown & Tan Nerikomi Gourd",
+                year: "2025",
+                dimensions: "11 x 12 1/2 x 9 1/2 in., stoneware",
+                link: "browntannerikomigourdb",
+                privateCollection: ""
+            }            
+        ],
         [
             {
                 name: black_white__twist_oblong_nerikomi_vessel2,
@@ -115,6 +182,77 @@ export const allImagesDesktopOrderClayHB = [
     [/*COLUMN 2*/
         [
             {
+                name: toastcreamstripedgourda,
+                artistName: "Lorraine Shemesh",
+                title: "Toast & Cream Striped Gourd",
+                year: "2025",
+                dimensions: "11 x 12 1/4 x  10 1/2 in., stoneware",
+                link: "toastcreamstripedgourda",
+                privateCollection: ""
+            },
+            {
+                name: toastcreamstripedgourdb,
+                artistName: "Lorraine Shemesh",
+                title: "Toast & Cream Striped Gourd",
+                year: "2025",
+                dimensions: "11 x 12 1/4 x  10 1/2 in., stoneware",
+                link: "toastcreamstripedgourdb",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: crisscross2a,
+                artistName: "Lorraine Shemesh",
+                title: "Criss-Cross 2",
+                year: "2025",
+                dimensions: "14 1/2 x 14 3/4 x 4 1/8 in., terracotta",
+                link: "crisscross2a",
+                privateCollection: ""
+            },
+            {
+                name: crisscross2b,
+                artistName: "Lorraine Shemesh",
+                title: "Criss-Cross 2",
+                year: "2025",
+                dimensions: "14 1/2 x 14 3/4 x 4 1/8 in., terracotta",
+                link: "crisscross2b",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: browntoastnerikomiscoop,
+                artistName: "Lorraine Shemesh",
+                title: "Brown & Tan Nerikomi Scoop",
+                year: "2025",
+                dimensions: "5 1/2 x 17 x 10 1/2 in., stoneware",
+                link: "browntoastnerikomiscoop",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: crisscross1a,
+                artistName: "Lorraine Shemesh",
+                title: "Criss-Cross 1",
+                year: "2025",
+                dimensions: "15 x 12 1/2 x 3 1/8 in., terracotta",
+                link: "crisscross1a",
+                privateCollection: ""
+            },
+            {
+                name: crisscross1b,
+                artistName: "Lorraine Shemesh",
+                title: "Criss-Cross 1",
+                year: "2025",
+                dimensions: "15 x 12 1/2 x 3 1/8 in., terracotta",
+                link: "crisscross1b",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
                 name: black_white_wide_swirl_nerikomi_bottle,
                 artistName: "Lorraine Shemesh",
                 title: "Black & White Wide Swirl Nerikomi Bottle",
@@ -170,26 +308,6 @@ export const allImagesDesktopOrderClayHB = [
         ],
         [
             {
-                name: toastbrownspiralnerbowl,
-                artistName: "Lorraine Shemesh",
-                title: "Toast & Brown Spiral Nerikomi Bowl",
-                year: "2011",
-                dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
-                link: "clayhb7",
-                privateCollection: ""
-            },
-            {
-                name: toastbrownspiralnerbowlDetail,
-                artistName: "Lorraine Shemesh",
-                title: "Toast & Brown Spiral Nerikomi Bowl - detail",
-                year: "2011",
-                dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
-                link: "clayhb8",
-                privateCollection: ""
-            }
-        ],
-        [
-            {
                 name: lgblackwhitetwistednercyl,
                 artistName: "Lorraine Shemesh",
                 title: "Large Black & White Twisted Nerikomi Cylinder",
@@ -201,6 +319,48 @@ export const allImagesDesktopOrderClayHB = [
         ]
     ],
     [/*COLUMN 3*/
+        [
+            {
+                name: wingsa,
+                artistName: "Lorraine Shemesh",
+                title: "Wings",
+                year: "2025",
+                dimensions: "14 x 14 1/4 x 5 7/8 in., stoneware",
+                link: "wingsa",
+                privateCollection: ""
+            },
+            {
+                name: wingsb,
+                artistName: "Lorraine Shemesh",
+                title: "Wings",
+                year: "2025",
+                dimensions: "14 x 14 1/4 x 5 7/8 in., stoneware",
+                link: "wingsb",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: zigzagnerikomiivessel,
+                artistName: "Lorraine Shemesh",
+                title: "Zig-Zag Nerikomi Vessel",
+                year: "2025",
+                dimensions: "14 1/4 x 10 1/2 x 10 1/2 in., stoneware",
+                link: "zigzagnerikomiivessel",
+                privateCollection: ""
+            }            
+        ],
+        [
+            {
+                name: largebrowntoaststripednerikomivessel,
+                artistName: "Lorraine Shemesh",
+                title: "Large Brown & Toast Striped Nerikomi Vessel",
+                year: "2025",
+                dimensions: "15 7/8 x 9 x 9 in., stoneware",
+                link: "largebrowntoaststripednerikomivessel",
+                privateCollection: ""
+            }            
+        ],
         [
             {
                 name: black_white_checked_nerikomi_vessel,
@@ -282,6 +442,26 @@ export const allImagesDesktopOrderClayHB = [
                 year: "2015",
                 dimensions: "7 1/2 x 8 x 8 in., porcelain",
                 link: "clayhb16",
+                privateCollection: ""
+            }
+        ],
+        [
+            {
+                name: toastbrownspiralnerbowl,
+                artistName: "Lorraine Shemesh",
+                title: "Toast & Brown Spiral Nerikomi Bowl",
+                year: "2011",
+                dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
+                link: "clayhb7",
+                privateCollection: ""
+            },
+            {
+                name: toastbrownspiralnerbowlDetail,
+                artistName: "Lorraine Shemesh",
+                title: "Toast & Brown Spiral Nerikomi Bowl - detail",
+                year: "2011",
+                dimensions: "7 3/4 x 14 1/2 x 13 3/4 in., stoneware",
+                link: "clayhb8",
                 privateCollection: ""
             }
         ]
