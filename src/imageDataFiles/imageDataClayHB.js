@@ -470,15 +470,6 @@ export const allImagesDesktopOrderClayHB = [
 
 export const allImagesMobileOrderClayHB = [
     [{
-        name: crisscross3a,
-        artistName: "Lorraine Shemesh",
-        title: "Criss-Cross 3",
-        year: "2025",
-        dimensions: "15 x 13 1/2 x 4 3/8 in., terracotta",
-        link: "crisscross3a",
-        privateCollection: ""
-    },
-    {
         name: crisscross3b,
         artistName: "Lorraine Shemesh",
         title: "Criss-Cross 3",
@@ -497,30 +488,12 @@ export const allImagesMobileOrderClayHB = [
         privateCollection: ""
     },
     {
-        name: toastcreamstripedgourdb,
-        artistName: "Lorraine Shemesh",
-        title: "Toast & Cream Striped Gourd",
-        year: "2025",
-        dimensions: "11 x 12 1/4 x  10 1/2 in., stoneware",
-        link: "toastcreamstripedgourdb",
-        privateCollection: ""
-    },
-    {
         name: wingsa,
         artistName: "Lorraine Shemesh",
         title: "Wings",
         year: "2025",
         dimensions: "14 x 14 1/4 x 5 7/8 in., stoneware",
         link: "wingsa",
-        privateCollection: ""
-    },
-    {
-        name: wingsb,
-        artistName: "Lorraine Shemesh",
-        title: "Wings",
-        year: "2025",
-        dimensions: "14 x 14 1/4 x 5 7/8 in., stoneware",
-        link: "wingsb",
         privateCollection: ""
     },
     {
@@ -542,15 +515,6 @@ export const allImagesMobileOrderClayHB = [
         privateCollection: ""
     },
     {
-        name: crisscross2b,
-        artistName: "Lorraine Shemesh",
-        title: "Criss-Cross 2",
-        year: "2025",
-        dimensions: "14 1/2 x 14 3/4 x 4 1/8 in., terracotta",
-        link: "crisscross2b",
-        privateCollection: ""
-    },
-    {
         name: zigzagnerikomiivessel,
         artistName: "Lorraine Shemesh",
         title: "Zig-Zag Nerikomi Vessel",
@@ -568,15 +532,6 @@ export const allImagesMobileOrderClayHB = [
         link: "browntannerikomigourda",
         privateCollection: ""
     },            
-    {
-        name: browntannerikomigourdb,
-        artistName: "Lorraine Shemesh",
-        title: "Brown & Tan Nerikomi Gourd",
-        year: "2025",
-        dimensions: "11 x 12 1/2 x 9 1/2 in., stoneware",
-        link: "browntannerikomigourdb",
-        privateCollection: ""
-    },
     {
         name: browntoastnerikomiscoop,
         artistName: "Lorraine Shemesh",
@@ -605,15 +560,6 @@ export const allImagesMobileOrderClayHB = [
         privateCollection: ""
     },
     {
-        name: crisscross1b,
-        artistName: "Lorraine Shemesh",
-        title: "Criss-Cross 1",
-        year: "2025",
-        dimensions: "15 x 12 1/2 x 3 1/8 in., terracotta",
-        link: "crisscross1b",
-        privateCollection: ""
-    },
-    {
         name: black_white__twist_oblong_nerikomi_vessel2,
         artistName: "Lorraine Shemesh",
         title: "Black & White Twist Oblong Nerikomi Vessel",
@@ -629,15 +575,6 @@ export const allImagesMobileOrderClayHB = [
         year: "2021",
         dimensions: "10 3/4 x 7 1/4 x 2 3/4 in., porcelain",
         link: "clayhb18",
-        privateCollection: ""
-    },
-    {
-        name: black_white_checked_nerikomi_bottleBack,
-        artistName: "Lorraine Shemesh",
-        title: "Black & White Checked Nerikomi Bottle - rear view",
-        year: "2021",
-        dimensions: "10 3/4 x 7 1/4 x 2 3/4 in., porcelain",
-        link: "clayhb19",
         privateCollection: ""
     },
     {
