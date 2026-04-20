@@ -25,7 +25,7 @@
     "simple-react-lightbox": "^3.3.4-1",
     "use-react-router": "^1.0.7",
     "focus-trap-react": "^8.1.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "react-swipeable": "^5.5.1",
     "react-transition-group": "^4.4.1"
   },
